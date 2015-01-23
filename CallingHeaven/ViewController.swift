@@ -10,7 +10,7 @@ import UIKit
 
 import Social
 
-var messageString:String = "(Sent via the Calling Heaven App from Carmel Heart Media. Check the Apple store!)"
+var messageString:String = " (Sent via the Calling Heaven App from Carmel Heart Media. Coming soon!)"
 var quotebyString:String = " -Quote from "
 var message2String:String = "  #CallingHeaven app"
 
@@ -44,15 +44,7 @@ class ViewController: UIViewController
     
     //2nd View Controller
     
-    @IBOutlet weak var pioButton: UIButton!
-    
-    @IBOutlet weak var francisButton: UIButton!
-    
-    @IBOutlet weak var deSalesButton: UIButton!
-    
-    
-    
-    @IBOutlet weak var kolbeButton: UIButton!
+   
     
     
     @IBOutlet weak var jesus2Button: UIButton!
@@ -61,7 +53,7 @@ class ViewController: UIViewController
 
 //VC 1
     
-    var names: [String] = ["St.Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Francis of Assisi", "St. Padre Pio", "St. Francis de Sales", "St. Maximilian Kolbe", "Jesus Christ"]
+    var names: [String] = ["St.Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "Bl. Maria of Christ Crucified", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Unknown", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -69,14 +61,13 @@ class ViewController: UIViewController
     let edithQuotes = EdithQuotes ()
     let jesusQuotes = JesusQuotes ()
     
-    let teresaBio = TeresaBio ()
     
 //VC 2
     
-    let francisQuotes = FrancisQuotes ()
-    let pioQuotes = PioQuotes ()
-    let deSalesQuotes = DeSalesQuotes ()
-    let kolbeQuotes = KolbeQuotes ()
+    let mariaQuotes = MariaQuotes ()
+    let andesQuotes = AndesQuotes ()
+    let lizQuotes = LizQuotes ()
+    let unknownQuotes = UnknownQuotes ()
     
     
     let imageTeresa = UIImage(named:"teresa-goldframe.png")
@@ -158,28 +149,7 @@ class ViewController: UIViewController
     //View Controller 2
     
     
-    @IBAction func francisButton(sender: AnyObject) {
-        pictureSaints2.image = imageFrancis
-        quotesLabel2.text = francisQuotes.randomFact()
-        nameLabel2.text = names[4]     }
     
-    @IBAction func pioButton(sender: AnyObject) {
-        pictureSaints2.image = imagePio
-        quotesLabel2.text = pioQuotes.randomFact()
-        nameLabel2.text = names[5]     }
-    
-    @IBAction func francisDeSalesButton(sender: AnyObject) {
-        pictureSaints2.image = imageDeSales
-        quotesLabel2.text = deSalesQuotes.randomFact()
-        nameLabel2.text = names[6]
-    }
-    
-    @IBAction func kolbeButton(sender: AnyObject) {
-        pictureSaints2.image = imageKolbe
-        nameLabel2.text = names[7]
-        quotesLabel2.text = kolbeQuotes.randomFact()    }
-    
-   
     @IBAction func jesus2Button(sender: AnyObject) {
         pictureSaints2.image = imageJesus
         quotesLabel2.text = jesusQuotes.randomFact()

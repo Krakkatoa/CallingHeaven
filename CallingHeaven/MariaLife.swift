@@ -1,19 +1,19 @@
 //
-//  TeresaBio.swift
+//  MariaLife.swift
 //  CallingHeaven
 //
-//  Created by My Mac on 1/11/15.
+//  Created by My Mac on 1/21/15.
 //  Copyright (c) 2015 Carmel Heart Media. All rights reserved.
 //
 
 import Foundation
 
-struct TeresaBio {
+struct Marialife {
     
     let factsArray = [
         
-        "This is a bio about St. Teresa",
-        "This is a bio about St. Teresa.",
+        "This is a bio about St. Maria",
+        "This is a bio about St. Maria.",
         
     ]
     

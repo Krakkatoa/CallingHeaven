@@ -20,7 +20,7 @@
                                 <rect key="frame" x="9" y="-11" width="575" height="375"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL6-uK-ziS" userLabel="St. John">
-                                <rect key="frame" x="123" y="101" width="183" height="38"/>
+                                <rect key="frame" x="123" y="101" width="183" height="51"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -233,42 +233,6 @@
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inN-yh-WaX" userLabel="St. Elizabeth">
-                                <rect key="frame" x="124" y="67" width="185" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="francisButton:" destination="xbG-Up-5wv" eventType="touchUpInside" id="stR-2u-mzE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRA-E3-Kae" userLabel="Blessed Titus">
-                                <rect key="frame" x="124" y="167" width="180" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="francisDeSalesButton:" destination="xbG-Up-5wv" eventType="touchUpInside" id="Cti-aU-c3r"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q23-6w-CC2" userLabel="Blessed Mary of JC">
-                                <rect key="frame" x="124" y="214" width="185" height="41"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="kolbeButton:" destination="xbG-Up-5wv" eventType="touchUpInside" id="Dwn-Yj-vnu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3z-iy-YLP" userLabel="St. Teresa (Andes)">
-                                <rect key="frame" x="124" y="114" width="182" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="pioButton:" destination="xbG-Up-5wv" eventType="touchUpInside" id="JDi-lr-3Y8"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
                                 <rect key="frame" x="281" y="297" width="30" height="27"/>
                                 <state key="normal">
@@ -323,15 +287,10 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
                     <connections>
-                        <outlet property="deSalesButton" destination="oRA-E3-Kae" id="lje-wU-bAy"/>
-                        <outlet property="francisButton" destination="inN-yh-WaX" id="jka-x8-984"/>
                         <outlet property="jesus2Button" destination="glj-rq-2P2" id="70h-Lw-vHd"/>
-                        <outlet property="kolbeButton" destination="q23-6w-CC2" id="o1b-mi-czO"/>
                         <outlet property="nameLabel2" destination="q7X-cB-Rh5" id="eWR-CT-K2s"/>
                         <outlet property="pictureSaints2" destination="dGX-lE-g8g" id="cei-BR-M2C"/>
-                        <outlet property="pioButton" destination="H3z-iy-YLP" id="1GI-uc-Fk5"/>
                         <outlet property="quotesLabel2" destination="IZu-5T-Ah6" id="Ec6-xp-cFP"/>
-                        <outlet property="view" destination="inN-yh-WaX" id="bJu-xn-xvk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2C-oQ-2nF" userLabel="First Responder" sceneMemberID="firstResponder"/>
