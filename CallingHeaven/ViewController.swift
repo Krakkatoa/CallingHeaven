@@ -17,7 +17,7 @@ var message2String:String = "  #CallingHeaven app"
 
 class ViewController: UIViewController
 {
-
+    
     @IBOutlet weak var quotesLabel: UILabel!
     
     @IBOutlet weak var quotesLabel2: UILabel!
@@ -44,14 +44,14 @@ class ViewController: UIViewController
     
     //2nd View Controller
     
-   
+    
     
     
     @IBOutlet weak var jesus2Button: UIButton!
     
     
-
-//VC 1
+    
+    //VC 1
     
     var names: [String] = ["St.Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "Bl. Maria of Christ Crucified", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Unknown", "Jesus Christ"]
     
@@ -62,7 +62,7 @@ class ViewController: UIViewController
     let jesusQuotes = JesusQuotes ()
     
     
-//VC 2
+    //VC 2
     
     let mariaQuotes = MariaQuotes ()
     let andesQuotes = AndesQuotes ()
@@ -78,9 +78,9 @@ class ViewController: UIViewController
     
     let imageJesus = UIImage (named: "jesus-goldframe.png")
     
-     let imageFrancis = UIImage (named: "francisframed.png")
+    let imageFrancis = UIImage (named: "francisframed.png")
     
-     let imagePio = UIImage (named: "padrepio.png")
+    let imagePio = UIImage (named: "padrepio.png")
     
     let imageDeSales = UIImage (named: "desalesframed.png")
     
@@ -92,10 +92,8 @@ class ViewController: UIViewController
     
     var temporalValue:String = "Empty"
     var temporalBio = ""
-    var temporalLife = ""
     var temporalImage:UIImage!
     var temporalButton: UIButton!
- 
     
     
     
@@ -112,12 +110,12 @@ class ViewController: UIViewController
     
     @IBAction func johnAction(sender: AnyObject) {
         temporalBio = "St. John of the Cross"
-       temporalImage = imageJohn
+        temporalImage = imageJohn
         
         pictureSaints.image = imageJohn
         quotesLabel.text = johnQuotes.randomFact()
         nameLabel.text = names[1]
-       }
+    }
     
     
     @IBAction func thereseAction(sender: AnyObject) {
@@ -165,8 +163,8 @@ class ViewController: UIViewController
     @IBAction func testAction(sender: AnyObject) {
         let saintView = self.storyboard?.instantiateViewControllerWithIdentifier("saintView") as saintViewController
         saintView.bioTemporal = temporalBio
-      
-
+        
+        
         navigationController?.pushViewController(saintView, animated: true)
     }
     
@@ -175,7 +173,9 @@ class ViewController: UIViewController
             let saintView = segue.destinationViewController as saintViewController
             saintView.bioTemporal = temporalBio
             saintView.nameTemporal = nameLabel.text
+     saintView.temporalLife = nameLabel.text
             saintView.temporalImage = temporalImage
+          
         }
         
     }
@@ -229,7 +229,7 @@ class ViewController: UIViewController
             self.presentViewController(alert, animated: true, completion: nil)
         }
     }
-   
+    
     
     
     
@@ -268,40 +268,32 @@ class ViewController: UIViewController
         }
         
     }
+    
+    
+    
+    @IBAction func shareTwitter2(sender: AnyObject) {
         
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
+            
+            var tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
+            
+            var postingString = (quotesLabel2.text)! + quotebyString + (nameLabel2.text)! + message2String
+            
+            tweetSheet.setInitialText  (postingString)
+            
+            self.presentViewController(tweetSheet, animated: true, completion: nil)
+            
+        }else{
+            
+            var alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+    }
     
-   
-        @IBAction func shareTwitter2(sender: AnyObject) {
-                
-                if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
-                    
-                    var tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
-                    
-                    var postingString = (quotesLabel2.text)! + quotebyString + (nameLabel2.text)! + message2String
-                    
-                    tweetSheet.setInitialText  (postingString)
-                    
-                    self.presentViewController(tweetSheet, animated: true, completion: nil)
-                    
-                }else{
-                    
-                    var alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
-                    
-                    
-                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-                    
-                    self.presentViewController(alert, animated: true, completion: nil)
-                }
-            }
-            
-            
-
+    
+    
 }
-
-
-
-
-
-
-    
-    

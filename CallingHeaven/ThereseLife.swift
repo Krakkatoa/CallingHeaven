@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Thereselife {
+struct ThereseLife {
     
     let factsArray = [
         

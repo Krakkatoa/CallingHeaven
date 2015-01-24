@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Edithlife {
+struct EdithLife {
     
     let factsArray = [
         

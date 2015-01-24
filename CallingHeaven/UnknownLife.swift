@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Unknownlife {
+struct UnknownLife {
     
     let factsArray = [
         
