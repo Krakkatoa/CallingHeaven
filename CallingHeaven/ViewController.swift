@@ -92,8 +92,10 @@ class ViewController: UIViewController
     
     var temporalValue:String = "Empty"
     var temporalBio = ""
+    var temporalLife = ""
     var temporalImage:UIImage!
     var temporalButton: UIButton!
+    
     
     
     
@@ -173,9 +175,7 @@ class ViewController: UIViewController
             let saintView = segue.destinationViewController as saintViewController
             saintView.bioTemporal = temporalBio
             saintView.nameTemporal = nameLabel.text
-     saintView.temporalLife = nameLabel.text
             saintView.temporalImage = temporalImage
-          
         }
         
     }
@@ -297,3 +297,4 @@ class ViewController: UIViewController
     
     
 }
+
