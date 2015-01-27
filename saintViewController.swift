@@ -17,8 +17,12 @@ class saintViewController: UIViewController {
     
     @IBOutlet var bioLabel: UILabel!
     
+    
+    @IBOutlet weak var bioLabel2: UILabel!
+    
     var bioTemporal:String!
     var nameTemporal:String!
+    var lifeTemporal:String!
     var temporalImage:UIImage!
     
     
@@ -33,7 +37,7 @@ class saintViewController: UIViewController {
     @IBAction func saintPrayerAction ()
     {
         switch nameTemporal
-        { case "St.Teresa of Avila":
+        { case "St. Teresa of Avila":
             (testLabel.text = teresaPrayers.randomFact())
         case "St. John of the Cross": (testLabel.text = johnPrayers.randomFact())
         case "St. Therese of Lisieux": (testLabel.text = theresePrayers.randomFact())
@@ -49,12 +53,33 @@ class saintViewController: UIViewController {
     let jesusPrayers = JesusPrayers ()
     
     
+    @IBOutlet weak var heartLifeAction: UIButton!
+    
+    
+    @IBAction func heartLifeAction(sender: AnyObject) {
+     switch lifeTemporal
+     { case "St. Teresa of Avila":
+        (testLabel.text = teresaLife.randomFact())
+     case "St. John of the Cross": (testLabel.text = johnLife.randomFact())
+     case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
+     case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
+     case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
+     default: println("Something else") }
+    }
+    
+    let teresaLife = TeresaLife ()
+    let johnLife = JohnLife ()
+    let thereseLife = ThereseLife ()
+    let edithLife = EdithLife ()
+    let jesusLife = JesusLife ()
     
     
     override func viewDidLoad() {
         
         bioLabel.text = nameTemporal
         saintImage.image = temporalImage
+        bioLabel2.text = lifeTemporal
+        
         
         
         super.viewDidLoad()

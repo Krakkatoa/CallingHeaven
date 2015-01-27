@@ -11,8 +11,8 @@ import UIKit
 import Social
 
 var messageString:String = " (Sent via the Calling Heaven App from Carmel Heart Media. Coming soon!)"
-var quotebyString:String = " -Quote from "
-var message2String:String = "  #CallingHeaven app"
+var quotebyString:String = " - "
+var message2String:String = "#CallingHeaven #app"
 
 
 class ViewController: UIViewController
@@ -53,7 +53,7 @@ class ViewController: UIViewController
     
     //VC 1
     
-    var names: [String] = ["St.Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "Bl. Maria of Christ Crucified", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Unknown", "Jesus Christ"]
+    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "Bl. Maria of Christ Crucified", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Unknown", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -78,26 +78,14 @@ class ViewController: UIViewController
     
     let imageJesus = UIImage (named: "jesus-goldframe.png")
     
-    let imageFrancis = UIImage (named: "francisframed.png")
-    
-    let imagePio = UIImage (named: "padrepio.png")
-    
-    let imageDeSales = UIImage (named: "desalesframed.png")
-    
-    let imageKolbe = UIImage (named: "kolbe.png")
-    
     let imageEdith = UIImage (named: "edith-goldframe")
     
     //VC1 with Segue to VC3
     
     var temporalValue:String = "Empty"
     var temporalBio = ""
-    var temporalLife = ""
     var temporalImage:UIImage!
     var temporalButton: UIButton!
-    
-    
-    
     
     @IBOutlet var testbutton: UIButton!
     
@@ -138,6 +126,7 @@ class ViewController: UIViewController
     
     @IBAction func jesusButton(sender: AnyObject) {
         temporalBio = "Jesus Christ"
+        temporalImage = imageJesus
         pictureSaints.image = imageJesus
         quotesLabel.text = jesusQuotes.randomFact ()
         nameLabel.text = names [8]
@@ -165,6 +154,7 @@ class ViewController: UIViewController
     @IBAction func testAction(sender: AnyObject) {
         let saintView = self.storyboard?.instantiateViewControllerWithIdentifier("saintView") as saintViewController
         saintView.bioTemporal = temporalBio
+           
         
         
         navigationController?.pushViewController(saintView, animated: true)
@@ -176,6 +166,9 @@ class ViewController: UIViewController
             saintView.bioTemporal = temporalBio
             saintView.nameTemporal = nameLabel.text
             saintView.temporalImage = temporalImage
+            saintView.lifeTemporal = nameLabel.text
+            
+          
         }
         
     }

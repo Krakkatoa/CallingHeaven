@@ -131,7 +131,7 @@
                         <outlet property="pictureSaints" destination="E66-cG-Ydd" id="ZU2-ti-Pl9"/>
                         <outlet property="quotesLabel" destination="43p-lz-qdZ" id="1s9-mA-Izr"/>
                         <outlet property="teresaButton" destination="8AL-fC-cmS" id="Xol-O7-U7K"/>
-                        <outlet property="testbutton" destination="DDB-aI-F5v" id="UBx-F0-tw8"/>
+                        <outlet property="testButton" destination="DDB-aI-F5v" id="nyn-Tg-DSp"/>
                         <outlet property="thereseButton" destination="ILX-C7-JFE" id="IyY-zr-cCC"/>
                     </connections>
                 </viewController>
@@ -160,6 +160,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UI-SVC" translatesAutoresizingMaskIntoConstraints="NO" id="uEy-qZ-Vlj">
                                 <rect key="frame" x="0.0" y="-10" width="575" height="360"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
+                                <rect key="frame" x="461" y="50" width="88" height="88"/>
                             </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
                                 <rect key="frame" x="16" y="43" width="118" height="34"/>
@@ -190,9 +193,15 @@
                                     <action selector="backAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="CaA-j7-ctV"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
-                                <rect key="frame" x="461" y="50" width="88" height="88"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvQ-Wy-3bf">
+                                <rect key="frame" x="481" y="146" width="57" height="47"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="heartLifeAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="wS3-4Q-RJ5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -203,6 +212,8 @@
                     <connections>
                         <outlet property="backAction" destination="uEy-qZ-Vlj" id="tJB-B5-twJ"/>
                         <outlet property="bioLabel" destination="3w9-JQ-OY6" id="t78-A6-ZyU"/>
+                        <outlet property="bioLabel2" destination="3w9-JQ-OY6" id="26r-ia-70w"/>
+                        <outlet property="heartLifeAction" destination="pvQ-Wy-3bf" id="8bI-kd-niD"/>
                         <outlet property="saintImage" destination="cqO-n8-zku" id="m7n-ze-Tnm"/>
                         <outlet property="saintPrayerButton" destination="Nhd-Jd-tma" id="S4D-Pi-RuH"/>
                         <outlet property="testLabel" destination="1XL-cp-iK6" id="kA0-ve-5LJ"/>
