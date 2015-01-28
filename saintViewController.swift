@@ -57,14 +57,14 @@ class saintViewController: UIViewController {
     
     
     @IBAction func heartLifeAction(sender: AnyObject) {
-     switch lifeTemporal
-     { case "St. Teresa of Avila":
-        (testLabel.text = teresaLife.randomFact())
-     case "St. John of the Cross": (testLabel.text = johnLife.randomFact())
-     case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
-     case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
-     case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
-     default: println("Something else") }
+        switch lifeTemporal
+        { case "St. Teresa of Avila":
+            (testLabel.text = teresaLife.randomFact())
+        case "St. John of the Cross": (testLabel.text = johnLife.randomFact())
+        case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
+        case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
+        case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
+        default: println("Something else") }
     }
     
     let teresaLife = TeresaLife ()
@@ -102,16 +102,5 @@ class saintViewController: UIViewController {
         self.dismissViewControllerAnimated(true) { () -> Void in
             
         }
-    }
-    
-    /*
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
-    
+}
 }

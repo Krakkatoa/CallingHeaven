@@ -12,9 +12,9 @@ struct LizQuotes {
     
     let factsArray = [
         
-        "Blah",
+        "Coming soon",
         
-        "Blah Blah",
+        "Quotes coming!",
         
     ]
     

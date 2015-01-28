@@ -25,7 +25,7 @@
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43p-lz-qdZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43p-lz-qdZ">
                                 <rect key="frame" x="418" y="124" width="124" height="140"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
-                                <rect key="frame" x="302" y="87" width="108" height="108"/>
+                                <rect key="frame" x="302" y="74" width="108" height="125"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -161,29 +161,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UI-SVC" translatesAutoresizingMaskIntoConstraints="NO" id="uEy-qZ-Vlj">
                                 <rect key="frame" x="0.0" y="-10" width="575" height="360"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
-                                <rect key="frame" x="461" y="50" width="88" height="88"/>
-                            </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
                                 <rect key="frame" x="16" y="43" width="118" height="34"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XL-cp-iK6" userLabel="testLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XL-cp-iK6" userLabel="testLabel">
                                 <rect key="frame" x="152" y="70" width="286" height="199"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-Jd-tma" userLabel="Prayers">
-                                <rect key="frame" x="481" y="201" width="57" height="54"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="saintPrayerAction" destination="2Iu-2g-hLR" eventType="touchUpInside" id="Mxt-2t-bCW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aht-wZ-7pV" userLabel="Back">
                                 <rect key="frame" x="104" y="254" width="45" height="48"/>
                                 <state key="normal">
@@ -202,6 +190,18 @@
                                     <action selector="heartLifeAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="wS3-4Q-RJ5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-Jd-tma" userLabel="Prayers">
+                                <rect key="frame" x="481" y="201" width="57" height="54"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saintPrayerAction" destination="2Iu-2g-hLR" eventType="touchUpInside" id="Gkt-2P-JC3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
+                                <rect key="frame" x="465" y="37" width="88" height="101"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -236,14 +236,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="VC2-inprogress" translatesAutoresizingMaskIntoConstraints="NO" id="j9C-UG-JHQ">
-                                <rect key="frame" x="0.0" y="-10" width="575" height="375"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="0127-VC2" translatesAutoresizingMaskIntoConstraints="NO" id="j9C-UG-JHQ">
+                                <rect key="frame" x="0.0" y="-8" width="575" height="375"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7X-cB-Rh5" userLabel="namelabel2">
                                 <rect key="frame" x="417" y="75" width="133" height="32"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZu-5T-Ah6" userLabel="quoteslabel2">
+                                <rect key="frame" x="424" y="123" width="117" height="138"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
@@ -274,21 +279,52 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glj-rq-2P2" userLabel="Jesus2">
-                                <rect key="frame" x="131" y="261" width="178" height="35"/>
+                                <rect key="frame" x="121" y="251" width="188" height="45"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="jesus2Button:" destination="xbG-Up-5wv" eventType="touchUpInside" id="Wsn-PJ-z10"/>
+                                    <action selector="jesus2Button:" destination="xbG-Up-5wv" eventType="touchDragInside" id="b4w-SR-qM2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZu-5T-Ah6" userLabel="quoteslabel2">
-                                <rect key="frame" x="424" y="123" width="117" height="138"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="14"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcJ-Zs-6Bo" userLabel="St Peter">
+                                <rect key="frame" x="116" y="54" width="186" height="53"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="peterAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="Tux-SS-sPP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyE-uW-4U9" userLabel="Miriam">
+                                <rect key="frame" x="121" y="107" width="181" height="48"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mariamAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="x54-KQ-LfM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfD-Id-RKr" userLabel="Andes">
+                                <rect key="frame" x="121" y="163" width="181" height="40"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="andesAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="JGt-qp-UDO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lF5-YV-PDA" userLabel="Elizabeth">
+                                <rect key="frame" x="116" y="205" width="186" height="47"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="lizAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="85u-Il-Tuy"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-lE-g8g" userLabel="pictureSaints2">
-                                <rect key="frame" x="301" y="95" width="108" height="108"/>
+                                <rect key="frame" x="302" y="74" width="108" height="125"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -296,8 +332,12 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
                     <connections>
-                        <outlet property="jesus2Button" destination="glj-rq-2P2" id="70h-Lw-vHd"/>
+                        <outlet property="andesButton" destination="KfD-Id-RKr" id="B7m-2l-eKt"/>
+                        <outlet property="jesus2Button" destination="glj-rq-2P2" id="ThS-RF-vVT"/>
+                        <outlet property="lizButton" destination="lF5-YV-PDA" id="ZeR-p2-sl1"/>
+                        <outlet property="mariamBoucardy" destination="uyE-uW-4U9" id="Whp-bm-bdL"/>
                         <outlet property="nameLabel2" destination="q7X-cB-Rh5" id="eWR-CT-K2s"/>
+                        <outlet property="peterThomas" destination="XcJ-Zs-6Bo" id="Bij-yk-4px"/>
                         <outlet property="pictureSaints2" destination="dGX-lE-g8g" id="cei-BR-M2C"/>
                         <outlet property="quotesLabel2" destination="IZu-5T-Ah6" id="Ec6-xp-cFP"/>
                     </connections>
@@ -308,8 +348,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="0127-VC2" width="1281" height="722"/>
         <image name="UI-SVC" width="566" height="319"/>
         <image name="VC1" width="566" height="319"/>
-        <image name="VC2-inprogress" width="566" height="319"/>
     </resources>
 </document>

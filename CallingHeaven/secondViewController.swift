@@ -6,12 +6,13 @@
 //  Copyright (c) 2014 Carmel Heart Media. All rights reserved.
 //
 
+
 import UIKit
 
 import Social
 
 protocol secondViewControllerDelegate{
-   
+    
 }
 
 class secondViewController: UIViewController

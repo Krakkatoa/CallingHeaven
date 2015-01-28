@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Carmel Heart Media. All rights reserved.
 //
 
+
 import UIKit
 
 import Social
@@ -45,15 +46,19 @@ class ViewController: UIViewController
     //2nd View Controller
     
     
-    
-    
     @IBOutlet weak var jesus2Button: UIButton!
     
+    @IBOutlet weak var peterThomas: UIButton!
     
+    @IBOutlet weak var mariamBoucardy: UIButton!
+    
+    @IBOutlet weak var andesButton: UIButton!
+    
+    @IBOutlet weak var lizButton: UIButton!
     
     //VC 1
     
-    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "Bl. Maria of Christ Crucified", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Unknown", "Jesus Christ"]
+    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Peter Thomas", "Bl. Mariam Bouardy", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -64,10 +69,10 @@ class ViewController: UIViewController
     
     //VC 2
     
-    let mariaQuotes = MariaQuotes ()
+    let peterQuotes = PeterQuotes ()
+    let mariamQuotes = MariamQuotes ()
     let andesQuotes = AndesQuotes ()
     let lizQuotes = LizQuotes ()
-    let unknownQuotes = UnknownQuotes ()
     
     
     let imageTeresa = UIImage(named:"teresa-goldframe.png")
@@ -76,9 +81,19 @@ class ViewController: UIViewController
     
     let imageTherese = UIImage(named: "therese-goldframe.png")
     
+    let imageEdith = UIImage (named: "edith-goldframe")
+    
     let imageJesus = UIImage (named: "jesus-goldframe.png")
     
-    let imageEdith = UIImage (named: "edith-goldframe")
+    let imagePeter = UIImage (named: "peter-goldframe.png")
+    
+     let imageMariam = UIImage (named: "mariam-goldframe.png")
+    
+    let imageAndes = UIImage (named: "andes-goldframe.png")
+    
+    let imageLiz = UIImage (named: "elizabeth-goldframe.png")
+    
+    
     
     //VC1 with Segue to VC3
     
@@ -87,12 +102,11 @@ class ViewController: UIViewController
     var temporalImage:UIImage!
     var temporalButton: UIButton!
     
-    @IBOutlet var testbutton: UIButton!
+   
     
     @IBAction func TeresaAction(sender: AnyObject) {
         temporalBio = "St. Teresa of Avila "
         temporalImage = imageTeresa
-        
         pictureSaints.image = imageTeresa
         quotesLabel.text = teresaQuotes.randomFact()
         nameLabel.text = names[0]
@@ -101,7 +115,6 @@ class ViewController: UIViewController
     @IBAction func johnAction(sender: AnyObject) {
         temporalBio = "St. John of the Cross"
         temporalImage = imageJohn
-        
         pictureSaints.image = imageJohn
         quotesLabel.text = johnQuotes.randomFact()
         nameLabel.text = names[1]
@@ -134,17 +147,39 @@ class ViewController: UIViewController
     }
     
     
-    
     //View Controller 2
-    
-    
     
     @IBAction func jesus2Button(sender: AnyObject) {
         pictureSaints2.image = imageJesus
         quotesLabel2.text = jesusQuotes.randomFact()
-        nameLabel2.text = names[8]     }
+        nameLabel2.text = names[8]
+    }
     
+    @IBAction func peterAction (sender: AnyObject) {
+        pictureSaints2.image = imagePeter
+        quotesLabel2.text = peterQuotes.randomFact ()
+        nameLabel2.text = names[4]
+    }
+    @IBAction func mariamAction(sender: AnyObject) {
+        pictureSaints2.image = imageMariam
+        quotesLabel2.text = mariamQuotes.randomFact ()
+        nameLabel2.text = names [5]
+    }
     
+    @IBAction func andesAction (sender: AnyObject) {
+        pictureSaints2.image = imageAndes
+        quotesLabel2.text = andesQuotes.randomFact ()
+        nameLabel2.text = names [6]
+    }
+
+    @IBAction func lizAction (sender: AnyObject) {
+        pictureSaints2.image = imageLiz
+        quotesLabel2.text = lizQuotes.randomFact ()
+        nameLabel2.text = names [7]
+    }
+    
+   
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -154,7 +189,7 @@ class ViewController: UIViewController
     @IBAction func testAction(sender: AnyObject) {
         let saintView = self.storyboard?.instantiateViewControllerWithIdentifier("saintView") as saintViewController
         saintView.bioTemporal = temporalBio
-           
+        
         
         
         navigationController?.pushViewController(saintView, animated: true)
@@ -168,7 +203,7 @@ class ViewController: UIViewController
             saintView.temporalImage = temporalImage
             saintView.lifeTemporal = nameLabel.text
             
-          
+            
         }
         
     }
@@ -290,4 +325,3 @@ class ViewController: UIViewController
     
     
 }
-
