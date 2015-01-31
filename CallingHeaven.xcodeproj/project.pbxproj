@@ -8,41 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
-		712F08001A5F850D00E0C60F /* TheresePrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FF1A5F850D00E0C60F /* TheresePrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
-		71336A771A33966A001B4044 /* TeresaPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71336A761A33966A001B4044 /* TeresaPrayers.swift */; };
-		7160CE131A2AB8A200E84B69 /* saintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160CE121A2AB8A200E84B69 /* saintViewController.swift */; };
-		718111EF1A70A78D00DA14D6 /* JesusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111EE1A70A78D00DA14D6 /* JesusQuotes.swift */; };
-		718111F11A70A7B100DA14D6 /* AndesQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111F01A70A7B100DA14D6 /* AndesQuotes.swift */; };
-		718111F31A70A81300DA14D6 /* EdithQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111F21A70A81300DA14D6 /* EdithQuotes.swift */; };
-		718111F51A70A8B400DA14D6 /* JohnQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111F41A70A8B400DA14D6 /* JohnQuotes.swift */; };
-		718111F71A70A97400DA14D6 /* TeresaQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111F61A70A97400DA14D6 /* TeresaQuotes.swift */; };
-		718111F91A70A9FC00DA14D6 /* thereseQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111F81A70A9FC00DA14D6 /* thereseQuotes.swift */; };
+		715A16911A7CACBC0061112D /* TitusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A16901A7CACBC0061112D /* TitusQuotes.swift */; };
+		715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E51A7D68C30075E32C /* TeresaLife.swift */; };
+		715A93E81A7D68E00075E32C /* TeresaQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E71A7D68E00075E32C /* TeresaQuotes.swift */; };
+		715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */; };
+		715A93EE1A7D69130075E32C /* saintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93ED1A7D69130075E32C /* saintViewController.swift */; };
+		715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93EF1A7D692D0075E32C /* saintViewController.swift */; };
+		715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93F11A7D69560075E32C /* MariamQuotes.swift */; };
+		715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93F91A7D6B340075E32C /* EdithQuotes.swift */; };
+		715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93FF1A7D6C7C0075E32C /* TeresaQuotes.swift */; };
+		715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A94011A7D6CD10075E32C /* ThereseQuotes.swift */; };
+		715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A94031A7D6CF20075E32C /* TheresePrayers.swift */; };
+		715A94061A7D6DDA0075E32C /* TitusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A94051A7D6DDA0075E32C /* TitusPrayers.swift */; };
+		715A94081A7D6DEE0075E32C /* TitusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A94071A7D6DEE0075E32C /* TitusLife.swift */; };
+		715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA83B1A7D503F009DFFCA /* JesusQuotes.swift */; };
+		715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */; };
+		715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */; };
 		718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FA1A70AAEC00DA14D6 /* secondViewController.swift */; };
 		718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */; };
 		718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FE1A70ACC900DA14D6 /* LizQuotes.swift */; };
-		718112031A70AD0B00DA14D6 /* UnknownQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112021A70AD0A00DA14D6 /* UnknownQuotes.swift */; };
 		718112051A70AD3200DA14D6 /* AndesPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112041A70AD3200DA14D6 /* AndesPrayers.swift */; };
 		718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112061A70AD5000DA14D6 /* LizPrayers.swift */; };
-		718112091A70AD7500DA14D6 /* MariaPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112081A70AD7500DA14D6 /* MariaPrayers.swift */; };
-		7181120B1A70AD8B00DA14D6 /* UnknownPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181120A1A70AD8B00DA14D6 /* UnknownPrayers.swift */; };
+		718112091A70AD7500DA14D6 /* MariamPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112081A70AD7500DA14D6 /* MariamPrayers.swift */; };
 		7181120D1A70ADC100DA14D6 /* JohnLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181120C1A70ADC100DA14D6 /* JohnLife.swift */; };
-		7181120F1A70ADDF00DA14D6 /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181120E1A70ADDF00DA14D6 /* TeresaLife.swift */; };
 		718112111A70AE2800DA14D6 /* ThereseLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112101A70AE2800DA14D6 /* ThereseLife.swift */; };
 		718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112121A70AE4300DA14D6 /* EdithLife.swift */; };
 		718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112141A70AE5900DA14D6 /* JesusLife.swift */; };
-		718112171A70AE7400DA14D6 /* MariaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112161A70AE7400DA14D6 /* MariaLife.swift */; };
+		718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112161A70AE7400DA14D6 /* MariamLife.swift */; };
 		718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112181A70AE8500DA14D6 /* AndesLife.swift */; };
 		7181121B1A70AE9600DA14D6 /* LizLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181121A1A70AE9600DA14D6 /* LizLife.swift */; };
-		7181121D1A70AEA600DA14D6 /* UnknownLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181121C1A70AEA600DA14D6 /* UnknownLife.swift */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
 		719EE3471A26C724007131ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3461A26C724007131ED /* ViewController.swift */; };
 		719EE34A1A26C724007131ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719EE3481A26C724007131ED /* Main.storyboard */; };
 		719EE34C1A26C724007131ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34B1A26C724007131ED /* Images.xcassets */; };
 		719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34D1A26C724007131ED /* LaunchScreen.xib */; };
 		719EE35B1A26C724007131ED /* CallingHeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE35A1A26C724007131ED /* CallingHeavenTests.swift */; };
-		71D2262E1A78BBED002D2251 /* MariamQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2262D1A78BBED002D2251 /* MariamQuotes.swift */; };
-		71D226321A78C36E002D2251 /* PeterQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D226311A78C36E002D2251 /* PeterQuotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,33 +58,36 @@
 
 /* Begin PBXFileReference section */
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
-		712F07FF1A5F850D00E0C60F /* TheresePrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheresePrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
-		71336A761A33966A001B4044 /* TeresaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeresaPrayers.swift; path = ../TeresaPrayers.swift; sourceTree = "<group>"; };
-		7160CE121A2AB8A200E84B69 /* saintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = saintViewController.swift; path = ../saintViewController.swift; sourceTree = "<group>"; };
-		718111EE1A70A78D00DA14D6 /* JesusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JesusQuotes.swift; path = ../../../../.Trash/JesusQuotes.swift; sourceTree = "<group>"; };
-		718111F01A70A7B100DA14D6 /* AndesQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AndesQuotes.swift; path = ../../../../.Trash/AndesQuotes.swift; sourceTree = "<group>"; };
-		718111F21A70A81300DA14D6 /* EdithQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EdithQuotes.swift; path = ../../../../.Trash/EdithQuotes.swift; sourceTree = "<group>"; };
-		718111F41A70A8B400DA14D6 /* JohnQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JohnQuotes.swift; path = "../../Calling Heaven/Calling Heaven/JohnQuotes.swift"; sourceTree = "<group>"; };
-		718111F61A70A97400DA14D6 /* TeresaQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaQuotes.swift; sourceTree = SOURCE_ROOT; };
-		718111F81A70A9FC00DA14D6 /* thereseQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = thereseQuotes.swift; path = "../../Calling Heaven/Calling Heaven/thereseQuotes.swift"; sourceTree = "<group>"; };
+		715A16901A7CACBC0061112D /* TitusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusQuotes.swift; sourceTree = "<group>"; };
+		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
+		715A93E71A7D68E00075E32C /* TeresaQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaQuotes.swift; sourceTree = "<group>"; };
+		715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaPrayers.swift; sourceTree = "<group>"; };
+		715A93ED1A7D69130075E32C /* saintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saintViewController.swift; sourceTree = "<group>"; };
+		715A93EF1A7D692D0075E32C /* saintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saintViewController.swift; sourceTree = "<group>"; };
+		715A93F11A7D69560075E32C /* MariamQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamQuotes.swift; sourceTree = "<group>"; };
+		715A93F91A7D6B340075E32C /* EdithQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithQuotes.swift; sourceTree = "<group>"; };
+		715A93FF1A7D6C7C0075E32C /* TeresaQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaQuotes.swift; sourceTree = "<group>"; };
+		715A94011A7D6CD10075E32C /* ThereseQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThereseQuotes.swift; sourceTree = "<group>"; };
+		715A94031A7D6CF20075E32C /* TheresePrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheresePrayers.swift; sourceTree = "<group>"; };
+		715A94051A7D6DDA0075E32C /* TitusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusPrayers.swift; sourceTree = "<group>"; };
+		715A94071A7D6DEE0075E32C /* TitusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusLife.swift; sourceTree = "<group>"; };
+		715EA83B1A7D503F009DFFCA /* JesusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusQuotes.swift; sourceTree = "<group>"; };
+		715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesQuotes.swift; sourceTree = "<group>"; };
+		715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnQuotes.swift; sourceTree = "<group>"; };
 		718111FA1A70AAEC00DA14D6 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithPrayers.swift; sourceTree = "<group>"; };
 		718111FE1A70ACC900DA14D6 /* LizQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizQuotes.swift; sourceTree = "<group>"; };
-		718112021A70AD0A00DA14D6 /* UnknownQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownQuotes.swift; sourceTree = "<group>"; };
 		718112041A70AD3200DA14D6 /* AndesPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesPrayers.swift; sourceTree = "<group>"; };
 		718112061A70AD5000DA14D6 /* LizPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizPrayers.swift; sourceTree = "<group>"; };
-		718112081A70AD7500DA14D6 /* MariaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariaPrayers.swift; sourceTree = "<group>"; };
-		7181120A1A70AD8B00DA14D6 /* UnknownPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownPrayers.swift; sourceTree = "<group>"; };
+		718112081A70AD7500DA14D6 /* MariamPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamPrayers.swift; sourceTree = "<group>"; };
 		7181120C1A70ADC100DA14D6 /* JohnLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnLife.swift; sourceTree = "<group>"; };
-		7181120E1A70ADDF00DA14D6 /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeresaLife.swift; path = ../TeresaLife.swift; sourceTree = "<group>"; };
 		718112101A70AE2800DA14D6 /* ThereseLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThereseLife.swift; sourceTree = "<group>"; };
 		718112121A70AE4300DA14D6 /* EdithLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithLife.swift; sourceTree = "<group>"; };
 		718112141A70AE5900DA14D6 /* JesusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusLife.swift; sourceTree = "<group>"; };
-		718112161A70AE7400DA14D6 /* MariaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariaLife.swift; sourceTree = "<group>"; };
+		718112161A70AE7400DA14D6 /* MariamLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamLife.swift; sourceTree = "<group>"; };
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
 		7181121A1A70AE9600DA14D6 /* LizLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizLife.swift; sourceTree = "<group>"; };
-		7181121C1A70AEA600DA14D6 /* UnknownLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownLife.swift; sourceTree = "<group>"; };
 		719EE33F1A26C724007131ED /* CallingHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3431A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE3441A26C724007131ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,8 +98,6 @@
 		719EE3541A26C724007131ED /* CallingHeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallingHeavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3591A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
-		71D2262D1A78BBED002D2251 /* MariamQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MariamQuotes.swift; path = ../MariamQuotes.swift; sourceTree = "<group>"; };
-		71D226311A78C36E002D2251 /* PeterQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeterQuotes.swift; path = ../PeterQuotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,42 +139,42 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
-				71D226311A78C36E002D2251 /* PeterQuotes.swift */,
-				71D2262D1A78BBED002D2251 /* MariamQuotes.swift */,
-				719EE3441A26C724007131ED /* AppDelegate.swift */,
-				719EE3461A26C724007131ED /* ViewController.swift */,
-				718111FA1A70AAEC00DA14D6 /* secondViewController.swift */,
-				7160CE121A2AB8A200E84B69 /* saintViewController.swift */,
-				718111F61A70A97400DA14D6 /* TeresaQuotes.swift */,
-				718111F41A70A8B400DA14D6 /* JohnQuotes.swift */,
-				718111F81A70A9FC00DA14D6 /* thereseQuotes.swift */,
-				718111F21A70A81300DA14D6 /* EdithQuotes.swift */,
-				718111EE1A70A78D00DA14D6 /* JesusQuotes.swift */,
-				718112021A70AD0A00DA14D6 /* UnknownQuotes.swift */,
-				718111F01A70A7B100DA14D6 /* AndesQuotes.swift */,
-				718111FE1A70ACC900DA14D6 /* LizQuotes.swift */,
-				71336A761A33966A001B4044 /* TeresaPrayers.swift */,
-				712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */,
-				712F07FF1A5F850D00E0C60F /* TheresePrayers.swift */,
-				718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */,
-				712F08031A5F86A200E0C60F /* JesusPrayers.swift */,
-				718112041A70AD3200DA14D6 /* AndesPrayers.swift */,
-				718112061A70AD5000DA14D6 /* LizPrayers.swift */,
-				718112081A70AD7500DA14D6 /* MariaPrayers.swift */,
-				7181120A1A70AD8B00DA14D6 /* UnknownPrayers.swift */,
-				7181120E1A70ADDF00DA14D6 /* TeresaLife.swift */,
-				7181120C1A70ADC100DA14D6 /* JohnLife.swift */,
-				718112101A70AE2800DA14D6 /* ThereseLife.swift */,
-				718112121A70AE4300DA14D6 /* EdithLife.swift */,
-				718112141A70AE5900DA14D6 /* JesusLife.swift */,
-				718112161A70AE7400DA14D6 /* MariaLife.swift */,
 				718112181A70AE8500DA14D6 /* AndesLife.swift */,
-				7181121A1A70AE9600DA14D6 /* LizLife.swift */,
-				7181121C1A70AEA600DA14D6 /* UnknownLife.swift */,
-				719EE3481A26C724007131ED /* Main.storyboard */,
+				718112041A70AD3200DA14D6 /* AndesPrayers.swift */,
+				715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */,
+				719EE3441A26C724007131ED /* AppDelegate.swift */,
+				718112121A70AE4300DA14D6 /* EdithLife.swift */,
+				718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */,
+				715A93F91A7D6B340075E32C /* EdithQuotes.swift */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
+				718112141A70AE5900DA14D6 /* JesusLife.swift */,
+				712F08031A5F86A200E0C60F /* JesusPrayers.swift */,
+				715EA83B1A7D503F009DFFCA /* JesusQuotes.swift */,
+				7181120C1A70ADC100DA14D6 /* JohnLife.swift */,
+				712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */,
+				715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
+				7181121A1A70AE9600DA14D6 /* LizLife.swift */,
+				718112061A70AD5000DA14D6 /* LizPrayers.swift */,
+				718111FE1A70ACC900DA14D6 /* LizQuotes.swift */,
+				719EE3481A26C724007131ED /* Main.storyboard */,
+				718112161A70AE7400DA14D6 /* MariamLife.swift */,
+				718112081A70AD7500DA14D6 /* MariamPrayers.swift */,
+				715A93F11A7D69560075E32C /* MariamQuotes.swift */,
+				715A93EF1A7D692D0075E32C /* saintViewController.swift */,
+				718111FA1A70AAEC00DA14D6 /* secondViewController.swift */,
 				719EE3421A26C724007131ED /* Supporting Files */,
+				715A93E51A7D68C30075E32C /* TeresaLife.swift */,
+				715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */,
+				715A93FF1A7D6C7C0075E32C /* TeresaQuotes.swift */,
+				718112101A70AE2800DA14D6 /* ThereseLife.swift */,
+				715A94031A7D6CF20075E32C /* TheresePrayers.swift */,
+				715A94011A7D6CD10075E32C /* ThereseQuotes.swift */,
+				715A16901A7CACBC0061112D /* TitusQuotes.swift */,
+				715A94051A7D6DDA0075E32C /* TitusPrayers.swift */,
+				715A94071A7D6DEE0075E32C /* TitusLife.swift */,
+				719EE3461A26C724007131ED /* ViewController.swift */,
+				715A93ED1A7D69130075E32C /* saintViewController.swift */,
 			);
 			path = CallingHeaven;
 			sourceTree = "<group>";
@@ -303,38 +305,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */,
+				715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
-				71D2262E1A78BBED002D2251 /* MariamQuotes.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
-				7181120B1A70AD8B00DA14D6 /* UnknownPrayers.swift in Sources */,
 				718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */,
 				719EE3471A26C724007131ED /* ViewController.swift in Sources */,
-				718111F71A70A97400DA14D6 /* TeresaQuotes.swift in Sources */,
-				718112091A70AD7500DA14D6 /* MariaPrayers.swift in Sources */,
-				7181120F1A70ADDF00DA14D6 /* TeresaLife.swift in Sources */,
+				715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */,
+				718112091A70AD7500DA14D6 /* MariamPrayers.swift in Sources */,
 				718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */,
-				718111F31A70A81300DA14D6 /* EdithQuotes.swift in Sources */,
+				715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */,
 				7181120D1A70ADC100DA14D6 /* JohnLife.swift in Sources */,
-				718112031A70AD0B00DA14D6 /* UnknownQuotes.swift in Sources */,
-				71D226321A78C36E002D2251 /* PeterQuotes.swift in Sources */,
-				71336A771A33966A001B4044 /* TeresaPrayers.swift in Sources */,
+				715A16911A7CACBC0061112D /* TitusQuotes.swift in Sources */,
+				715A93E81A7D68E00075E32C /* TeresaQuotes.swift in Sources */,
+				715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */,
+				715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */,
 				719EE3451A26C724007131ED /* AppDelegate.swift in Sources */,
-				7181121D1A70AEA600DA14D6 /* UnknownLife.swift in Sources */,
-				7160CE131A2AB8A200E84B69 /* saintViewController.swift in Sources */,
+				715A93EE1A7D69130075E32C /* saintViewController.swift in Sources */,
+				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
-				718112171A70AE7400DA14D6 /* MariaLife.swift in Sources */,
-				718111EF1A70A78D00DA14D6 /* JesusQuotes.swift in Sources */,
+				718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */,
+				715A94061A7D6DDA0075E32C /* TitusPrayers.swift in Sources */,
 				718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */,
 				718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */,
-				718111F11A70A7B100DA14D6 /* AndesQuotes.swift in Sources */,
 				718112051A70AD3200DA14D6 /* AndesPrayers.swift in Sources */,
-				712F08001A5F850D00E0C60F /* TheresePrayers.swift in Sources */,
-				718111F51A70A8B400DA14D6 /* JohnQuotes.swift in Sources */,
 				718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */,
 				718112111A70AE2800DA14D6 /* ThereseLife.swift in Sources */,
+				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
+				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */,
-				718111F91A70A9FC00DA14D6 /* thereseQuotes.swift in Sources */,
 				7181121B1A70AE9600DA14D6 /* LizLife.swift in Sources */,
+				715A94081A7D6DEE0075E32C /* TitusLife.swift in Sources */,
+				715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */,
+				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

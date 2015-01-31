@@ -26,7 +26,7 @@ class saintViewController: UIViewController {
     var temporalImage:UIImage!
     
     
-    @IBOutlet var testLabel: UILabel!
+    @IBOutlet var testLabel: UITextView!
     @IBOutlet var saintImage: UIImageView!
     
     

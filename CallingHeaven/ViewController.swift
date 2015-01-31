@@ -19,7 +19,7 @@ var message2String:String = "#CallingHeaven #app"
 class ViewController: UIViewController
 {
     
-    @IBOutlet weak var quotesLabel: UILabel!
+    @IBOutlet weak var quotesLabel: UITextView!
     
     @IBOutlet weak var quotesLabel2: UILabel!
     
@@ -56,9 +56,12 @@ class ViewController: UIViewController
     
     @IBOutlet weak var lizButton: UIButton!
     
+    @IBOutlet weak var segue2Button: UIButton!
+
+    
     //VC 1
     
-    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Peter Thomas", "Bl. Mariam Bouardy", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
+    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Peter Thomas", "Bl. Mariam Baouardy", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -87,7 +90,7 @@ class ViewController: UIViewController
     
     let imagePeter = UIImage (named: "peter-goldframe.png")
     
-     let imageMariam = UIImage (named: "mariam-goldframe.png")
+    let imageMariam = UIImage (named: "mariam-goldframe.png")
     
     let imageAndes = UIImage (named: "andes-goldframe.png")
     
@@ -102,7 +105,7 @@ class ViewController: UIViewController
     var temporalImage:UIImage!
     var temporalButton: UIButton!
     
-   
+    
     
     @IBAction func TeresaAction(sender: AnyObject) {
         temporalBio = "St. Teresa of Avila "
@@ -150,36 +153,46 @@ class ViewController: UIViewController
     //View Controller 2
     
     @IBAction func jesus2Button(sender: AnyObject) {
+        temporalBio = "Jesus Christ"
+        temporalImage = imageJesus
         pictureSaints2.image = imageJesus
         quotesLabel2.text = jesusQuotes.randomFact()
         nameLabel2.text = names[8]
     }
     
     @IBAction func peterAction (sender: AnyObject) {
+        temporalBio = "St. Peter Thomas"
+        temporalImage = imagePeter
         pictureSaints2.image = imagePeter
         quotesLabel2.text = peterQuotes.randomFact ()
         nameLabel2.text = names[4]
     }
     @IBAction func mariamAction(sender: AnyObject) {
+        temporalBio = "Bl. Mariam Baouardy"
+        temporalImage = imageMariam
         pictureSaints2.image = imageMariam
         quotesLabel2.text = mariamQuotes.randomFact ()
         nameLabel2.text = names [5]
     }
     
     @IBAction func andesAction (sender: AnyObject) {
+        temporalBio = "Bl. Teresa of the Andes"
+        temporalImage = imageAndes
         pictureSaints2.image = imageAndes
         quotesLabel2.text = andesQuotes.randomFact ()
         nameLabel2.text = names [6]
     }
-
+    
     @IBAction func lizAction (sender: AnyObject) {
+        temporalBio = "Bl. Elizabeth of the Trinity"
+        temporalImage = imageLiz
         pictureSaints2.image = imageLiz
         quotesLabel2.text = lizQuotes.randomFact ()
         nameLabel2.text = names [7]
     }
     
-   
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -202,8 +215,15 @@ class ViewController: UIViewController
             saintView.nameTemporal = nameLabel.text
             saintView.temporalImage = temporalImage
             saintView.lifeTemporal = nameLabel.text
-            
-            
+        }
+        
+        if segue.identifier == "bioProfile2"{
+                let saintView = segue.destinationViewController as saintViewController
+                saintView.bioTemporal = temporalBio
+                saintView.nameTemporal = nameLabel2.text
+                saintView.temporalImage = temporalImage
+                saintView.lifeTemporal = nameLabel2.text
+                
         }
         
     }

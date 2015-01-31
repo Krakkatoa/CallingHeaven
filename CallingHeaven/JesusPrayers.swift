@@ -17,7 +17,7 @@ struct JesusPrayers {
 
 "Put your sword back into its place; for all those who take up the sword shall perish by the sword. Or do you think that I cannot appeal to My Father, and He will at once put at my disposal more than twelve legions of angels? How then will the Scriptures be fulfilled, which say that it must happen this way? (Matthew 26:52-54)",
 
-"You have said it yourself; nevertheless I tell you, [v]hereafter you will see the Son of Man sitting at the right hand of Power, and coming on the clouds of heaven. (Matthew 26:64)",
+"You have said it yourself; nevertheless I tell you, hereafter you will see the Son of Man sitting at the right hand of Power, and coming on the clouds of heaven. (Matthew 26:64)",
 
 "My God, My God, why have you forsaken me? (Matthew 27:46)",
 
