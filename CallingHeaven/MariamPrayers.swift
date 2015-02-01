@@ -12,11 +12,11 @@ struct MariamPrayers {
     
     let factsArray = [
     
-    "Holy Spirit, inspire me. Love of God, consume me. Along the true road, lead me. Mary, my Mother, look upon me. With Jesus, bless me. From all evil, from all illusion, from all danger, preserve me.",
+    "Holy Spirit, inspire me. \n Love of God, consume me. \n Along the true road, lead me. \n Mary, my Mother, look upon me. \n With Jesus, bless me. \n From all evil, \n from all illusion, \n from all danger, \n preserve me.",
     
-        "Source of peace, Light, come and enlighten me. I am hungry, come and nourish me. I am thirsty, come and quench my thirst. I am blind, come and give me light. I am poor, come and enrich me.",
+        "Source of peace, Light, come and enlighten me. \n I am hungry, come and nourish me. \n I am thirsty, come and quench my thirst. \n I am blind, come and give me light. \n  I am poor, come and enrich me.",
         
-        "O Blessed Mariam Baouardy, You brought the love of the Holy Spirit more closely to us all. Wake us up to the wonders of Christ's love for us. Open to us the courage to willingly bear trials and suffering. Mariam most humble, pray for us."
+        "O Blessed Mary of Christ Crucified, \n You brought the love of the Holy Spirit more closely to us all. \n Wake all of us up to the wonders of Christ's love for us. \n Open to us the courage to willingly bear trials and suffering. \n Mary of Christ Crucified, most humble, pray for us.",
     ]
     
     func randomFact() -> String {

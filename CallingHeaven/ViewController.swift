@@ -21,7 +21,7 @@ class ViewController: UIViewController
     
     @IBOutlet weak var quotesLabel: UITextView!
     
-    @IBOutlet weak var quotesLabel2: UILabel!
+    @IBOutlet weak var quotesLabel2: UITextView!
     
     @IBOutlet weak var nameLabel: UILabel!
     
