@@ -10,7 +10,6 @@
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
 		715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E51A7D68C30075E32C /* TeresaLife.swift */; };
-		715A93E81A7D68E00075E32C /* TeresaQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E71A7D68E00075E32C /* TeresaQuotes.swift */; };
 		715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */; };
 		715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93EF1A7D692D0075E32C /* saintViewController.swift */; };
 		715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93F11A7D69560075E32C /* MariamQuotes.swift */; };
@@ -56,7 +55,6 @@
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
-		715A93E71A7D68E00075E32C /* TeresaQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaQuotes.swift; sourceTree = "<group>"; };
 		715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaPrayers.swift; sourceTree = "<group>"; };
 		715A93EF1A7D692D0075E32C /* saintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saintViewController.swift; sourceTree = "<group>"; };
 		715A93F11A7D69560075E32C /* MariamQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamQuotes.swift; sourceTree = "<group>"; };
@@ -304,7 +302,6 @@
 				718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */,
 				715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */,
 				7181120D1A70ADC100DA14D6 /* JohnLife.swift in Sources */,
-				715A93E81A7D68E00075E32C /* TeresaQuotes.swift in Sources */,
 				715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */,
 				715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */,
 				719EE3451A26C724007131ED /* AppDelegate.swift in Sources */,

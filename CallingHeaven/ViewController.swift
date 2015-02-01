@@ -72,7 +72,7 @@ class ViewController: UIViewController
     
     //VC 2
     
-    let peterQuotes = PeterQuotes ()
+  
     let mariamQuotes = MariamQuotes ()
     let andesQuotes = AndesQuotes ()
     let lizQuotes = LizQuotes ()
@@ -160,13 +160,7 @@ class ViewController: UIViewController
         nameLabel2.text = names[8]
     }
     
-    @IBAction func peterAction (sender: AnyObject) {
-        temporalBio = "St. Peter Thomas"
-        temporalImage = imagePeter
-        pictureSaints2.image = imagePeter
-        quotesLabel2.text = peterQuotes.randomFact ()
-        nameLabel2.text = names[4]
-    }
+ 
     @IBAction func mariamAction(sender: AnyObject) {
         temporalBio = "Bl. Mariam Baouardy"
         temporalImage = imageMariam
