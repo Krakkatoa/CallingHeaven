@@ -43,6 +43,11 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = theresePrayers.randomFact())
         case "St. Edith Stein": (testLabel.text = edithPrayers.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
+        case "Bl. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
+        case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
+            case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
+            
+            
         default: println("Something else") }
     }
     
@@ -51,6 +56,9 @@ class saintViewController: UIViewController {
     let theresePrayers = TheresePrayers ()
     let edithPrayers = EdithPrayers ()
     let jesusPrayers = JesusPrayers ()
+    let mariamPrayers = MariamPrayers ()
+    let lizPrayers = LizPrayers ()
+    let andesPrayers = AndesPrayers ()
     
     
     @IBOutlet weak var heartLifeAction: UIButton!
@@ -64,6 +72,14 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
         case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
+        case "Bl. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
+        case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
+        case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
+            
+            
+            
+            
+            
         default: println("Something else") }
     }
     
@@ -72,6 +88,9 @@ class saintViewController: UIViewController {
     let thereseLife = ThereseLife ()
     let edithLife = EdithLife ()
     let jesusLife = JesusLife ()
+    let mariamLife = MariamLife ()
+    let lizLife = LizLife ()
+    let andesLife = AndesLife ()
     
     
     override func viewDidLoad() {
