@@ -10,6 +10,8 @@
 
 import UIKit
 
+import Social
+
 class saintViewController: UIViewController {
     var test:String!
     
@@ -45,7 +47,7 @@ class saintViewController: UIViewController {
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
         case "Bl. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
-            case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
+        case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
             
             
         default: println("Something else") }
@@ -122,4 +124,68 @@ class saintViewController: UIViewController {
             
         }
 }
+    
+ //Social Media Integration
+    
+    var messageString:String = " (Sent via the Calling Heaven App from Carmel Heart Media. Coming soon!)"
+    var quotebyString:String = " - "
+    var message2String:String = "#CallingHeaven"
+    
+    
+    @IBAction func shareFacebook(sender: AnyObject) {
+        
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
+            
+            var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
+            
+            var postingString = (testLabel.text)! + quotebyString + (bioLabel.text)! + messageString
+            
+            facebookSheet.setInitialText (postingString)
+            
+            
+            self.presentViewController(facebookSheet, animated: true, completion: nil)
+        }else{
+            
+            var alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            
+            self.presentViewController(alert, animated: true, completion: nil)
+            
+        }
+        
+    }
+    
+    
+    
+    @IBAction func shareTwitter(sender: AnyObject) {
+        
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
+            
+            var tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
+            
+            var postingString = (testLabel.text)! + quotebyString + (bioLabel.text)! + message2String
+            
+            tweetSheet.setInitialText  (postingString)
+            
+            self.presentViewController(tweetSheet, animated: true, completion: nil)
+            
+        }else{
+            
+            var alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
 }
