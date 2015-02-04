@@ -16,25 +16,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="VC1" translatesAutoresizingMaskIntoConstraints="NO" id="HpZ-qa-81A">
-                                <rect key="frame" x="0.0" y="-9" width="575" height="375"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="VC1-0203" translatesAutoresizingMaskIntoConstraints="NO" id="HpZ-qa-81A">
+                                <rect key="frame" x="0.0" y="-22" width="575" height="375"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
-                                <rect key="frame" x="302" y="74" width="108" height="125"/>
+                                <rect key="frame" x="26" y="36" width="96" height="105"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
-                                <rect key="frame" x="415" y="112" width="137" height="155"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <rect key="frame" x="320" y="96" width="226" height="178"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-c6-aUE" userLabel="namelabel1">
-                                <rect key="frame" x="418" y="74" width="131" height="30"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="14"/>
+                                <rect key="frame" x="353" y="45" width="144" height="34"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL6-uK-ziS" userLabel="St. John">
-                                <rect key="frame" x="113" y="106" width="188" height="44"/>
+                                <rect key="frame" x="113" y="96" width="188" height="45"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRB-u7-TUZ" userLabel="Jesus1">
-                                <rect key="frame" x="113" y="258" width="193" height="39"/>
+                                <rect key="frame" x="113" y="244" width="193" height="39"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AL-fC-cmS" userLabel="St. Teresa">
-                                <rect key="frame" x="123" y="53" width="183" height="38"/>
+                                <rect key="frame" x="123" y="53" width="183" height="44"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDB-aI-F5v" userLabel="Segue to SVC">
-                                <rect key="frame" x="319" y="212" width="74" height="30"/>
+                                <rect key="frame" x="36" y="149" width="74" height="24"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -71,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdb-Ma-iBc" userLabel="St. Edith">
-                                <rect key="frame" x="118" y="212" width="188" height="30"/>
+                                <rect key="frame" x="118" y="196" width="188" height="40"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -80,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILX-C7-JFE" userLabel="St. Therese">
-                                <rect key="frame" x="118" y="158" width="183" height="41"/>
+                                <rect key="frame" x="118" y="149" width="183" height="39"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -88,17 +88,8 @@
                                     <action selector="thereseAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gg7-Fd-bg6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
-                                <rect key="frame" x="487" y="285" width="22" height="20"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
-                                <rect key="frame" x="455" y="285" width="25" height="20"/>
+                                <rect key="frame" x="498" y="50" width="25" height="22"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -107,7 +98,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7G-jE-Msf" userLabel="Scroll Down">
-                                <rect key="frame" x="272" y="295" width="30" height="30"/>
+                                <rect key="frame" x="271" y="288" width="41" height="24"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -115,6 +106,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="xbG-Up-5wv" kind="presentation" identifier="View Controller 2" modalTransitionStyle="crossDissolve" id="56G-cu-2mP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
+                                <rect key="frame" x="524" y="50" width="22" height="20"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -158,24 +158,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UI-SVC" translatesAutoresizingMaskIntoConstraints="NO" id="uEy-qZ-Vlj">
-                                <rect key="frame" x="0.0" y="-10" width="575" height="360"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
-                                <rect key="frame" x="465" y="37" width="88" height="101"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SVC-0203-1" translatesAutoresizingMaskIntoConstraints="NO" id="uEy-qZ-Vlj">
+                                <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nxq-8l-7Wk">
-                                <rect key="frame" x="154" y="68" width="292" height="204"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <rect key="frame" x="141" y="43" width="332" height="236"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
-                                <rect key="frame" x="16" y="43" width="118" height="34"/>
+                                <rect key="frame" x="16" y="20" width="112" height="41"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
+                                <color key="textColor" red="0.92549026012420654" green="0.90196084976196289" blue="0.65882354974746704" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aht-wZ-7pV" userLabel="Back">
-                                <rect key="frame" x="104" y="254" width="45" height="48"/>
+                                <rect key="frame" x="116" y="248" width="45" height="45"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -184,7 +182,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvQ-Wy-3bf" userLabel="Life Heart">
-                                <rect key="frame" x="481" y="146" width="57" height="47"/>
+                                <rect key="frame" x="501" y="35" width="57" height="44"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -193,7 +191,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-Jd-tma" userLabel="Prayers">
-                                <rect key="frame" x="481" y="201" width="57" height="54"/>
+                                <rect key="frame" x="501" y="87" width="57" height="57"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -202,7 +200,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oh-4g-9Da" userLabel="Twitter">
-                                <rect key="frame" x="277" y="280" width="29" height="39"/>
+                                <rect key="frame" x="501" y="230" width="29" height="23"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -211,7 +209,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drU-5W-alA" userLabel="Facebook">
-                                <rect key="frame" x="314" y="280" width="27" height="39"/>
+                                <rect key="frame" x="538" y="230" width="20" height="25"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -219,6 +217,9 @@
                                     <action selector="shareFacebook:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="oZE-Ac-qiQ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
+                                <rect key="frame" x="16" y="62" width="98" height="116"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -239,7 +240,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4V2-ps-Ydg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="ZQn-dn-vzi"/>
             </objects>
-            <point key="canvasLocation" x="800" y="999"/>
+            <point key="canvasLocation" x="794" y="1015"/>
         </scene>
         <!--View Controller 2-->
         <scene sceneID="1Pg-ro-mUd">
@@ -253,26 +254,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="0127-VC2" translatesAutoresizingMaskIntoConstraints="NO" id="j9C-UG-JHQ">
-                                <rect key="frame" x="0.0" y="-8" width="575" height="375"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="VC2-0203" translatesAutoresizingMaskIntoConstraints="NO" id="j9C-UG-JHQ">
+                                <rect key="frame" x="0.0" y="-22" width="575" height="375"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-lE-g8g" userLabel="pictureSaints2">
-                                <rect key="frame" x="302" y="74" width="108" height="125"/>
+                                <rect key="frame" x="27" y="40" width="96" height="105"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-wT-sz9">
-                                <rect key="frame" x="423" y="115" width="117" height="150"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <rect key="frame" x="318" y="93" width="224" height="174"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7X-cB-Rh5" userLabel="namelabel2">
-                                <rect key="frame" x="417" y="75" width="133" height="32"/>
+                                <rect key="frame" x="353" y="46" width="140" height="31"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
-                                <rect key="frame" x="272" y="300" width="30" height="24"/>
+                                <rect key="frame" x="270" y="289" width="35" height="26"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -281,7 +282,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-3T-B21" userLabel="Facebook">
-                                <rect key="frame" x="487" y="279" width="25" height="31"/>
+                                <rect key="frame" x="525" y="48" width="25" height="27"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -289,17 +290,8 @@
                                     <action selector="shareFacebook:" destination="xbG-Up-5wv" eventType="touchUpInside" id="uSD-Ix-ba5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Oi-ih-TCN" userLabel="Twitter">
-                                <rect key="frame" x="457" y="279" width="22" height="31"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="trc-xZ-zef"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyE-uW-4U9" userLabel="Miriam">
-                                <rect key="frame" x="121" y="107" width="181" height="48"/>
+                                <rect key="frame" x="121" y="99" width="181" height="35"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -308,7 +300,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfD-Id-RKr" userLabel="Andes">
-                                <rect key="frame" x="121" y="163" width="181" height="40"/>
+                                <rect key="frame" x="121" y="153" width="181" height="32"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -317,7 +309,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lF5-YV-PDA" userLabel="Elizabeth">
-                                <rect key="frame" x="116" y="205" width="186" height="47"/>
+                                <rect key="frame" x="116" y="196" width="186" height="43"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -326,7 +318,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zon-z5-ZCj" userLabel="Segue2">
-                                <rect key="frame" x="324" y="207" width="70" height="36"/>
+                                <rect key="frame" x="32" y="147" width="81" height="29"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -334,13 +326,22 @@
                                     <segue destination="2Iu-2g-hLR" kind="presentation" identifier="bioProfile2" id="3Rg-O6-1iR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvc-kr-RsF">
-                                <rect key="frame" x="128" y="260" width="174" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvc-kr-RsF" userLabel="Jesus">
+                                <rect key="frame" x="128" y="242" width="174" height="39"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="jesus2Button:" destination="xbG-Up-5wv" eventType="touchUpInside" id="Uze-XC-I5n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Oi-ih-TCN" userLabel="Twitter">
+                                <rect key="frame" x="501" y="46" width="22" height="31"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="trc-xZ-zef"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -361,13 +362,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2C-oQ-2nF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1171" y="280"/>
+            <point key="canvasLocation" x="1168" y="281"/>
         </scene>
     </scenes>
     <resources>
-        <image name="0127-VC2" width="1281" height="722"/>
-        <image name="UI-SVC" width="566" height="319"/>
-        <image name="VC1" width="566" height="319"/>
+        <image name="SVC-0203-1" width="1281" height="722"/>
+        <image name="VC1-0203" width="1281" height="722"/>
+        <image name="VC2-0203" width="1281" height="722"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3Rg-O6-1iR"/>
