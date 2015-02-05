@@ -124,6 +124,9 @@ struct TheresePrayers {
         
         ///55
         
+        "The guest of our soul knows our misery; He comes to find an empty tent within us - that is all He asks.",
+        
+        
     ]
     
     func randomFact() -> String {

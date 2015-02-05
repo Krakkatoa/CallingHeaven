@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711990BD1A82E533003DA19B /* MagdalenQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711990BC1A82E533003DA19B /* MagdalenQuotes.swift */; };
+		711990BF1A82E6DB003DA19B /* MagdalenLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711990BE1A82E6DB003DA19B /* MagdalenLife.swift */; };
+		711990C11A8310A6003DA19B /* MagdalenPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711990C01A8310A6003DA19B /* MagdalenPrayers.swift */; };
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
 		715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E51A7D68C30075E32C /* TeresaLife.swift */; };
@@ -52,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711990BC1A82E533003DA19B /* MagdalenQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagdalenQuotes.swift; sourceTree = "<group>"; };
+		711990BE1A82E6DB003DA19B /* MagdalenLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagdalenLife.swift; sourceTree = "<group>"; };
+		711990C01A8310A6003DA19B /* MagdalenPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagdalenPrayers.swift; sourceTree = "<group>"; };
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 				718111FE1A70ACC900DA14D6 /* LizQuotes.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
 				718112161A70AE7400DA14D6 /* MariamLife.swift */,
+				711990BC1A82E533003DA19B /* MagdalenQuotes.swift */,
+				711990C01A8310A6003DA19B /* MagdalenPrayers.swift */,
+				711990BE1A82E6DB003DA19B /* MagdalenLife.swift */,
 				718112081A70AD7500DA14D6 /* MariamPrayers.swift */,
 				715A93F11A7D69560075E32C /* MariamQuotes.swift */,
 				715A93EF1A7D692D0075E32C /* saintViewController.swift */,
@@ -297,8 +306,10 @@
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
 				718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */,
 				719EE3471A26C724007131ED /* ViewController.swift in Sources */,
+				711990C11A8310A6003DA19B /* MagdalenPrayers.swift in Sources */,
 				715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */,
 				718112091A70AD7500DA14D6 /* MariamPrayers.swift in Sources */,
+				711990BF1A82E6DB003DA19B /* MagdalenLife.swift in Sources */,
 				718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */,
 				715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */,
 				7181120D1A70ADC100DA14D6 /* JohnLife.swift in Sources */,
@@ -316,6 +327,7 @@
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */,
+				711990BD1A82E533003DA19B /* MagdalenQuotes.swift in Sources */,
 				7181121B1A70AE9600DA14D6 /* LizLife.swift in Sources */,
 				715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */,
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,

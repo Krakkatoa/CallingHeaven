@@ -344,6 +344,15 @@
                                     <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="trc-xZ-zef"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ulm-uk-8yW">
+                                <rect key="frame" x="128" y="45" width="174" height="45"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="magdalenAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="RVg-g6-Lwt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -353,6 +362,7 @@
                         <outlet property="andesButton" destination="KfD-Id-RKr" id="B7m-2l-eKt"/>
                         <outlet property="jesus2Button" destination="uvc-kr-RsF" id="fj5-Sb-kb1"/>
                         <outlet property="lizButton" destination="lF5-YV-PDA" id="ZeR-p2-sl1"/>
+                        <outlet property="magdalenButton" destination="Ulm-uk-8yW" id="ygC-Bc-MFD"/>
                         <outlet property="mariamBoucardy" destination="uyE-uW-4U9" id="Whp-bm-bdL"/>
                         <outlet property="nameLabel2" destination="q7X-cB-Rh5" id="eWR-CT-K2s"/>
                         <outlet property="pictureSaints2" destination="dGX-lE-g8g" id="cei-BR-M2C"/>

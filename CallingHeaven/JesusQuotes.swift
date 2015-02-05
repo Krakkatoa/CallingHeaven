@@ -1122,6 +1122,8 @@ struct JesusQuotes {
         "Follow Me (John 21:19)",
         
         //73 TOTAL 539 Quotes by Jesus Christ. :)
+        
+        
     ]
     
     

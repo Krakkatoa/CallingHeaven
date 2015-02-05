@@ -244,6 +244,12 @@ struct EdithQuotes {
         "The more profoundly one is immersed in God, so much the more is obliged to go out of self, that is to go toward the world, to bear it into the divine life." ,
         
         //111
+        
+        "As for what concerns our relations with our fellow men, the anguish in our neighbor's soul must break all precept. All that we do is a means to an end, but love is an end in itself, because God is love.",
+        
+        "In the heart of Jesus, which was pierced, the kingdom of heaven and the land of earth are bound together. Here is for us the source of life. This heart is the heart of the Triune Divinity, and the center of all human hearts ... it draws us to itself with secret power, it conceals us in itself in the Father's bosom and floods us with the Holy Spirit. This heart, it beats for us in a small tabernacle where it remains mysteriously hidden in that still, white host.",
+    //113
+        
     ]
     
     

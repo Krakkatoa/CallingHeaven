@@ -152,10 +152,38 @@ struct JohnQuotes {
         "Extinguish these miseries, since no one else can stamp them out; and may my eyes behold you, because you are their light- and I would open them to you alone.",
         
         "Do not feed your soul on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
-    ]
-    ///70
-
+        
+        "The road is narrow. He who wishes to travel it more easily must cast off all things and use the cross as his cane. In other words, he must be truly resolved to suffer willingly for the love of God in all things.",
+    ///71
     
+"Strive always to confess your sins with a deep knowledge of your own wretchedness and with clarity and purity.",
+        
+    "To be taken with love for a soul, God does not look on its greatness, but the greatness of its humility.",
+        
+        "A soul enkindled with love is a gentle, meek, humble, and patient soul.",
+     
+        "What we need most in order to make progress is to be silent before this great God with our appetite and with our tongue, for the language he best hears is silent love.",
+        
+       "Obedience is a penance of reason, and, on that account, a sacrifice more acceptable than all corporal penances and mortifications.",
+        
+        "God is more pleased to behold the lowest degree of obedience, for His sake, than all other good works which you can possibly offer to Him.",
+        
+        "God desires from you the least degree of purity of conscience more than all the works you can perform.",
+        
+        "Wisdom enters through love, silence, and mortification. It is great wisdom to know how to be silent and to look at neither the remarks, nor the deeds, nor the lives of others.",
+        
+        "It is best to learn to silence the faculties and to cause them to be still, so that God may speak.",
+        
+        "Dear brothers and sisters, I pray God may open your eyes and let you see what hidden treasures he bestows on us in the trials from which the world thinks only to flee. Shame turns into honor when we seek God's glory. Present affliction become the source of heavenly glory. To those who suffer wounds in fighting his battles God opens his arms in loving, tender friendship. That is why he (Christ) tells us that if we want to join him, we shall travel the way he took. It is surely not right that the Son of God should go his way on the path of shame while the sons of men walk the way of worldly honor: 'The disciple is not above his teacher, nor the servant greater than his master.",
+        
+        
+        "God passes through the thicket of the world, and wherever His glance falls He turns all things to beauty.",
+    
+        "Whoever does not seek the cross of Christ doesn't seek the glory of Christ.",
+        
+        //83
+        
+    ]
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)
         var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)

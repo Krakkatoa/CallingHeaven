@@ -48,7 +48,8 @@ class ViewController: UIViewController
     
     @IBOutlet weak var jesus2Button: UIButton!
     
-    @IBOutlet weak var peterThomas: UIButton!
+   
+    @IBOutlet weak var magdalenButton: UIButton!
     
     @IBOutlet weak var mariamBoucardy: UIButton!
     
@@ -61,7 +62,7 @@ class ViewController: UIViewController
     
     //VC 1
     
-    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Peter Thomas", "Bl. Mariam Baouardy", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
+    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Magdalen de Pazzi", "Bl. Mariam Baouardy", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -72,7 +73,7 @@ class ViewController: UIViewController
     
     //VC 2
     
-  
+  let magdalenQuotes = MagdalenQuotes ()
     let mariamQuotes = MariamQuotes ()
     let andesQuotes = AndesQuotes ()
     let lizQuotes = LizQuotes ()
@@ -88,7 +89,7 @@ class ViewController: UIViewController
     
     let imageJesus = UIImage (named: "jesus-goldframe.png")
     
-    let imagePeter = UIImage (named: "peter-goldframe.png")
+    let imageMagdalen = UIImage (named: "magdalen-goldframe.png")
     
     let imageMariam = UIImage (named: "mariam-goldframe.png")
     
@@ -158,6 +159,16 @@ class ViewController: UIViewController
         pictureSaints2.image = imageJesus
         quotesLabel2.text = jesusQuotes.randomFact()
         nameLabel2.text = names[8]
+    }
+    
+    
+    
+    @IBAction func magdalenAction(sender: AnyObject) {
+        temporalBio = "St. Magdalen de Pazzi"
+        temporalImage = imageMagdalen
+        pictureSaints2.image = imageMagdalen
+        quotesLabel2.text = magdalenQuotes.randomFact ()
+        nameLabel2.text = names [4]
     }
     
  

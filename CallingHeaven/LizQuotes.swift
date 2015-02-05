@@ -114,7 +114,7 @@ struct LizQuotes {
         
         //46 7:35
         
-        " Quotes go here. ",
+        " For my heart is always with Him, day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection. Also within it arises this desire: not to die, but to suffer long, to suffer for God, to give Him its life while praying for poor sinners.  ",
         
         
         " Quotes go here. ",

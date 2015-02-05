@@ -124,6 +124,22 @@ struct ThereseQuotes {
         
         ///55
         
+        "I always want to see you behaving like a brave soldier who does not complain about his own suffering but takes his comrades' wounds seriously and treats his own as nothing but scratches.",
+        
+        "You know that our Lord does not look at the greatness or difficulty of our action, but at the love with which you do it. What, then, have you to fear?",
+        
+        "How happy I am to see myself imperfect and be in need of God's mercy.",
+        
+       "Let us not be justices of the peace, but angels of peace.",
+        
+        "Let us go forward in peace, our eyes upon heaven, the only one goal of our labors.",
+        
+        "Prayer is an aspiration of the heart, it is a simple glance directed to heaven, it is a cry of gratitude and love in the midst of trail as well as joy; finally, it is something great, supernatural, which expands my soul and unites me to Jesus.",
+        
+        "Be not afraid to tell Jesus that you love Him; even though it be without feeling, this is the way to oblige Him to help you, and carry you like a little child too feeble to walk.",
+        
+        //62
+    
     ]
     
     func randomFact() -> String {

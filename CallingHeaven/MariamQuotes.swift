@@ -113,9 +113,14 @@ struct MariamQuotes {
         
         "How pleasing the faith of Our Lady was to the Heavenly Father! It was her faith that made Jesus grow more and more each day in her. If we have such faith it will make Jesus grow in our hearts.",
         
-        //50
+        "Always remember to love your neighbor; always prefer the one who tries your patience, who test your virtue, because with her you can always merit: suffering is Love; the Law is Love.",
+        
+        "I desire to suffer always and not to die. I should add: this is not my will, it is my inclination. It is sweet to think of Jesus; but it is sweeter to do His will.",
+        
+      "The proud person is like a grain of wheat thrown into water: it swells, it gets big. Expose that grain to the fire: it dries up, it burns. The humble soul is like a grain of wheat thrown into the earth: it descends, it hides itself, it disappears, it dies; but to revive in heaven.",
         
         
+        //53
         
         
     

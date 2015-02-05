@@ -147,7 +147,66 @@ struct TeresaQuotes {
         
         "All the problems of life begin when we start to imagine that God is not near.",
         
-        ///66
+        "One must not think that a person who is suffering is not praying. He is offering up his sufferings to God, and many a time he is praying much more truly than one who goes away by himself and meditates his head off, and, if he has squeezed out a few tears, thinks that is prayer.",
+    
+        ///67
+        
+        "Blessed be He, Who came into the world for no other purpose than to suffer.",
+        
+        "Suffering is a great favor. Remember that everything soon comes to an end and take courage. Think of how our gain is eternal. ",
+    
+    "There is more value in a little study of humility and in a single act of it than in all the knowledge in the world.",
+        
+        "Humility does not disturb or disquiet or agitate, however great it may be; it comes with peace, delight, and calm. The pain of genuine humility doesn’t agitate or afflict the soul; rather, this humility expands it and enables it to serve God more.",
+    
+    "My director, Jesus, does not teach me to count my acts, but to do everything for love, to refuse Him nothing, to be pleased when He gives me a chance to prove to Him that I love Him - but all this in peace - in abandonment.",
+        
+        "So dearly does His Majesty love us that He will reward our love for our neighbor by increasing the love which we bear to Himself, and that in a thousand ways.",
+        
+        "I know the power obedience has of making things easy which seem impossible.",
+        
+        "I often thought my constitution would never endure the work I had to do, (but) the Lord said to me: ‘Daughter, obedience gives strength.",
+        
+        "One of the greatest graces for which I feel myself indebted to Our Lord is, that His Divine Majesty has given me the desire to be obedient; for in this virtue I find most consolation and contentment, it being that which Our Lord recommended by His own example more than any other, and on this account I desire to possess it more than anything else in the world.",
+        
+        "The more we see that any action springs not from the motive of obedience, the more evident is it that it is a temptation of the enemy; for when God sends an inspiration, the very first effect of it is to infuse a spirit of docility.",
+        
+        "You pay God a compliment by asking great things of Him.",
+        
+        "There are more tears shed over answered prayers than over unanswered prayers.",
+        
+        "The most potent and acceptable prayer is the prayer that leaves the best effects. I don't mean it must immediately fill the soul with desire. The best effects (are) those that are followed up by actions, when the soul not only desires the honor of God, but really strives for it.",
+        
+        "How often I failed in my duty to God, because I was not leaning on the strong pillar of prayer.",
+        
+        "Don't imagine that, if you had a great deal of time, you would spend more of it in prayer. Get rid of that idea; it is no hindrance to prayer to spend your time well. ",
+    
+    "Jacob did not cease to be a Saint because he had to attend to his flocks.",
+        
+        "Anyone who has the habit of speaking before God's majesty as if he were speaking to a slave, careless about how he is speaking, and saying whatever comes into his head and whatever he's learned from saying prayers at other times, in my opinion is not praying. Please, God, may no Christian pray in this way.",
+        
+        "I would never want any prayer that would not make the virtues grow within me.",
+        
+        "Let him never cease from prayer who has once begun it, be his life ever so wicked; for prayer is the way to amend it, and without prayer such amendment will be much more difficult.",
+    
+    "Vocal prayer must be accompanied by reflection. A prayer in which a person is not aware of Whom he is speaking to, what he is asking, who it is who is asking and of Whom, I don't call prayer, however much the lips may move.",
+        
+        "Much more is accomplished by a single word of the Our Father said, now and then, from our heart, than by the whole prayer repeated many times in haste and without attention.",
+    
+    "Holiness is a disposition of the heart that makes us humble and little in the arms of God, aware of our weakness, and confident, in the most audacious way,in His Fatherly goodness.",
+        
+        "His Majesty (the Lord) rewards great services with trials, and there can be no better reward, for out of trials springs love for God.",
+        
+"The more we see that any action springs not from the motive of obedience, the more evident is it that it is a temptation of the enemy; for when God sends an inspiration, the very first effect of it is to infuse a spirit of docility.",
+        
+        "All that the beginner in prayer has to do -- and you must not forget this, for it is very important -- is to labour and be resolute and prepare himself with all possible diligence to bring his will into conformity with the will of God. As I shall say later, you may be quite sure that this comprises the very greatest perfection which can be attained on the spiritual road.",
+        
+       "The goal of all our undertakings should be not so much a task perfectly completed as the accomplishment of the will of God.",
+        
+        "We can only learn to know ourselves and do what we can- namely, surrender our will and fulfill God's will in us."  ,
+        
+    //94
+        
         
     ]
     

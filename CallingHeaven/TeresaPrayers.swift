@@ -28,7 +28,10 @@ struct TeresaPrayers {
 
         
         "Christ has no body now but yours \n No hands, no feet on earth but yours \n Yours are the eyes through which He looks \n Compassion on this world \n Yours are the feet with which He walks to do good \n Yours are the hands with which He blesses all the world \n Yours are the hands \n Yours are the feet \n Yours are the eyes \n You are His body \n Christ has no body now on earth but yours. \n \n",
-
+        
+        "We shall never completely know ourselves if we don't strive to know God.",
+        
+        
    ]
     
     func randomFact() -> String {
