@@ -139,7 +139,39 @@ struct ThereseQuotes {
         "Be not afraid to tell Jesus that you love Him; even though it be without feeling, this is the way to oblige Him to help you, and carry you like a little child too feeble to walk.",
         
         //62
+        
+        
+        "The guest of our soul knows our misery; He comes to find an empty tent within us - that is all He asks.",
+        
+        "Knowing that beyond the dark clouds my Sun is shining, I should never dare to change my place.",
+        
+        "And it is the Lord, it is Jesus, Who is my judge. Therefore I will try always to think leniently of others, that He may judge me leniently, or rather not at all, since He says: “Judge not, and ye shall not be judged.”",
+        
+       " Our Beloved needs neither our brilliant deeds nor our beautiful thoughts. Were He in search of lofty ideas, has He not His Angels, whose knowledge infinitely surpasses that of the greatest genius of earth?",
+        
+        "Abandonment alone brings me into your arms, O Jesus.",
     
+    "Always keep lifting your foot to climb the ladder of holiness, and do not imagine that you can mount even the first step. All God asks of you is good will.",
+        
+        "In the cross is infusion of heavenly sweetness: in the cross is strength of mind: in the cross is joy of spirit.",
+        
+        "A word or a smile is often enough to put fresh life in a despondent soul.",
+        
+        "Sometimes when I am in such a state of spiritual dryness that not a single good thought occurs to me, I say very slowly the “Our Father,” or the “Hail Mary,” and these prayers suffice to take me out of myself." ,
+    
+    "How few there are who accept failure and weakness, who are content to see themselves on the ground and to be found there by others.",
+        
+        "My penance consisted in breaking my will, always so ready to impose itself on others, in holding back a reply, in rendering little services without recognition.",
+        
+        "Oh Lord, you have gone beyond my expectations, and I want to sing of your mercies.",
+    
+    "God would not give you the desire to be possessed by Him, by His Merciful Love if He were not reserving this favor for you.",
+        
+        "Jesus needs neither books nor Doctors of Divinity in order to instruct souls; He, the Doctor of Doctors, He teaches without noise of words.",
+    
+    "If heavenly grace and true charity come in, there shall be no envy or narrowness of heart, nor shall self-love keep its hold. For divine charity overcomes all, and dilates all the powers of the soul.",
+        
+        
     ]
     
     func randomFact() -> String {

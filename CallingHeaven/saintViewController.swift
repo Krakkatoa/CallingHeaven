@@ -34,7 +34,11 @@ class saintViewController: UIViewController {
     
     @IBOutlet weak var backAction: UIImageView!
     
+    
+    
     @IBOutlet weak var saintPrayerButton: UIButton!
+    
+    
     
     @IBAction func saintPrayerAction ()
     {
@@ -128,6 +132,10 @@ class saintViewController: UIViewController {
             
         }
 }
+ 
+    
+    
+    
     
  //Social Media Integration.
     

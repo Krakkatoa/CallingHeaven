@@ -11,124 +11,41 @@ import Foundation
 struct TheresePrayers {
     
     let factsArray = [
-        
-        "Without love, deeds, even the most brilliant, count as nothing.",
-        
-        "For me, prayer is a surge of the heart. It is a simple look turned toward heaven. It is a cry of recognition and of love, embracing both trial and joy.",
-        
-        "If every tiny flower wanted to be a rose, spring would lose its loveliness.",
-        
-        "Holiness consists simply in doing God's will, and being just what God wants us to be.",
-        
-        "A word or a smile is often enough to put fresh life in a despondent soul.",
-        
-        "When one loves, one does not calculate.",
-        
-        "When I die, I will send down a shower of roses from the heavens. I will spend my heaven by doing good on earth.",
-        
-        "My whole strength lies in prayer and sacrifice. These are my invincible arms. They can move hearts far better than words. I know it by experience",
-        
-        "Trust and trust alone should lead us to love",
-        
-        "I can nourish myself on nothing but truth",
-        
-        "I know now that true charity consists in bearing all our neighbors'defects--not being surprised at their weakness, but edified at their smallest virtues.",
-        
-        "If I did not simply live from one moment to another, it would be impossible for me to be patient, but I only look at the present. I forget the past, and I take good care not to forestall the future.",
-        
-        "And it is the Lord, it is Jesus, who is my judge. Therefore I will try always to think leniently of others, that He may judge me leniently, or rather not at all.",
-        
-        "God would never inspire me with desires which cannot be realized, so in spite of my littleness, I can hope to be a saint.",
-        
-        "If a little flower could speak, it seems to me that it would tell us quite simply all that God has done for it, without hiding any of its gifts.",
-        
-        "I am convinced that one should tell one's spiritual director if one has a great desire for Communion, for Our Lord does not come from Heaven every day to stay in a golden ciborium. He comes to find another heaven, the heaven of our soul in which He loves to dwell.",
-        
-        "I say nothing to Him. I love Him",
-        
-        "It's true, I suffer a great deal--but do I suffer well? That is the question.",
-        
-        "For me, prayer is an aspiration of the heart. It is a simple glance directed to heaven. It is a cry of gratitude and love in the midst of trial as well as joy. Finally, it is something great, supernatural, which expands my soul and unites me to Jesus.",
-        
-        "Then, overcome by joy, I cried, Jesus, my love. At last I have found my vocation. My vocation is love. In the heart of the Church, my mother, I will be love, and then I will be all things.",
-        
-        "Go often to Holy Communion. Go very often! This is your one remedy.",
-        
-        "A soul in a state of grace has nothing to fear of demons who are cowards.",
-        
-        "In heaven, the good God will do all I wish, because I have never done my own will upon earth.",
-        
-        "My frail barque has great difficulty in reaching port. I sighted it long since, and I find myself afar off. Yet, Jesus steers this little barque, and I am sure that on His appointed day, it will come safely to the blessed haven of the Carmel.",
-        
-        "How happy I am to see myself imperfect and in need of God's mercy!",
-        
-        "All I have written of my thirst for suffering is really true. I have no regret for having surrendered myself to love.",
-        
-        "Most of all, I imitate the behavior of Mary Magdalene, for her amazing (or rather, loving) audacity, which delighted the heart of Jesus, has cast its spell upon mine.",
-        
-        "You ask for a method of attaining perfection. I know of love and only love. Love can do all things.",
-        
-        "He guides and inspires me every moment of the day. Just when I need it, a new light shines on my problems.",
-        
-        "It is trust and nothing but trust, that leads us to love.",
-        
-        "You must not set yourself up as a judge. That is God's right alone. Your only mission is to be an angel of peace.",
-        
-        "I understand above all that charity must not remain hidden in the bottom of the heart.",
-        
-        "We must keep everything for Jesus with a jealous solicitude. It is so good to work for Him alone.",
-        
-        "Holiness consists simply in doing God's will and being just what God wants us to be.",
-        
-        "Jesus, help me to simplify my life by learning what you want me to be- and becoming that person.",
-        
-        "We must forget ourselves and put aside our tastes and ideas, and guide souls not by our own way, but along the path which Our Lord points out.",
-        
-        "Dear Lord, you know that I do not serve you for the sake of a reward, but simply because I love you, and in order to save souls.",
-        
-        "Remember that this sweet Jesus is there in the Tabernacle expressly for you and you alone. Remember that He burns with the desire to enter your heart. Do not listen to Satan. Laugh him to scorn and go without fear to reeive Jesus.",
-        
-        "To be without Jesus is a grievous hell and to be with Jesus, a sweet paradise.",
-        
-        "Silence does good to the soul.",
-        
-        "I understand that love comprises all vocations- that love is everything, and because it is eternal, embraces all times and places.",
-        
-        "The more you wish to give us, O God, the more you make us desire.",
-        
-        "I long to fly to Mary's mother arms, to rest upon that spotless throne of bliss, and sheltered there from troubles and alarms, for the first time to feel her gentle kiss.",
-        
-        "I found the secret to suffering in peace- I don't say joy. To suffer in peace, it is enough to will all that Jesus wills.",
-        
-        "The good God says to me, 'Give without concerning yourself with results.'",
-        
-        "We must not be discouraged by our faults, for children fall frequently.",
-        
-        "I see that the Lord is immutable, that He alone can fulfill my immense desires.",
-        
-        "Without love, deeds, even the most brilliant, count as nothing.",
-        
-        "The morrow of this day will be eternity; Then Jesus will return you a hundredfold the lovely, rightful joys that you are sacrificing for Him.",
-        
-        "The value of life does not depend on the place we occupy. It depends upon the way we occupy that place.",
-        
-        "Never get tired of doing little things for others. Sometimes, those little things occupy the biggest part of their hearts.",
-        
-        "How often have I thought that I may owe all of the graces I've received to the prayers of a person who begged them from God for me, and whom I shall know only in heaven.",
-        
-        "Jesus does not consider time since He is eternal. He considers only love.",
-        
-        "Joy isn't found in the material objects surrounding us, but in the inner recesses of the soul. One can possess joy in a prison cell as well as in a palace.",
-        
-        "The sun shines equally both on cedars and on every tiny flower. In just the same way, God looks after every soul as if it had no equal.",
-        
-        ///55
-        
-        "The guest of our soul knows our misery; He comes to find an empty tent within us - that is all He asks.",
-        
-        
-    ]
     
+    "A MORNING PRAYER WRITTEN BY ST. THERESE \n\n O my God! I offer Thee all my actions of this day for the intentions and for the glory of the Sacred Heart of Jesus. I desire to sanctify every beat of my heart, my every thought, my simplest works, by uniting them to Its infinite merits; and I wish to make reparation for my sins by casting them into the furnace of Its Merciful Love.\n\n O my God! I ask of Thee for myself and for those whom I hold dear, the grace to fulfill perfectly Thy Holy Will, to accept for love of Thee the joys and sorrows of this passing life, so that we may one day be united together in heaven for all eternity. \n Amen.",
+        
+        "PRAYER TO ST. THERESE \n\n O little St. Theresa of the Child Jesus, who during your short life on earth became a mirror of angelic purity, of love strong as death, and of wholehearted abandonment to God, now that you rejoice in the reward of your virtues, cast a glance of pity on me as I leave all things in your hands. Make my troubles your own - speak a word for me to our Lady Immaculate, whose flower of special love you were - to that Queen of heaven “who smiled on you at the dawn of life.” Beg her as the Queen of the heart of Jesus to obtain for me by her powerful intercession, the grace I yearn for so ardently at this moment, and that she join with it a blessing that may strengthen me during life. Defend me at the hour of death, and lead me straight on to a happy eternity.\n\n Amen.",
+        
+        "O Jesus, dear Holy Child, my only treasure, I abandon myself to Thy every whim. I seek no other joy than that of calling forth Thy sweet Smile. Vouchsafe to me the graces and the virtues of Thy Holy Childhood, so that on the day of my birth into Heaven the Angels and Saints may recognize in Thy Spouse: Teresa of the Child Jesus.",
+        
+        "O Jesus, who in Thy bitter Passion didst become “the most abject of men, a man of sorrows,” I venerate Thy Sacred Face whereon there once did shine the beauty and sweetness of the Godhead; but now it has become for me as if it were the face of a leper! Nevertheless, under those disfigured features, I recognize Thy infinite Love and I am consumed with the desire to love Thee and make Thee loved by all men. \n\n The tears which well up abundantly in Thy sacred eyes appear to me as so many precious pearls that I love to gather up, in order to purchase the souls of poor sinners by means of their infinite value. O Jesus, whose adorable face ravishes my heart, I implore Thee to fix deep within me Thy divine image and to set me on fire with Thy Love, that I may be found worthy to come to the contemplation of Thy glorious Face in Heaven. Amen.",
+        
+        "O glorious Saint Therese, whom Almighty God has raised up to aid and counsel mankind, I implore your Miraculous Intercession. So powerful are you in obtaining every need of body and soul our Holy Mother Church proclaims you a “Prodigy of Miracles, the Greatest Saint of Modern Times.” Now I fervently beseech you to answer my petition (mention specifics here) and to carry out your promises of spending Heaven doing good upon the earth, of letting fall from Heaven a shower of roses. Henceforth, dear Little Flower, I will fulfill your plea “to be made known everywhere” and I will never cease to lead others to Jesus through you. Amen.",
+        
+        "St. Therese, the Little Flower, please pick me a rose from the heavenly garden and send it to me with a message of love; ask God to grant me the favor I thee implore and tell Him I will love Him each day more and more. Amen.",
+    
+    
+        "Dear Little Flower of Lisieux, how wonderful was the short life you led. Though cloistered, you went far and wide through fervent prayers and great sufferings. You obtained from God untold helps and graces for his evangelists. Help all missionaries in their work and teach all of us to spread Christianity in our own neighborhoods and family circles. Amen.",
+        
+        "O Little Flower of Jesus, ever consoling troubled souls with heavenly graces, in your unfailing intercession I place my trust. From the Heart of Our Blessed Savior petition these blessing of which I stand in greatest need (mention here). Shower upon me your promised roses of virtue and grace, dear St. Therese, so that swiftly advancing in sanctity and in perfect love of neighbor, I may someday receive the crown of eternal life. Amen.",
+        
+        "God our Father, You destined Your Kingdom for Your children who are humble. Help us to imitate the way of St. Theresa, so that, by her intercession, we may attain the eternal glory which You promised. Amen.",
+    
+        "Act of Oblation as Victim to God's Merciful Love \n\n In order that my life may be one act of perfect Love, I offer myself as a victim of holocaust to Thy merciful Love, imploring Thee to consume me unceasingly, and to allow the floods of infinite tenderness gathered up in Thee to overflow into my soul, so that I may become a very martyr to Thy Love, O my God.  May this martyrdom, after having prepared me to appear in Thy presence, free me from this life at the last and my soul take flight -- without delay -- into eternal embrace of Thy Merciful Love. \n\n O my Beloved!   I desire at every beat of my heart to renew this oblation an infinite number of times, 'till the shadows retire,' and everlastingly I can tell Thee my love face to face.",
+        
+        "O Little Flower of Jesus, you have shown yourself so powerful in your intercession, so tender and compassionate toward those who honor you and invoke you in suffering and distress, that I kneel at your feet with perfect confidence and beseech you most humbly and earnestly to take me under your protection in my present necessity and to obtain for me this favor I ask (mention your request). Recommend my request to Mary, the merciful Queen of Heaven, that she may plead my cause with you before the throne of Jesus, her divine Son. Cease not to intercede for me until my request is granted. \n\n St. Theresa of the Child Jesus, pray for us. Amen.",
+        
+        
+        "Dearest Saint Therese, you are the Little Flower of Jesus. Pray this day that I may be made well in body, mind, and spirit. Help me to always see, as you so clearly did, that my sufferings and trials are meant to cleanse and purify me so that I may be more worthy to receive God's unending Love. Amen.",
+        
+        "St. Therese, Little Flower, you are “love in the heart of the Church.” You dedicated your life as a Carmelite Nun for good Priests to serve God's people. From your privileged place in God's Heart, I ask you to stir up responsive hearts in young men to follow Jesus as good and holy priests and religious. Bless our Church with loyal servants of the Gospel.\n\n Renew our Church in love by igniting the love of the young men Jesus calls. We need your help, intercession, and intervention today, Beloved Patron of Priests. Amen.",
+        
+        "O Little Therese of the Child Jesus, Please pick a rose for me from the heavenly gardens and send it to me as a message of love.\n\n O little flower of Jesus, Ask God today to grant the favors I now place with confidence In your hands \n\n(Mention your specific requests) \n\n St. Therese, help me to always believe, as you did, In God's great love for me, So that I might imitate your “Little Way”each day. Amen." ,
+    
+    "O Glorious St. Therese, whom Almighty God has raised up to aid and inspire the human family, I implore your Miraculous Intercession. You are so powerful in obtaining every need of body and spirit from the Heart of God. Holy Mother Church proclaims you 'Prodigy of Miracles... the Greatest Saint of Modern Times.' Now I fervently beseech you to answer my petition (mention here) and to carry out your promises of spending Heaven doing good on earth...of letting fall from Heaven a Shower of Roses. Little Flower, give me your childlike faith, to see the Face of God in the people and experiences of my life, and to love God with full confidence. St. Therese, my Carmelite Sister, I will fulfill your plea 'to be made known everywhere' and I will continue to lead others to Jesus through you. Amen.",
+    
+  
+    ]
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)
         var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)

@@ -117,6 +117,9 @@
                                     <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phonereceiver" translatesAutoresizingMaskIntoConstraints="NO" id="tXy-Rf-6QA">
+                                <rect key="frame" x="0.0" y="10" width="141" height="317"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -128,6 +131,7 @@
                         <outlet property="jesusButton" destination="MRB-u7-TUZ" id="acw-nX-IYg"/>
                         <outlet property="johnOfTheCross" destination="dL6-uK-ziS" id="xIR-jT-mWc"/>
                         <outlet property="nameLabel" destination="UAe-c6-aUE" id="rGU-Tc-RO9"/>
+                        <outlet property="phoneImage" destination="tXy-Rf-6QA" id="d9X-Rf-Kol"/>
                         <outlet property="pictureSaints" destination="E66-cG-Ydd" id="ZU2-ti-Pl9"/>
                         <outlet property="quotesLabel" destination="RGI-YI-N0O" id="gL1-vY-BxM"/>
                         <outlet property="teresaButton" destination="8AL-fC-cmS" id="Xol-O7-U7K"/>
@@ -149,7 +153,7 @@
         <!--Add-ons-->
         <scene sceneID="oV6-Gl-8t1">
             <objects>
-                <viewController title="Add-ons" id="VzQ-WC-W78" sceneMemberID="viewController">
+                <viewController title="Add-ons" id="VzQ-WC-W78" customClass="Add_onsViewController" customModule="CallingHeaven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0DP-9D-GA2"/>
                         <viewControllerLayoutGuide type="bottom" id="LED-Mt-KG3"/>
@@ -171,12 +175,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAX-MR-RrR">
-                                <rect key="frame" x="31" y="261" width="96" height="50"/>
+                                <rect key="frame" x="36" y="265" width="91" height="50"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="wbY-nn-QH3"/>
+                                    <action selector="backAction:" destination="VzQ-WC-W78" eventType="touchUpInside" id="aTO-ID-mMC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -219,7 +223,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="CaA-j7-ctV"/>
+                                    <action selector="backAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="WlN-0a-SO1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvQ-Wy-3bf" userLabel="Life Heart">
@@ -304,7 +308,7 @@
         <!--Journal View Controller-->
         <scene sceneID="euy-Mk-o7Y">
             <objects>
-                <viewController title="Journal View Controller" id="vbX-nb-OC3" sceneMemberID="viewController">
+                <viewController title="Journal View Controller" id="vbX-nb-OC3" customClass="JournalViewController" customModule="CallingHeaven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="72P-QL-j1a"/>
                         <viewControllerLayoutGuide type="bottom" id="uCl-eg-AyW"/>
@@ -314,22 +318,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VC-journal-0203" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-5X-0Pb">
-                                <rect key="frame" x="0.0" y="-18" width="575" height="360"/>
+                                <rect key="frame" x="0.0" y="-15" width="575" height="360"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" indicatorStyle="black" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-p8-Y7Q">
+                                <rect key="frame" x="63" y="41" width="448" height="223"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="light" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-RY-ZDn">
                                 <rect key="frame" x="30" y="254" width="87" height="43"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="HhT-Uw-y8A"/>
+                                    <action selector="backAction:" destination="vbX-nb-OC3" eventType="touchUpInside" id="y8v-7I-c5H"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIf-F4-6Ww">
-                                <rect key="frame" x="25" y="272" width="38" height="32"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-lT-nD8">
                                 <rect key="frame" x="508" y="272" width="46" height="30"/>
@@ -338,6 +341,27 @@
                                 </state>
                                 <connections>
                                     <segue destination="VzQ-WC-W78" kind="presentation" id="z6C-0P-o8b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1F-rU-zwt">
+                                <rect key="frame" x="451" y="9" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="hJX-yt-TvG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfd-hP-Evr">
+                                <rect key="frame" x="451" y="41" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="ct1-rM-4d6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -360,9 +384,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credits-1" translatesAutoresizingMaskIntoConstraints="NO" id="V9o-nd-l1V">
-                                <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdt-fF-hNJ">
                                 <rect key="frame" x="24" y="266" width="95" height="44"/>
                                 <state key="normal">
@@ -372,6 +393,9 @@
                                     <segue destination="vXZ-lx-hvc" kind="presentation" id="mvW-lw-MBN"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credits-1" translatesAutoresizingMaskIntoConstraints="NO" id="V9o-nd-l1V">
+                                <rect key="frame" x="152" y="-45" width="575" height="360"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -410,15 +434,6 @@
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
-                                <rect key="frame" x="270" y="289" width="35" height="26"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="presentation" identifier="View Controller" modalTransitionStyle="crossDissolve" id="H7z-pd-tKI"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-3T-B21" userLabel="Facebook">
                                 <rect key="frame" x="525" y="48" width="25" height="27"/>
                                 <state key="normal">
@@ -491,6 +506,15 @@
                                     <action selector="magdalenAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="RVg-g6-Lwt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
+                                <rect key="frame" x="270" y="289" width="35" height="26"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="arrowAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="dcN-nC-fFS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -519,11 +543,11 @@
         <image name="VC1-0203" width="1281" height="722"/>
         <image name="VC2-0203" width="1281" height="722"/>
         <image name="credits-1" width="1281" height="722"/>
+        <image name="phonereceiver" width="187" height="372"/>
         <image name="quotepacks-0203" width="1281" height="722"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wbY-nn-QH3"/>
         <segue reference="z6C-0P-o8b"/>
-        <segue reference="ECT-Qv-HAb"/>
+        <segue reference="3Rg-O6-1iR"/>
     </inferredMetricsTieBreakers>
 </document>

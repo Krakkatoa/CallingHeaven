@@ -42,6 +42,8 @@
 		719EE34C1A26C724007131ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34B1A26C724007131ED /* Images.xcassets */; };
 		719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34D1A26C724007131ED /* LaunchScreen.xib */; };
 		719EE35B1A26C724007131ED /* CallingHeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE35A1A26C724007131ED /* CallingHeavenTests.swift */; };
+		71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */; };
+		71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB56F11A8431E600225BC0 /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		719EE3541A26C724007131ED /* CallingHeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallingHeavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3591A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
+		71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Add-onsViewController.swift"; path = "../Add-onsViewController.swift"; sourceTree = "<group>"; };
+		71FB56F11A8431E600225BC0 /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
+				71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */,
+				71FB56F11A8431E600225BC0 /* JournalViewController.swift */,
 				718112181A70AE8500DA14D6 /* AndesLife.swift */,
 				718112041A70AD3200DA14D6 /* AndesPrayers.swift */,
 				715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */,
@@ -301,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */,
+				71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */,
 				715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
@@ -318,6 +325,7 @@
 				719EE3451A26C724007131ED /* AppDelegate.swift in Sources */,
 				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
+				71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */,
 				718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */,
 				718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */,
 				718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */,

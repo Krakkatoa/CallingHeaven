@@ -42,6 +42,7 @@ class ViewController: UIViewController
     
     @IBOutlet weak var testButton: UIButton!
     
+    @IBOutlet weak var phoneImage: UIImageView!
     
     //2nd View Controller
     
@@ -58,6 +59,10 @@ class ViewController: UIViewController
     @IBOutlet weak var lizButton: UIButton!
     
     @IBOutlet weak var segue2Button: UIButton!
+    
+    
+    @IBAction func arrowAction(sender: AnyObject) { self.dismissViewControllerAnimated(true) { () -> Void in }
+    }
 
     
     //VC 1
@@ -109,6 +114,7 @@ class ViewController: UIViewController
     
     
     @IBAction func TeresaAction(sender: AnyObject) {
+        phoneImage.hidden = true
         temporalBio = "St. Teresa of Avila "
         temporalImage = imageTeresa
         pictureSaints.image = imageTeresa
@@ -117,6 +123,7 @@ class ViewController: UIViewController
     }
     
     @IBAction func johnAction(sender: AnyObject) {
+        phoneImage.hidden = true
         temporalBio = "St. John of the Cross"
         temporalImage = imageJohn
         pictureSaints.image = imageJohn
@@ -126,6 +133,7 @@ class ViewController: UIViewController
     
     
     @IBAction func thereseAction(sender: AnyObject) {
+        phoneImage.hidden = true
         temporalBio = "St. Therese of Lisieux"
         temporalImage = imageTherese
         pictureSaints.image = imageTherese
@@ -134,6 +142,7 @@ class ViewController: UIViewController
     
     
     @IBAction func EdithAction(sender: AnyObject) {
+        phoneImage.hidden = true
         temporalBio = "St. Edith Stein "
         temporalImage = imageEdith
         pictureSaints.image = imageEdith
@@ -142,6 +151,7 @@ class ViewController: UIViewController
     }
     
     @IBAction func jesusButton(sender: AnyObject) {
+        phoneImage.hidden = true
         temporalBio = "Jesus Christ"
         temporalImage = imageJesus
         pictureSaints.image = imageJesus
@@ -232,6 +242,9 @@ class ViewController: UIViewController
         }
         
     }
+    
+    
+    
     
     
     //Social Media Integration
