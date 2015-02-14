@@ -323,7 +323,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" indicatorStyle="black" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-p8-Y7Q">
                                 <rect key="frame" x="63" y="41" width="448" height="223"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="light" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-RY-ZDn">
                                 <rect key="frame" x="30" y="254" width="87" height="43"/>
@@ -344,7 +344,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1F-rU-zwt">
-                                <rect key="frame" x="451" y="9" width="46" height="30"/>
+                                <rect key="frame" x="446" y="20" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -353,20 +353,12 @@
                                     <action selector="saveData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="hJX-yt-TvG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfd-hP-Evr">
-                                <rect key="frame" x="451" y="41" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Load">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="loadData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="ct1-rM-4d6"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="journalTextView" destination="aRr-p8-Y7Q" id="njz-B2-dFe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vl2-tN-flH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -503,7 +495,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="magdalenAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="RVg-g6-Lwt"/>
+                                    <action selector="titusAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="XuT-QE-iTN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
@@ -524,12 +516,12 @@
                         <outlet property="andesButton" destination="KfD-Id-RKr" id="B7m-2l-eKt"/>
                         <outlet property="jesus2Button" destination="uvc-kr-RsF" id="fj5-Sb-kb1"/>
                         <outlet property="lizButton" destination="lF5-YV-PDA" id="ZeR-p2-sl1"/>
-                        <outlet property="magdalenButton" destination="Ulm-uk-8yW" id="ygC-Bc-MFD"/>
                         <outlet property="mariamBoucardy" destination="uyE-uW-4U9" id="Whp-bm-bdL"/>
                         <outlet property="nameLabel2" destination="q7X-cB-Rh5" id="eWR-CT-K2s"/>
                         <outlet property="pictureSaints2" destination="dGX-lE-g8g" id="cei-BR-M2C"/>
                         <outlet property="quotesLabel2" destination="3eM-wT-sz9" id="oFD-cQ-HZi"/>
                         <outlet property="segue2Button" destination="zon-z5-ZCj" id="9nJ-kL-bqq"/>
+                        <outlet property="titusButton" destination="Ulm-uk-8yW" id="gEl-KN-YHS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2C-oQ-2nF" userLabel="First Responder" sceneMemberID="firstResponder"/>

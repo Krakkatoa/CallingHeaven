@@ -32,7 +32,7 @@ struct ThereseQuotes {
         
         "I can nourish myself on nothing but truth",
         
-        "I know now that true charity consists in bearing all our neighbors'defects--not being surprised at their weakness, but edified at their smallest virtues.",
+        "I know now that true charity consists in bearing all our neighbors' defects--not being surprised at their weakness, but edified at their smallest virtues.",
         
         "If I did not simply live from one moment to another, it would be impossible for me to be patient, but I only look at the present. I forget the past, and I take good care not to forestall the future.",
         
@@ -86,7 +86,7 @@ struct ThereseQuotes {
         
         "Dear Lord, you know that I do not serve you for the sake of a reward, but simply because I love you, and in order to save souls.",
         
-        "Remember that this sweet Jesus is there in the Tabernacle expressly for you and you alone. Remember that He burns with the desire to enter your heart. Do not listen to Satan. Laugh him to scorn and go without fear to reeive Jesus.",
+        "Remember that this sweet Jesus is there in the Tabernacle expressly for you and you alone. Remember that He burns with the desire to enter your heart. Do not listen to Satan. Laugh him to scorn and go without fear to recieve Jesus.",
         
         "To be without Jesus is a grievous hell and to be with Jesus, a sweet paradise.",
         
@@ -130,7 +130,7 @@ struct ThereseQuotes {
         
         "How happy I am to see myself imperfect and be in need of God's mercy.",
         
-       "Let us not be justices of the peace, but angels of peace.",
+        "Let us not be justices of the peace, but angels of peace.",
         
         "Let us go forward in peace, our eyes upon heaven, the only one goal of our labors.",
         
@@ -171,6 +171,68 @@ struct ThereseQuotes {
     
     "If heavenly grace and true charity come in, there shall be no envy or narrowness of heart, nor shall self-love keep its hold. For divine charity overcomes all, and dilates all the powers of the soul.",
         
+        //77
+        
+        "You are wrong to criticize this or that, to desire that everybody should adopt your view of things. Since we want to be little children, little children do not know what is best. Everything seems right to them.",
+        
+        "We must never refuse anyone, even when it costs us much pain. Think that it is Jesus who is asking this service of you; how eager and friendly you will then be in granting the favor requested." ,
+        
+        "I must anticipate the desires of others; show that we are much obliged, very honored to be able to render service. The good Lord wants me to forget myself in order to give pleasure to others.",
+        
+        "There is a way of refusing that is so gracious... that the refusal gives as much pleasure as the gift.",
+        
+        "I know now that true charity consists in bearing all our neighbors' defects--not being surprised at their weakness, but edified at their smallest virtues.",
+        
+        "If we want to live a life of love of God, we must not fail in our love towards our neighbor.",
+        
+        "There is nothing sweeter than to think well of one’s neighbor." ,
+        
+        "I am glad to recognize that when we love God our heart expands, and we can give incomparably more tender love to those who are dear to us than when our love is selfish and barren… Love is fed by and develops from sacrifice. The more we deprive ourselves of natural satisfaction, the stronger and the more disinterested our love becomes.",
+        
+        "He does not want us to love Him for His gifts, but for Himself alone... He is so beautiful, so ravishing even when He remains silent, even when He hides Himself.",
+        
+        "O my Jesus, You know well that it is not for the reward that I serve You, but solely because I love You and in order to save souls.",
+        
+        "I do not desire sensible affection, a love that I feel, but only a love that is felt by Jesus. Oh! to love Him and cause Him to be loved!",
+        
+        "Our love for Jesus is truly great when we do not feel its sweetness. It then becomes a martyrdom... When, on the contrary, we begin to seek ourselves, true love dies away. Unfortunately, many serve Jesus when He consoles them, but few are willing to keep Him company when He is asleep.",
+        
+        "True love is found only in complete self-forgetfulness, and it is only after we have detached ourselves from every creature that we find Jesus.",
+        
+        "To live out of love means to banish all fear/n Every memory of past faults. /n I see no mark of my sins, /n In a moment love burnt everything." ,
+        
+        "We have merely to love Him, without looking at ourselves, without examining our faults too much.",
+        
+        "Justice itself, and justice even more than any other divine perfection, seems to me to be clothed in love.",
+        
+        "A glance of love cast towards Jesus and the knowledge of our profound misery makes reparation for everything.",
+        
+        "I assure you that the good Lord is much kinder than you can imagine. He is satisfied with a glance, with a sigh of love... In regard to myself, I find it easy to practice perfection, because I have learned that the way to Jesus is through His Heart. Consider a small child who has vexed his mother by a display of bad temper or disobedience. If the child hides in a corner through fear of punishment, he feels that his mother will not forgive him. But if instead, he extends his little arms towards her and with a smile cries out: ‘Love, kiss me, mamma, I will not do it again,’ will not his mother press the little one to her heart with tenderness, and forget what the child has done? And yet, though she knows very well that her dear little one will misbehave again at the first opportunity, that means nothing if the child appeals to her heart. He will never be punished.",
+        
+        "Even if the fire of love seemed to have gone out, I would keep on throwing fuel in it and Jesus would take care to light it up again.",
+        
+        "We must do all that lies in our power; we must give without counting the cost; we must constantly renounce ourselves. In one word, we must prove our love by all the good works we can perform; but, since all that we can do is very little, it is of the greatest importance that we put our confidence in Him who alone sanctifies those works and that we recognize that we are indeed useless servants, hoping that the good Lord will give us through grace all that we desire.",
+        
+        "How easy it is to please Jesus, to ravish His Heart. We have merely to love Him, while, at the same time, forgetting ourselves.",
+        
+        "Directors make people advance in perfection by performing a great number of acts of virtue, and they are right. But my Director, who is Jesus Himself, teaches me to do everything through love.",
+        
+        "The only good is to love God with all one's heart and to be here below poor in spirit!" ,
+        
+        "There is but one thing for us to do in the night of this life and that is to love, to love Jesus with all the energy of our heart and to save souls so that He may be loved by them. O let us cause Jesus to be loved by men!",
+        
+        
+      ///101
+        
+        "How sweet it was, the first kiss of Jesus to my soul! Yes, it was a kiss of Love. I felt I was loved, and I too said: 'I love Thee, I give myself to Thee forever!' Jesus asked nothing of me, demanded no sacrifice. Already for a long time past, He and the little Therese had watched and understood one another... That day our meeting was no longer a simple look but a fusion. No longer were we two: Therese had disappeared as the drop of water which loses itself in the depths of the ocean, Jesus alone remained; the Master, the King! Had not Therese begged Him to take away from her, her liberty? That liberty made her afraid; so weak, so fragile did she feel herself that she longed to be united forever to Divine Strength.",
+        
+        "At the time of Holy Communion I sometimes picture my soul under the figure of a little child of three or four years, who at play has got its hair tossed and its clothes soiled. These misfortunes have befallen me in battling with souls. But very soon the Blessed Virgin hastens to my aid: quickly, she takes off my dirty little pinafore, smoothes my hair and adorns it with a pretty ribbon or simply with a little flower... and this suffices to render me pleasing and enables me to sit at the Banquet of Angels without blushing.",
+        
+        "We can never have too much confidence in the good God who is so powerful and so merciful. We obtain from him as much as we hope for.",
+        
+        "Jesus, help me to simplify my life by learning what you want me to be - and becoming that person.",
+        
+        //105
         
     ]
     

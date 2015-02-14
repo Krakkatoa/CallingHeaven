@@ -50,7 +50,7 @@ class ViewController: UIViewController
     @IBOutlet weak var jesus2Button: UIButton!
     
    
-    @IBOutlet weak var magdalenButton: UIButton!
+    @IBOutlet weak var titusButton: UIButton!
     
     @IBOutlet weak var mariamBoucardy: UIButton!
     
@@ -67,7 +67,7 @@ class ViewController: UIViewController
     
     //VC 1
     
-    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Magdalen de Pazzi", "Bl. Mariam Baouardy", "Bl. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
+    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Titus Brandsma", "Bl. Mariam Baouardy", "St. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -78,7 +78,7 @@ class ViewController: UIViewController
     
     //VC 2
     
-  let magdalenQuotes = MagdalenQuotes ()
+  let titusQuotes = TitusQuotes ()
     let mariamQuotes = MariamQuotes ()
     let andesQuotes = AndesQuotes ()
     let lizQuotes = LizQuotes ()
@@ -94,7 +94,7 @@ class ViewController: UIViewController
     
     let imageJesus = UIImage (named: "jesus-goldframe.png")
     
-    let imageMagdalen = UIImage (named: "magdalen-goldframe.png")
+    let imageTitus = UIImage (named: "titus-goldframe.png")
     
     let imageMariam = UIImage (named: "mariam-goldframe.png")
     
@@ -173,11 +173,11 @@ class ViewController: UIViewController
     
     
     
-    @IBAction func magdalenAction(sender: AnyObject) {
-        temporalBio = "St. Magdalen de Pazzi"
-        temporalImage = imageMagdalen
-        pictureSaints2.image = imageMagdalen
-        quotesLabel2.text = magdalenQuotes.randomFact ()
+    @IBAction func titusAction(sender: AnyObject) {
+        temporalBio = "St. Titus Brandsma"
+        temporalImage = imageTitus
+        pictureSaints2.image = imageTitus
+        quotesLabel2.text = titusQuotes.randomFact ()
         nameLabel2.text = names [4]
     }
     
@@ -191,7 +191,7 @@ class ViewController: UIViewController
     }
     
     @IBAction func andesAction (sender: AnyObject) {
-        temporalBio = "Bl. Teresa of the Andes"
+        temporalBio = "St. Teresa of the Andes"
         temporalImage = imageAndes
         pictureSaints2.image = imageAndes
         quotesLabel2.text = andesQuotes.randomFact ()

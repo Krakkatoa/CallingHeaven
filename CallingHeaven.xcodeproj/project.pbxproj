@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		711990BD1A82E533003DA19B /* MagdalenQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711990BC1A82E533003DA19B /* MagdalenQuotes.swift */; };
-		711990BF1A82E6DB003DA19B /* MagdalenLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711990BE1A82E6DB003DA19B /* MagdalenLife.swift */; };
-		711990C11A8310A6003DA19B /* MagdalenPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711990C01A8310A6003DA19B /* MagdalenPrayers.swift */; };
+		7105B84D1A857DF70070619C /* LizLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105B84C1A857DF70070619C /* LizLife.swift */; };
+		7105B85A1A857ED50070619C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8591A857ED50070619C /* AudioToolbox.framework */; };
+		7105B85C1A857EE40070619C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B85B1A857EE40070619C /* CFNetwork.framework */; };
+		7105B85E1A857EEF0070619C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B85D1A857EEF0070619C /* CoreGraphics.framework */; };
+		7105B8601A857EFF0070619C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B85F1A857EFF0070619C /* CoreLocation.framework */; };
+		7105B8621A857F0B0070619C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8611A857F0B0070619C /* MobileCoreServices.framework */; };
+		7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8631A857F180070619C /* QuartzCore.framework */; };
+		7105B8661A857F260070619C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8651A857F260070619C /* Security.framework */; };
+		7105B8681A857F310070619C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8671A857F310070619C /* StoreKit.framework */; };
+		7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8691A857F410070619C /* SystemConfiguration.framework */; };
+		7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86B1A857F5B0070619C /* libz.dylib */; };
+		7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86D1A857F6A0070619C /* libsqlite3.dylib */; };
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
 		715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E51A7D68C30075E32C /* TeresaLife.swift */; };
@@ -35,7 +44,6 @@
 		718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112141A70AE5900DA14D6 /* JesusLife.swift */; };
 		718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112161A70AE7400DA14D6 /* MariamLife.swift */; };
 		718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112181A70AE8500DA14D6 /* AndesLife.swift */; };
-		7181121B1A70AE9600DA14D6 /* LizLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181121A1A70AE9600DA14D6 /* LizLife.swift */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
 		719EE3471A26C724007131ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3461A26C724007131ED /* ViewController.swift */; };
 		719EE34A1A26C724007131ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719EE3481A26C724007131ED /* Main.storyboard */; };
@@ -43,6 +51,11 @@
 		719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34D1A26C724007131ED /* LaunchScreen.xib */; };
 		719EE35B1A26C724007131ED /* CallingHeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE35A1A26C724007131ED /* CallingHeavenTests.swift */; };
 		71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */; };
+		71F99EB31A8EE22A00254C5E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB21A8EE22A00254C5E /* Bolts.framework */; };
+		71F99EB51A8EE23700254C5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB41A8EE23700254C5E /* Parse.framework */; };
+		71F99EB81A8EEE7400254C5E /* TitusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EB71A8EEE7400254C5E /* TitusLife.swift */; };
+		71F99EBA1A8EEEA000254C5E /* TitusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */; };
+		71F99EBC1A8EEEA600254C5E /* TitusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */; };
 		71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB56F11A8431E600225BC0 /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,9 +70,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		711990BC1A82E533003DA19B /* MagdalenQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagdalenQuotes.swift; sourceTree = "<group>"; };
-		711990BE1A82E6DB003DA19B /* MagdalenLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagdalenLife.swift; sourceTree = "<group>"; };
-		711990C01A8310A6003DA19B /* MagdalenPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagdalenPrayers.swift; sourceTree = "<group>"; };
+		7105B84C1A857DF70070619C /* LizLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizLife.swift; sourceTree = "<group>"; };
+		7105B8591A857ED50070619C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7105B85B1A857EE40070619C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7105B85D1A857EEF0070619C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7105B85F1A857EFF0070619C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7105B8611A857F0B0070619C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7105B8631A857F180070619C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7105B8651A857F260070619C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7105B8671A857F310070619C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7105B8691A857F410070619C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7105B86B1A857F5B0070619C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7105B86D1A857F6A0070619C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
@@ -85,7 +107,6 @@
 		718112141A70AE5900DA14D6 /* JesusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusLife.swift; sourceTree = "<group>"; };
 		718112161A70AE7400DA14D6 /* MariamLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamLife.swift; sourceTree = "<group>"; };
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
-		7181121A1A70AE9600DA14D6 /* LizLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizLife.swift; sourceTree = "<group>"; };
 		719EE33F1A26C724007131ED /* CallingHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3431A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE3441A26C724007131ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +118,12 @@
 		719EE3591A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
 		71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Add-onsViewController.swift"; path = "../Add-onsViewController.swift"; sourceTree = "<group>"; };
+		71F99EB21A8EE22A00254C5E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		71F99EB41A8EE23700254C5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		71F99EB71A8EEE7400254C5E /* TitusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusLife.swift; path = ../../../../Desktop/CopiedFiles/TitusLife.swift; sourceTree = "<group>"; };
+		71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusPrayers.swift; path = ../../../../Desktop/CopiedFiles/TitusPrayers.swift; sourceTree = "<group>"; };
+		71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusQuotes.swift; path = ../../../../Desktop/CopiedFiles/TitusQuotes.swift; sourceTree = "<group>"; };
+		71F99EBD1A8EF61500254C5E /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging Header.h"; path = "../Bridging Header.h"; sourceTree = "<group>"; };
 		71FB56F11A8431E600225BC0 /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +132,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */,
+				7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */,
+				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
+				71F99EB31A8EE22A00254C5E /* Bolts.framework in Frameworks */,
+				7105B8681A857F310070619C /* StoreKit.framework in Frameworks */,
+				7105B8661A857F260070619C /* Security.framework in Frameworks */,
+				71F99EB51A8EE23700254C5E /* Parse.framework in Frameworks */,
+				7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */,
+				7105B8621A857F0B0070619C /* MobileCoreServices.framework in Frameworks */,
+				7105B8601A857EFF0070619C /* CoreLocation.framework in Frameworks */,
+				7105B85E1A857EEF0070619C /* CoreGraphics.framework in Frameworks */,
+				7105B85C1A857EE40070619C /* CFNetwork.framework in Frameworks */,
+				7105B85A1A857ED50070619C /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +158,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7105B84B1A857D6D0070619C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7105B8591A857ED50070619C /* AudioToolbox.framework */,
+				7105B85B1A857EE40070619C /* CFNetwork.framework */,
+				7105B86D1A857F6A0070619C /* libsqlite3.dylib */,
+				7105B86B1A857F5B0070619C /* libz.dylib */,
+				7105B8691A857F410070619C /* SystemConfiguration.framework */,
+				7105B8671A857F310070619C /* StoreKit.framework */,
+				7105B8651A857F260070619C /* Security.framework */,
+				7105B8631A857F180070619C /* QuartzCore.framework */,
+				7105B8611A857F0B0070619C /* MobileCoreServices.framework */,
+				7105B85F1A857EFF0070619C /* CoreLocation.framework */,
+				7105B85D1A857EEF0070619C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +197,17 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
+				71F99EBD1A8EF61500254C5E /* Bridging Header.h */,
+				71F99EB41A8EE23700254C5E /* Parse.framework */,
+				71F99EB21A8EE22A00254C5E /* Bolts.framework */,
+				718112121A70AE4300DA14D6 /* EdithLife.swift */,
 				71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */,
 				71FB56F11A8431E600225BC0 /* JournalViewController.swift */,
 				718112181A70AE8500DA14D6 /* AndesLife.swift */,
 				718112041A70AD3200DA14D6 /* AndesPrayers.swift */,
 				715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
-				718112121A70AE4300DA14D6 /* EdithLife.swift */,
+				7105B84B1A857D6D0070619C /* Frameworks */,
 				718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */,
 				715A93F91A7D6B340075E32C /* EdithQuotes.swift */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
@@ -156,14 +218,11 @@
 				712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */,
 				715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
-				7181121A1A70AE9600DA14D6 /* LizLife.swift */,
 				718112061A70AD5000DA14D6 /* LizPrayers.swift */,
+				7105B84C1A857DF70070619C /* LizLife.swift */,
 				718111FE1A70ACC900DA14D6 /* LizQuotes.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
 				718112161A70AE7400DA14D6 /* MariamLife.swift */,
-				711990BC1A82E533003DA19B /* MagdalenQuotes.swift */,
-				711990C01A8310A6003DA19B /* MagdalenPrayers.swift */,
-				711990BE1A82E6DB003DA19B /* MagdalenLife.swift */,
 				718112081A70AD7500DA14D6 /* MariamPrayers.swift */,
 				715A93F11A7D69560075E32C /* MariamQuotes.swift */,
 				715A93EF1A7D692D0075E32C /* saintViewController.swift */,
@@ -175,6 +234,9 @@
 				718112101A70AE2800DA14D6 /* ThereseLife.swift */,
 				715A94031A7D6CF20075E32C /* TheresePrayers.swift */,
 				715A94011A7D6CD10075E32C /* ThereseQuotes.swift */,
+				71F99EB71A8EEE7400254C5E /* TitusLife.swift */,
+				71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */,
+				71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */,
 				719EE3461A26C724007131ED /* ViewController.swift */,
 			);
 			path = CallingHeaven;
@@ -309,14 +371,13 @@
 				715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */,
 				71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */,
 				715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */,
+				71F99EBA1A8EEEA000254C5E /* TitusPrayers.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
 				718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */,
 				719EE3471A26C724007131ED /* ViewController.swift in Sources */,
-				711990C11A8310A6003DA19B /* MagdalenPrayers.swift in Sources */,
 				715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */,
 				718112091A70AD7500DA14D6 /* MariamPrayers.swift in Sources */,
-				711990BF1A82E6DB003DA19B /* MagdalenLife.swift in Sources */,
 				718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */,
 				715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */,
 				7181120D1A70ADC100DA14D6 /* JohnLife.swift in Sources */,
@@ -335,10 +396,11 @@
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */,
-				711990BD1A82E533003DA19B /* MagdalenQuotes.swift in Sources */,
-				7181121B1A70AE9600DA14D6 /* LizLife.swift in Sources */,
 				715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */,
+				71F99EB81A8EEE7400254C5E /* TitusLife.swift in Sources */,
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
+				71F99EBC1A8EEEA600254C5E /* TitusQuotes.swift in Sources */,
+				7105B84D1A857DF70070619C /* LizLife.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +461,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -418,6 +481,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -441,6 +505,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -453,6 +518,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -463,11 +529,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"/Users/my_mac/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 			};
 			name = Debug;
 		};
@@ -477,11 +550,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"/Users/my_mac/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 			};
 			name = Release;
 		};
@@ -500,6 +580,7 @@
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallingHeaven.app/CallingHeaven";
 			};
 			name = Debug;
@@ -515,6 +596,7 @@
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallingHeaven.app/CallingHeaven";
 			};
 			name = Release;

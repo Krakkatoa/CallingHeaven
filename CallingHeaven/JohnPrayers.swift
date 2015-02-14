@@ -5,159 +5,31 @@
 //  Created by My Mac on 1/8/15.
 //  Copyright (c) 2015 Carmel Heart Media. All rights reserved.
 //
-
 import Foundation
 
 struct JohnPrayers {
     
     let factsArray = [
         
-        "All ceased and I abandoned myself, leaving my cares forgotten among the lilies.",
+        "O Living Flame of Love,\n\n that wounds so tenderly in my soul's deepest center, \n\n As you are no longer oppressive, \n\n perfect your work in me if it is your will. \n\n Break the web of this sweet encounter. Amen.",
         
-        "My soul is occupied, and all my substance in His service. Now I guard no flock, Nor have I any other employment. My sole occupation is love",
+        "O sweet burn! \n\n O delecable wound! \n\n O tender hand, \n\n O gentle touch that savors of eternal life, \n\n and pays the whole  debt, \n\n by slaying you have changed death into life.\n\n O my God, the more gently you touch, the more you are hidden in the purified souls of those who have made themselves aliens on earth, and whom you hide in the secret of your face. \n\n O souls that seek your own ease and comfort! If you only knew how necessary suffering is if you are to reach union with God! If you understood this, you would take up the cross with the vinegar and gall and account this a priceless favor, knowing that by dying to the world and your own selves, you would then live for God in spiritual joy. \n\n It is necessary for the soul to endure tribulations with great patience, accepting all as coming from God's hand for its healing and its good. Amen.",
         
-        "All my occupation now is the practice of the love of God. All the powers of soul and body, memory, understanding, and will, interior and exterior senses, the desires of spirit and of sense, all work in and by love. All I do is done in love; all I suffer, I suffer in the sweetness of love.",
+        "Let Your divinity shine on my intellect by giving it divine knowledge, and on my will by imparting to it the divine love and on my memory with the divine possession of glory. Amen.",
         
-        "He who loves is not ashamed before men of what he does for God, neither does he hide it through shame though the whole world should condemn it.",
+        "Let us so act that by means of this loving activity we may attain to the vision of ourselves in Your beauty in eternal life.  That is: That I be so transformed in Your beauty that we may be alike in beauty, and both behold ourselves in Your beauty, possessing now Your very beauty; this, in such a way that each looking at the other may see in the other his own beauty, since both are Your beauty alone, I being absorbed in Your beauty; hence, I shall see You in Your beauty, and You shall see me in Your beauty, and I shall see myself in You in Your beauty, and You will see Yourself in me in Your beauty; that I may resemble You in Your beauty, and You resemble me in Your beauty, and my beauty will be Your beauty and Your beauty my beauty; wherefore I shall be You in Your beauty, and You will be me in Your beauty, because Your very beauty will be my beauty; and therefore we shall behold each other in Your beauty. Amen.",
         
-        "Deny your desires and you will find what your heart longs for. For how do you know if any desire of yours is according to God?",
+        "O abyss of delights!  You are so much the more abundant the more Your riches are concentrated in the infinite unity and simplicity of Your unique being, where one attribute is so known and enjoyed as not to hinder the perfect knowledge and enjoyment of the other; rather, each grace and virtue within You is a light for each of Your other grandeurs.  By Your purity, O divine Wisdom, many things are behold in You through one.  For You are the deposit of the Father’s treasures, the splendor of the eternal light, the unspotted mirror and image of His goodness. Amen.",
         
-        "If you wish to attain holy recollection, you will do so not by receiving but by denying.",
+        "Awaken and enlighten us, my Lord, that we might know and love the blessings which You ever propose to us, and that we might understand that You have moved to bestow favors on us and have remembered us. Amen.",
         
-        "Souls will be unable to reach perfection who do not strive to be content with having nothing, in such fashion that their natural and spiritual desire is satisfied with emptiness. For this is necessary in order to reach the highest tranquility and peace of spirit. Hence the love of God in the pure and simple soul is almost continually in act.",
+        "O Lord, my God, who will seek You with simple and pure love and not find You are all he desires, for You show Yourself first and go out to meet those who desire You? My spirit has become dry because it forgets to feed on You. Amen.",
         
-        "Although you perform many works, if you do not deny your will and submit yourself, losing all solicitude about yourself and your affairs, you will not make progress.",
+        "Prayer of a Soul Taken with Love \n\n Lord God, my Beloved, if You remember still my sins in suchwise that You do not do what I beg of You, do Your will concerning them, my God, which is what I most  desire, and exercise Your goodness and mercy, and You will be known through them.  And if it is that You are waiting for my good works so as to hear my prayer through their means, grant them to me, and work them for me, and the sufferings You desire to accept, and let it be done.  But if You are not waiting for my works, what is it that makes You wait, my most clement Lord?  Why do You delay?  For if, after all, I am to receive the grace and mercy which I entreat of You in Your Son, take my mite, since You desire it, and grant me this blessing, since You also desire that. Who can free himself from the lowly manners and limitations if You do not lift him to Yourself, my God, in purity of love?  How will a man begotten and nurtured in lowliness rise up to You, Lord, if You do not raise him with Your hand which made him? You will not take from me, my God, what You once gave me in Your only Son, Jesus Christ in Whom You gave me all I desire.  Hence I rejoice that if I wait for You, You will not delay.With what procrastinations do You wait, since from this very moment you can love God in your heart? Mine are the heavens and mine is the earth.  Mine are the nations, the just are mine, and mine the sinners.  The angels are mine, and the Mother of God, and all things are mine; and God Himself is mine and for me, because Christ is mine and all for me.What do you ask, then, and seek, my soul?  Yours is all of this, and all is for you.  Do not engage yourself in something less, nor pay heed to the crumbs which fall from your Father’s table.  Go forth and exult in your Glory!  Hide yourself in It and rejoice, and you will obtain the supplications of your heart. Amen.",
         
-        "The very pure spirit does not bother about the regard of others or human respect, but communes inwardly with God, alone and in solitude as to all forms, and with delightful tranquility, for the knowledge of God is received in divine silence.",
+        "Oh, how sweet Your presence will be to me, You Who are the supreme good!  I must draw near You in silence  pleased to unite me to You in … I rejoice in Your arms.  Now I ask You, Lord, do not abandon me at any time in my recollection, for I know not the value of my soul. Amen.",
         
-        "Love consists not in feeling great things but in having great detachment and in suffering for the Beloved.",
-        
-        "Strive to preserve your heart in peace; let no event of this world disturb it; reflect that all must come to an end.",
-        
-        "Whoever flees prayer flees all that is good.",
-        
-        "If a man wishes to be sure of the road he treads on, he must close his eyes and walk in the dark.",
-        
-        "It is great wisdom to know how to be silent and to look at neither the remarks, nor the deeds, nor the lives of others",
-        
-        "Beloved, all that is harsh and difficult I want for myself, and all that is gentle and sweet for thee",
-        
-        "In tribulation, immediately draw near to God with confidence and you will receive strength, enlightenment, and instruction.",
-        
-        "If you purify your soul of attachment to and desire for things, you will understand them spiritually. If you deny your appetite for them, you will enjoy their truth, understanding what is certain in them.",
-        
-        "He who interrupts the course of his spiritual exercises and prayer is like a man who allows a bird to escape from his hand. He can hardly catch it again",
-        
-        "Abide in peace, banish cares, take no account of all that happens, and you will serve God according to his good pleasure and rest in him.",
-        
-        "The soul that is attached to anything, however much good there may be in it, will not arrive at the liberty of divine union. For whether it be a strong wire rope or a slender and delicate thread that holds the bird, it matters not, if it really holds it fast; for, until the cord be broken the bird cannot fly",
-        
-        "To saints, their very slumber is a prayer",
-        
-        "The wisdom of this world is foolishness with God. The soul has to proceed rather by unknowing rather than knowing.",
-        "The soul is wearied and fatigued by its desires. The (desires) disturb it, allowing it not to rest in any place or in any thing whatsoever. The desires and indulgence in them all cause it greater emptiness and hunger.",
-        
-        "The soul that is clouded by the desires is darkened in the understanding and allows neither the sun of natural reason nor that of the supernatural Wisdom of God to shine upon it and illumine it clearly.",
-        
-        "Faith is a dark night for man, but in this very way it gives him light.",
-        "Time is but a shadow, a dream. Already God sees us in glory and takes joy in our eternal beatitude. How this thought helps my soul! I understand then why He lets us suffer.",
-        
-        "In the evening of life, we will be judged on love alone.",
-        "By thy sweet breathing, how delicately thou inspirest love to me.",
-        
-        "It is great wisdom to know how to be silent and to look at neither the remarks, nor the deeds, nor the lives of others.",
-        
-        "Desolation is a file, and the endurance of darkness is preparation for great light.",
-        
-        "The soul that is attached to anything however much good there may be in it, will not arrive at the liberty of divine union. For whether it be a strong wire rope or a slender and delicate thread that holds the bird, it matters not, if it really holds it fast; for, until the cord be broken the bird cannot fly.",
-        
-        "Take God for your spouse and friend and walk with him continually, and you will not sin and will learn to love, and the things you must do will work out prosperously for you.",
-        
-        "I abandoned and forgot myself, laying my face on my Beloved; all things ceased; I went out from myself, leaving my cares forgotten among the lilies.",
-        
-        "Reveal Thy presence, and let the vision and Thy beauty kill me. Behold the malady of love is incurable, except in Thy presence and before Thy face.",
-        
-        "He who loves is not ashamed before men of what he does for God, neither does he hide it through shame though the whole world should condemn it.",
-        
-        "One human thought alone is worth more than the entire world, hence God alone is worthy of it.",
-        
-        "The very pure spirit does not bother about the regard of others or human respect, but communes inwardly with God, alone and in solitude as to all forms, and with delightful tranquility, for the knowledge of God is received in divine silence.",
-        
-        " Souls will be unable to reach perfection who do not strive to be content with having nothing, in such fashion that their natural and spiritual desire is satisfied with emptiness.",
-        
-        "...For this is necessary in order to reach the highest tranquility and peace of spirit- Hence the love of God in the pure and simple soul is almost continually in act.",
-        
-        "Live in the world as though only God and yourself were in it. Then your heart will never be made captive by any earthly thing.",
-        
-        "He who seeks the cross of Christ seeks not the glory of Christ.",
-        
-        "Speak little and do not meddle in other's matters about which you are not asked.",
-        
-        "If a person is seeking God, his Beloved is seeking him much more.",
-        
-        "In the evening of life, we will be judged on love alone.",
-        
-        "Let your speech be such that no one may be offended, and let it concern things that would not ause you regret were all to know of them.",
-        
-        "Since, when the hour of reckoning comes, you will be sorry for not having used this time in the service of God, why do you not arrange and use it now as you would wish to have done were you dying?",
-        
-        "O Living flame of love that tenderly wounds my soul in its deepest center! Since now you are oppressive now consumate! If it be your will, tear through the veil of this sweet encounter!",
-        
-        "To be taken with love for a soul, God does not look on its greatness, but the greatness of its humility.",
-        
-        "Conquering the tongue is better than fasting on bread and water.",
-        
-        "If a man wishes to be sure of the road he treads on, he must close his eyes and walk in the dark.",
-        
-        "Now that I no longer desire it all, I have it all, without desire.",
-        
-        "Whoever knows how to die in all will have life in all.",
-        
-        "All the gifts of the Holy Spirit, first and last, great and small, which God grants the soul, He always grants in order to lead it to eternal life.",
-        
-        "Be hostile to admitting into your soul things that of themselves have no spiritual substance, lest they make you lose your liking for devotion and recollection.",
-        
-        "I didn't know you, my Lord, because I still desired to know and relish things.",
-        
-        "The appetites are leeches, always calling, 'Give more, give more.'",
-        
-        "Blessed are they who set aside their own inclincations and consider things according to reason and justice before doing them.",
-        
-        "Love works so in me that whether things go well or badly, love turns all to one sweetness.",
-        
-        "Travelers cannot reach new territory if they do not taken new and unknown roads and abandon the familiar ones.",
-        
-        "Take God for your spouse and friend and walk with him continually, and you will not sin and will learn to love, and the things you must do will work out prosperously for you.",
-        
-        "Whenever anything disagreeable or displeasing happens to you, remember Christ crucified and be silent.",
-        
-        "In the dark night of the soul, bright flows the river of God.",
-        
-        "And I saw the river over which every soul must pass to reach the kingdom of heaven and the name of that river was suffering: and I saw a boat which carries souls across the river and the name of that boat was love.",
-        
-        "Take neither great nor little notice of who is with you or against you, and try aways to please god. Ask Him that His will be done in you.",
-        
-        "What we need most in order to make progress is to be silent before this great God with our appetite and with our tongue, for the language He best hears is silent love.",
-        
-        "The light of grace which God gives to the soul, opening its eyes to behold the Divine light, and making it pleasing to Himself, calls to ever greater depths of grace, which will ultimately transform the soul to God.",
-        
-        "We must be truly resolved to suffer willingly for the love of God in all things.",
-        
-        "Be deeply sorry for any time that is lost or passes without your loving God.",
-        
-        "Faith and love are like the blind man's guides. They will lead you along a path unknown to you, to the place where God is hidden.",
-        
-        "Abide in peace, banish cares, take no account of all that happens and you will serve God according to his good pleasure and rest in Him.",
-        
-        "I did not have to ask my heart what it wanted because of all the desires I have ever known, just one did I cling to, for it was the essence of all desire: to know beauty.",
-        
-        "Extinguish these miseries, since no one else can stamp them out; and may my eyes behold you, because you are their light- and I would open them to you alone.",
-        
-        "Do not feed your soul on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
-        
-        ///70
-        
-        
+        ///9
         
         
     ]
@@ -172,6 +44,5 @@ struct JohnPrayers {
     }
     
 }
-
 
 

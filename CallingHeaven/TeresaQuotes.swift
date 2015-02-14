@@ -207,7 +207,42 @@ struct TeresaQuotes {
         
     //94
         
+        "With so good a Friend and Captain ever present, Himself the first to suffer, everything can be borne. He helps, He strengthens, He never fails, He is the true Friend."  ,
         
+        "I am not asking you to make many reflections, to produce grand and subtle considerations with your intellect, or to feel deep devotion: I only ask you to look at Him.",
+        
+        "He does not force our wills but only takes what we give Him, but He does not give Himself entirely until He sees that we yield ourselves entirely to Him.",
+        
+        "Had I understood always, as I do now, that so great a King resided in my soul, I should not have left Him alone so often, but should have stayed with Him sometimes and not kept His dwelling place in such disorder.",
+        
+        "He wills that we desire only what is safe; We love danger. All things are vanity, save to ask God to deliver us from these dangers forever and to preserve us now from all evil.",
+        
+        "Before prayer, endeavor to realize Whose Presence you are approaching and to Whom you are about to speak, keeping in mind Whom you are addressing.",
+        
+        //100
+        
+        "May it please His Majesty to give us His love before He takes us out of this life, for it will be a great thing at the hour of death to see that we are going to be judged by the One whome we have loved above all things.",
+        
+        
+        "We shall never completely know ourselves if we don't strive to know God.",
+        
+        "Christ has no body now but yours \n No hands, no feet on earth but yours \n Yours are the eyes through which He looks \n Compassion on this world \n Yours are the feet with which He walks to do good \n Yours are the hands with which He blesses all the world \n Yours are the hands \n Yours are the feet \n Yours are the eyes \n You are His body \n Christ has no body now on earth but yours.",
+        
+        "In the presence of Jesus in the Holy Sacrament we ought to be like the Blessed in heaven before the Divine Essence.",
+        
+        "Vocal prayer must be accompanied by reflection. A prayer in which a person is not aware of to Whom he is speaking, what he is asking, who it is who is asking and of Whom, I don't call prayer, no matter how much the lips may move.",
+        
+        "Oh, how I suffer now when I recall how I forgot the longings of my childhood! My God, since you seem to have decided to rescue me, let it be your glorious will to do so.... Why did this soul, which you have selected for your habitation and showered with grace, become spotted like this? I feel great pain remembering it, for I know very well that I alone was guilty. You, Oh Lord, have left nothing untried to open my eyes ever since my youngest days.",
+        
+        "Mental prayer in my opinion is nothing more than an intimate sharing between friends; it means taking time frequently to be alone with Him who we know loves us.",
+        
+        "O my God, You give me the keenest desire not to displease You in any respect whatsoever, however trivial, or to commit so much as an imperfection if I could avoid doing so.  For this reason alone, if for no other, I would like to flee from other people, and I envy those who live, or have lived, in deserts.  On the other hand, I would like to plunge right into the heart of the world, to see if by doing this I could help even one soul to praise God more.",
+        
+        "May He be blessed forever Who waited for me so long!" ,
+        
+        "Always think of yourself as everyone's servant; look for Christ our Lord in everyone, and you will then have respect and reverence for them all.",
+        
+        //110
     ]
     
     func randomFact() -> String {

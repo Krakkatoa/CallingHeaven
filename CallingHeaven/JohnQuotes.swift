@@ -154,17 +154,17 @@ struct JohnQuotes {
         "Do not feed your soul on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
         
         "The road is narrow. He who wishes to travel it more easily must cast off all things and use the cross as his cane. In other words, he must be truly resolved to suffer willingly for the love of God in all things.",
-    ///71
-    
-"Strive always to confess your sins with a deep knowledge of your own wretchedness and with clarity and purity.",
+        ///71
         
-    "To be taken with love for a soul, God does not look on its greatness, but the greatness of its humility.",
+        "Strive always to confess your sins with a deep knowledge of your own wretchedness and with clarity and purity.",
+        
+        "To be taken with love for a soul, God does not look on its greatness, but the greatness of its humility.",
         
         "A soul enkindled with love is a gentle, meek, humble, and patient soul.",
-     
+        
         "What we need most in order to make progress is to be silent before this great God with our appetite and with our tongue, for the language he best hears is silent love.",
         
-       "Obedience is a penance of reason, and, on that account, a sacrifice more acceptable than all corporal penances and mortifications.",
+        "Obedience is a penance of reason, and, on that account, a sacrifice more acceptable than all corporal penances and mortifications.",
         
         "God is more pleased to behold the lowest degree of obedience, for His sake, than all other good works which you can possibly offer to Him.",
         
@@ -176,13 +176,65 @@ struct JohnQuotes {
         
         "Dear brothers and sisters, I pray God may open your eyes and let you see what hidden treasures he bestows on us in the trials from which the world thinks only to flee. Shame turns into honor when we seek God's glory. Present affliction become the source of heavenly glory. To those who suffer wounds in fighting his battles God opens his arms in loving, tender friendship. That is why he (Christ) tells us that if we want to join him, we shall travel the way he took. It is surely not right that the Son of God should go his way on the path of shame while the sons of men walk the way of worldly honor: 'The disciple is not above his teacher, nor the servant greater than his master.",
         
-        
         "God passes through the thicket of the world, and wherever His glance falls He turns all things to beauty.",
-    
+        
         "Whoever does not seek the cross of Christ doesn't seek the glory of Christ.",
         
         //83
         
+        "Before the divine fire enters the soul and becomes one with its depths, the Holy Spirit wounds it, destroying and consuming the imperfections of its evil habits.",
+        
+        "It is not a refreshing, peaceful fire, but a consuming and searching one that makes the soul grieve at the sight of itself. The soul perceives its own smallness in comparison with the immensity of the flame.",
+        
+        "Love unites the soul with God; and the more love the soul has, the more powerfully it enters into God and is centered on Him.",
+        
+        "The center of the soul is God. When the soul loves and understands and enjoys God to its utmost capacity, it will have reached its deep center, God.",
+        
+        "Here the soul rejoices in the glory of God, under the protection of His shadow. It is immersed in the waters of the Divinity which freely penetrate the whole person.",
+        
+        "When the soul offers the sacrifice of love, it becomes liviing flames of fire. If we consider that the soul is transformed in God, it will be understood how, in some manner, it has in truth become a fountain of liviing water, boiling and burning in the fire of love- God Himself.",
+        
+        "He joyfully reveals His face to you, saying to you, 'I am yours, completely yours. And my hapiness is to be who I am so that I may give Myself to you and be all yours.'",
+        
+        "The soul must be attached to nothing, whether sense or spirit, which would introduce noise into the deep silence. There, the voice of God speaks to the heart in this secret place, in utmost peace and tranquility.",
+        
+        "Let the soul then leave itself in the hands of God and have confidence in Him. Let it not trust itself to the hands and works of others, for if it stays in God's care, it will certainly make progress.",
+        
+        "How impossible it is for a soul to judge the things of God aright! To do so, it must completely get rid of its desires and pleasures apart from God.",
+        
+        "The light of grace which God gives to the soul, opening its eyes to behold the divine life, and making it pleasing to himself, calls to ever greater depths of grace, which will ultimately transform the soul in God.",
+        
+        "Wait upon God with loving and pure attentiveness, working no violence on yourself, lest you disturb the soul's peace and tranquility. God will feed your soul with heavenly food since you put no obstacle in His way.",
+        
+        //95
+        
+        "How gently and lovingly you awaken in my heart, where you dwell secretly and alone. And in your sweet breathing, filled with blessing and glory, you tenderly inspire me with love.",
+        
+        "Do not feed your spirit on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
+        
+        "He then tht seeks happiness in other things is not keeping himself empty for God to fill with his own unspeakable joy.",
+        
+        "As a man goes to God so does he leave Him; and if his hands are full, he cannot take into the what God wants to give.",
+        
+        "Live in faith and hope, even though you are in darkness, for in this darkness, God enfolds the soul. Cast your cares upon God, for you are His, and He will never forget you.",
+        
+        "The immense benefits of God can only be contained by empty and solitary hearts. Therefore, our Lord, who loves you greatly, wishes you to be quite alone, for he desires to be your only companion.",
+        
+        //101
+        
+        "Mine are the heavens and mine is the earth. Mine are the nations, the just are mine, and mine the sinners. The angels are mine, and the Mother of God, and all things are mine; and God himself is mine and for me, because Christ is mine and all for me. What do you ask, then, and seek, my soul? Yours is all of this, and all is for you. Do not engage yourself in anything less or pay heed to the crumbs that fall from your Father’s table. Go forth and exult in your Glory! Hide yourself in it and rejoice, and you will obtain the supplications of your heart.",
+        
+        "With the divinest Word, the Virgin, made pregnant, down the road comes walking, if you'll grant her a room in your abode.",
+        
+        "O soul, most beautiful of creatures, who so earnestly longs to know the place where your Beloved is, that you may seek him and be united to him.  You are yourself thevery tabernacle where he dwells, the secret chamber of his retreat where he is hidden.  Rejoice therefore and exult, because all your good and all your hope is so near you as to be within you. Yes, rather rejoice that you cannot be without it, for lo ;the kingdom of God is within you;.  So says the Bridegroom himself, and his servant St. Paul adds: 'You are the temple of the living God'.  What joy for the soul to learn that God never abandons it even in mortal sin, how much less in a state of grace:  What more can you desire, what more  can you seek outside, seeing that within you you have your riches, your delight, your Beloved whom you seek and desire.",
+        
+        "One love in them all makes of them one Lover,\n and the Lover is the Beloved in whom each one lives.\n For the being that the three possess each of them possesses,\n and each of them loves him who bears this being.\n Each one is this being, which alone unites them,\n binding them deeply, one beyond words.",
+        
+        "Who can free themselves from lowly manners and limitations if you do not lift them to yourself, my God, in purity of love? How will human beings begotten and nurtured in lowliness rise up to you, Lord, if you do not raise them with your hand that made them?",
+        
+        "Mine are the heavens and  mine is the earth; mine are the people, the righteous are mine and mine are the sinners; the angels are mine and the Mother of God, and all things are mine; and God Himself is mine and for me, for Christ is mine and all for me. What then do you ask for and seek, my soul? Yours is all this, and it is all for you. ",
+        
+        //108
     ]
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)
@@ -193,6 +245,10 @@ struct JohnQuotes {
     }
     
 }
+
+
+
+
 
 
 

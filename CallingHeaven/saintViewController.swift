@@ -49,10 +49,10 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = theresePrayers.randomFact())
         case "St. Edith Stein": (testLabel.text = edithPrayers.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
-        case "St. Magdalen de Pazzi": (testLabel.text = magdalenPrayers.randomFact ())
+        case "St. Titus Brandsma": (testLabel.text = titusPrayers.randomFact ())
         case "Bl. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
-        case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
+        case "St. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
             
             
         default: println("Something else") }
@@ -63,7 +63,7 @@ class saintViewController: UIViewController {
     let theresePrayers = TheresePrayers ()
     let edithPrayers = EdithPrayers ()
     let jesusPrayers = JesusPrayers ()
-    let magdalenPrayers = MagdalenPrayers ()
+    let titusPrayers = TitusPrayers ()
     let mariamPrayers = MariamPrayers ()
     let lizPrayers = LizPrayers ()
     let andesPrayers = AndesPrayers ()
@@ -80,10 +80,10 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
         case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
-        case "St. Magdalen de Pazzi": (testLabel.text = magdalenLife.randomFact())
+        case "Bl. Titus Brandsma": (testLabel.text = titusLife.randomFact())
         case "Bl. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
-        case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
+        case "St. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
             
             
             
@@ -97,7 +97,7 @@ class saintViewController: UIViewController {
     let thereseLife = ThereseLife ()
     let edithLife = EdithLife ()
     let jesusLife = JesusLife ()
-    let magdalenLife = MagdalenLife ()
+    let titusLife = TitusLife ()
     let mariamLife = MariamLife ()
     let lizLife = LizLife ()
     let andesLife = AndesLife ()

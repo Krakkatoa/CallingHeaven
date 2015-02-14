@@ -12,7 +12,7 @@ struct LizQuotes {
     
     let factsArray = [
         
-       //01/30 6:25    
+       //01/30 6:25
         
         "If I prayed more, then everything else would go smoother. So, I make the effort.'",
         
@@ -117,9 +117,74 @@ struct LizQuotes {
         " For my heart is always with Him, day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection. Also within it arises this desire: not to die, but to suffer long, to suffer for God, to give Him its life while praying for poor sinners.  ",
         
         
-        " Quotes go here. ",
+        " I can't find words to express my happiness. Here there is no longer anything but God. He is All; He suffices and we live by Him alone. ",
         
-        " Quotes go here. ",
+        " When we consider the divine world that envelops us already here in our exile and in which we can move, oh, then things here below disappear;  all of that doesn’t exist, it is less than nothing.  The saints, for their part, understood true knowledge so well, the knowledge that makes us leave everything, and especially ourselves, so we can fly to God and live solely with Him!",
+        
+        "O Consuming Fire, Spirit of Love, descend into my soul and make all in me as an incarnation of the Word, that I may be to Him a super-added humanity wherein He renews His mystery; and You, O Father, bestow Yourself and bend down to Your little creature, seeing in her only Your beloved Son in whom You are well pleased.",
+      
+        "Because our Lord lives in our soul, His prayer dwells within us and it is there I want to abide without ceasing, as a little vase at the source and fountain of life, sharing this prayer with others by letting it overflow in ways of unending love.",
+        
+        "It does us much good to look into the soul of saints and then to follow them through faith right up to Heaven; there, they are all luminous with the light of God, whom they contemplate face to face for all eternity!… The Heaven of the saints is our homeland. It is the Father’s House where we are awaited, where we are loved, where one day we, too will be able to fly and rest in the bosom of Infinite Love!",
+        
+        "I have found heaven on earth, since heaven is God, and God is in my soul. My mission in heaven will be to draw souls, helping them to go out of themselves to cling to God, with a spontaneous, love-filled action, and to keep them in that great interior silence which enables God to make his mark on them, to transform them into himself.",
+        
+        "For my heart is always with Him, day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection.",
+        
+        
+        //54
+        // 2/11- 6:45 pm p 142
+        
+        "How indispensable this inner unity is for he soul that wants to live here below the life of the blessed, that is, of simple beings, of spirits.",
+        
+        "It seems to me, therefore, that to keep one's strength for the Lord is to unify one's whole being by means of interior silence, to collect all one's powers in order to 'employ' them in the 'one act of love,' to have this 'single eye' which allows the light of God to enlighten us.",
+        
+        "My soul is always in my hands! What does that mean but this complete self-possession in the presence of the peaceful One.",
+        
+        "A soul that debates with itself, that is taken up with its feelings, and pursues useless thoughts and desires, scatters his forces, for it is not wholly directed toward God.",
+        
+        "The glorified have this repose of the abyss because they contemplate God in the simplicity of His essence.",
+        
+        "It seems to me that it would give immense joy to the heart of God if we would perfect in the heaven of our soul this occupation of the blessed and cling to Him 'in His image and likeness.'",
+        
+        "Such was the Creator's dream: to be able to contemplate Himself in His creature and see reflected there all His perfections, all His beauty as though through a pure and flawless crystal. Is not that a kind of extension of His own glory?",
+        
+        "The soul, by the simplicity of the gaze which it fixes on its divine object, finds itself set apart from all that surrounds it.",
+        
+        "If I want my interior city to hve some similarity and likeness to that 'of the King of eternal ages' and to receive this great illumination from God, I must extinguish every other light and, here as in the holy city, the Lamb must be 'its only light.'",
+        
+        "Here, faith, the beautiful light of faith appears. I alone would light my way as I go to meet the Bridegroom.",
+        
+        "What stands out for me in this apparant contradiction is that I must immerse myself in 'the sacred darkness' by putting all my powers in darkness and emptiness; then I will meet my Master, and 'the light that surrounds Him like a cloak' will envelop me also, for He wants His bride to be luminous with His light, His light alone 'which is the glory of God.",
+        
+        "What does it matter to the soul that is absorbed in recollection of the light which these words create in it, whether it feels or does not feel, whether it is darkness or light, whether it enjoys or does not enjoy.",
+        
+        "The soul that wants to serve God day and night in His temple- I mean, this inner sanctuary of which St. Paul speaks when he says,'The temple of God is holy and you are that temple,' this soul must be resolved to share fully in its Master's passion.",
+        
+        "He wants to associate His bride in His work of redemption and this sorrowful way which she follows seems like the path of beatitude to her, not only because it leads there but also because her holy Master makes her realize that she must go beyond the bitteress in suffering to find it, as he did, her rest.",
+        
+        "That is the condition: we must be dead! Without that we may be hidden in God at certain moments; but we do not LIVE habitually in this divine Being because all our emotions, self-seeking and the rest, come to draw us out of Him.",
+        
+        "O blessed death in God! O sweet and gentle loss of self in the beloved Being which permits the creature to cry out: 'I live, no longer I, but Christ lives in me. And the life that I now live in this body of death, I live in the faith of the Son of God, who loved me and gave Himself up for me.",
+        
+        "Consequently, my fidelity in corresponding with each of His decrees, with each of His interior commands makes me live in His light; it too is a 'message which passes on His glory.'",
+        
+        "How very consoling that is! My weakness, my weaknesses, m dislikes, my mediocrity, my faults themselves tell the flory of the Eternal! My suferings of soul or body also tell the glory of my Master.",
+        
+        "The soul that by the depth of its interior gaze contemplates its God through everything in that simplicity that sets it apart from all things is a 'radiant' soul: i is a 'day that passes on to day the message of His glory.",
+        
+        "How can I imitate in the heaven of my soul this unceasing occupation of the blessed in the Heaven of glory? How can I sustain this uninterrupted praise and adoration?",
+        
+        "To be rooted and grounded in love; such it seems to me is the condition for worthily fulfilling its work as praise of glory.",
+        
+        "The soul should 'fall down,' should plunge into the abyss of its nothingness, sinking so deeply into it that in the beautiful expression of a mystic, it finds 'true, unchanging and perfect peace which no one can disturb, for it has plunged so low that no one will look for it there. Then, it can adore.",
+        
+        //p.150, 7:45, 22 quotes, total now is 76.
+        
+        
+        
+        
+        
         
     
     ]
