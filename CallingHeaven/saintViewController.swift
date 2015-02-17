@@ -134,9 +134,6 @@ class saintViewController: UIViewController {
 }
  
     
-    
-    
-    
  //Social Media Integration.
     
     var messageString:String = " (Sent via the Calling Heaven App from Carmel Heart Media. Coming soon!)"

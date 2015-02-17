@@ -56,6 +56,7 @@
 		71F99EB81A8EEE7400254C5E /* TitusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EB71A8EEE7400254C5E /* TitusLife.swift */; };
 		71F99EBA1A8EEEA000254C5E /* TitusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */; };
 		71F99EBC1A8EEEA600254C5E /* TitusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */; };
+		71F99EBE1A8EFD6800254C5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB41A8EE23700254C5E /* Parse.framework */; };
 		71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB56F11A8431E600225BC0 /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F99EBE1A8EFD6800254C5E /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +574,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"/Users/my_mac/Downloads/parse-library-1",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -592,6 +595,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"/Users/my_mac/Downloads/parse-library-1",
 				);
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

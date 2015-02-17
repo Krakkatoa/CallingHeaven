@@ -234,7 +234,8 @@ struct JohnQuotes {
         
         "Mine are the heavens and  mine is the earth; mine are the people, the righteous are mine and mine are the sinners; the angels are mine and the Mother of God, and all things are mine; and God Himself is mine and for me, for Christ is mine and all for me. What then do you ask for and seek, my soul? Yours is all this, and it is all for you. ",
         
-        //108
+        "The Father spoke one Word, which was His Son, and this Word He speaks always in eternal silence, and in silence must it be heard by the soul.",
+        //109
     ]
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)
