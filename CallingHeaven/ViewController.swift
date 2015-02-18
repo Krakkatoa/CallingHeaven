@@ -67,7 +67,7 @@ class ViewController: UIViewController
     
     //VC 1
     
-    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "St. Titus Brandsma", "Bl. Mariam Baouardy", "St. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
+    var names: [String] = ["St. Teresa of Avila", "St. John of the Cross", "St. Therese of Lisieux", "St. Edith Stein", "Bl. Titus Brandsma", "Bl. Mariam Baouardy", "St. Teresa of the Andes", "Bl. Elizabeth of the Trinity", "Jesus Christ"]
     
     let teresaQuotes = TeresaQuotes ()
     let johnQuotes =  JohnQuotes ()
@@ -174,7 +174,7 @@ class ViewController: UIViewController
     
     
     @IBAction func titusAction(sender: AnyObject) {
-        temporalBio = "St. Titus Brandsma"
+        temporalBio = "Bl. Titus Brandsma"
         temporalImage = imageTitus
         pictureSaints2.image = imageTitus
         quotesLabel2.text = titusQuotes.randomFact ()

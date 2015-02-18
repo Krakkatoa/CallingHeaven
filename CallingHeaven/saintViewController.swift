@@ -49,7 +49,7 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = theresePrayers.randomFact())
         case "St. Edith Stein": (testLabel.text = edithPrayers.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
-        case "St. Titus Brandsma": (testLabel.text = titusPrayers.randomFact ())
+        case "Bl. Titus Brandsma": (testLabel.text = titusPrayers.randomFact ())
         case "Bl. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
         case "St. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())

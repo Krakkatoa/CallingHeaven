@@ -208,7 +208,7 @@
                                 <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
                             </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
-                                <rect key="frame" x="16" y="20" width="112" height="41"/>
+                                <rect key="frame" x="16" y="20" width="112" height="34"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
                                 <color key="textColor" red="0.92549026012420654" green="0.90196084976196289" blue="0.65882354974746704" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
@@ -322,7 +322,7 @@
                                 <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" indicatorStyle="black" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-p8-Y7Q">
-                                <rect key="frame" x="63" y="41" width="448" height="223"/>
+                                <rect key="frame" x="63" y="43" width="448" height="97"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light"/>
                             </textView>
@@ -345,13 +345,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1F-rU-zwt">
-                                <rect key="frame" x="446" y="20" width="46" height="30"/>
+                                <rect key="frame" x="432" y="12" width="46" height="23"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="saveData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="hJX-yt-TvG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqL-O9-xoq">
+                                <rect key="frame" x="486" y="12" width="46" height="23"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="retrieveData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="KTv-YQ-EGl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -543,7 +554,7 @@
         <image name="quotepacks-0203" width="1281" height="722"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="epE-0Q-vlb"/>
         <segue reference="ECT-Qv-HAb"/>
+        <segue reference="epE-0Q-vlb"/>
     </inferredMetricsTieBreakers>
 </document>

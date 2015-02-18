@@ -10,49 +10,58 @@ import UIKit
 
 class JournalViewController: UIViewController {
     
-    
+   
   
     @IBOutlet weak var journalTextView: UITextView!
-
-    @IBAction func backAction(sender: AnyObject)  { self.dismissViewControllerAnimated(true) { () -> Void in }
-  
-        
-   
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        if let journalIsNotNill = defaults.objectForKey("journal") as? String {
-            self.journalTextView.text = defaults.objectForKey("journal") as String
-        }
-        // Do any additional setup after loading the view.
-    }
     
-    
-    
-    
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+      @IBAction func backAction(sender: AnyObject)  { self.dismissViewControllerAnimated(true) { () -> Void in }
     }
     
     @IBAction func saveData(sender: AnyObject)
-    {var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        defaults.setObject(self.journalTextView.text, forKey: "journal")
-        self.journalTextView.resignFirstResponder()
-        var testObject: PFObject = PFObject(className: "TestObject")
-        testObject["foo"] = "bar";
-        testObject.saveInBackgroundWithBlock { (success: Bool!, error: NSError!) -> Void in if (success != nil) { NSLog("Object created with id: \(testObject.objectId)") } else { NSLog("%@", error) } }
         
-        //that line dismisses the keyboard
+    { var journalEntry = PFObject(className:"JournalEntry")
+        journalEntry["myJournal"] = "whatever"
+         let myJournal = journalEntry["myJournal"] as String
+        self.journalTextView.resignFirstResponder()
+        journalEntry.saveInBackgroundWithBlock { (success: Bool!, error: NSError!) -> Void in if (success != nil) { NSLog("Object created with id: \(journalEntry.objectId)")
+        } else {
+            NSLog("%@", error)
+            }
+            
+        }
+    }
     
+    
+    @IBAction func retrieveData(sender: AnyObject)
+  
+    { var query = PFQuery(className:"JournalEntry")
+        query.getObjectInBackgroundWithId("R8um4t8H7n") {
+           (journalEntry: PFObject!, error: NSError!) -> Void in
+            if error == nil {
+               NSLog("%@", journalEntry)
+           } else {
+               NSLog("%@", error)
+          }
+        }
+   
+  
+  
+   }
+    
+  
+        // Do any additional setup after loading the view.
+
+override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    
+    
+    
+    
+
+        // Dispose of any resources that can be recreated.
+    
+
 }
-    
-       
-    
-    
     /*
     // MARK: - Navigation
 
