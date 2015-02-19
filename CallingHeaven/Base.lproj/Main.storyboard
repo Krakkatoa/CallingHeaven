@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vbX-nb-OC3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -267,7 +267,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vbX-nb-OC3" kind="presentation" modalTransitionStyle="crossDissolve" id="kiK-Rn-p2o"/>
+                                    <segue destination="vbX-nb-OC3" kind="presentation" id="XFY-Le-ucJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhr-qv-AAK" userLabel="Add-ons">
@@ -306,28 +306,120 @@
             </objects>
             <point key="canvasLocation" x="794" y="1015"/>
         </scene>
-        <!--Journal View Controller-->
+        <!--Diary Entries Scene-->
+        <scene sceneID="dtN-0K-RUS">
+            <objects>
+                <tableViewController title="Diary Entries Scene" id="ctp-gL-6wp" customClass="EntryTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="168" sectionHeaderHeight="22" sectionFooterHeight="22" id="k55-yP-9bm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="ybU-ve-KtL" userLabel="Cell" customClass="EntryCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ybU-ve-KtL" id="jep-oV-x2B">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gf-4Y-9lO">
+                                            <rect key="frame" x="166" y="8" width="220" height="39"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ck-vM-HWU">
+                                            <rect key="frame" x="166" y="111" width="225" height="28"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j05-aN-n0I">
+                                            <rect key="frame" x="44" y="0.0" width="80" height="62"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-cB-mJH">
+                                            <rect key="frame" x="101" y="52" width="31" height="32"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aS7-k4-Ka4">
+                                            <rect key="frame" x="166" y="55" width="258" height="49"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bodyLabel" destination="aS7-k4-Ka4" id="Hv9-jo-kFG"/>
+                                    <outlet property="dateLabel" destination="1Gf-4Y-9lO" id="Kdy-m5-Pev"/>
+                                    <outlet property="locationLabel" destination="2ck-vM-HWU" id="t5Z-3X-yf1"/>
+                                    <outlet property="mainImageView" destination="dLM-cB-mJH" id="8Oo-ke-RdE"/>
+                                    <outlet property="moodImageView" destination="j05-aN-n0I" id="w4j-sY-J9F"/>
+                                    <segue destination="qQH-rt-Bn6" kind="presentation" id="LL6-Vk-Oy8"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ctp-gL-6wp" id="MNh-JZ-3b6"/>
+                            <outlet property="delegate" destination="ctp-gL-6wp" id="6pn-qX-jPS"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Diary Entries" id="Fx8-Bs-hoh">
+                        <barButtonItem key="rightBarButtonItem" title="+" id="FH5-B8-rbE" userLabel="Add">
+                            <connections>
+                                <segue destination="qQH-rt-Bn6" kind="presentation" id="x0f-hF-lOF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="qQH-rt-Bn6" kind="modal" id="O3C-Am-tMY"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xem-qR-H1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1992" y="441"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SA5-ej-ta8">
+            <objects>
+                <navigationController id="qQH-rt-Bn6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecU-nr-Ofn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ctp-gL-6wp" kind="relationship" relationship="rootViewController" id="fh8-rq-ANH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rnt-LA-YyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2085" y="1116"/>
+        </scene>
+        <!--EntryViewController-->
         <scene sceneID="euy-Mk-o7Y">
             <objects>
-                <viewController title="Journal View Controller" id="vbX-nb-OC3" customClass="JournalViewController" customModule="CallingHeaven" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="EntryViewController" id="vbX-nb-OC3" userLabel="EntryViewController" customClass="EntryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="72P-QL-j1a"/>
                         <viewControllerLayoutGuide type="bottom" id="uCl-eg-AyW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kES-Zn-bvt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VC-journal-0215" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-5X-0Pb">
                                 <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvq-4t-BNM">
+                                <rect key="frame" x="163" y="54" width="349" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" indicatorStyle="black" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-p8-Y7Q">
-                                <rect key="frame" x="63" y="43" width="448" height="97"/>
+                                <rect key="frame" x="126" y="99" width="423" height="46"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-RY-ZDn" userLabel="Home">
-                                <rect key="frame" x="30" y="254" width="87" height="43"/>
+                                <rect key="frame" x="33" y="252" width="94" height="43"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -336,7 +428,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-lT-nD8" userLabel="Add-ons">
-                                <rect key="frame" x="508" y="272" width="46" height="30"/>
+                                <rect key="frame" x="508" y="264" width="46" height="38"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -344,35 +436,84 @@
                                     <segue destination="VzQ-WC-W78" kind="presentation" id="z6C-0P-o8b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1F-rU-zwt">
-                                <rect key="frame" x="432" y="12" width="46" height="23"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Save">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="saveData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="hJX-yt-TvG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqL-O9-xoq">
-                                <rect key="frame" x="486" y="12" width="46" height="23"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Load">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeM-mf-IbG">
+                                <rect key="frame" x="81" y="54" width="46" height="46"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="retrieveData:" destination="vbX-nb-OC3" eventType="touchUpInside" id="KTv-YQ-EGl"/>
+                                    <action selector="imageButtonWasPressed:" destination="vbX-nb-OC3" eventType="touchUpInside" id="toD-9M-UNM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="eBo-uz-Ryt">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="BcY-li-h5J">
+                            <color key="tintColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelWasPressed:" destination="vbX-nb-OC3" id="ynU-WY-R1f"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="xbW-Tt-kti">
+                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="40" maxY="0.0"/>
+                            <color key="tintColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="doneWasPressed:" destination="vbX-nb-OC3" id="Ooa-og-dsL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
-                        <outlet property="journalTextView" destination="aRr-p8-Y7Q" id="njz-B2-dFe"/>
+                        <outlet property="averageButton" destination="s2f-qI-zna" id="Et6-ub-T7E"/>
+                        <outlet property="badButton" destination="5nA-jL-ron" id="Sbz-Qn-USU"/>
+                        <outlet property="dateLabel" destination="Jvq-4t-BNM" id="TXo-i7-SBN"/>
+                        <outlet property="goodButton" destination="w2f-J9-8lq" id="iOu-9v-Gew"/>
+                        <outlet property="imageButton" destination="aeM-mf-IbG" id="jX9-re-bUf"/>
+                        <outlet property="textView" destination="aRr-p8-Y7Q" id="OOq-nK-ssP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vl2-tN-flH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="WnC-lI-ISb">
+                    <rect key="frame" x="0.0" y="0.0" width="465" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2f-qI-zna" userLabel="Average">
+                            <rect key="frame" x="209" y="10" width="46" height="30"/>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="averageWasPressed:" destination="vbX-nb-OC3" eventType="touchUpInside" id="TNf-2u-iff"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2f-J9-8lq" userLabel="Good">
+                            <rect key="frame" x="209" y="4" width="46" height="43"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="goodWasPressed:" destination="vbX-nb-OC3" eventType="touchUpInside" id="wHZ-4n-s56"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nA-jL-ron" userLabel="Bad">
+                            <rect key="frame" x="209" y="10" width="46" height="30"/>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="badWasPressed:" destination="vbX-nb-OC3" eventType="touchUpInside" id="m2g-Cb-9Fs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </objects>
             <point key="canvasLocation" x="1442" y="1015"/>
         </scene>
@@ -388,9 +529,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credits-1" translatesAutoresizingMaskIntoConstraints="NO" id="V9o-nd-l1V">
-                                <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdt-fF-hNJ">
                                 <rect key="frame" x="16" y="273" width="95" height="44"/>
                                 <state key="normal">
@@ -400,13 +538,16 @@
                                     <segue destination="vXZ-lx-hvc" kind="presentation" id="mvW-lw-MBN"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credits-1" translatesAutoresizingMaskIntoConstraints="NO" id="V9o-nd-l1V">
+                                <rect key="frame" x="0.0" y="8" width="575" height="360"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXm-aE-MxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1495" y="1456"/>
+            <point key="canvasLocation" x="1459" y="1676"/>
         </scene>
         <!--View Controller 2-->
         <scene sceneID="1Pg-ro-mUd">
@@ -554,7 +695,8 @@
         <image name="quotepacks-0203" width="1281" height="722"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="z6C-0P-o8b"/>
         <segue reference="ECT-Qv-HAb"/>
-        <segue reference="epE-0Q-vlb"/>
+        <segue reference="LL6-Vk-Oy8"/>
     </inferredMetricsTieBreakers>
 </document>
