@@ -306,16 +306,16 @@
             </objects>
             <point key="canvasLocation" x="794" y="1015"/>
         </scene>
-        <!--Diary Entries Scene-->
+        <!--Diary Entries -->
         <scene sceneID="dtN-0K-RUS">
             <objects>
-                <tableViewController title="Diary Entries Scene" id="ctp-gL-6wp" customClass="EntryTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="168" sectionHeaderHeight="22" sectionFooterHeight="22" id="k55-yP-9bm">
+                <tableViewController title="Diary Entries Scene" id="ctp-gL-6wp" userLabel="Diary Entries " customClass="EntryTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="168" sectionHeaderHeight="22" sectionFooterHeight="22" id="k55-yP-9bm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="ybU-ve-KtL" userLabel="Cell" customClass="EntryCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="1" indentationWidth="10" reuseIdentifier="Cell" rowHeight="150" id="ybU-ve-KtL" userLabel="Cell">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ybU-ve-KtL" id="jep-oV-x2B">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -326,8 +326,14 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aS7-k4-Ka4">
+                                            <rect key="frame" x="166" y="63" width="258" height="42"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ck-vM-HWU">
-                                            <rect key="frame" x="166" y="111" width="225" height="28"/>
+                                            <rect key="frame" x="166" y="123" width="225" height="28"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -336,20 +342,13 @@
                                             <rect key="frame" x="44" y="0.0" width="80" height="62"/>
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-cB-mJH">
-                                            <rect key="frame" x="101" y="52" width="31" height="32"/>
+                                            <rect key="frame" x="101" y="55" width="31" height="32"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aS7-k4-Ka4">
-                                            <rect key="frame" x="166" y="55" width="258" height="49"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="bodyLabel" destination="aS7-k4-Ka4" id="Hv9-jo-kFG"/>
-                                    <outlet property="dateLabel" destination="1Gf-4Y-9lO" id="Kdy-m5-Pev"/>
-                                    <outlet property="locationLabel" destination="2ck-vM-HWU" id="t5Z-3X-yf1"/>
+                                    <outlet property="bodyLabel" destination="aS7-k4-Ka4" id="cv1-yn-L3f"/>
+                                    <outlet property="locationLabel" destination="2ck-vM-HWU" id="cb0-LQ-CIB"/>
                                     <outlet property="mainImageView" destination="dLM-cB-mJH" id="8Oo-ke-RdE"/>
                                     <outlet property="moodImageView" destination="j05-aN-n0I" id="w4j-sY-J9F"/>
                                     <segue destination="qQH-rt-Bn6" kind="presentation" id="LL6-Vk-Oy8"/>
@@ -368,13 +367,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="qQH-rt-Bn6" kind="modal" id="O3C-Am-tMY"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xem-qR-H1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1992" y="441"/>
+            <point key="canvasLocation" x="1992" y="440"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SA5-ej-ta8">
@@ -406,6 +402,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VC-journal-0215" translatesAutoresizingMaskIntoConstraints="NO" id="Khj-5X-0Pb">
                                 <rect key="frame" x="0.0" y="-22" width="575" height="360"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvq-4t-BNM">
                                 <rect key="frame" x="163" y="54" width="349" height="46"/>
@@ -418,7 +417,7 @@
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-RY-ZDn" userLabel="Home">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-RY-ZDn" userLabel="Home">
                                 <rect key="frame" x="33" y="252" width="94" height="43"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -427,7 +426,7 @@
                                     <action selector="backAction:" destination="vbX-nb-OC3" eventType="touchUpInside" id="y8v-7I-c5H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-lT-nD8" userLabel="Add-ons">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-lT-nD8" userLabel="Add-ons">
                                 <rect key="frame" x="508" y="264" width="46" height="38"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -436,7 +435,7 @@
                                     <segue destination="VzQ-WC-W78" kind="presentation" id="z6C-0P-o8b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeM-mf-IbG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeM-mf-IbG">
                                 <rect key="frame" x="81" y="54" width="46" height="46"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -470,6 +469,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
                     <connections>
+                        <outlet property="accessoryView" destination="WnC-lI-ISb" id="bWI-gH-Mye"/>
                         <outlet property="averageButton" destination="s2f-qI-zna" id="Et6-ub-T7E"/>
                         <outlet property="badButton" destination="5nA-jL-ron" id="Sbz-Qn-USU"/>
                         <outlet property="dateLabel" destination="Jvq-4t-BNM" id="TXo-i7-SBN"/>
@@ -697,6 +697,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="z6C-0P-o8b"/>
         <segue reference="ECT-Qv-HAb"/>
-        <segue reference="LL6-Vk-Oy8"/>
+        <segue reference="x0f-hF-lOF"/>
     </inferredMetricsTieBreakers>
 </document>

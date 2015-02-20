@@ -21,6 +21,8 @@
 		7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86D1A857F6A0070619C /* libsqlite3.dylib */; };
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
+		7150257A1A96EA7000E8566B /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 715025791A96EA7000E8566B /* EntryCell.m */; };
+		7150257C1A96EAE100E8566B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150257B1A96EAE100E8566B /* NavigationController.m */; };
 		715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E51A7D68C30075E32C /* TeresaLife.swift */; };
 		715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */; };
 		715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93EF1A7D692D0075E32C /* saintViewController.swift */; };
@@ -53,8 +55,6 @@
 		71B929C91A95CA0900134C14 /* EntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B929C81A95CA0900134C14 /* EntryTableViewController.m */; };
 		71BBE2D01A967BEA004B7120 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE2CF1A967BEA004B7120 /* EntryViewController.m */; };
 		71BBE2D91A968C75004B7120 /* DiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE2D81A968C75004B7120 /* DiaryEntry.m */; };
-		71BBE2DB1A968CB3004B7120 /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE2DA1A968CB3004B7120 /* EntryCell.m */; };
-		71BBE2DE1A968E68004B7120 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE2DD1A968E68004B7120 /* NavigationController.m */; };
 		71BBE2E21A968FD4004B7120 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE2E11A968FD4004B7120 /* CoreDataStack.m */; };
 		71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */; };
 		71F99EB31A8EE22A00254C5E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB21A8EE22A00254C5E /* Bolts.framework */; };
@@ -63,7 +63,6 @@
 		71F99EBA1A8EEEA000254C5E /* TitusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */; };
 		71F99EBC1A8EEEA600254C5E /* TitusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */; };
 		71F99EBE1A8EFD6800254C5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB41A8EE23700254C5E /* Parse.framework */; };
-		71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB56F11A8431E600225BC0 /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +90,9 @@
 		7105B86D1A857F6A0070619C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
+		715025791A96EA7000E8566B /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
+		7150257B1A96EAE100E8566B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		7150257D1A96EAF900E8566B /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
 		715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaPrayers.swift; sourceTree = "<group>"; };
 		715A93EF1A7D692D0075E32C /* saintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saintViewController.swift; sourceTree = "<group>"; };
@@ -126,13 +128,10 @@
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
 		71B929C81A95CA0900134C14 /* EntryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryTableViewController.m; sourceTree = "<group>"; };
 		71B929CA1A95CB1300134C14 /* EntryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryTableViewController.h; sourceTree = "<group>"; };
-		71B929CB1A95D68200134C14 /* Navigation Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Navigation Controller.h"; sourceTree = "<group>"; };
 		71BBE2CF1A967BEA004B7120 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
 		71BBE2D71A96801A004B7120 /* EntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
 		71BBE2D81A968C75004B7120 /* DiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntry.m; sourceTree = "<group>"; };
-		71BBE2DA1A968CB3004B7120 /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
 		71BBE2DC1A968CC4004B7120 /* EntryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryCell.h; sourceTree = "<group>"; };
-		71BBE2DD1A968E68004B7120 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationController.m; path = CallingHeaven/NavigationController.m; sourceTree = "<group>"; };
 		71BBE2DF1A968ED4004B7120 /* DiaryEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiaryEntry.h; sourceTree = "<group>"; };
 		71BBE2E01A968FAF004B7120 /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		71BBE2E11A968FD4004B7120 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
@@ -143,7 +142,6 @@
 		71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusPrayers.swift; path = ../../../../Desktop/CopiedFiles/TitusPrayers.swift; sourceTree = "<group>"; };
 		71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusQuotes.swift; path = ../../../../Desktop/CopiedFiles/TitusQuotes.swift; sourceTree = "<group>"; };
 		71F99EBD1A8EF61500254C5E /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging Header.h"; path = "../Bridging Header.h"; sourceTree = "<group>"; };
-		71FB56F11A8431E600225BC0 /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +197,6 @@
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
-				71BBE2DD1A968E68004B7120 /* NavigationController.m */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
 				719EE3401A26C724007131ED /* Products */,
@@ -264,14 +261,15 @@
 		71BBE2D11A967C44004B7120 /* Obj C Files- Journal */ = {
 			isa = PBXGroup;
 			children = (
-				71B929CB1A95D68200134C14 /* Navigation Controller.h */,
+				715025791A96EA7000E8566B /* EntryCell.m */,
+				7150257B1A96EAE100E8566B /* NavigationController.m */,
+				7150257D1A96EAF900E8566B /* NavigationController.h */,
 				71B929CA1A95CB1300134C14 /* EntryTableViewController.h */,
 				71B929C81A95CA0900134C14 /* EntryTableViewController.m */,
 				71BBE2CF1A967BEA004B7120 /* EntryViewController.m */,
 				71BBE2E01A968FAF004B7120 /* CoreDataStack.h */,
 				71BBE2E11A968FD4004B7120 /* CoreDataStack.m */,
 				71BBE2D81A968C75004B7120 /* DiaryEntry.m */,
-				71BBE2DA1A968CB3004B7120 /* EntryCell.m */,
 				71BBE2DF1A968ED4004B7120 /* DiaryEntry.h */,
 				71BBE2DC1A968CC4004B7120 /* EntryCell.h */,
 				71BBE2D71A96801A004B7120 /* EntryViewController.h */,
@@ -282,7 +280,6 @@
 		71BBE2D21A967CBB004B7120 /* Journal Files- Swift */ = {
 			isa = PBXGroup;
 			children = (
-				71FB56F11A8431E600225BC0 /* JournalViewController.swift */,
 			);
 			name = "Journal Files- Swift";
 			sourceTree = "<group>";
@@ -451,7 +448,6 @@
 				715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */,
 				71BBE2D91A968C75004B7120 /* DiaryEntry.m in Sources */,
 				71BBE2E21A968FD4004B7120 /* CoreDataStack.m in Sources */,
-				71FB56F21A8431E600225BC0 /* JournalViewController.swift in Sources */,
 				715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */,
 				71F99EBA1A8EEEA000254C5E /* TitusPrayers.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
@@ -470,15 +466,15 @@
 				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
 				71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */,
-				71BBE2DE1A968E68004B7120 /* NavigationController.m in Sources */,
+				7150257C1A96EAE100E8566B /* NavigationController.m in Sources */,
 				718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */,
 				718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */,
 				718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */,
 				718112051A70AD3200DA14D6 /* AndesPrayers.swift in Sources */,
 				718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */,
 				718112111A70AE2800DA14D6 /* ThereseLife.swift in Sources */,
+				7150257A1A96EA7000E8566B /* EntryCell.m in Sources */,
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
-				71BBE2DB1A968CB3004B7120 /* EntryCell.m in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */,
 				71B929C91A95CA0900134C14 /* EntryTableViewController.m in Sources */,
