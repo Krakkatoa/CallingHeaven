@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 #import "CoreDataStack.h"
 
 @implementation CoreDataStack
@@ -31,7 +33,7 @@
 - (void)saveContext
 {
     NSError *error = nil;
-    NSManagedObjectContext *_managedObjectContext = self._managedObjectContext;
+    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
             // Replace this implementation with code to handle the error appropriately.

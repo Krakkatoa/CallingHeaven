@@ -8,17 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-
-
 #import "DiaryEntry.h"
 #import "EntryCell.h"
 
 @interface EntryCell()
-@property (weak, nonatomic) IBOutlet NSString *dateLabel;
-@property (weak, nonatomic) IBOutlet NSString *bodyLabel;
-@property (weak, nonatomic) IBOutlet NSString *locationLabel;
-@property (weak, nonatomic) IBOutlet NSData *mainImageView;
-@property (weak, nonatomic) IBOutlet NSData *moodImageView;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *bodyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *moodImageView;
 
 
 @end

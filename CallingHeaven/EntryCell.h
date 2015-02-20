@@ -12,6 +12,10 @@
 
 #endif
 
+#import <UIKit/UIKit.h>
+
+
+
 @class DiaryEntry;
 
 @interface EntryCell : UITableViewCell
