@@ -12,6 +12,7 @@
 
 #import "CoreDataStack.h"
 
+
 @implementation CoreDataStack
 
 @synthesize managedObjectContext = _managedObjectContext;
