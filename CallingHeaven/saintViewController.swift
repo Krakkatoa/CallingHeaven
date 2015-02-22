@@ -32,6 +32,7 @@ class saintViewController: UIViewController {
     @IBOutlet var saintImage: UIImageView!
     
     
+    @IBOutlet weak var journalAction: UIButton!
     @IBOutlet weak var backAction: UIImageView!
     
     

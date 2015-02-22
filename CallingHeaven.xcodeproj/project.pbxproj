@@ -136,12 +136,12 @@
 		71BBE2E01A968FAF004B7120 /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		71BBE2E11A968FD4004B7120 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 		71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Add-onsViewController.swift"; path = "../Add-onsViewController.swift"; sourceTree = "<group>"; };
-		71F99EB21A8EE22A00254C5E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
-		71F99EB41A8EE23700254C5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		71F99EB21A8EE22A00254C5E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		71F99EB41A8EE23700254C5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
 		71F99EB71A8EEE7400254C5E /* TitusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusLife.swift; path = ../../../../Desktop/CopiedFiles/TitusLife.swift; sourceTree = "<group>"; };
 		71F99EB91A8EEEA000254C5E /* TitusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusPrayers.swift; path = ../../../../Desktop/CopiedFiles/TitusPrayers.swift; sourceTree = "<group>"; };
 		71F99EBB1A8EEEA600254C5E /* TitusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitusQuotes.swift; path = ../../../../Desktop/CopiedFiles/TitusQuotes.swift; sourceTree = "<group>"; };
-		71F99EBD1A8EF61500254C5E /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging Header.h"; path = "../Bridging Header.h"; sourceTree = "<group>"; };
+		71F99EBD1A8EF61500254C5E /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,14 +192,19 @@
 				7105B85D1A857EEF0070619C /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			path = CallingHeaven;
 			sourceTree = "<group>";
 		};
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
 				719EE3411A26C724007131ED /* CallingHeaven */,
+				71F99EBD1A8EF61500254C5E /* Bridging Header.h */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
 				719EE3401A26C724007131ED /* Products */,
+				71F99EB21A8EE22A00254C5E /* Bolts.framework */,
+				71F99EB41A8EE23700254C5E /* Parse.framework */,
+				7105B84B1A857D6D0070619C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,17 +220,12 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
+				719EE3481A26C724007131ED /* Main.storyboard */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
-				719EE3481A26C724007131ED /* Main.storyboard */,
-				71BBE2D21A967CBB004B7120 /* Journal Files- Swift */,
-				71BBE2D11A967C44004B7120 /* Obj C Files- Journal */,
-				71F99EBD1A8EF61500254C5E /* Bridging Header.h */,
 				71BBE2D31A967D01004B7120 /* VC Files- Swift */,
-				71F99EB41A8EE23700254C5E /* Parse.framework */,
-				71F99EB21A8EE22A00254C5E /* Bolts.framework */,
+				71BBE2D11A967C44004B7120 /* Obj C Files- Journal */,
 				71BBE2D41A967D9E004B7120 /* Quote Files */,
-				7105B84B1A857D6D0070619C /* Frameworks */,
 				71BBE2D51A967DDD004B7120 /* Prayers */,
 				71BBE2D61A967E1F004B7120 /* Life */,
 				719EE3421A26C724007131ED /* Supporting Files */,
@@ -275,13 +275,6 @@
 				71BBE2D71A96801A004B7120 /* EntryViewController.h */,
 			);
 			name = "Obj C Files- Journal";
-			sourceTree = "<group>";
-		};
-		71BBE2D21A967CBB004B7120 /* Journal Files- Swift */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Journal Files- Swift";
 			sourceTree = "<group>";
 		};
 		71BBE2D31A967D01004B7120 /* VC Files- Swift */ = {
