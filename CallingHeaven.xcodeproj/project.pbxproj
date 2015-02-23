@@ -21,7 +21,6 @@
 		7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86D1A857F6A0070619C /* libsqlite3.dylib */; };
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
-		7150257A1A96EA7000E8566B /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 715025791A96EA7000E8566B /* EntryCell.m */; };
 		7150257C1A96EAE100E8566B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150257B1A96EAE100E8566B /* NavigationController.m */; };
 		715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E51A7D68C30075E32C /* TeresaLife.swift */; };
 		715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */; };
@@ -34,6 +33,7 @@
 		715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA83B1A7D503F009DFFCA /* JesusQuotes.swift */; };
 		715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */; };
 		715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */; };
+		7164DA1F1A99A0F400F3FFA4 /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164DA1E1A99A0F400F3FFA4 /* EntryCell.m */; };
 		718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FA1A70AAEC00DA14D6 /* secondViewController.swift */; };
 		718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */; };
 		718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FE1A70ACC900DA14D6 /* LizQuotes.swift */; };
@@ -90,7 +90,6 @@
 		7105B86D1A857F6A0070619C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
-		715025791A96EA7000E8566B /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
 		7150257B1A96EAE100E8566B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		7150257D1A96EAF900E8566B /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
@@ -104,6 +103,7 @@
 		715EA83B1A7D503F009DFFCA /* JesusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusQuotes.swift; sourceTree = "<group>"; };
 		715EA83D1A7D50A7009DFFCA /* AndesQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesQuotes.swift; sourceTree = "<group>"; };
 		715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnQuotes.swift; sourceTree = "<group>"; };
+		7164DA1E1A99A0F400F3FFA4 /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
 		718111FA1A70AAEC00DA14D6 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithPrayers.swift; sourceTree = "<group>"; };
 		718111FE1A70ACC900DA14D6 /* LizQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizQuotes.swift; sourceTree = "<group>"; };
@@ -261,7 +261,7 @@
 		71BBE2D11A967C44004B7120 /* Obj C Files- Journal */ = {
 			isa = PBXGroup;
 			children = (
-				715025791A96EA7000E8566B /* EntryCell.m */,
+				7164DA1E1A99A0F400F3FFA4 /* EntryCell.m */,
 				7150257B1A96EAE100E8566B /* NavigationController.m */,
 				7150257D1A96EAF900E8566B /* NavigationController.h */,
 				71B929CA1A95CB1300134C14 /* EntryTableViewController.h */,
@@ -466,7 +466,7 @@
 				718112051A70AD3200DA14D6 /* AndesPrayers.swift in Sources */,
 				718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */,
 				718112111A70AE2800DA14D6 /* ThereseLife.swift in Sources */,
-				7150257A1A96EA7000E8566B /* EntryCell.m in Sources */,
+				7164DA1F1A99A0F400F3FFA4 /* EntryCell.m in Sources */,
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */,
