@@ -12,13 +12,20 @@ import UIKit
 
 class NoteViewController: UIViewController {
     
-    @IBOutlet var titleText: UITextField!
-    @IBOutlet var noteText: UITextField!
-    @IBAction func backAction(sender: AnyObject)  { self.dismissViewControllerAnimated(true) { () -> Void in }
-        
-        
-        
-    }
+    @IBOutlet weak var titleText: UITextField!
+   
+    @IBOutlet weak var noteText: UITextField!
+    
+    @IBOutlet weak var petitionAction: UIButton!
+    
+    
+    @IBOutlet weak var questionAction: UIButton!
+    
+    
+    @IBOutlet weak var thoughtsAction: UIButton!
+    
+    @IBOutlet weak var backAction: UIButton!
+    
     
     
     override func viewDidLoad() {
@@ -29,6 +36,16 @@ class NoteViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+    
+}
+
+
+@IBAction func backAction(sender: AnyObject){
+    self.dismissViewControllerAnimated(true) { () -> Void in
+        
+    }
+    
     }
     
     @IBAction func saveAction(sender: AnyObject) {
@@ -58,5 +75,36 @@ class NoteViewController: UIViewController {
         
     }
     
+    //
+    
+       /*
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
+    }
+    */
+    
+    // Change the mood operator based on input
+    @IBAction func petitionsWasPressed(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func questionsWasPressed(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func thoughtsWasPressed(sender: AnyObject) {
+        
+    }
+    
+       
 }
+
+
 

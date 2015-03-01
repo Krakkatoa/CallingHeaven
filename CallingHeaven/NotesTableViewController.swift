@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Carmel Heart Media. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class NotesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -14,10 +13,10 @@ class NotesTableViewController: UIViewController, UITableViewDataSource, UITable
     var notesData = []
     
     
+    @IBOutlet weak var backAction: UIButton!
     
-    @IBAction func backAction(sender: AnyObject)  { self.dismissViewControllerAnimated(true) { () -> Void in }
-        
-    }
+    
+  
     
     @IBOutlet var notesTableView: UITableView!
     override func viewDidLoad() {
@@ -41,15 +40,25 @@ class NotesTableViewController: UIViewController, UITableViewDataSource, UITable
             }
             
         }
-        
-             super.viewDidLoad()
-        
+        super.viewDidLoad()
+       
+    }
+    
+    
+    @IBAction func backAction(sender: AnyObject){
+        self.dismissViewControllerAnimated(true) { () -> Void in
+            
+        }
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    
     
     //Defines how big is the tableView
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -63,7 +72,7 @@ class NotesTableViewController: UIViewController, UITableViewDataSource, UITable
         let cell = tableView.dequeueReusableCellWithIdentifier("noteIdentifier", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel?.text = (rowData["title"] as String)
         cell.detailTextLabel?.text = (rowData["note"] as String)
-        // Configure the cell...
+              // Configure the cell...
         
         return cell
     }
