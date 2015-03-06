@@ -1,5 +1,4 @@
-//
-//  NotesTableViewController.swift
+//  PetitionsTableViewController.swift
 //  CallingHeaven
 //
 //  Created by My Mac on 2/24/15.
@@ -8,17 +7,15 @@
 
 import UIKit
 
-class NotesTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class PetitionsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var notesData = []
-    
-    
-    @IBOutlet weak var backAction: UIButton!
+
     
     
   
     
-    @IBOutlet var notesTableView: UITableView!
+    @IBOutlet var petitionsTableView: UITableView!
     override func viewDidLoad() {
         //When the page is loaded we call parse using our identifier and get all the notes, and we save them in our array of notesData
         let defaults = NSUserDefaults.standardUserDefaults()
@@ -30,7 +27,7 @@ class NotesTableViewController: UIViewController, UITableViewDataSource, UITable
                 (objects: [AnyObject]!, error: NSError!) -> Void in
                 if error == nil {
                     self.notesData = objects
-                    self.notesTableView.reloadData()
+                    self.petitionsTableView.reloadData()
                     // The find succeeded.
                     println(self.notesData)
                 } else {

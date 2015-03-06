@@ -1,13 +1,3 @@
-//
-//  saintViewController.swift
-//  CallingHeaven
-//
-//  Created by My Mac on 11/29/14.
-//  Copyright (c) 2014 Carmel Heart Media. All rights reserved.
-//
-
-
-
 import UIKit
 
 import Social
@@ -31,15 +21,11 @@ class saintViewController: UIViewController {
     @IBOutlet var testLabel: UITextView!
     @IBOutlet var saintImage: UIImageView!
     
+    @IBOutlet weak var journalButton: UIButton!
     
-    @IBOutlet weak var journalAction: UIButton!
     @IBOutlet weak var backAction: UIImageView!
     
-    
-    
     @IBOutlet weak var saintPrayerButton: UIButton!
-    
-    
     
     @IBAction func saintPrayerAction ()
     {
@@ -50,10 +36,9 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = theresePrayers.randomFact())
         case "St. Edith Stein": (testLabel.text = edithPrayers.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
-        case "Bl. Titus Brandsma": (testLabel.text = titusPrayers.randomFact ())
         case "Bl. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
-        case "St. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
+        case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
             
             
         default: println("Something else") }
@@ -64,7 +49,6 @@ class saintViewController: UIViewController {
     let theresePrayers = TheresePrayers ()
     let edithPrayers = EdithPrayers ()
     let jesusPrayers = JesusPrayers ()
-    let titusPrayers = TitusPrayers ()
     let mariamPrayers = MariamPrayers ()
     let lizPrayers = LizPrayers ()
     let andesPrayers = AndesPrayers ()
@@ -81,10 +65,9 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
         case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
-        case "Bl. Titus Brandsma": (testLabel.text = titusLife.randomFact())
         case "Bl. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
-        case "St. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
+        case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
             
             
             
@@ -98,7 +81,6 @@ class saintViewController: UIViewController {
     let thereseLife = ThereseLife ()
     let edithLife = EdithLife ()
     let jesusLife = JesusLife ()
-    let titusLife = TitusLife ()
     let mariamLife = MariamLife ()
     let lizLife = LizLife ()
     let andesLife = AndesLife ()
@@ -132,10 +114,9 @@ class saintViewController: UIViewController {
         self.dismissViewControllerAnimated(true) { () -> Void in
             
         }
-}
- 
+    }
     
- //Social Media Integration.
+    //Social Media Integration.
     
     var messageString:String = " (Sent via the Calling Heaven App from Carmel Heart Media. Coming soon!)"
     var quotebyString:String = " - "

@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Parse Installation, Your own keys would go Here
-        Parse.setApplicationId("gDBX2ODoAg0Bwl7SQxEwGIeTJgGkD5q8Gx8d9phz", clientKey: "xqD4Vt6Q6HSGYfs55GzIMegh5UyfjpLHxFFruS9j")
+        Parse.setApplicationId("Ew0oZ26ofyF8mnRnb4MGvSXhTWJlyxG8jbmlMDyE", clientKey: "ZesZ6eAug9C2auwQHJRMEVlz4vdtWmrgfrUAZgFH")
         var notificationType: UIUserNotificationType = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
         
         var settings: UIUserNotificationSettings = UIUserNotificationSettings(forTypes: notificationType, categories: nil)
@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //This creates a identifier for each device, so we know which user is who
         let defaults = NSUserDefaults.standardUserDefaults()
-        defaults.setObject(UIDevice.currentDevice().identifierForVendor.UUIDString, forKey: "UserIdentifier")
+        defaults.setObject(UIDevice.currentDevice().identifierForVendor.UUIDString, forKey: "userIdentifier")
         
         return true
     }

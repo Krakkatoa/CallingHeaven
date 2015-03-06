@@ -1,5 +1,5 @@
 //
-//  NoteViewController.swift
+//  PetitionsViewController.swift
 //  CallingHeaven
 //
 //  Created by My Mac on 2/24/15.
@@ -10,24 +10,18 @@ import Foundation
 
 import UIKit
 
-class NoteViewController: UIViewController {
+class PetitionsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!
    
     @IBOutlet weak var noteText: UITextField!
-    
-    @IBOutlet weak var petitionAction: UIButton!
-    
-    
-    @IBOutlet weak var questionAction: UIButton!
-    
-    
-    @IBOutlet weak var thoughtsAction: UIButton!
+ 
     
     @IBOutlet weak var backAction: UIButton!
     
+
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -91,20 +85,7 @@ class NoteViewController: UIViewController {
     */
     
     // Change the mood operator based on input
-    @IBAction func petitionsWasPressed(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func questionsWasPressed(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func thoughtsWasPressed(sender: AnyObject) {
-        
-    }
-    
-       
-}
+  }
 
 
 
