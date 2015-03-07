@@ -1,17 +1,16 @@
 //
-//  ThoughtsViewController.swift
+//  QuestionsViewController.swift
 //  CallingHeaven
 //
-//  Created by My Mac on 3/4/15.
+//  Created by My Mac on 3/6/15.
 //  Copyright (c) 2015 Carmel Heart Media. All rights reserved.
 //
-
 
 import Foundation
 
 import UIKit
 
-class ThoughtsViewController: UIViewController {
+class QuestionsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!
     
@@ -48,7 +47,7 @@ class ThoughtsViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var note = PFObject(className:"Thought")
+            var note = PFObject(className:"Question")
             note["title"] = titleText.text
             note["note"] = noteText.text
             note["UserIdentifier"] = identifier
@@ -68,10 +67,9 @@ class ThoughtsViewController: UIViewController {
     
     @IBAction func readAction(sender: AnyObject) {
         
-    }
-    
-    //
-    
+}
+
+//
     /*
     // MARK: - Navigation
     
@@ -87,6 +85,5 @@ class ThoughtsViewController: UIViewController {
     
     // Change the mood operator based on input
 }
-
 
 

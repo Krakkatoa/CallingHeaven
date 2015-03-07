@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */; };
+		710468DE1AAACB8000C29AAE /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */; };
+		710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */; };
 		7105B84D1A857DF70070619C /* LizLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105B84C1A857DF70070619C /* LizLife.swift */; };
 		7105B85A1A857ED50070619C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8591A857ED50070619C /* AudioToolbox.framework */; };
 		7105B85C1A857EE40070619C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B85B1A857EE40070619C /* CFNetwork.framework */; };
@@ -74,6 +77,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsTableViewController.swift; sourceTree = "<group>"; };
+		710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		7105B84C1A857DF70070619C /* LizLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizLife.swift; sourceTree = "<group>"; };
 		7105B8591A857ED50070619C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7105B85B1A857EE40070619C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -113,6 +119,7 @@
 		718112141A70AE5900DA14D6 /* JesusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusLife.swift; sourceTree = "<group>"; };
 		718112161A70AE7400DA14D6 /* MariamLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamLife.swift; sourceTree = "<group>"; };
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
+		719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CallingHeaven.entitlements; sourceTree = "<group>"; };
 		719560D11AA4405900089930 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
 		719EE33F1A26C724007131ED /* CallingHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3431A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,6 +192,31 @@
 			path = CallingHeaven;
 			sourceTree = "<group>";
 		};
+		719240CC1AA9896600D6EED7 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */,
+				716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */,
+				71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */,
+				719560D11AA4405900089930 /* ChoicesViewController.swift */,
+				716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */,
+				710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */,
+				710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */,
+			);
+			name = Journal;
+			sourceTree = "<group>";
+		};
+		719240CD1AA9897C00D6EED7 /* Saint Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				719EE3461A26C724007131ED /* ViewController.swift */,
+				71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */,
+				715A93EF1A7D692D0075E32C /* saintViewController.swift */,
+				718111FA1A70AAEC00DA14D6 /* secondViewController.swift */,
+			);
+			name = "Saint Quotes";
+			sourceTree = "<group>";
+		};
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
@@ -210,9 +242,9 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
+				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
-				71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
 				71BBE2D31A967D01004B7120 /* VC Files- Swift */,
@@ -252,13 +284,8 @@
 		71BBE2D31A967D01004B7120 /* VC Files- Swift */ = {
 			isa = PBXGroup;
 			children = (
-				716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */,
-				719560D11AA4405900089930 /* ChoicesViewController.swift */,
-				716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */,
-				719EE3461A26C724007131ED /* ViewController.swift */,
-				718111FA1A70AAEC00DA14D6 /* secondViewController.swift */,
-				715A93EF1A7D692D0075E32C /* saintViewController.swift */,
-				71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */,
+				719240CC1AA9896600D6EED7 /* Journal */,
+				719240CD1AA9897C00D6EED7 /* Saint Quotes */,
 			);
 			name = "VC Files- Swift";
 			sourceTree = "<group>";
@@ -361,6 +388,11 @@
 					719EE33E1A26C724007131ED = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = 4UV7252NR9;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					719EE3531A26C724007131ED = {
 						CreatedOnToolsVersion = 6.1;
@@ -428,6 +460,8 @@
 				715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */,
 				719EE3451A26C724007131ED /* AppDelegate.swift in Sources */,
 				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
+				710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */,
+				710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
 				71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */,
 				718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */,
@@ -442,6 +476,7 @@
 				718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */,
 				716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */,
 				715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */,
+				710468DE1AAACB8000C29AAE /* QuestionsTableViewController.swift in Sources */,
 				71F99EB81A8EEE7400254C5E /* TitusLife.swift in Sources */,
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 				71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */,
