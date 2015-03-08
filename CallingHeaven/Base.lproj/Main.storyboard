@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Eos-gy-t1k">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -530,8 +530,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="OTO-eR-nuS">
-                                <rect key="frame" x="-10" y="14" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="questionsIdentifier" textLabel="Yng-TT-0vs" detailTextLabel="TJc-WN-XW8" style="IBUITableViewCellStyleSubtitle" id="SX3-ac-dWg">
                                         <rect key="frame" x="0.0" y="0.0" width="568" height="44"/>
@@ -552,7 +555,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -561,8 +567,9 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpV-dL-3VV">
-                                <rect key="frame" x="377" y="-10" width="46" height="30"/>
-                                <state key="normal" title="+">
+                                <rect key="frame" x="437" y="-5" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -579,7 +586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tw3-ao-967" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2083" y="-997"/>
+            <point key="canvasLocation" x="2086" y="-1005"/>
         </scene>
         <!--Petitions Navigation Controller-->
         <scene sceneID="TeH-cd-5pU">
@@ -860,7 +867,7 @@
                         <viewControllerLayoutGuide type="top" id="MXm-8i-wYP"/>
                         <viewControllerLayoutGuide type="bottom" id="PQd-Wz-gpy"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ars-cZ-Exb">
+                    <view key="view" contentMode="scaleToFill" id="ars-cZ-Exb" propertyAccessControl="localizable">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -902,6 +909,7 @@
                                 </state>
                                 <connections>
                                     <action selector="saveAction:" destination="B5m-aP-fPA" eventType="touchUpInside" id="9V6-TI-L5a"/>
+                                    <segue destination="c8w-I7-nM5" kind="modal" id="3b6-Md-SwH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3e-ss-IST">
@@ -946,7 +954,7 @@
             </objects>
             <point key="canvasLocation" x="791" y="-997"/>
         </scene>
-        <!--Questions View Controller-->
+        <!--Questions-->
         <scene sceneID="Bws-bl-3wq">
             <objects>
                 <viewController id="Eos-gy-t1k" customClass="QuestionsViewController" customModule="CallingHeaven" customModuleProvider="target" sceneMemberID="viewController">
@@ -959,62 +967,98 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG1-Lc-nDo">
-                                <rect key="frame" x="123" y="82" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="113" y="53" width="50" height="15"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YR3-FK-P88">
-                                <rect key="frame" x="123" y="111" width="65" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="113" y="79" width="65" height="21"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qe8-Q4-1VL">
-                                <rect key="frame" x="178" y="72" width="272" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qe8-Q4-1VL">
+                                <rect key="frame" x="176" y="45" width="272" height="30"/>
+                                <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DfC-vs-f3F">
-                                <rect key="frame" x="178" y="102" width="272" height="30"/>
+                                <rect key="frame" x="176" y="75" width="272" height="30"/>
+                                <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARX-YV-5Td">
-                                <rect key="frame" x="482" y="71" width="46" height="30"/>
-                                <state key="normal" title="Save">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="saveAction:" destination="Eos-gy-t1k" eventType="touchUpInside" id="2gq-XI-c7D"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-Fz-MYS">
-                                <rect key="frame" x="482" y="117" width="46" height="30"/>
+                                <rect key="frame" x="176" y="106" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
                                 <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backAction:" destination="Eos-gy-t1k" eventType="touchUpInside" id="S1L-Vf-fT7"/>
+                                    <action selector="backAction:" destination="Eos-gy-t1k" eventType="touchUpInside" id="m9J-7e-ckH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFX-Cd-Qsj">
-                                <rect key="frame" x="482" y="93" width="46" height="30"/>
-                                <state key="normal" title="Read">
+                                <rect key="frame" x="456" y="74" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="readAction:" destination="Eos-gy-t1k" eventType="touchUpInside" id="Rvl-nK-5Qo"/>
-                                    <segue destination="HbX-aQ-qO5" kind="modal" id="dR5-Sg-oxh"/>
+                                    <action selector="readAction:" destination="Eos-gy-t1k" eventType="touchUpInside" id="2So-OZ-b2J"/>
+                                    <segue destination="HbX-aQ-qO5" kind="modal" id="ipc-Lu-eHs"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rosary-question mark-ext" translatesAutoresizingMaskIntoConstraints="NO" id="aJQ-sZ-NA3">
+                                <rect key="frame" x="30" y="20" width="75" height="84"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Wonder..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbF-2s-Egq">
+                                <rect key="frame" x="182" y="16" width="113" height="21"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-eV-UrW">
+                                <rect key="frame" x="332" y="106" width="124" height="30"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="See All Notes">
+                                    <color key="titleColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HbX-aQ-qO5" kind="modal" id="ySz-Q6-AGs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBh-bQ-PR5">
+                                <rect key="frame" x="456" y="45" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="15"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveAction:" destination="Eos-gy-t1k" eventType="touchUpInside" id="P9Y-IE-8dd"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0YI-R4-esw"/>
+                    <navigationItem key="navigationItem" title="Questions" id="0YI-R4-esw">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="KUy-QV-jNv">
+                            <color key="tintColor" red="1" green="0.77675840979999999" blue="0.32966361449999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="MDz-fL-VVr">
+                            <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="backAction" destination="X5u-Fz-MYS" id="7Vv-me-Qhe"/>
+                        <outlet property="backAction" destination="X5u-Fz-MYS" id="IyD-2g-9SL"/>
                         <outlet property="noteText" destination="DfC-vs-f3F" id="C4o-jt-vGp"/>
                         <outlet property="titleText" destination="qe8-Q4-1VL" id="IhO-xY-C4k"/>
                     </connections>
@@ -1033,6 +1077,7 @@
         <image name="petitions" width="173" height="185"/>
         <image name="phonereceiver" width="187" height="372"/>
         <image name="quotepacks-0203" width="1281" height="722"/>
+        <image name="rosary-question mark-ext" width="606" height="889"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -1041,6 +1086,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="9EP-ek-Wig"/>
+        <segue reference="ySz-Q6-AGs"/>
+        <segue reference="IwJ-C0-IJt"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
 </document>
