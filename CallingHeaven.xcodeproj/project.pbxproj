@@ -325,14 +325,14 @@
 		71BBE2D61A967E1F004B7120 /* Life */ = {
 			isa = PBXGroup;
 			children = (
-				718112181A70AE8500DA14D6 /* AndesLife.swift */,
-				718112141A70AE5900DA14D6 /* JesusLife.swift */,
-				718112121A70AE4300DA14D6 /* EdithLife.swift */,
-				71F99EB71A8EEE7400254C5E /* TitusLife.swift */,
 				718112101A70AE2800DA14D6 /* ThereseLife.swift */,
 				715A93E51A7D68C30075E32C /* TeresaLife.swift */,
+				718112141A70AE5900DA14D6 /* JesusLife.swift */,
 				718112161A70AE7400DA14D6 /* MariamLife.swift */,
 				7181120C1A70ADC100DA14D6 /* JohnLife.swift */,
+				718112121A70AE4300DA14D6 /* EdithLife.swift */,
+				71F99EB71A8EEE7400254C5E /* TitusLife.swift */,
+				718112181A70AE8500DA14D6 /* AndesLife.swift */,
 				7105B84C1A857DF70070619C /* LizLife.swift */,
 			);
 			name = Life;

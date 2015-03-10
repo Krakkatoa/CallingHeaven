@@ -18,6 +18,8 @@ struct MariamPrayers {
         
         "O Blessed Mary of Christ Crucified, \n You brought the love of the Holy Spirit more closely to us all. \n Wake all of us up to the wonders of Christ's love for us. \n Open to us the courage to willingly bear trials and suffering. \n Mary of Christ Crucified, most humble, pray for us.",
     ]
+
+//3
     
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)

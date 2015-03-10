@@ -62,21 +62,35 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
     
     
     //Defines how big is the tableView
+
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notesData.count
     }
     
     //Asigns a value to each table cell
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+  func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    
         //we create a row data with the value of the index on our notes array and then assing the values
+        
+        
+         func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+            
         var rowData: AnyObject = self.notesData[indexPath.row]
         let cell = tableView.dequeueReusableCellWithIdentifier("questionsIdentifier", forIndexPath: indexPath) as UITableViewCell
+        
         cell.textLabel?.text = (rowData["title"] as String)
         cell.detailTextLabel?.text = (rowData["note"] as String)
+       
         // Configure the cell...
         
         return cell
+            
+           func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+            if editingStyle == UITableViewCellEditingStyle.Delete {
+                    notesData.removeAtIndex(indexPath.row)
+                    tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+            }      }
     }
-    
-    
+}
 }

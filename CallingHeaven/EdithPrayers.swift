@@ -23,7 +23,7 @@ struct EdithPrayers{
         
         
     ]
-    
+    //4
     
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)

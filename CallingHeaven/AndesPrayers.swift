@@ -24,7 +24,7 @@ struct AndesPrayers {
         
         "Yes, Mary, you are Mother of the entire universe. Your heart is filled with sweetness. At your feet let the priest prostrate himself with the same confidence as the virgin in order to find in your arms the fullness of your love. The rich as well as the poor can find in your heart their heaven. The afflicted as well as the happy can find on your mouth a celestial smile. The sick as well as the healthy can find caresses from your sweet hands. And, finally, sinners like myself find in you a protecting Mother who can crush beneath her immaculate feet the head of the dragon. And in your eyes I see mercy, pardon and a shining lamp to keep me from falling into the muddy waters of sin.",
         
-        
+        //4
         
     ]
     

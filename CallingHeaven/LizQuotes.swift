@@ -171,7 +171,7 @@ struct LizQuotes {
         
         "How very consoling that is! My weakness, my weaknesses, m dislikes, my mediocrity, my faults themselves tell the flory of the Eternal! My suferings of soul or body also tell the glory of my Master.",
         
-        "The soul that by the depth of its interior gaze contemplates its God through everything in that simplicity that sets it apart from all things is a 'radiant' soul: i is a 'day that passes on to day the message of His glory.",
+        "The soul that by the depth of its interior gaze contemplates its God through everything in that simplicity that sets it apart from all things is a 'radiant' soul: it is a 'day that passes on to day the message of His glory.",
         
         "How can I imitate in the heaven of my soul this unceasing occupation of the blessed in the Heaven of glory? How can I sustain this uninterrupted praise and adoration?",
         
@@ -181,13 +181,62 @@ struct LizQuotes {
         
         //p.150, 7:45, 22 quotes, total now is 76.
         
+        "The soul that penetrates and dwells in these 'depths of God' of which the royal prophet sings, and thus does everything, 'in Him, with Him, by Him and for Him,'...is rooted more deeply in He whom it loves.",
+        
+        "We know that when He appears, we shall be like Him, for we shall see Him just as He is. And everyone who has this hope in Him makes himself holy as He Himself is holy.",
+        
+        "The soul that is absorbed in recollection of these thoughts, that penetrates them with this 'mind of God,' of which St. Paul speaks, lives in an anticipated Heaven, beyond all that passes, beyond the clouds, beyond itself!",
+        
+        "So that nothing may draw me out of this beautiful silence within, I must always maintain the same dispositions, the same solitude, the same withdrawal, the same stripping of self! ",
         
         
+        "This is the way set forth, we have only to strip off self to follow it as God wills! To strip off self, to die to self, to lose sight of self.",
         
+        "'O Death, says the Lord, I will be your death.' That is: 'O soul, my adopted daughter, look at me and you will forget yourself; flow entirely into my Being, come die in me that I may live in you.'",
         
+        "The divine Being lives in an eternal, immense solitude. He never leaves it, though concerning Himself with the needs of His creatures, for He never leaves Himself; and this solitude is nothing else but His divinity.",
         
+        "My Master asks me to imitate this perfection, to pay Him homage by being a great solitary.",
+        
+        "We must forget it(self), abandon it, and when the soul has made this break, when it is free from all that, the King is enamoured of its beauty. For beauty is unity, at least it is the unity of God.",
+        
+        "I will do only what is divine, only what is eternal, and, like my Unchanging One, I will live even here below in an eternal present.",
+        
+        //10, tot 86
+        
+        "It is the whole Trinity who dwells in the soul that loves them in truth, that is by keeping their word!",
+        
+        "And when this soul has realized its riches, all the natural or supernatural joys that can come to it from creatures or from God Himself are only an invitation to re-enter into itself in order to enjoy the substantial Good that it possesses, which is nothing less than God Himself.",
+        
+        "It is His Word then that will directly achieve the work of stripping in the soul; for it has this particular characteristic, that it affects and creates what it intends, provided however that the soul consents to let this be done.",
+        
+        "He brought you to life along with Him, forgiving you of all your sins, cancelling the degree of condemnation which weighed on you: He abolished it by nailing it to the cross.",
+        
+        "His exceeding love is 'eager to do in me.'He wants to be my peace, so that nothing can distract me or draw me out of the 'invincible fortress of holy recollection.'",
+        
+        "He will lead away all my powers, making them his captives, triumphing over them in Himself. Then, I will have passed into Him and can say: 'I no longer live. My Master lives in me! And I will be holy, pure, without reproach' in the Father's eyes.",
+        
+        "To walk in Jesus Christ seems to me to leave self, lose sight of self, give up self, in order to enter more deeply into Him with every passing moment, so deeply that one is rooted there.",
+        
+        "To every event, to every circumstance, we can fling this beautiful challenge: 'Who will separate me from the love of Jesus Christ?'",
+        
+        "When the soul is established in Him at such depths that its roots are also deeply thrust in, then the divine sap streams into it and all this imperfect, commonplace, natural life is destroyed.",
+        
+        "The soul, thus stripped of self and clothed in Jesus Christ has nothing more to fear from exterior encounters or from interior difficulties, for those things, far apart from being an obstacle, serve to root it more deeply in the love of its Master.",
+        
+        "For love of Him, I have forfeited everything; I have accounted all else rubbish that I may gain Christ, so as to be found in Him, not with my own justice but the justice that comes through God through faith.",
+        
+        "What I want is to know Him, to share His sufferings, to become like Him in His death.",
+        
+        "This is how I understand, 'belong to the house of God,': It is living in the bosom of the tranquil Trinity, in my interior abyss, in this 'invincible fortess of holy recollection' of which St. John of the Cross speaks.",
+        
+        "O How beautiful is this creature, thus stripped, freed from self. It can use the ascensions in its heart to be freed from this valley of tears.",
+        
+        "It is not life that abandons the soul but rather the soul who scorns the natural life His rich essence, so it dies and flows into its God."
     
     ]
+    
+    //101 total!
     
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)
