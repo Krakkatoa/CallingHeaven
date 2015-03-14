@@ -50,7 +50,10 @@ struct LizPrayers {
         
         "At the foot of the Cross, Beloved,\n Jesus, my crucified Love.\n I come to tell you again to take\n My heart without giving it back.",
         
-        //16
+        "O God of bountiful mercy,\n you revealed to Blessed Elizabeth of the Trinity \n the mystery of your secret presence in the hearts of those who love you, \n and you chose her to adore you in spirit and in truth.\n Through her intercession \n may we also abide in the love of Christ,\n that we may merit to be transformed into temples of your life-giving Spirit\n to the praise of your glory.",
+        
+        
+        //18
     
     ]
     
