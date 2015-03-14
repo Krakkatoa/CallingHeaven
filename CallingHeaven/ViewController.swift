@@ -143,7 +143,7 @@ class ViewController: UIViewController
     
     @IBAction func EdithAction(sender: AnyObject) {
         phoneImage.hidden = true
-        temporalBio = "St. Edith Stein "
+        temporalBio = "St. Edith Stein"
         temporalImage = imageEdith
         pictureSaints.image = imageEdith
         quotesLabel.text = edithQuotes.randomFact()

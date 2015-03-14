@@ -30,13 +30,13 @@ struct TeresaQuotes {
         
         "There are more tears shed over answered prayers than over unanswered prayers. ",
         
-        "This is the reason for prayer. My daughters, the purpose of this spiritual marrriage: The birth always of good works, good works.",
+        "This is the reason for prayer. My daughters, the purpose of this spiritual marriage: The birth always of good works, good works.",
         
         "Believe me. In the presence of infinite wisdom, one act of humility is worth more than all the knowledge of the world.",
         
         "And since He doesn't force our will, He takes what we give him; but He doesn't give himself completely until we give ourselves completely.",
         
-        "O Greatness of God! Often, I am amazed when I consier how particularly His majesty wanted to help me and found this little dwelling corner for God.",
+        "O Greatness of God! Often, I am amazed when I consider how particularly His majesty wanted to help me and found this little dwelling corner for God.",
         
         "We will not reach perfection in the love of neighbor if that love doesn't rise from love of God as its root.",
         
@@ -84,7 +84,7 @@ struct TeresaQuotes {
         
         "I hold that love, where present, cannot possibly be content with remaining always the same.",
         
-        "I had such a bad headache, I thought it would be almost impossible to pray. The Lord said to me: 'In this way, you will see the reward that comes from suffering, for since you did have not have the health to speak to me, I have spoken with you and favored you.'",
+        "I had such a bad headache, I thought it would be almost impossible to pray. The Lord said to me: ”In this way, you will see the reward that comes from suffering, for since you did have not have the health to speak to me, I have spoken with you and favored you.”",
         
         "..Not with the noise of words but with longing that he hears us.",
         
@@ -94,7 +94,7 @@ struct TeresaQuotes {
         
         "What folly: To flee from the light so as to be always stumbling!",
         
-        "He will see that whoever loves Him much will be able to suffer much for Him; whoever loes Him little will be capable of little.",
+        "He will see that whoever loves Him much will be able to suffer much for Him; whoever loves Him little will be capable of little.",
         
         "I myself hold that the measure for being able to bear a large or small cross is love.",
         
@@ -117,7 +117,7 @@ struct TeresaQuotes {
         
         "The soul is therefore neither content with nor desirous of the world's satisfactions, because it has in itself what pleases it more.. Being with Him is what it wants.",
         
-        "Let us not desire delights, daughters. We are well-off here. The 'bad inn' lasts only a night.",
+        "Let us not desire delights, daughters. We are well-off here. The ”bad inn” lasts only a night.",
         
         "Let us desire and be occupied in prayer, not for the sake of our enjoyment but so to have this strength to serve.",
         
@@ -221,7 +221,7 @@ struct TeresaQuotes {
         
         //100
         
-        "May it please His Majesty to give us His love before He takes us out of this life, for it will be a great thing at the hour of death to see that we are going to be judged by the One whome we have loved above all things.",
+        "May it please His Majesty to give us His love before He takes us out of this life, for it will be a great thing at the hour of death to see that we are going to be judged by the One whom we have loved above all things.",
         
         
         "We shall never completely know ourselves if we don't strive to know God.",

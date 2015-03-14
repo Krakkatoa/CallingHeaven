@@ -43,7 +43,7 @@ struct EdithQuotes {
         
         "When we entrust all the troubles of our earthly existence confidently to the divine heart, we are relieved of them. Then our soul is free to participate in the divine life.",
         
-        "Every finite creature can reflect only a fraction of the divine nature; thus, in the diversity of His creatures, God's infinity, unity and oneness appear to be broken into an effulfgence of manifold rays.",
+        "Every finite creature can reflect only a fraction of the divine nature; thus, in the diversity of His creatures, God's infinity, unity and oneness appear to be broken into an effulgence of manifold rays.",
         
         "The complete surrender of an entire life and being is to live and work with Christ; but that also means to suffer and die with Him- that fruitful death from which springs the life of grace for all humanity.",
         
@@ -59,12 +59,12 @@ struct EdithQuotes {
         
         "..This participation in divine life has a liberating power in itself; it lessens the weight of our earthly concerns and grants us a bit of eternity, even in this finitude, a reflection of beatitude, a transformation into light.",
         
-        "Living in a Eucharistic way means comiing out of oneself, out of the narrowness of one's life, and growing into the immensity of Christ.",
+        "Living in a Eucharistic way means coming out of oneself, out of the narrowness of one's life, and growing into the immensity of Christ.",
         
         
         //26
         
-        "If one is intent of having all of one's life consist exclusively of sacrifices, the danger ir pharasaism is around the corner.",
+        "If one is intent of having all of one's life consist exclusively of sacrifices, the danger of pharisaism pharisaism is around the corner.",
         
         "Should we strive for perfect love, you ask? Absolutely. For this we were created. Perfect love will be our eternal life and here we have to seek to come as close to it as possible.",
         
@@ -78,11 +78,11 @@ struct EdithQuotes {
         
         "He who seeks the truth, whether he is aware of it or not, is seeking God.",
         
-        "My being, as I see it and as I see myself in it, is null; by myself I am not and I am nothing by myself; at each moment I am faced with nothingness and I enought to receive being anew, moment by moment. And yet 'being' is exactly this non-being, and therefore each moment, I touch the fullness of being.",
+        "My being, as I see it and as I see myself in it, is null; by myself I am not and I am nothing by myself; at each moment I am faced with nothingness and I ought to receive being anew, moment by moment. And yet ”being” is exactly this non-being, and therefore each moment, I touch the fullness of being.",
         
         "I know I am being sustained and herein lies my tranquility and security- not the conscious security of the man who is on firm ground with his own strength but the sweet and beautiful security of the child upheld by a strong arm...",
         
-        "To be able to give ourselves to God with love, we hve to recognize Him as He who loves.",
+        "To be able to give ourselves to God with love, we have to recognize Him as He who loves.",
         
         "The most intimate essence of love is the giving. God, who is love, gives Himself to creatures whom He Himself has created through love.",
         
@@ -116,7 +116,7 @@ struct EdithQuotes {
         
         //50
         
-        "There is a call to suffer with Christ, and through this call to collaborate with Him in His work of reemption. If we are united to the Lord, we are members of the mystical body of Christ...",
+        "There is a call to suffer with Christ, and through this call to collaborate with Him in His work of redemption. If we are united to the Lord, we are members of the mystical body of Christ...",
         
         "...Christ continues to live in His members and to suffer in them; and suffering, borne in union with the Lord, is suffering, grafted onto the great work of redemption, and through this it is fruitful.",
         
@@ -128,13 +128,13 @@ struct EdithQuotes {
         
         "I would like to come to the defense of the angels. They do not stand between us and God as a separation, but rather as a ray of light...The fact that God deals with us through messengers is not a sign of the unapproachable majesty of God, rather of (His) overflowing love.",
         
-        "It is a great school of humilty to have to do continually things tht cause great fatigue and that turn our very imperfect.",
+        "It is a great school of humility to have to do continually things that cause great fatigue and that turn our very imperfect.",
         
         "Let us confidently place all preoccupation about the future in the hands of God and let us allow Him to guide us like a child. After that, we may be sure that we will not be able to take the wrong road.",
         
-        "This is the principle on which is based the life of all religious orders and first of all Carmel: through free and joyous suffering to iintercede for sinners and to collaborate in the redemption of mankind.",
+        "This is the principle on which is based the life of all religious orders and first of all Carmel: through free and joyous suffering to intercede for sinners and to collaborate in the redemption of mankind.",
         
-        "Our work in the midst of others will be efficatious and blessed by God only if we do not yield even one centimeter of the sure ground of our faith, an if we follow our conscience withough letting ourselves be influenced by human respect.",
+        "Our work in the midst of others will be efficacious and blessed by God only if we do not yield even one centimeter of the sure ground of our faith, an if we follow our conscience without letting ourselves be influenced by human respect.",
         
         "The darker it becomes around us, the more we ought to open our hearts to the light that comes from on high.",
         
@@ -152,9 +152,9 @@ struct EdithQuotes {
         
         "The prayer of the Church is the prayer of the ever living Christ which has its model in Christ's prayer during His life as man.",
         
-        "Jesus' life of prayer is the key that introduces us iinto the prayer of the Church.",
+        "Jesus' life of prayer is the key that introduces us into the prayer of the Church.",
         
-        "'Father, if you will, take this chalice from me, but not my will but yours be done.' Therse words are like a flash that for a moment illumines the most intimate life of Jesus' soul.",
+        "”Father, if you will, take this chalice from me, but not my will but yours be done.” These words are like a flash that for a moment illumines the most intimate life of Jesus' soul.",
         
         "Participation in the sacrifice and in communion transforms the soul into a living stone of the divine city and every city and every soul into a temple of God.",
         
@@ -162,13 +162,13 @@ struct EdithQuotes {
         
         "The prayer of the Church is the prayer of the ever-living Christ, which has its model in Christ's prayer during His life as a man.",
         
-        "The liturgical unity of the Church in heaven and of the Church on earth tht renders thanks to God 'through Christ' finds its strongest expression in the Preface and in the Sanctus of the Mass.",
+        "The liturgical unity of the Church in heaven and of the Church on earth that renders thanks to God ”through Christ” finds its strongest expression in the Preface and in the Sanctus of the Mass.",
         
         "Everything of which we have need... is summarized in the seven petitions of the Our Father which the Lord did not say for Himself, but for our instruction.",
         
         //75
         
-        "Th priestly prayer of the Savior reveals the mystery of the interior life: the close union of the divine persons and the indwelling of God in the soul. In this secret depth, in hiddennes and in silence, the work of Redemption is prepared and accomplished,, and so it willl be until the end of time, until the moment in which we will truly be one thing only in God." ,
+        "Th priestly prayer of the Savior reveals the mystery of the interior life: the close union of the divine persons and the indwelling of God in the soul. In this secret depth, in hiddenness and in silence, the work of Redemption is prepared and accomplished,, and so it will be until the end of time, until the moment in which we will truly be one thing only in God." ,
         
        "The mystery of the Incarnation and the mystery of evil are closely connected; against the light come down from heaven, stands out darker and more sinister, the night of sin.",
         
@@ -186,11 +186,11 @@ struct EdithQuotes {
         
         "Whoever belongs to Christ ought to live the whole life of Christ; he ought to attain the maturity of Christ and finally should set out on the way of the cross, towards Gethsemane and Golgotha.",
         
-        "The invocation, 'Thy will be done,' ought to be in its entirety the norm of the Christian life; it should regulate the course of the day from morning to evening, the direction of the soul and one's whole life, it ought to be the sole thought of the Christian.",
+        "The invocation, ”Thy will be done,” ought to be in its entirety the norm of the Christian life; it should regulate the course of the day from morning to evening, the direction of the soul and one's whole life, it ought to be the sole thought of the Christian.",
         
-        "Let us consider the Mother of God as spouse: a silent, immense confidence, which in its turn expects an immense confidence; tacit obedience; faithful particiation, open to sorrow; and all that in full adherence to the ordiance of God who gave her a man as earthly defense and visible head.",
+        "Let us consider the Mother of God as spouse: a silent, immense confidence, which in its turn expects an immense confidence; tacit obedience; faithful participation, open to sorrow; and all that in full adherence to the ordinance of God who gave her a man as earthly defense and visible head.",
         
-        "Only the power of grace can truly root out and renew fallen nature in its inmost depths and not disguse it exteriorly.",
+        "Only the power of grace can truly root out and renew fallen nature in its inmost depths and not disguise it exteriorly.",
         
         "To give oneself to God, recklessly forgetful of self, not to take account of one's own individual life, to allow full room for divine life is the profound motive, the principle and the end of religious life. The more perfectly this is carried out, so much the richer is the divine life that fills the soul.",
         
@@ -198,40 +198,40 @@ struct EdithQuotes {
         
         "The more lofty the degree of loving union to which God destines the soul, so much the more profound and persistent must be its purification.",
         
-        "The soul attains a high degree of love of God, inasmuch as it acts solely according to His will. Perserverance though all misfortunes confers strength and courage on it. The painful purification from all sensible desires and pleasures leads it to freedom spirit of which the twelve fruits of the Holy Spirit mature.",
+        "The soul attains a high degree of love of God, inasmuch as it acts solely according to His will. Perseverance though all misfortunes confers strength and courage on it. The painful purification from all sensible desires and pleasures leads it to freedom spirit of which the twelve fruits of the Holy Spirit mature.",
         
-        "(Faith) furnishes a certain but obscure knowledge to the understanding. In fact, it shows us God as inaccessible light, as incomprehensible and infinite Being before whom every natural force gives way. And it is just for this motive that faith reduces reason to its intrinsic nothingness: to the realization of its importence and the grandeur of God." ,
+        "(Faith) furnishes a certain but obscure knowledge to the understanding. In fact, it shows us God as inaccessible light, as incomprehensible and infinite Being before whom every natural force gives way. And it is just for this motive that faith reduces reason to its intrinsic nothingness: to the realization of its importance and the grandeur of God." ,
         
         
         //92
         
-        "Charity liberates the will from everything, imposing as a duty to love God above all else. This however is possible only whe anxious desire for creatures is removed.",
+        "Charity liberates the will from everything, imposing as a duty to love God above all else. This however is possible only when anxious desire for creatures is removed.",
         
-        "The activity by which the soul assimilates the contensts of faith is meditation.",
+        "The activity by which the soul assimilates the contents of faith is meditation.",
         
         "To obtain the granting of requests that we have at heart, there is no better mean than that of directing our energy to our prayer to asking for what is most pleasing to God.",
         
         "The Cross serves as a walking-stick to speed one's march toward the summit.",
         
-        "The more limpid nd pure the divine ray that penetrates the soul, so much greater is the darkness, the emptiness and the annhialation.",
+        "The more limpid and pure the divine ray that penetrates the soul, so much greater is the darkness, the emptiness and the annihilation.",
         
         "The soul ought to consider aridity and darkness as fortunate omens, as signs that God is beside it, freeing it from itself, taking the initiative out of its hand." ,
         
-        "The higher the soul rises toward God, the lower it sinks into itself.  Union takes place iin the interior of the soul, in its most profound depth",
+        "The higher the soul rises toward God, the lower it sinks into itself.  Union takes place in the interior of the soul, in its most profound depth",
         
-        "The right of delf-determination is an inalienable property of the soul. It constitutes the great mystery of personal liberty, befoe which God Himself is halted.",
+        "The right of self-determination is an inalienable property of the soul. It constitutes the great mystery of personal liberty, before which God Himself is halted.",
         
         "God dwells in the inmost depths of the soul and therefore there is nothing within it that is hidden from Him." ,
         
-        "Man is called to live in his inmost being, taking in hand the direction of his entire self. Only by directing himself from here can man find his alloted place in the world.",
+        "Man is called to live in his inmost being, taking in hand the direction of his entire self. Only by directing himself from here can man find his allotted place in the world.",
         
         "God desires dominion over created spirits only under the form of a free gift offered to Him from their love.",
         
-        "He who does not hold the reigns of his whole being tightly in his hand is not at all at the height where he can make his decisions with true freedom: On the contray, he will always be subject to exterior influences.",
+        "He who does not hold the reigns of his whole being tightly in his hand is not at all at the height where he can make his decisions with true freedom: On the contrary, he will always be subject to exterior influences.",
         
-        "The inmost depth of the soul is the center of the most perfet liberty.",
+        "The inmost depth of the soul is the center of the most perfect liberty.",
         
-        "He who with blind faith no longer desires aything except in so far as God wills it has at last reached the highest stage attainable by man, supported by the grace of God.",
+        "He who with blind faith no longer desires anything except in so far as God wills it has at last reached the highest stage attainable by man, supported by the grace of God.",
         
         "Love, it its highest expression, is a fusion of being in a mutual and voluntary surrender. Such is he intimate trinitarian life of God.",
         
@@ -239,7 +239,7 @@ struct EdithQuotes {
         
         "Faith is referred to as midnight darkness, because in order to gain its light, we are obliged to renounce completely the light of natural knowledge." ,
         
-        "The flame of divine life touches the soul with the tenderness of God and wounds it iin its inmost depth with such force as to make it dissolve in love.",
+        "The flame of divine life touches the soul with the tenderness of God and wounds it in its inmost depth with such force as to make it dissolve in love.",
         
         "The more profoundly one is immersed in God, so much the more is obliged to go out of self, that is to go toward the world, to bear it into the divine life." ,
         

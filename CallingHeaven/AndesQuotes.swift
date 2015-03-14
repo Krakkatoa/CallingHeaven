@@ -184,9 +184,9 @@ struct AndesQuotes {
         
         "Charity consists in appreciating God and preferring Him to all things and creatures.",
         
-        "Since I am unworthy to pronounce your most sweet name, because it would bring me consolation, I dare, being annhilated, to implore your infinte mercy.",
+        "Since I am unworthy to pronounce your most sweet name, because it would bring me consolation, I dare, being annihilated, to implore your infinite mercy.",
         
-        "May I live submmerged in Your love, so it will consume my miseable beiing and transform me into You.",
+        "May I live submerged in Your love, so it will consume my miserable being and transform me into You.",
         
         "Give met the cross. I want to suffer for You; but teach me to suffer by loving, with joy and with humility.",
         
@@ -202,7 +202,7 @@ struct AndesQuotes {
         
         "How can I not be mad for Jesus? Jesus is the only one capable of enamoring me.",
         
-        "Oh how good is Jesus with this vile slave! Oh Jesus, your love annhilates me and confounds me!",
+        "Oh how good is Jesus with this vile slave! Oh Jesus, your love annihilates me and confounds me!",
         
         "Only in Jesus do I encounter constant love, love without limit, love that is infinite.",
         

@@ -86,7 +86,7 @@ struct ThereseQuotes {
         
         "Dear Lord, you know that I do not serve you for the sake of a reward, but simply because I love you, and in order to save souls.",
         
-        "Remember that this sweet Jesus is there in the Tabernacle expressly for you and you alone. Remember that He burns with the desire to enter your heart. Do not listen to Satan. Laugh him to scorn and go without fear to recieve Jesus.",
+        "Remember that this sweet Jesus is there in the Tabernacle expressly for you and you alone. Remember that He burns with the desire to enter your heart. Do not listen to Satan. Laugh him to scorn and go without fear to receive Jesus.",
         
         "To be without Jesus is a grievous hell and to be with Jesus, a sweet paradise.",
         
@@ -100,7 +100,7 @@ struct ThereseQuotes {
         
         "I found the secret to suffering in peace- I don't say joy. To suffer in peace, it is enough to will all that Jesus wills.",
         
-        "The good God says to me, 'Give without concerning yourself with results.'",
+        "The good God says to me, ”Give without concerning yourself with results.”",
         
         "We must not be discouraged by our faults, for children fall frequently.",
         
@@ -224,7 +224,7 @@ struct ThereseQuotes {
         
       ///101
         
-        "How sweet it was, the first kiss of Jesus to my soul! Yes, it was a kiss of Love. I felt I was loved, and I too said: 'I love Thee, I give myself to Thee forever!' Jesus asked nothing of me, demanded no sacrifice. Already for a long time past, He and the little Therese had watched and understood one another... That day our meeting was no longer a simple look but a fusion. No longer were we two: Therese had disappeared as the drop of water which loses itself in the depths of the ocean, Jesus alone remained; the Master, the King! Had not Therese begged Him to take away from her, her liberty? That liberty made her afraid; so weak, so fragile did she feel herself that she longed to be united forever to Divine Strength.",
+        "How sweet it was, the first kiss of Jesus to my soul! Yes, it was a kiss of Love. I felt I was loved, and I too said: ”I love Thee, I give myself to Thee forever!” Jesus asked nothing of me, demanded no sacrifice. Already for a long time past, He and the little Therese had watched and understood one another... That day our meeting was no longer a simple look but a fusion. No longer were we two: Therese had disappeared as the drop of water which loses itself in the depths of the ocean, Jesus alone remained; the Master, the King! Had not Therese begged Him to take away from her, her liberty? That liberty made her afraid; so weak, so fragile did she feel herself that she longed to be united forever to Divine Strength.",
         
         "At the time of Holy Communion I sometimes picture my soul under the figure of a little child of three or four years, who at play has got its hair tossed and its clothes soiled. These misfortunes have befallen me in battling with souls. But very soon the Blessed Virgin hastens to my aid: quickly, she takes off my dirty little pinafore, smoothes my hair and adorns it with a pretty ribbon or simply with a little flower... and this suffices to render me pleasing and enables me to sit at the Banquet of Angels without blushing.",
         

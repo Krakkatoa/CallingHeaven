@@ -95,11 +95,11 @@ struct JohnQuotes {
         
         "In the evening of life, we will be judged on love alone.",
         
-        "Let your speech be such that no one may be offended, and let it concern things that would not ause you regret were all to know of them.",
+        "Let your speech be such that no one may be offended, and let it concern things that would not cause you regret were all to know of them.",
         
         "Since, when the hour of reckoning comes, you will be sorry for not having used this time in the service of God, why do you not arrange and use it now as you would wish to have done were you dying?",
         
-        "O Living flame of love that tenderly wounds my soul in its deepest center! Since now you are oppressive now consumate! If it be your will, tear through the veil of this sweet encounter!",
+        "O Living flame of love that tenderly wounds my soul in its deepest center! Since now you are oppressive now consummate! If it be your will, tear through the veil of this sweet encounter!",
         
         "To be taken with love for a soul, God does not look on its greatness, but the greatness of its humility.",
         
@@ -117,9 +117,9 @@ struct JohnQuotes {
         
         "I didn't know you, my Lord, because I still desired to know and relish things.",
         
-        "The appetites are leeches, always calling, 'Give more, give more.'",
+        "The appetites are leeches, always calling, ”Give more, give more.”",
         
-        "Blessed are they who set aside their own inclincations and consider things according to reason and justice before doing them.",
+        "Blessed are they who set aside their own inclinations and consider things according to reason and justice before doing them.",
         
         "Love works so in me that whether things go well or badly, love turns all to one sweetness.",
         
@@ -174,7 +174,7 @@ struct JohnQuotes {
         
         "It is best to learn to silence the faculties and to cause them to be still, so that God may speak.",
         
-        "Dear brothers and sisters, I pray God may open your eyes and let you see what hidden treasures he bestows on us in the trials from which the world thinks only to flee. Shame turns into honor when we seek God's glory. Present affliction become the source of heavenly glory. To those who suffer wounds in fighting his battles God opens his arms in loving, tender friendship. That is why he (Christ) tells us that if we want to join him, we shall travel the way he took. It is surely not right that the Son of God should go his way on the path of shame while the sons of men walk the way of worldly honor: 'The disciple is not above his teacher, nor the servant greater than his master.",
+        "Dear brothers and sisters, I pray God may open your eyes and let you see what hidden treasures he bestows on us in the trials from which the world thinks only to flee. Shame turns into honor when we seek God's glory. Present affliction become the source of heavenly glory. To those who suffer wounds in fighting his battles God opens his arms in loving, tender friendship. That is why he (Christ) tells us that if we want to join him, we shall travel the way he took. It is surely not right that the Son of God should go his way on the path of shame while the sons of men walk the way of worldly honor: ”The disciple is not above his teacher, nor the servant greater than his master.",
         
         "God passes through the thicket of the world, and wherever His glance falls He turns all things to beauty.",
         
@@ -192,9 +192,9 @@ struct JohnQuotes {
         
         "Here the soul rejoices in the glory of God, under the protection of His shadow. It is immersed in the waters of the Divinity which freely penetrate the whole person.",
         
-        "When the soul offers the sacrifice of love, it becomes liviing flames of fire. If we consider that the soul is transformed in God, it will be understood how, in some manner, it has in truth become a fountain of liviing water, boiling and burning in the fire of love- God Himself.",
+        "When the soul offers the sacrifice of love, it becomes living flames of fire. If we consider that the soul is transformed in God, it will be understood how, in some manner, it has in truth become a fountain of living water, boiling and burning in the fire of love- God Himself.",
         
-        "He joyfully reveals His face to you, saying to you, 'I am yours, completely yours. And my hapiness is to be who I am so that I may give Myself to you and be all yours.'",
+        "He joyfully reveals His face to you, saying to you, ”I am yours, completely yours. And my happiness is to be who I am so that I may give Myself to you and be all yours.”",
         
         "The soul must be attached to nothing, whether sense or spirit, which would introduce noise into the deep silence. There, the voice of God speaks to the heart in this secret place, in utmost peace and tranquility.",
         
@@ -212,7 +212,7 @@ struct JohnQuotes {
         
         "Do not feed your spirit on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
         
-        "He then tht seeks happiness in other things is not keeping himself empty for God to fill with his own unspeakable joy.",
+        "He then that seeks happiness in other things is not keeping himself empty for God to fill with his own unspeakable joy.",
         
         "As a man goes to God so does he leave Him; and if his hands are full, he cannot take into the what God wants to give.",
         
@@ -226,7 +226,7 @@ struct JohnQuotes {
         
         "With the divinest Word, the Virgin, made pregnant, down the road comes walking, if you'll grant her a room in your abode.",
         
-        "O soul, most beautiful of creatures, who so earnestly longs to know the place where your Beloved is, that you may seek him and be united to him.  You are yourself thevery tabernacle where he dwells, the secret chamber of his retreat where he is hidden.  Rejoice therefore and exult, because all your good and all your hope is so near you as to be within you. Yes, rather rejoice that you cannot be without it, for lo ;the kingdom of God is within you;.  So says the Bridegroom himself, and his servant St. Paul adds: 'You are the temple of the living God'.  What joy for the soul to learn that God never abandons it even in mortal sin, how much less in a state of grace:  What more can you desire, what more  can you seek outside, seeing that within you you have your riches, your delight, your Beloved whom you seek and desire.",
+        "O soul, most beautiful of creatures, who so earnestly longs to know the place where your Beloved is, that you may seek him and be united to him.  You are yourself the very tabernacle where he dwells, the secret chamber of his retreat where he is hidden.  Rejoice therefore and exult, because all your good and all your hope is so near you as to be within you. Yes, rather rejoice that you cannot be without it, for lo ;the kingdom of God is within you;.  So says the Bridegroom himself, and his servant St. Paul adds: ”You are the temple of the living God.”  What joy for the soul to learn that God never abandons it even in mortal sin, how much less in a state of grace:  What more can you desire, what more  can you seek outside, seeing that within you you have your riches, your delight, your Beloved whom you seek and desire.",
         
         "One love in them all makes of them one Lover,\n and the Lover is the Beloved in whom each one lives.\n For the being that the three possess each of them possesses,\n and each of them loves him who bears this being.\n Each one is this being, which alone unites them,\n binding them deeply, one beyond words.",
         
