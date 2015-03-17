@@ -21,7 +21,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var query = PFQuery(className:"Note")
+            var query = PFQuery(className:"Question")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
                 (objects: [AnyObject]!, error: NSError!) -> Void in
@@ -66,7 +66,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
-        let cell = tableView.dequeueReusableCellWithIdentifier("noteIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("questionsIdentifier", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel?.text = (rowData["title"] as String)
         cell.detailTextLabel?.text = (rowData["note"] as String)
         // Configure the cell...
