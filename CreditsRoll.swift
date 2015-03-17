@@ -12,9 +12,9 @@ struct CreditsRoll {
     
     let factsArray = [
 
-    "Thanks to \n My Code Mentor, Cristian Garner Espinoza\n  Code Consultants- Colin Corcoran and Dmitry Grekov \n Design Consultants- Chuck Abraham, Trinity Girl, Nance Burke, Jan O'Donnell, Leslie Thomas, Linney Frank, Ashlee Howard, Laurie Johnson, PhD \n Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages\n Beta Testers (names to be listed here.)",
+    "Thanks to \n My Code Mentor, Cristian Garner Espinoza\n  Code Consultants- Colin Corcoran and Dmitry Grekov \n Design Consultants- Chuck Abraham, Frida Aboroa, Nance Burke, Jan O'Donnell, Leslie Thomas, Linney Frank, Ashlee Howard, Laurie Johnson, PhD \n Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages\n Beta Testers- Colin Corcoran, Ashlee Howard, Rocio Meza, ",
 
-        "Thanks to \n My Code Mentor, Cristian Garner Espinoza\n  Code Consultants- software engineers Colin Corcoran and Dmitry Grekov \n Design Consultants- Chuck Abraham, Trinity Girl, Nance Burke, Jan O'Donnell, Leslie Thomas, Linney Frank, Ashlee Howard, Laurie Johnson, PhD \n Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages\n Beta Testers (names to be listed here.)",
+        "Thanks to \n My Code Mentor, Cristian Garner Espinoza\n  Code Consultants- software engineers Colin Corcoran and Dmitry Grekov \n Design Consultants- Chuck Abraham, Trinity Girl, Nance Burke, Jan O'Donnell, Leslie Thomas, Linney Frank, Ashlee Howard, Laurie Johnson, PhD \n Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages\n Beta Testers- Colin Corcoran, Ashlee Howard, Rocio Meza, ",
 
 ]
 

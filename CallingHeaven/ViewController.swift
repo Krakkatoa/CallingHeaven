@@ -49,7 +49,7 @@ class ViewController: UIViewController
     
     @IBOutlet weak var jesus2Button: UIButton!
     
-   
+    
     @IBOutlet weak var titusButton: UIButton!
     
     @IBOutlet weak var mariamBoucardy: UIButton!
@@ -63,7 +63,7 @@ class ViewController: UIViewController
     
     @IBAction func arrowAction(sender: AnyObject) { self.dismissViewControllerAnimated(true) { () -> Void in }
     }
-
+    
     
     //VC 1
     
@@ -78,7 +78,7 @@ class ViewController: UIViewController
     
     //VC 2
     
-  let titusQuotes = TitusQuotes ()
+    let titusQuotes = TitusQuotes ()
     let mariamQuotes = MariamQuotes ()
     let andesQuotes = AndesQuotes ()
     let lizQuotes = LizQuotes ()
@@ -181,7 +181,7 @@ class ViewController: UIViewController
         nameLabel2.text = names [4]
     }
     
- 
+    
     @IBAction func mariamAction(sender: AnyObject) {
         temporalBio = "Bl. Mariam Baouardy"
         temporalImage = imageMariam
@@ -230,22 +230,19 @@ class ViewController: UIViewController
             saintView.nameTemporal = nameLabel.text
             saintView.temporalImage = temporalImage
             saintView.lifeTemporal = nameLabel.text
+            saintView.quotesTemporal = nameLabel.text
         }
         
         if segue.identifier == "bioProfile2"{
-                let saintView = segue.destinationViewController as saintViewController
-                saintView.bioTemporal = temporalBio
-                saintView.nameTemporal = nameLabel2.text
-                saintView.temporalImage = temporalImage
-                saintView.lifeTemporal = nameLabel2.text
-                
+            let saintView = segue.destinationViewController as saintViewController
+            saintView.bioTemporal = temporalBio
+            saintView.nameTemporal = nameLabel2.text
+            saintView.temporalImage = temporalImage
+            saintView.lifeTemporal = nameLabel2.text
+            saintView.quotesTemporal = nameLabel2.text
         }
         
     }
-    
-    
-    
-    
     
     //Social Media Integration
     

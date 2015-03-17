@@ -122,6 +122,34 @@ struct MariamQuotes {
         
         //53
         
+        "My God,",
+        
+        "My Beloved, where are you? Who has seen my Beloved? I have looked for him and not found Him. My Beloved, I walk, I run, I weep, I have not found my Beloved. O Jesus my love, I cannot live without you. Where are You, my Beloved? You know, my Love, that all the earth is nothing to me without You, that all the water of the sea would not suffice to refresh my heart.",
+        
+        "Who has consoled my heart? It is You, my Beloved. Who has refreshed it? It is You, my Love.",
+        
+        "I can endure no more, love is burning me, consuming me. I am broiling.",
+        
+        "I saw a field of wheat bowed before me, as if to meet its Creator, and in this wheat field, I saw written in large letters, This is my body.",
+        
+        "I saw the sun, the moon, the stars, everything that is in the sky and in the earth, rendering glory to God. And each thing was singing a canticle more beautiful than any I have ever heard.",
+        
+        "Think only of Jesus. Lord Jesus, plant all these virtues in the depths of my heart, and make them increase yourself by your power.",
+        
+        "However, as I am weak of myself, all day yesterday, I was burning with love for God; and today I am as though insensible, which means that of ourselves, we can do nothing and it is God who does all in us.",
+        
+        "I unite myself to Jesus, when he was carrying his cross in the streets of Jerusalem. May you be blessed, my God.",
+        
+        "I unite my voice with that of Jesus in the Garden of Olives. May you be blessed, my God.",
+        
+        "I unite my sufferings to Jesus, betrayed my Judas. May you be blessed, my God.",
+        
+        "I unite myself to Jesus falling under the weight of the cross. May you be blessed, my God.",
+        
+        "I offer my sufferings to Jesus and I am willing to endure all that He wills, with pleasure, with love.",
+        
+        "I desire to suffer, to be immolated, crushed, roasted, until the end of the world, for the triumph of the Church. My God, may you be blessed!",
+        
         
     
     ]

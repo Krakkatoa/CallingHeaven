@@ -12,10 +12,14 @@ class saintViewController: UIViewController {
     
     @IBOutlet weak var bioLabel2: UILabel!
     
+    
+    @IBOutlet weak var bioLabel3: UILabel!
+    
     var bioTemporal:String!
     var nameTemporal:String!
     var lifeTemporal:String!
     var temporalImage:UIImage!
+    var quotesTemporal:String!
     
     
     @IBOutlet var testLabel: UITextView!
@@ -68,13 +72,8 @@ class saintViewController: UIViewController {
         case "Bl. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
         case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
-            
-            
-            
-            
-            
-        default: println("Something else") }
-    }
+            default: println("Something else") }
+        }
     
     let teresaLife = TeresaLife ()
     let johnLife = JohnLife ()
@@ -86,22 +85,45 @@ class saintViewController: UIViewController {
     let andesLife = AndesLife ()
     
     
+    
+    @IBAction func quotesAction(sender: AnyObject) {
+    switch quotesTemporal
+    { case "St. Teresa of Avila":
+    (testLabel.text = teresaQuotes.randomFact())
+    case "St. John of the Cross": (testLabel.text = johnQuotes.randomFact())
+    case "St. Therese of Lisieux": (testLabel.text = thereseQuotes.randomFact())
+    case "St. Edith Stein": (testLabel.text = edithQuotes.randomFact ())
+    case "Jesus Christ":(testLabel.text = jesusQuotes.randomFact ())
+    case "Bl. Mariam Baouardy":(testLabel.text = mariamQuotes.randomFact ())
+    case "Bl. Elizabeth of the Trinity":(testLabel.text = lizQuotes.randomFact ())
+    case "Bl. Teresa of the Andes":(testLabel.text = andesQuotes.randomFact ())
+    default: println("Something else") }
+    
+    }
+    
+    let teresaQuotes = TeresaQuotes ()
+    let johnQuotes = JohnQuotes ()
+    let thereseQuotes = ThereseQuotes ()
+    let edithQuotes = EdithQuotes ()
+    let jesusQuotes = JesusQuotes ()
+    let mariamQuotes = MariamQuotes ()
+    let lizQuotes = LizQuotes ()
+    let andesQuotes = AndesQuotes ()
+    
+    
     override func viewDidLoad() {
+        
+        //This tells which switch command will relate to each object in the segue.
         
         bioLabel.text = nameTemporal
         saintImage.image = temporalImage
         bioLabel2.text = lifeTemporal
-        
-        
+        bioLabel3.text = quotesTemporal
         
         super.viewDidLoad()
         
-        
-        
         // Do any additional setup after loading the view.
     }
-    
-    
     
     
     override func didReceiveMemoryWarning() {

@@ -188,7 +188,7 @@ struct AndesQuotes {
         
         "May I live submerged in Your love, so it will consume my miserable being and transform me into You.",
         
-        "Give met the cross. I want to suffer for You; but teach me to suffer by loving, with joy and with humility.",
+        "Give me the cross. I want to suffer for You; but teach me to suffer by loving, with joy and with humility.",
         
         "Lord, if it please You that the darkness of my soul become deeper, that I not see You, it will not bother me because I want to fulfill Your will. I want to spend my life suffering to make reparation for my sins and those of sinners and so priests will be sanctified.",
         
