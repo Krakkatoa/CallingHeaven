@@ -8,13 +8,13 @@
 
 
 
+
 import UIKit
 
 class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    //var notesData = []
+    var notesData = []
     
-var notesData = NSMutableArray()
     
     @IBOutlet var thoughtsTableView: UITableView!
     override func viewDidLoad() {
@@ -22,10 +22,10 @@ var notesData = NSMutableArray()
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var query = PFQuery(className:"Thought")
+            var query = PFQuery(className:"Thoughts")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
-                (objects: [NSMutableArray]!, error: NSError!) -> Void in
+                (objects: [AnyObject]!, error: NSError!) -> Void in
                 if error == nil {
                     self.notesData = objects
                     self.thoughtsTableView.reloadData()
@@ -39,7 +39,7 @@ var notesData = NSMutableArray()
             
         }
         super.viewDidLoad()
-        self.navigationItem.leftBarButtonItem = self.editButtonItem()
+        
     }
     
     
@@ -53,9 +53,6 @@ var notesData = NSMutableArray()
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-    
     
     
     //Defines how big is the tableView
@@ -73,47 +70,7 @@ var notesData = NSMutableArray()
         // Configure the cell...
         
         return cell
-    
-    
     }
     
     
-    
-    // called when a row deletion action is confirmed
-     func tableView(tableView: UITableView,
-        commitEditingStyle editingStyle: UITableViewCellEditingStyle,
-        forRowAtIndexPath indexPath: NSIndexPath) {
-            switch editingStyle {
-            case .Delete:
-                // remove the deleted item from the model
-                self.notesData.removeObjectAtIndex(indexPath.row)
-                
-                // remove the deleted item from the `UITableView`
-                self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-            default:
-                return
-            }
-    }
-    
-    
-    
-    
-    
-    
-    //@IBAction func editAction(sender: AnyObject) {func
-     //  tableView(tableView: UITableView!, canEditRowAtIndexPath indexPath: NSIndexPath!) -> Bool {
-        //    return true
-     //   }
-  //  }
-    
-     //   @IBAction func deleteAction (sender:AnyObject){
-     //   func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
-          //  if (editingStyle == UITableViewCellEditingStyle.Delete) {
-         //   }
-   // }
-//}
-
-
-        // handle delete (by removing the data from your array and updating the tableview)
-
 }

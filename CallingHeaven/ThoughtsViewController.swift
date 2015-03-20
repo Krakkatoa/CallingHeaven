@@ -48,7 +48,7 @@ class ThoughtsViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var note = PFObject(className:"Thought")
+            var note = PFObject(className:"Thoughts")
             note["title"] = titleText.text
             note["note"] = noteText.text
             note["UserIdentifier"] = identifier
@@ -58,7 +58,7 @@ class ThoughtsViewController: UIViewController {
                     // The object has been saved.
                     println("Note Saved!")
                 } else {
-                    // There was a problem, check error.description
+                   // There was a problem, check error.description
                 }
             }
         }
@@ -66,8 +66,13 @@ class ThoughtsViewController: UIViewController {
         
     }
     
-    @IBAction func readAction(sender: AnyObject) {
-        
+   @IBAction func readAction(sender: AnyObject) {
+   
+    
+    }
+    
+    
+    @IBAction func readAction2(sender: AnyObject) {
     }
     
     //
@@ -86,7 +91,8 @@ class ThoughtsViewController: UIViewController {
     */
     
     // Change the mood operator based on input
+
+
+
+
 }
-
-
-
