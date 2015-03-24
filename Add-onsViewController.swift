@@ -19,6 +19,7 @@ class Add_onsViewController: UIViewController {
     }
    
 
+    @IBOutlet weak var backButton: UIButton!
     @IBAction func backAction(sender: AnyObject) {
   self.dismissViewControllerAnimated(true) { () -> Void in }
         
