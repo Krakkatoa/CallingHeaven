@@ -305,16 +305,6 @@
                                     <segue destination="gcl-Yc-j2w" kind="modal" id="0ck-PL-0nP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuH-U1-cXa" userLabel="Quotes">
-                                <rect key="frame" x="430" y="36" width="51" height="43"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="quotesAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="4ZZ-ib-P5E"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drU-5W-alA" userLabel="Facebook">
                                 <rect key="frame" x="461" y="215" width="20" height="25"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
@@ -325,6 +315,20 @@
                                     <action selector="shareFacebook:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="oZE-Ac-qiQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuH-U1-cXa" userLabel="Quotes">
+                                <rect key="frame" x="438" y="28" width="62" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="8BT-FG-A8j"/>
+                                    <constraint firstAttribute="width" constant="62" id="Fpi-gw-dDW"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="quotesAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="4ZZ-ib-P5E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -333,6 +337,8 @@
                             <constraint firstItem="uEy-qZ-Vlj" firstAttribute="leading" secondItem="Ufz-Ht-Hym" secondAttribute="leadingMargin" constant="-16" id="1LB-Ey-PRk"/>
                             <constraint firstAttribute="centerY" secondItem="Nxq-8l-7Wk" secondAttribute="centerY" id="JrY-z4-0ie"/>
                             <constraint firstAttribute="centerY" secondItem="uEy-qZ-Vlj" secondAttribute="centerY" id="OxG-OS-kPW"/>
+                            <constraint firstAttribute="centerX" secondItem="KuH-U1-cXa" secondAttribute="centerX" constant="-200" id="TBH-yI-Jmd"/>
+                            <constraint firstAttribute="centerY" secondItem="KuH-U1-cXa" secondAttribute="centerY" constant="109.5" id="TE6-ZF-pa2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uEy-qZ-Vlj" secondAttribute="trailing" constant="-16" id="fKD-BO-AVA"/>
                             <constraint firstAttribute="centerX" secondItem="uEy-qZ-Vlj" secondAttribute="centerX" id="geS-6b-Bhg"/>
                             <constraint firstAttribute="centerX" secondItem="Nxq-8l-7Wk" secondAttribute="centerX" constant="-16" id="mNf-KF-E0o"/>
@@ -1265,11 +1271,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="uYe-Te-0mh"/>
         <segue reference="0ck-PL-0nP"/>
         <segue reference="9EP-ek-Wig"/>
         <segue reference="egZ-9R-iWF"/>
         <segue reference="p0n-Ka-k5y"/>
-        <segue reference="uYe-Te-0mh"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>
