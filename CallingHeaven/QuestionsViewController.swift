@@ -25,7 +25,8 @@ class QuestionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -56,7 +57,7 @@ class QuestionsViewController: UIViewController {
                 if (success) {
                     // The object has been saved.
                     println("Note Saved!")
-                } else {
+                } else { println(error.description)
                     // There was a problem, check error.description
                 }
             }

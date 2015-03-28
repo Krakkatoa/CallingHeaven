@@ -37,6 +37,8 @@
 		715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */; };
 		716C4F2D1A9D57ED00E0D084 /* PetitonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */; };
 		716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */; };
+		717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717414551AC4AF4F003534EB /* NoteTableViewCell.swift */; };
+		717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717414561AC4AF4F003534EB /* NoteTableViewCell.xib */; };
 		718111FB1A70AAEC00DA14D6 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FA1A70AAEC00DA14D6 /* secondViewController.swift */; };
 		718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */; };
 		718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FE1A70ACC900DA14D6 /* LizQuotes.swift */; };
@@ -109,6 +111,8 @@
 		715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnQuotes.swift; sourceTree = "<group>"; };
 		716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetitonsTableViewController.swift; sourceTree = "<group>"; };
 		716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetitionsViewController.swift; path = ../PetitionsViewController.swift; sourceTree = "<group>"; };
+		717414551AC4AF4F003534EB /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteTableViewCell.swift; path = CallingHeaven/NoteTableViewCell.swift; sourceTree = "<group>"; };
+		717414561AC4AF4F003534EB /* NoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoteTableViewCell.xib; path = CallingHeaven/NoteTableViewCell.xib; sourceTree = "<group>"; };
 		718111FA1A70AAEC00DA14D6 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithPrayers.swift; sourceTree = "<group>"; };
 		718111FE1A70ACC900DA14D6 /* LizQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizQuotes.swift; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
+				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
+				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
 				71F99EBD1A8EF61500254C5E /* Bridging Header.h */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
@@ -433,6 +439,7 @@
 				719EE34A1A26C724007131ED /* Main.storyboard in Resources */,
 				719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */,
 				719EE34C1A26C724007131ED /* Images.xcassets in Resources */,
+				717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +462,7 @@
 				71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
+				717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */,
 				718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */,
 				719EE3471A26C724007131ED /* ViewController.swift in Sources */,
 				715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */,

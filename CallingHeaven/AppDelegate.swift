@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //This creates a identifier for each device, so we know which user is who
         let defaults = NSUserDefaults.standardUserDefaults()
-        defaults.setObject(UIDevice.currentDevice().identifierForVendor.UUIDString, forKey: "userIdentifier")
+        defaults.setObject(UIDevice.currentDevice().identifierForVendor.UUIDString, forKey: "UserIdentifier")
         
         return true
     }
