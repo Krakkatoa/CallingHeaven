@@ -37,7 +37,12 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
             }
             
         }
+        self.petitionsTableView?.estimatedRowHeight = 107.0
         super.viewDidLoad()
+        self.petitionsTableView?.rowHeight = UITableViewAutomaticDimension
+        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
+        
+        petitionsTableView?.registerNib(nib, forCellReuseIdentifier: "petitionsIdentifier")
        
     }
     
@@ -66,9 +71,14 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
-        let cell = tableView.dequeueReusableCellWithIdentifier("noteIdentifier", forIndexPath: indexPath) as UITableViewCell
-        cell.textLabel?.text = (rowData["title"] as String)
-        cell.detailTextLabel?.text = (rowData["note"] as String)
+        let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("petitionsIdentifier", forIndexPath: indexPath) as NoteTableViewCell
+        println(rowData.createdAt)
+        let formatter = NSDateFormatter()
+        formatter.dateStyle = .MediumStyle
+        formatter.timeStyle = .NoStyle
+        
+        let dateCell = formatter.stringFromDate(rowData.createdAt)
+        cell.loadNote(dateCell, titleView: rowData["title"] as String, subtitleView: rowData["note"] as String)
               // Configure the cell...
         
         return cell
