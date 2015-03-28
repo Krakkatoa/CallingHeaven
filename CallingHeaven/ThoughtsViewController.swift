@@ -15,7 +15,7 @@ class ThoughtsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!
     
-    @IBOutlet weak var noteText: UITextField!
+    @IBOutlet weak var noteText: UITextView!
     
     
     @IBOutlet weak var backAction: UIButton!
