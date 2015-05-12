@@ -234,6 +234,8 @@ struct ThereseQuotes {
         
         //105
         
+        "You alone are pure joy, my hope and my crown, my glory and my honor, my Lord.",
+        
     ]
     
     func randomFact() -> String {
