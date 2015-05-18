@@ -23,15 +23,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phonereceiver" translatesAutoresizingMaskIntoConstraints="NO" id="tXy-Rf-6QA">
                                 <rect key="frame" x="-30" y="0.0" width="187" height="312"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
                                 <rect key="frame" x="320" y="76" width="196" height="205"/>
-                                <color key="backgroundColor" red="1" green="0.77981651380000006" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-c6-aUE" userLabel="namelabel1">
                                 <rect key="frame" x="345" y="48" width="147" height="20"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="147" id="tSG-GA-8TW"/>
                                 </constraints>
@@ -41,7 +39,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL6-uK-ziS" userLabel="St. John">
                                 <rect key="frame" x="127" y="89" width="179" height="45"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -49,9 +46,8 @@
                                     <action selector="johnAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LhB-Nn-oZh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AL-fC-cmS" userLabel="St. Teresa">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AL-fC-cmS" userLabel="St. Teresa">
                                 <rect key="frame" x="126" y="29" width="179" height="58"/>
-                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -61,7 +57,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdb-Ma-iBc" userLabel="St. Edith">
                                 <rect key="frame" x="127" y="185" width="182" height="47"/>
-                                <color key="backgroundColor" red="0.87058823529999996" green="0.85490196080000003" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -69,9 +64,8 @@
                                     <action selector="EdithAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dae-RE-nsx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
                                 <rect key="frame" x="490" y="37" width="26" height="35"/>
-                                <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="26" id="2BD-4T-TAt"/>
                                 </constraints>
@@ -82,9 +76,8 @@
                                     <action selector="shareTwitter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IJI-bW-t0L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7G-jE-Msf" userLabel="Scroll Down">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7G-jE-Msf" userLabel="Scroll Down">
                                 <rect key="frame" x="267" y="282" width="45" height="38"/>
-                                <color key="backgroundColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -94,9 +87,8 @@
                                     <segue destination="xbG-Up-5wv" kind="modal" identifier="View Controller 2" modalTransitionStyle="crossDissolve" id="56G-cu-2mP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
                                 <rect key="frame" x="519" y="37" width="27" height="32"/>
-                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -104,9 +96,8 @@
                                     <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFm-F8-35c" userLabel="pen-journal">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFm-F8-35c" userLabel="pen-journal">
                                 <rect key="frame" x="519" y="71" width="33" height="113"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -116,7 +107,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRB-u7-TUZ" userLabel="Jesus1">
                                 <rect key="frame" x="118" y="231" width="194" height="50"/>
-                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -126,7 +116,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILX-C7-JFE" userLabel="St. Therese">
                                 <rect key="frame" x="126" y="134" width="180" height="51"/>
-                                <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -136,7 +125,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDB-aI-F5v" userLabel="Segue ">
                                 <rect key="frame" x="11" y="143" width="104" height="34"/>
-                                <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -146,28 +134,17 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
-                                <rect key="frame" x="28" y="37" width="91" height="104"/>
+                                <rect key="frame" x="42" y="31" width="83" height="104"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
-                            <constraint firstItem="GA9-wu-VBc" firstAttribute="leading" secondItem="UAe-c6-aUE" secondAttribute="trailing" constant="-2" id="6m0-EF-GcF"/>
-                            <constraint firstAttribute="centerY" secondItem="GA9-wu-VBc" secondAttribute="centerY" constant="105.5" id="8ut-le-ywA"/>
                             <constraint firstAttribute="centerY" secondItem="psv-Vs-w1w" secondAttribute="centerY" id="B1h-jv-biT"/>
                             <constraint firstAttribute="centerX" secondItem="psv-Vs-w1w" secondAttribute="centerX" id="Kmh-bh-Jm5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="psv-Vs-w1w" secondAttribute="trailing" id="aQw-Ss-K1s"/>
-                            <constraint firstItem="tFm-F8-35c" firstAttribute="leading" secondItem="RGI-YI-N0O" secondAttribute="trailing" constant="3" id="bch-IB-kfF"/>
-                            <constraint firstAttribute="centerY" secondItem="u7G-jE-Msf" secondAttribute="centerY" constant="-141" id="bsm-FC-OGj"/>
                             <constraint firstItem="fEA-H9-XiW" firstAttribute="top" secondItem="psv-Vs-w1w" secondAttribute="bottom" constant="8" symbolic="YES" id="buS-bJ-256"/>
-                            <constraint firstAttribute="centerX" secondItem="cIk-5m-Cnu" secondAttribute="centerX" constant="-248.5" id="cgR-gz-vLF"/>
-                            <constraint firstAttribute="centerY" secondItem="tFm-F8-35c" secondAttribute="centerY" constant="32.5" id="eWH-XK-xnK"/>
-                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="leading" secondItem="GA9-wu-VBc" secondAttribute="trailing" constant="8" symbolic="YES" id="i9m-Ei-KeQ"/>
-                            <constraint firstItem="UAe-c6-aUE" firstAttribute="leading" secondItem="8AL-fC-cmS" secondAttribute="trailing" constant="40" id="k24-Yy-wOQ"/>
-                            <constraint firstAttribute="centerX" secondItem="GA9-wu-VBc" secondAttribute="centerX" constant="-219" id="kH5-x6-2gw"/>
-                            <constraint firstAttribute="centerX" secondItem="tFm-F8-35c" secondAttribute="centerX" constant="-251.5" id="oNL-dh-wNe"/>
                             <constraint firstItem="psv-Vs-w1w" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="8" symbolic="YES" id="qAY-DO-zwa"/>
-                            <constraint firstAttribute="centerY" secondItem="cIk-5m-Cnu" secondAttribute="centerY" constant="107" id="rKJ-7c-jqw"/>
                             <constraint firstItem="psv-Vs-w1w" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="t6q-pK-gld"/>
                         </constraints>
                     </view>
@@ -255,13 +232,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
-                                <rect key="frame" x="16" y="86" width="93" height="97"/>
-                            </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
                                 <rect key="frame" x="25" y="43" width="96" height="21"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
                                 <color key="textColor" red="0.92549026012420654" green="0.90196084976196289" blue="0.65882354974746704" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -277,7 +250,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-Jd-tma" userLabel="Prayers">
                                 <rect key="frame" x="483" y="111" width="85" height="52"/>
-                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -287,7 +259,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oh-4g-9Da" userLabel="Twitter">
                                 <rect key="frame" x="483" y="220" width="39" height="34"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -297,7 +268,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drU-5W-alA" userLabel="Facebook">
                                 <rect key="frame" x="522" y="220" width="46" height="34"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -307,7 +277,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scm-YZ-Cds" userLabel="Journal">
                                 <rect key="frame" x="483" y="163" width="85" height="57"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -317,7 +286,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhr-qv-AAK" userLabel="Add-ons">
                                 <rect key="frame" x="483" y="255" width="85" height="57"/>
-                                <color key="backgroundColor" red="0.99743031810000005" green="0.2262470848" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -327,7 +295,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvQ-Wy-3bf" userLabel="Life Heart">
                                 <rect key="frame" x="483" y="69" width="85" height="41"/>
-                                <color key="backgroundColor" red="0.46483180429999998" green="0.85626911309999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -337,7 +304,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuH-U1-cXa" userLabel="Quotes">
                                 <rect key="frame" x="483" y="20" width="85" height="51"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -350,6 +316,9 @@
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-n8-zku">
+                                <rect key="frame" x="25" y="79" width="93" height="97"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -853,9 +822,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-lE-g8g" userLabel="pictureSaints2">
-                                <rect key="frame" x="16" y="20" width="110" height="125"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7X-cB-Rh5" userLabel="namelabel2">
                                 <rect key="frame" x="284" y="58" width="145" height="22"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
@@ -918,7 +884,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
-                                <rect key="frame" x="233" y="260" width="35" height="37"/>
+                                <rect key="frame" x="267" y="268" width="35" height="37"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -955,10 +921,13 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-wT-sz9">
-                                <rect key="frame" x="276" y="61" width="174" height="227"/>
+                                <rect key="frame" x="318" y="76" width="197" height="198"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-lE-g8g" userLabel="pictureSaints2">
+                                <rect key="frame" x="26" y="33" width="87" height="112"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -1257,8 +1226,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9EP-ek-Wig"/>
-        <segue reference="F3s-cs-MTS"/>
+        <segue reference="m3m-Lx-FsJ"/>
+        <segue reference="3Rg-O6-1iR"/>
         <segue reference="egZ-9R-iWF"/>
         <segue reference="uYe-Te-0mh"/>
         <segue reference="p0n-Ka-k5y"/>
