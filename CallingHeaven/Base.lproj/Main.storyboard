@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,29 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VC1-0410" translatesAutoresizingMaskIntoConstraints="NO" id="psv-Vs-w1w">
-                                <rect key="frame" x="0.0" y="-2" width="568" height="322"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VC1-0319" translatesAutoresizingMaskIntoConstraints="NO" id="psv-Vs-w1w">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phonereceiver" translatesAutoresizingMaskIntoConstraints="NO" id="tXy-Rf-6QA">
-                                <rect key="frame" x="-30" y="0.0" width="187" height="312"/>
-                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phonereceiver" translatesAutoresizingMaskIntoConstraints="NO" id="tXy-Rf-6QA">
+                                <rect key="frame" x="9" y="13" width="109" height="297"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
-                                <rect key="frame" x="320" y="89" width="179" height="198"/>
-                                <color key="backgroundColor" red="1" green="0.77981651380000006" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
+                                <rect key="frame" x="314" y="68" width="209" height="215"/>
+                                <color key="backgroundColor" red="1" green="0.77981651380000006" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-c6-aUE" userLabel="namelabel1">
-                                <rect key="frame" x="345" y="48" width="147" height="20"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-c6-aUE" userLabel="namelabel1">
+                                <rect key="frame" x="336" y="46" width="147" height="20"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL6-uK-ziS" userLabel="St. John">
-                                <rect key="frame" x="127" y="89" width="179" height="45"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL6-uK-ziS" userLabel="St. John">
+                                <rect key="frame" x="116" y="87" width="186" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -47,9 +47,9 @@
                                     <action selector="johnAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LhB-Nn-oZh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AL-fC-cmS" userLabel="St. Teresa">
-                                <rect key="frame" x="123" y="32" width="179" height="58"/>
-                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AL-fC-cmS" userLabel="St. Teresa">
+                                <rect key="frame" x="116" y="37" width="186" height="50"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -57,9 +57,9 @@
                                     <action selector="TeresaAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UVH-eb-Jlo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdb-Ma-iBc" userLabel="St. Edith">
-                                <rect key="frame" x="118" y="193" width="194" height="47"/>
-                                <color key="backgroundColor" red="0.87058823529999996" green="0.85490196080000003" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdb-Ma-iBc" userLabel="St. Edith">
+                                <rect key="frame" x="116" y="187" width="186" height="50"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.85490196080000003" blue="0.72549019609999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -67,9 +67,9 @@
                                     <action selector="EdithAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dae-RE-nsx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
-                                <rect key="frame" x="490" y="37" width="26" height="29"/>
-                                <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
+                                <rect key="frame" x="489" y="41" width="27" height="27"/>
+                                <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -77,9 +77,49 @@
                                     <action selector="shareTwitter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IJI-bW-t0L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7G-jE-Msf" userLabel="Scroll Down">
-                                <rect key="frame" x="267" y="279" width="45" height="41"/>
-                                <color key="backgroundColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
+                                <rect key="frame" x="516" y="41" width="27" height="27"/>
+                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFm-F8-35c" userLabel="pen-journal">
+                                <rect key="frame" x="522" y="69" width="33" height="120"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gcl-Yc-j2w" kind="modal" id="F3s-cs-MTS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRB-u7-TUZ" userLabel="Jesus1">
+                                <rect key="frame" x="116" y="237" width="186" height="50"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="jesusButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oY7-oa-wrx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILX-C7-JFE" userLabel="St. Therese">
+                                <rect key="frame" x="116" y="137" width="186" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="thereseAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ps0-lw-5QS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7G-jE-Msf" userLabel="Scroll Down">
+                                <rect key="frame" x="264" y="276" width="40" height="30"/>
+                                <color key="backgroundColor" red="0.40000000596046448" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,52 +129,12 @@
                                     <segue destination="xbG-Up-5wv" kind="modal" identifier="View Controller 2" modalTransitionStyle="crossDissolve" id="56G-cu-2mP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
-                                <rect key="frame" x="519" y="37" width="27" height="29"/>
-                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFm-F8-35c" userLabel="pen-journal">
-                                <rect key="frame" x="502" y="89" width="50" height="113"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gcl-Yc-j2w" kind="modal" id="F3s-cs-MTS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRB-u7-TUZ" userLabel="Jesus1">
-                                <rect key="frame" x="118" y="235" width="194" height="44"/>
-                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="jesusButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oY7-oa-wrx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILX-C7-JFE" userLabel="St. Therese">
-                                <rect key="frame" x="118" y="134" width="188" height="51"/>
-                                <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="thereseAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ps0-lw-5QS"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
-                                <rect key="frame" x="16" y="28" width="103" height="110"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
+                                <rect key="frame" x="23" y="37" width="90" height="90"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDB-aI-F5v" userLabel="Segue ">
-                                <rect key="frame" x="11" y="143" width="104" height="34"/>
-                                <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDB-aI-F5v" userLabel="Segue ">
+                                <rect key="frame" x="35" y="138" width="74" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -147,12 +147,69 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="psv-Vs-w1w" secondAttribute="centerX" id="HRk-IM-idI"/>
-                            <constraint firstItem="psv-Vs-w1w" firstAttribute="bottom" secondItem="fEA-H9-XiW" secondAttribute="top" id="P6S-oa-yIb"/>
-                            <constraint firstAttribute="trailing" secondItem="psv-Vs-w1w" secondAttribute="trailing" id="krf-Nx-rAG"/>
-                            <constraint firstAttribute="centerY" secondItem="psv-Vs-w1w" secondAttribute="centerY" constant="1" id="pn5-Kr-Lys"/>
+                            <constraint firstAttribute="width" secondItem="RGI-YI-N0O" secondAttribute="width" multiplier="568:209" id="2Cz-gx-XGM"/>
+                            <constraint firstItem="fEA-H9-XiW" firstAttribute="top" secondItem="u7G-jE-Msf" secondAttribute="bottom" constant="14" id="2lI-9X-Ki7"/>
+                            <constraint firstItem="dL6-uK-ziS" firstAttribute="height" secondItem="8AL-fC-cmS" secondAttribute="height" id="3NN-Cw-8Ey"/>
+                            <constraint firstItem="GA9-wu-VBc" firstAttribute="height" secondItem="cIk-5m-Cnu" secondAttribute="height" id="3lm-JI-TGZ"/>
+                            <constraint firstAttribute="centerX" secondItem="u7G-jE-Msf" secondAttribute="centerX" id="4av-fH-B1q"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="37" id="4uU-xR-nrV"/>
+                            <constraint firstAttribute="width" secondItem="u7G-jE-Msf" secondAttribute="width" multiplier="568:40" id="5Jg-RQ-jRQ"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="height" secondItem="Hdb-Ma-iBc" secondAttribute="height" id="6kl-Wb-pFI"/>
+                            <constraint firstAttribute="width" secondItem="E66-cG-Ydd" secondAttribute="width" multiplier="568:90" id="7Jq-h7-6N9"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="height" secondItem="MRB-u7-TUZ" secondAttribute="height" id="8qn-ep-w77"/>
+                            <constraint firstAttribute="width" secondItem="tFm-F8-35c" secondAttribute="width" multiplier="568:33" id="CDC-7b-yvR"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="width" secondItem="Hdb-Ma-iBc" secondAttribute="width" id="CSx-9N-T7F"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="width" secondItem="MRB-u7-TUZ" secondAttribute="width" id="Cco-xU-BB0"/>
+                            <constraint firstItem="ILX-C7-JFE" firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" id="EYb-M4-Z7W"/>
+                            <constraint firstItem="psv-Vs-w1w" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="GCj-K5-4Pj"/>
+                            <constraint firstItem="dL6-uK-ziS" firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" id="I1C-Ny-LRy"/>
+                            <constraint firstAttribute="centerY" secondItem="DDB-aI-F5v" secondAttribute="centerY" constant="7" id="ICh-8Q-75d"/>
+                            <constraint firstAttribute="height" secondItem="u7G-jE-Msf" secondAttribute="height" multiplier="320:30" id="Ks5-P6-nzT"/>
+                            <constraint firstAttribute="trailing" secondItem="psv-Vs-w1w" secondAttribute="trailing" id="Kw7-lP-O3z"/>
+                            <constraint firstAttribute="centerY" secondItem="RGI-YI-N0O" secondAttribute="centerY" constant="-15.5" id="LZQ-md-RLW"/>
+                            <constraint firstItem="tFm-F8-35c" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="69" id="Lvp-Ea-h8X"/>
+                            <constraint firstItem="dL6-uK-ziS" firstAttribute="leading" secondItem="8AL-fC-cmS" secondAttribute="leading" id="ME9-Z4-fvH"/>
+                            <constraint firstAttribute="height" secondItem="cIk-5m-Cnu" secondAttribute="height" multiplier="320:27" id="MxK-p3-zNr"/>
+                            <constraint firstItem="ILX-C7-JFE" firstAttribute="top" secondItem="dL6-uK-ziS" secondAttribute="bottom" id="ObY-Ri-Qro"/>
+                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="leading" secondItem="GA9-wu-VBc" secondAttribute="trailing" id="Oh7-VD-PLv"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="116" id="P42-yS-HNZ"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="Hdb-Ma-iBc" secondAttribute="leading" id="Qim-My-Zqi"/>
+                            <constraint firstItem="UAe-c6-aUE" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="46" id="S70-SP-bo3"/>
+                            <constraint firstItem="Hdb-Ma-iBc" firstAttribute="top" secondItem="ILX-C7-JFE" secondAttribute="bottom" id="SIs-1C-xC1"/>
+                            <constraint firstItem="psv-Vs-w1w" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Ukq-s5-DZm"/>
+                            <constraint firstAttribute="height" secondItem="UAe-c6-aUE" secondAttribute="height" multiplier="320:20" id="VGY-aN-VYo"/>
+                            <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="MRB-u7-TUZ" secondAttribute="leading" id="W5D-TB-2Gc"/>
+                            <constraint firstAttribute="width" secondItem="tXy-Rf-6QA" secondAttribute="width" multiplier="568:109" id="XKr-h2-KcH"/>
+                            <constraint firstAttribute="width" secondItem="cIk-5m-Cnu" secondAttribute="width" multiplier="568:27" id="Xit-u8-6b0"/>
+                            <constraint firstAttribute="height" secondItem="tFm-F8-35c" secondAttribute="height" multiplier="320:120" id="Xkt-iU-Pnp"/>
+                            <constraint firstItem="tXy-Rf-6QA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="9" id="YEf-Cp-rAv"/>
+                            <constraint firstAttribute="width" secondItem="UAe-c6-aUE" secondAttribute="width" multiplier="568:147" id="ZGQ-hp-98r"/>
+                            <constraint firstAttribute="trailing" secondItem="cIk-5m-Cnu" secondAttribute="trailing" constant="25" id="bdY-cB-Zhe"/>
+                            <constraint firstAttribute="height" secondItem="DDB-aI-F5v" secondAttribute="height" multiplier="320:30" id="eWa-nL-Xtk"/>
+                            <constraint firstItem="E66-cG-Ydd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="23" id="eZo-Az-VV5"/>
+                            <constraint firstItem="fEA-H9-XiW" firstAttribute="top" secondItem="psv-Vs-w1w" secondAttribute="bottom" id="enn-nm-sIK"/>
+                            <constraint firstItem="ILX-C7-JFE" firstAttribute="height" secondItem="8AL-fC-cmS" secondAttribute="height" id="esw-fo-LlN"/>
+                            <constraint firstItem="GA9-wu-VBc" firstAttribute="width" secondItem="cIk-5m-Cnu" secondAttribute="width" id="htB-Ae-2zK"/>
+                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="41" id="hvV-2a-6Ng"/>
+                            <constraint firstAttribute="height" secondItem="8AL-fC-cmS" secondAttribute="height" multiplier="320:50" id="jGG-7S-Xh2"/>
+                            <constraint firstItem="DDB-aI-F5v" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="35" id="kOz-2L-5bB"/>
+                            <constraint firstAttribute="trailing" secondItem="tFm-F8-35c" secondAttribute="trailing" constant="13" id="l4L-i9-nTM"/>
+                            <constraint firstItem="dL6-uK-ziS" firstAttribute="top" secondItem="8AL-fC-cmS" secondAttribute="bottom" id="lgC-1E-JMc"/>
+                            <constraint firstItem="ILX-C7-JFE" firstAttribute="leading" secondItem="8AL-fC-cmS" secondAttribute="leading" id="luF-a0-kuQ"/>
+                            <constraint firstItem="tXy-Rf-6QA" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="13" id="pCW-Cl-Ccq"/>
+                            <constraint firstAttribute="height" secondItem="tXy-Rf-6QA" secondAttribute="height" multiplier="320:297" id="pfJ-2m-ZvB"/>
+                            <constraint firstItem="E66-cG-Ydd" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="37" id="qrA-xg-oDM"/>
+                            <constraint firstAttribute="trailing" secondItem="UAe-c6-aUE" secondAttribute="trailing" constant="85" id="rnn-6u-AR5"/>
+                            <constraint firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" multiplier="568:186" id="sOm-ce-G87"/>
+                            <constraint firstAttribute="width" secondItem="DDB-aI-F5v" secondAttribute="width" multiplier="568:74" id="sgQ-YK-iZz"/>
+                            <constraint firstAttribute="height" secondItem="E66-cG-Ydd" secondAttribute="height" multiplier="320:90" id="swF-H7-pFu"/>
+                            <constraint firstAttribute="height" secondItem="RGI-YI-N0O" secondAttribute="height" multiplier="320:215" id="xg4-bf-kEU"/>
+                            <constraint firstItem="MRB-u7-TUZ" firstAttribute="top" secondItem="Hdb-Ma-iBc" secondAttribute="bottom" id="yhM-kH-YaN"/>
+                            <constraint firstItem="GA9-wu-VBc" firstAttribute="top" secondItem="cIk-5m-Cnu" secondAttribute="top" id="zlY-Ks-iVc"/>
+                            <constraint firstAttribute="trailing" secondItem="RGI-YI-N0O" secondAttribute="trailing" constant="45" id="zuF-dr-pfa"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="edithButton" destination="Hdb-Ma-iBc" id="vTB-d1-mfg"/>
@@ -165,11 +222,28 @@
                         <outlet property="teresaButton" destination="8AL-fC-cmS" id="Xol-O7-U7K"/>
                         <outlet property="testButton" destination="DDB-aI-F5v" id="S2l-62-YEk"/>
                         <outlet property="thereseButton" destination="ILX-C7-JFE" id="IyY-zr-cCC"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="YEf-Cp-rAv" collectionClass="NSMutableArray" id="IBO-cK-prf"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="pCW-Cl-Ccq" collectionClass="NSMutableArray" id="aSo-JY-N8M"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="eZo-Az-VV5" collectionClass="NSMutableArray" id="JU2-vv-M5I"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="qrA-xg-oDM" collectionClass="NSMutableArray" id="cJq-Co-yjN"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="kOz-2L-5bB" collectionClass="NSMutableArray" id="foZ-gH-HNX"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="ICh-8Q-75d" collectionClass="NSMutableArray" id="3uk-sg-UD5"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="4uU-xR-nrV" collectionClass="NSMutableArray" id="B9C-AU-5nE"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="P42-yS-HNZ" collectionClass="NSMutableArray" id="D6q-rP-QBB"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="2lI-9X-Ki7" collectionClass="NSMutableArray" id="uIc-Pz-e6m"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="S70-SP-bo3" collectionClass="NSMutableArray" id="YoF-bL-ioK"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="rnn-6u-AR5" collectionClass="NSMutableArray" id="h6V-kF-zYQ"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="zuF-dr-pfa" collectionClass="NSMutableArray" id="jgZ-yO-cdF"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="LZQ-md-RLW" collectionClass="NSMutableArray" id="Mje-Nc-WkZ"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="Lvp-Ea-h8X" collectionClass="NSMutableArray" id="1Ly-Pu-oCs"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="l4L-i9-nTM" collectionClass="NSMutableArray" id="0NF-pQ-5M2"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="hvV-2a-6Ng" collectionClass="NSMutableArray" id="dn8-lo-5ZH"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="bdY-cB-Zhe" collectionClass="NSMutableArray" id="qhj-Ah-Rvy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-668" y="-1989"/>
+            <point key="canvasLocation" x="-678" y="-1984"/>
         </scene>
         <!--Add-ons-->
         <scene sceneID="oV6-Gl-8t1">
@@ -227,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTX-5M-Wae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-601" y="-1151"/>
+            <point key="canvasLocation" x="-1607" y="-782"/>
         </scene>
         <!--Saint View-->
         <scene sceneID="kfB-lo-Gvy">
@@ -364,7 +438,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4V2-ps-Ydg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="ZQn-dn-vzi"/>
             </objects>
-            <point key="canvasLocation" x="-518" y="-1533"/>
+            <point key="canvasLocation" x="-678" y="-1435"/>
         </scene>
         <!--Choices Diary-->
         <scene sceneID="95I-qs-zL1">
@@ -434,7 +508,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w6U-b9-8ol" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="144" y="-1546"/>
+            <point key="canvasLocation" x="36" y="-1435"/>
         </scene>
         <!--Petitions Navigation Controller-->
         <scene sceneID="tGb-W5-Vgy">
@@ -451,7 +525,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qWC-K0-t4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="808" y="-1478"/>
+            <point key="canvasLocation" x="808" y="-1435"/>
         </scene>
         <!--Petitions Table View Controller-->
         <scene sceneID="fEY-3s-Oxp">
@@ -519,7 +593,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SBC-UU-Bwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationItem title="My Petitions" id="aYp-2D-PQg"/>
             </objects>
-            <point key="canvasLocation" x="2025" y="-1984"/>
+            <point key="canvasLocation" x="2310" y="-1984"/>
         </scene>
         <!--Thoughts Table View Controller-->
         <scene sceneID="vTX-cA-Fr9">
@@ -585,7 +659,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfk-j1-D62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2038" y="-1478"/>
+            <point key="canvasLocation" x="2310" y="-1435"/>
         </scene>
         <!--Questions Table View Controller-->
         <scene sceneID="lzD-aL-fEp">
@@ -638,7 +712,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tw3-ao-967" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2068" y="-1098"/>
+            <point key="canvasLocation" x="2310" y="-849"/>
         </scene>
         <!--Petitions Navigation Controller-->
         <scene sceneID="TeH-cd-5pU">
@@ -654,7 +728,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iv2-0m-ewG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="-1975"/>
+            <point key="canvasLocation" x="808" y="-1984"/>
         </scene>
         <!--Prayer Petitions-->
         <scene sceneID="YNE-xi-6FN">
@@ -770,7 +844,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qpb-p5-aZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1309" y="-1989"/>
+            <point key="canvasLocation" x="1538" y="-1984"/>
         </scene>
         <!--CreditsViewController-->
         <scene sceneID="7wg-jr-4bx">
@@ -825,7 +899,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXm-aE-MxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="-1089"/>
+            <point key="canvasLocation" x="-1437" y="-1984"/>
         </scene>
         <!--View Controller 2-->
         <scene sceneID="1Pg-ro-mUd">
@@ -1088,7 +1162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LeU-9C-k4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1442" y="-1478"/>
+            <point key="canvasLocation" x="1538" y="-1435"/>
         </scene>
         <!--Questions Navigation Controller-->
         <scene sceneID="fLH-IM-ETK">
@@ -1105,7 +1179,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95J-22-j9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="763" y="-1065"/>
+            <point key="canvasLocation" x="808" y="-849"/>
         </scene>
         <!--Questions-->
         <scene sceneID="Bws-bl-3wq">
@@ -1221,17 +1295,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qup-EZ-71O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437" y="-1109"/>
+            <point key="canvasLocation" x="1538" y="-849"/>
         </scene>
     </scenes>
     <resources>
         <image name="Choices" width="1281" height="722"/>
         <image name="SVC-0310" width="1281" height="722"/>
-        <image name="VC1-0410" width="1281" height="722"/>
+        <image name="VC1-0319" width="667" height="375"/>
         <image name="VC2-0319" width="1281" height="722"/>
         <image name="credits-1" width="1281" height="722"/>
         <image name="golddove-ext" width="600" height="392"/>
-        <image name="phonereceiver" width="187" height="372"/>
+        <image name="phonereceiver" width="126" height="344"/>
         <image name="prayinghands" width="150" height="174"/>
         <image name="quotepacks-0203" width="1281" height="722"/>
         <image name="rosary-question mark-ext" width="606" height="889"/>
@@ -1242,11 +1316,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9EP-ek-Wig"/>
-        <segue reference="F3s-cs-MTS"/>
         <segue reference="egZ-9R-iWF"/>
+        <segue reference="F3s-cs-MTS"/>
+        <segue reference="9EP-ek-Wig"/>
         <segue reference="uYe-Te-0mh"/>
-        <segue reference="p0n-Ka-k5y"/>
+        <segue reference="br2-9X-GFN"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>

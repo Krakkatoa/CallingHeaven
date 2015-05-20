@@ -10,6 +10,8 @@ import Foundation
 
 import UIKit
 
+import Parse
+
 class QuestionsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!

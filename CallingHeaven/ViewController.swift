@@ -60,6 +60,8 @@ class ViewController: UIViewController
     
     @IBOutlet weak var segue2Button: UIButton!
     
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint]!
     
     @IBAction func arrowAction(sender: AnyObject) { self.dismissViewControllerAnimated(true) { () -> Void in }
     }
@@ -211,11 +213,22 @@ class ViewController: UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let screenSize = UIScreen.mainScreen().bounds.size
+        let verticalCoef = screenSize.height / 320.0
+        let horizontalCoef = screenSize.width / 568.0
+        
+        for constraint in verticalSpacingConstraints {
+            constraint.constant *= verticalCoef
+        }
+        
+        for constraint in horizontalSpacingConstraints {
+            constraint.constant *= horizontalCoef
+        }
     }
     // segue to VC 3
     
     @IBAction func testAction(sender: AnyObject) {
-        let saintView = self.storyboard?.instantiateViewControllerWithIdentifier("saintView") as saintViewController
+        let saintView = self.storyboard?.instantiateViewControllerWithIdentifier("saintView") as! saintViewController
         saintView.bioTemporal = temporalBio
         
         
@@ -225,7 +238,7 @@ class ViewController: UIViewController
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if segue.identifier == "bioProfile"{
-            let saintView = segue.destinationViewController as saintViewController
+            let saintView = segue.destinationViewController as! saintViewController
             saintView.bioTemporal = temporalBio
             saintView.nameTemporal = nameLabel.text
             saintView.temporalImage = temporalImage
@@ -234,7 +247,7 @@ class ViewController: UIViewController
         }
         
         if segue.identifier == "bioProfile2"{
-            let saintView = segue.destinationViewController as saintViewController
+            let saintView = segue.destinationViewController as! saintViewController
             saintView.bioTemporal = temporalBio
             saintView.nameTemporal = nameLabel2.text
             saintView.temporalImage = temporalImage

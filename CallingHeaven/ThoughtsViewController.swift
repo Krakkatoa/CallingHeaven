@@ -11,6 +11,8 @@ import Foundation
 
 import UIKit
 
+import Parse
+
 class ThoughtsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!

@@ -10,6 +10,8 @@ import Foundation
 
 import UIKit
 
+import Parse
+
 class PetitionsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!

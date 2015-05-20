@@ -7,6 +7,8 @@
 //
 import UIKit
 
+import Parse
+
 class QuestionsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var notesData = []
@@ -69,14 +71,14 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
-        let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("questionsIdentifier", forIndexPath: indexPath) as NoteTableViewCell
+        let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("questionsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
 println(rowData.createdAt)
 let formatter = NSDateFormatter()
 formatter.dateStyle = .MediumStyle
 formatter.timeStyle = .NoStyle
 
         let dateCell = formatter.stringFromDate(rowData.createdAt)
-        cell.loadNote(dateCell, titleView: rowData["title"] as String, subtitleView: rowData["note"] as String)
+        cell.loadNote(dateCell, titleView: rowData["title"] as! String, subtitleView: rowData["note"] as! String)
         // Configure the cell...
         
         return cell

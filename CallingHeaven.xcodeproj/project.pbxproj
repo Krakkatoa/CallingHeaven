@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D50C49C1B0C2AA000A5A867 /* Bolts.framework */; };
+		2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D50C49D1B0C2AA000A5A867 /* Parse.framework */; };
 		710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */; };
 		710468DE1AAACB8000C29AAE /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */; };
 		710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */; };
@@ -62,9 +64,6 @@
 		719EE35B1A26C724007131ED /* CallingHeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE35A1A26C724007131ED /* CallingHeavenTests.swift */; };
 		71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */; };
 		71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */; };
-		71F99EB31A8EE22A00254C5E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB21A8EE22A00254C5E /* Bolts.framework */; };
-		71F99EB51A8EE23700254C5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB41A8EE23700254C5E /* Parse.framework */; };
-		71F99EBE1A8EFD6800254C5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F99EB41A8EE23700254C5E /* Parse.framework */; };
 		71FDE94B1AC233B9009C304B /* TitusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDE94A1AC233B9009C304B /* TitusLife.swift */; };
 		71FDE94D1AC23424009C304B /* TitusQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDE94C1AC23424009C304B /* TitusQuotes.swift */; };
 		71FDE94F1AC23468009C304B /* TitusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDE94E1AC23468009C304B /* TitusPrayers.swift */; };
@@ -81,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D50C49C1B0C2AA000A5A867 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		2D50C49D1B0C2AA000A5A867 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1/Parse.framework"; sourceTree = "<group>"; };
 		710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsTableViewController.swift; sourceTree = "<group>"; };
 		710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
 		710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
@@ -141,9 +142,6 @@
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
 		71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Add-onsViewController.swift"; path = "../Add-onsViewController.swift"; sourceTree = "<group>"; };
 		71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsViewController.swift; sourceTree = "<group>"; };
-		71F99EB21A8EE22A00254C5E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
-		71F99EB41A8EE23700254C5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
-		71F99EBD1A8EF61500254C5E /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging Header.h"; sourceTree = "<group>"; };
 		71FDE94A1AC233B9009C304B /* TitusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusLife.swift; sourceTree = "<group>"; };
 		71FDE94C1AC23424009C304B /* TitusQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusQuotes.swift; sourceTree = "<group>"; };
 		71FDE94E1AC23468009C304B /* TitusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusPrayers.swift; sourceTree = "<group>"; };
@@ -157,10 +155,10 @@
 				7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */,
 				7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */,
 				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
-				71F99EB31A8EE22A00254C5E /* Bolts.framework in Frameworks */,
+				2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */,
 				7105B8681A857F310070619C /* StoreKit.framework in Frameworks */,
 				7105B8661A857F260070619C /* Security.framework in Frameworks */,
-				71F99EB51A8EE23700254C5E /* Parse.framework in Frameworks */,
+				2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */,
 				7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */,
 				7105B8621A857F0B0070619C /* MobileCoreServices.framework in Frameworks */,
 				7105B8601A857EFF0070619C /* CoreLocation.framework in Frameworks */,
@@ -174,7 +172,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F99EBE1A8EFD6800254C5E /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +181,8 @@
 		7105B84B1A857D6D0070619C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D50C49C1B0C2AA000A5A867 /* Bolts.framework */,
+				2D50C49D1B0C2AA000A5A867 /* Parse.framework */,
 				7105B8591A857ED50070619C /* AudioToolbox.framework */,
 				7105B85B1A857EE40070619C /* CFNetwork.framework */,
 				7105B86D1A857F6A0070619C /* libsqlite3.dylib */,
@@ -203,12 +202,12 @@
 		719240CC1AA9896600D6EED7 /* Journal */ = {
 			isa = PBXGroup;
 			children = (
-				710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */,
 				716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */,
-				71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */,
 				719560D11AA4405900089930 /* ChoicesViewController.swift */,
 				716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */,
 				710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */,
+				71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */,
+				710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */,
 				710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */,
 			);
 			name = Journal;
@@ -232,11 +231,8 @@
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
-				71F99EBD1A8EF61500254C5E /* Bridging Header.h */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
 				719EE3401A26C724007131ED /* Products */,
-				71F99EB21A8EE22A00254C5E /* Bolts.framework */,
-				71F99EB41A8EE23700254C5E /* Parse.framework */,
 				7105B84B1A857D6D0070619C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -579,7 +575,6 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -616,7 +611,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -631,14 +625,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
-					"/Users/my_mac/Downloads/parse-library-1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -653,14 +649,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
-					"/Users/my_mac/Downloads/parse-library-1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -672,7 +670,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"/Users/my_mac/Downloads/parse-library-1",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -681,7 +678,6 @@
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallingHeaven.app/CallingHeaven";
 			};
 			name = Debug;
@@ -693,12 +689,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"/Users/my_mac/Downloads/parse-library-1",
 				);
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven/Bridging Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallingHeaven.app/CallingHeaven";
 			};
 			name = Release;
