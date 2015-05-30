@@ -18,8 +18,11 @@ protocol secondViewControllerDelegate{
 class secondViewController: UIViewController
 {
     
-   }
+    @IBOutlet weak var quotesLabel2: UILabel!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var pictureSaints2: UIImageView!
+}
 
 var delegate:secondViewControllerDelegate? = nil
-
-  
