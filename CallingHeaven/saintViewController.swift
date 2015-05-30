@@ -12,6 +12,7 @@ class saintViewController: UIViewController {
     
     @IBOutlet weak var bioLabel2: UILabel!
     
+    @IBOutlet weak var quotesSaints: UIButton!
     
     @IBOutlet weak var bioLabel3: UILabel!
     
@@ -30,6 +31,8 @@ class saintViewController: UIViewController {
     @IBOutlet weak var backAction: UIImageView!
     
     @IBOutlet weak var saintPrayerButton: UIButton!
+    
+    
     
     @IBAction func saintPrayerAction ()
     {

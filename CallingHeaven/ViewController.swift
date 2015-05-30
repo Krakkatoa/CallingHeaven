@@ -44,6 +44,9 @@ class ViewController: UIViewController
     
     @IBOutlet weak var phoneImage: UIImageView!
     
+    
+    @IBOutlet weak var scrolldown1: UIButton!
+    
     //2nd View Controller
     
     
@@ -64,8 +67,12 @@ class ViewController: UIViewController
     @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint]!
     
     @IBAction func arrowAction(sender: AnyObject) { self.dismissViewControllerAnimated(true) { () -> Void in }
+        
+      
+        
     }
     
+   @IBOutlet weak var scrollDown2: UIButton!
     
     //VC 1
     
@@ -117,7 +124,7 @@ class ViewController: UIViewController
     
     @IBAction func TeresaAction(sender: AnyObject) {
         phoneImage.hidden = true
-        temporalBio = "St. Teresa of Avila "
+        temporalBio = "St. Teresa of Avila"
         temporalImage = imageTeresa
         pictureSaints.image = imageTeresa
         quotesLabel.text = teresaQuotes.randomFact()
