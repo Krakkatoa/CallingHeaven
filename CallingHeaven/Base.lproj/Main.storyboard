@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -126,7 +125,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xbG-Up-5wv" kind="modal" identifier="View Controller 2" modalTransitionStyle="crossDissolve" id="56G-cu-2mP"/>
+                                    <segue destination="xbG-Up-5wv" kind="modal" id="tyX-Iu-vBB"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
@@ -161,7 +160,7 @@
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="width" secondItem="Hdb-Ma-iBc" secondAttribute="width" id="CSx-9N-T7F"/>
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="width" secondItem="MRB-u7-TUZ" secondAttribute="width" id="Cco-xU-BB0"/>
                             <constraint firstItem="ILX-C7-JFE" firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" id="EYb-M4-Z7W"/>
-                            <constraint firstItem="psv-Vs-w1w" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="GCj-K5-4Pj"/>
+                            <constraint firstAttribute="leading" secondItem="psv-Vs-w1w" secondAttribute="leading" id="GCj-K5-4Pj"/>
                             <constraint firstItem="dL6-uK-ziS" firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" id="I1C-Ny-LRy"/>
                             <constraint firstAttribute="centerY" secondItem="DDB-aI-F5v" secondAttribute="centerY" constant="7" id="ICh-8Q-75d"/>
                             <constraint firstAttribute="height" secondItem="u7G-jE-Msf" secondAttribute="height" multiplier="320:30" id="Ks5-P6-nzT"/>
@@ -176,7 +175,7 @@
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="Hdb-Ma-iBc" secondAttribute="leading" id="Qim-My-Zqi"/>
                             <constraint firstItem="UAe-c6-aUE" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="46" id="S70-SP-bo3"/>
                             <constraint firstItem="Hdb-Ma-iBc" firstAttribute="top" secondItem="ILX-C7-JFE" secondAttribute="bottom" id="SIs-1C-xC1"/>
-                            <constraint firstItem="psv-Vs-w1w" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Ukq-s5-DZm"/>
+                            <constraint firstAttribute="top" secondItem="psv-Vs-w1w" secondAttribute="top" id="Ukq-s5-DZm"/>
                             <constraint firstAttribute="height" secondItem="UAe-c6-aUE" secondAttribute="height" multiplier="320:20" id="VGY-aN-VYo"/>
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="MRB-u7-TUZ" secondAttribute="leading" id="W5D-TB-2Gc"/>
                             <constraint firstAttribute="width" secondItem="tXy-Rf-6QA" secondAttribute="width" multiplier="568:109" id="XKr-h2-KcH"/>
@@ -192,7 +191,7 @@
                             <constraint firstItem="GA9-wu-VBc" firstAttribute="width" secondItem="cIk-5m-Cnu" secondAttribute="width" id="htB-Ae-2zK"/>
                             <constraint firstItem="cIk-5m-Cnu" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="41" id="hvV-2a-6Ng"/>
                             <constraint firstAttribute="height" secondItem="8AL-fC-cmS" secondAttribute="height" multiplier="320:50" id="jGG-7S-Xh2"/>
-                            <constraint firstItem="DDB-aI-F5v" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="35" id="kOz-2L-5bB"/>
+                            <constraint firstAttribute="leading" secondItem="DDB-aI-F5v" secondAttribute="leading" constant="-35" id="kOz-2L-5bB"/>
                             <constraint firstAttribute="trailing" secondItem="tFm-F8-35c" secondAttribute="trailing" constant="13" id="l4L-i9-nTM"/>
                             <constraint firstItem="dL6-uK-ziS" firstAttribute="top" secondItem="8AL-fC-cmS" secondAttribute="bottom" id="lgC-1E-JMc"/>
                             <constraint firstItem="ILX-C7-JFE" firstAttribute="leading" secondItem="8AL-fC-cmS" secondAttribute="leading" id="luF-a0-kuQ"/>
@@ -219,6 +218,7 @@
                         <outlet property="phoneImage" destination="tXy-Rf-6QA" id="d9X-Rf-Kol"/>
                         <outlet property="pictureSaints" destination="E66-cG-Ydd" id="ZU2-ti-Pl9"/>
                         <outlet property="quotesLabel" destination="RGI-YI-N0O" id="gL1-vY-BxM"/>
+                        <outlet property="scrollDown1" destination="u7G-jE-Msf" id="gei-99-ZW6"/>
                         <outlet property="teresaButton" destination="8AL-fC-cmS" id="Xol-O7-U7K"/>
                         <outlet property="testButton" destination="DDB-aI-F5v" id="S2l-62-YEk"/>
                         <outlet property="thereseButton" destination="ILX-C7-JFE" id="IyY-zr-cCC"/>
@@ -239,6 +239,7 @@
                         <outletCollection property="horizontalSpacingConstraints" destination="l4L-i9-nTM" collectionClass="NSMutableArray" id="0NF-pQ-5M2"/>
                         <outletCollection property="verticalSpacingConstraints" destination="hvV-2a-6Ng" collectionClass="NSMutableArray" id="dn8-lo-5ZH"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="bdY-cB-Zhe" collectionClass="NSMutableArray" id="qhj-Ah-Rvy"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="2lI-9X-Ki7" collectionClass="NSMutableArray" id="Gh8-e0-V7l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -278,21 +279,13 @@
                                     <segue destination="6vu-bh-1fU" kind="modal" id="5S9-Je-EWq"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="quotepacks-0203" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-h2-O11">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quotepacks-0203" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-h2-O11">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="vKB-h2-O11" secondAttribute="trailing" id="4Fa-Vb-f2s"/>
-                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="vKB-h2-O11" secondAttribute="bottom" constant="8" symbolic="YES" id="5A4-sm-ewR"/>
-                            <constraint firstAttribute="centerX" secondItem="vKB-h2-O11" secondAttribute="centerX" id="ZHv-si-TeT"/>
-                            <constraint firstItem="vKB-h2-O11" firstAttribute="leading" secondItem="I72-Mm-8Sn" secondAttribute="leadingMargin" id="efe-pv-spH"/>
-                            <constraint firstAttribute="centerY" secondItem="vKB-h2-O11" secondAttribute="centerY" id="l0V-b3-a1d"/>
-                            <constraint firstItem="vKB-h2-O11" firstAttribute="top" secondItem="9S7-ij-84T" secondAttribute="bottom" constant="8" symbolic="YES" id="uzK-BZ-cuo"/>
-                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
@@ -987,16 +980,6 @@
                                     <action selector="titusAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="XuT-QE-iTN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
-                                <rect key="frame" x="233" y="260" width="35" height="37"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="arrowAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="dcN-nC-fFS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-3T-B21" userLabel="Facebook">
                                 <rect key="frame" x="526" y="28" width="25" height="27"/>
                                 <state key="normal">
@@ -1022,6 +1005,16 @@
                                 </state>
                                 <connections>
                                     <action selector="jesus2Button:" destination="xbG-Up-5wv" eventType="touchUpInside" id="Uze-XC-I5n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-bi-9gd" userLabel="Scroll Down">
+                                <rect key="frame" x="233" y="260" width="35" height="37"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="arrowAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="dcN-nC-fFS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1316,11 +1309,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="egZ-9R-iWF"/>
-        <segue reference="F3s-cs-MTS"/>
+        <segue reference="0ck-PL-0nP"/>
         <segue reference="9EP-ek-Wig"/>
-        <segue reference="uYe-Te-0mh"/>
         <segue reference="br2-9X-GFN"/>
+        <segue reference="egZ-9R-iWF"/>
+        <segue reference="uYe-Te-0mh"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>
