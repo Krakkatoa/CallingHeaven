@@ -44,8 +44,6 @@ class ViewController: UIViewController
     
     @IBOutlet weak var phoneImage: UIImageView!
     
-    
-    
     //2nd View Controller
     
     
