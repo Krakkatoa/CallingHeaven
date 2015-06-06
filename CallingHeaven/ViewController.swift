@@ -47,6 +47,9 @@ class ViewController: UIViewController
     //2nd View Controller
     
     
+    
+
+    
     @IBOutlet weak var jesus2Button: UIButton!
     
     
@@ -61,6 +64,7 @@ class ViewController: UIViewController
     @IBOutlet weak var segue2Button: UIButton!
     
     @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    
     @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint]!
     
     @IBAction func arrowAction(sender: AnyObject) { self.dismissViewControllerAnimated(true) { () -> Void in }
