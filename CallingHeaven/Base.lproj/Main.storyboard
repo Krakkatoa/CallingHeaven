@@ -21,22 +21,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="VC1-0319" translatesAutoresizingMaskIntoConstraints="NO" id="psv-Vs-w1w">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
+                                <rect key="frame" x="314" y="68" width="175" height="215"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phonereceiver" translatesAutoresizingMaskIntoConstraints="NO" id="tXy-Rf-6QA">
                                 <rect key="frame" x="9" y="13" width="109" height="297"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="E66-cG-Ydd" userLabel="saintpictures1">
                                 <rect key="frame" x="23" y="37" width="90" height="90"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-YI-N0O">
-                                <rect key="frame" x="314" y="68" width="209" height="215"/>
-                                <color key="backgroundColor" red="1" green="0.77981651380000006" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-c6-aUE" userLabel="namelabel1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-c6-aUE" userLabel="namelabel1">
                                 <rect key="frame" x="336" y="46" width="147" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="11"/>
                                 <color key="textColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -71,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
-                                <rect key="frame" x="489" y="41" width="27" height="27"/>
+                                <rect key="frame" x="473" y="41" width="27" height="27"/>
                                 <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -81,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
-                                <rect key="frame" x="516" y="41" width="27" height="27"/>
+                                <rect key="frame" x="500" y="41" width="27" height="27"/>
                                 <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -184,7 +183,7 @@
                             <constraint firstAttribute="height" secondItem="tFm-F8-35c" secondAttribute="height" multiplier="320:120" id="Xkt-iU-Pnp"/>
                             <constraint firstItem="tXy-Rf-6QA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="9" id="YEf-Cp-rAv"/>
                             <constraint firstAttribute="width" secondItem="UAe-c6-aUE" secondAttribute="width" multiplier="568:147" id="ZGQ-hp-98r"/>
-                            <constraint firstAttribute="trailing" secondItem="cIk-5m-Cnu" secondAttribute="trailing" constant="25" id="bdY-cB-Zhe"/>
+                            <constraint firstAttribute="trailing" secondItem="cIk-5m-Cnu" secondAttribute="trailing" constant="41" id="bdY-cB-Zhe"/>
                             <constraint firstAttribute="height" secondItem="DDB-aI-F5v" secondAttribute="height" multiplier="320:30" id="eWa-nL-Xtk"/>
                             <constraint firstItem="E66-cG-Ydd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="23" id="eZo-Az-VV5"/>
                             <constraint firstItem="fEA-H9-XiW" firstAttribute="top" secondItem="psv-Vs-w1w" secondAttribute="bottom" id="enn-nm-sIK"/>
@@ -913,7 +912,8 @@
                                 <rect key="frame" x="23" y="37" width="90" height="90"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-wT-sz9">
-                                <rect key="frame" x="314" y="69" width="209" height="215"/>
+                                <rect key="frame" x="314" y="68" width="209" height="215"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -924,13 +924,22 @@
                                 <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-3T-B21" userLabel="Facebook">
+                                <rect key="frame" x="450" y="41" width="27" height="27"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareFacebook:" destination="xbG-Up-5wv" eventType="touchUpInside" id="uSD-Ix-ba5"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thd-wi-QjZ" userLabel="Segue2">
                                 <rect key="frame" x="39" y="137" width="74" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2Iu-2g-hLR" kind="modal" id="2VT-JR-C3g"/>
+                                    <segue destination="2Iu-2g-hLR" kind="modal" modalTransitionStyle="crossDissolve" id="2VT-JR-C3g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyE-uW-4U9" userLabel="Miriam">
@@ -961,16 +970,6 @@
                                     <action selector="lizAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="85u-Il-Tuy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Oi-ih-TCN" userLabel="Twitter">
-                                <rect key="frame" x="489" y="41" width="27" height="27"/>
-                                <color key="backgroundColor" red="0.46483180429999998" green="0.85626911309999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="trc-xZ-zef"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ulm-uk-8yW" userLabel="Titus">
                                 <rect key="frame" x="116" y="137" width="186" height="50"/>
                                 <state key="normal">
@@ -978,15 +977,6 @@
                                 </state>
                                 <connections>
                                     <action selector="titusAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="XuT-QE-iTN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-3T-B21" userLabel="Facebook">
-                                <rect key="frame" x="516" y="41" width="27" height="27"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shareFacebook:" destination="xbG-Up-5wv" eventType="touchUpInside" id="uSD-Ix-ba5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvc-kr-RsF" userLabel="Jesus">
@@ -1007,13 +997,23 @@
                                     <segue destination="gcl-Yc-j2w" kind="modal" id="m3m-Lx-FsJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDy-7b-LQy" userLabel="Scroll Down 2">
-                                <rect key="frame" x="264" y="273" width="40" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDy-7b-LQy" userLabel="Scroll Down 2">
+                                <rect key="frame" x="264" y="276" width="40" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="modal" id="IO2-fc-tZg"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="crossDissolve" id="IO2-fc-tZg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Oi-ih-TCN" userLabel="Twitter">
+                                <rect key="frame" x="423" y="41" width="27" height="27"/>
+                                <color key="backgroundColor" red="0.46483180429999998" green="0.85626911309999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="trc-xZ-zef"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1059,7 +1059,7 @@
                             <constraint firstItem="IwS-3T-B21" firstAttribute="top" secondItem="1Oi-ih-TCN" secondAttribute="top" id="dmB-Ab-RIX"/>
                             <constraint firstItem="q7X-cB-Rh5" firstAttribute="top" secondItem="7DP-5z-40N" secondAttribute="bottom" constant="46" id="hPs-jW-cIy"/>
                             <constraint firstItem="lF5-YV-PDA" firstAttribute="top" secondItem="Ulm-uk-8yW" secondAttribute="bottom" constant="8" symbolic="YES" id="has-hE-v2W"/>
-                            <constraint firstAttribute="trailing" secondItem="IwS-3T-B21" secondAttribute="trailing" constant="25" id="heB-6x-Eo0"/>
+                            <constraint firstAttribute="trailing" secondItem="IwS-3T-B21" secondAttribute="trailing" constant="41" id="heB-6x-Eo0"/>
                             <constraint firstItem="Ulm-uk-8yW" firstAttribute="leading" secondItem="KfD-Id-RKr" secondAttribute="leading" id="iHZ-gf-4Cq"/>
                             <constraint firstItem="uyE-uW-4U9" firstAttribute="height" secondItem="KfD-Id-RKr" secondAttribute="height" id="jQy-Wf-re2"/>
                             <constraint firstAttribute="height" secondItem="q7X-cB-Rh5" secondAttribute="height" multiplier="320:20" id="kvd-2X-ahv"/>
@@ -1378,8 +1378,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="IO2-fc-tZg"/>
-        <segue reference="m3m-Lx-FsJ"/>
         <segue reference="2VT-JR-C3g"/>
+        <segue reference="F3s-cs-MTS"/>
         <segue reference="br2-9X-GFN"/>
         <segue reference="egZ-9R-iWF"/>
         <segue reference="uYe-Te-0mh"/>
