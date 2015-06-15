@@ -11,6 +11,9 @@ import UIKit
 
 class CreditsViewController: UIViewController {
     var test:String!
+    
+    
+    @IBOutlet weak var backButton: UIButton!
 
 @IBOutlet weak var creditAction: UITextView!
     
@@ -19,7 +22,11 @@ class CreditsViewController: UIViewController {
         
         let creditsRoll = CreditsRoll ()
 
-    
+    @IBAction func backAction(sender: AnyObject){
+        self.dismissViewControllerAnimated(true) { () -> Void in
+            
+        }
+    }
     
  
 }
