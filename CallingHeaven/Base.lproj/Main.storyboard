@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="6vu-bh-1fU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VzQ-WC-W78">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -246,39 +246,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAX-MR-RrR" userLabel="Home">
-                                <rect key="frame" x="16" y="251" width="104" height="60"/>
-                                <color key="backgroundColor" red="0.40000000596046448" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="backAction:" destination="VzQ-WC-W78" eventType="touchUpInside" id="aTO-ID-mMC"/>
-                                    <segue destination="2Iu-2g-hLR" kind="modal" id="nYH-dG-Rnj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUq-pZ-qtM" userLabel="Credits">
-                                <rect key="frame" x="414" y="247" width="154" height="67"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="6vu-bh-1fU" kind="modal" id="5S9-Je-EWq"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quotepacks-0203" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-h2-O11">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="quotepacks-0203" translatesAutoresizingMaskIntoConstraints="NO" id="lj7-OJ-HwO">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0d-cJ-EvY" userLabel="Credits">
+                                <rect key="frame" x="410" y="247" width="142" height="65"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyS-qv-39W" userLabel="Home">
+                                <rect key="frame" x="16" y="247" width="106" height="45"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                        <constraints>
+                            <constraint firstItem="g0d-cJ-EvY" firstAttribute="top" secondItem="9S7-ij-84T" secondAttribute="bottom" constant="227" id="1DT-yC-pgQ"/>
+                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="g0d-cJ-EvY" secondAttribute="bottom" constant="8" symbolic="YES" id="93R-6V-v7s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lj7-OJ-HwO" secondAttribute="trailing" id="9b3-1w-3aC"/>
+                            <constraint firstItem="g0d-cJ-EvY" firstAttribute="bottom" secondItem="eyS-qv-39W" secondAttribute="bottom" constant="20" id="JoH-gg-Whu"/>
+                            <constraint firstItem="eyS-qv-39W" firstAttribute="top" secondItem="9S7-ij-84T" secondAttribute="bottom" constant="227" id="LF7-dh-Dkw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g0d-cJ-EvY" secondAttribute="trailing" id="Nso-kY-srn"/>
+                            <constraint firstAttribute="top" secondItem="lj7-OJ-HwO" secondAttribute="top" id="UUI-uM-her"/>
+                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="eyS-qv-39W" secondAttribute="bottom" constant="28" id="l8n-St-iBU"/>
+                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="lj7-OJ-HwO" secondAttribute="bottom" constant="8" symbolic="YES" id="paG-3l-aN0"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="eyS-qv-39W" secondAttribute="leading" id="psL-22-zHu"/>
+                            <constraint firstAttribute="width" secondItem="eyS-qv-39W" secondAttribute="width" multiplier="568:106" id="q0E-W9-7SB"/>
+                            <constraint firstAttribute="height" secondItem="eyS-qv-39W" secondAttribute="height" multiplier="320:45" id="vcF-4w-9CX"/>
+                            <constraint firstAttribute="width" secondItem="g0d-cJ-EvY" secondAttribute="width" multiplier="568:142" id="wOj-AE-Tdf"/>
+                            <constraint firstAttribute="height" secondItem="g0d-cJ-EvY" secondAttribute="height" multiplier="320:65" id="xTj-jN-xxt"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lj7-OJ-HwO" secondAttribute="leading" id="y3z-Ff-Q5W"/>
+                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="backButton" destination="xAX-MR-RrR" id="BcH-eX-LCd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTX-5M-Wae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1409,11 +1415,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="F3s-cs-MTS"/>
         <segue reference="9EP-ek-Wig"/>
-        <segue reference="0ck-PL-0nP"/>
-        <segue reference="egZ-9R-iWF"/>
-        <segue reference="br2-9X-GFN"/>
         <segue reference="uYe-Te-0mh"/>
+        <segue reference="br2-9X-GFN"/>
+        <segue reference="egZ-9R-iWF"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>
