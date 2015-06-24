@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="edI-2q-NWj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Eos-gy-t1k">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -768,7 +768,7 @@
                         <viewControllerLayoutGuide type="bottom" id="WOQ-3I-VBs"/>
                     </layoutGuides>
                     <view key="view" tag="1" contentMode="scaleToFill" id="79y-rw-T33">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpV-dL-3VV">
@@ -1285,9 +1285,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golddove-ext" translatesAutoresizingMaskIntoConstraints="NO" id="VVU-Dt-AlN">
-                                <rect key="frame" x="8" y="64" width="80" height="74"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KxB-D8-3P2">
                                 <rect key="frame" x="158" y="68" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
@@ -1346,42 +1343,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfR-pF-grj">
+                                <rect key="frame" x="22" y="20" width="100" height="100"/>
+                                <state key="normal" image="golddove-ext">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ouW-mQ-APE">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="avu-8G-gwD">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vmc-4C-qoA">
-                                <rect key="frame" x="104" y="135" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="backAction:" destination="B5m-aP-fPA" eventType="touchUpInside" id="rPu-F7-XNL"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="gam-qP-eex">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dth-tl-j1J">
-                                <rect key="frame" x="389" y="206" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
-                                <state key="normal" title="Save">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="saveAction:" destination="B5m-aP-fPA" eventType="touchUpInside" id="owJ-Z7-4vC"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="bqa-5B-7yC"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="backAction" destination="vmc-4C-qoA" id="kCL-Sz-TlY"/>
                         <outlet property="noteText" destination="l2K-fC-vji" id="VLR-tN-OoB"/>
                         <outlet property="titleText" destination="KxB-D8-3P2" id="F1R-87-aaj"/>
                     </connections>
@@ -1419,24 +1392,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rosary-question mark-ext" translatesAutoresizingMaskIntoConstraints="NO" id="aJQ-sZ-NA3">
-                                <rect key="frame" x="16" y="64" width="75" height="84"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YR3-FK-P88">
-                                <rect key="frame" x="99" y="108" width="65" height="21"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qe8-Q4-1VL">
-                                <rect key="frame" x="157" y="70" width="341" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qe8-Q4-1VL">
+                                <rect key="frame" x="135" y="38" width="321" height="30"/>
                                 <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uoR-Ph-vrR"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFX-Cd-Qsj">
-                                <rect key="frame" x="506" y="64" width="46" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFX-Cd-Qsj">
+                                <rect key="frame" x="466" y="49" width="61" height="30"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1447,22 +1414,10 @@
                                     <segue destination="HbX-aQ-qO5" kind="modal" id="p0n-Ka-k5y"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Wonder..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbF-2s-Egq">
-                                <rect key="frame" x="182" y="16" width="113" height="21"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG1-Lc-nDo">
-                                <rect key="frame" x="99" y="76" width="50" height="15"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-eV-UrW">
-                                <rect key="frame" x="382" y="133" width="124" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-eV-UrW">
+                                <rect key="frame" x="451" y="104" width="117" height="25"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
-                                <state key="normal" title="See All Notes">
+                                <state key="normal" title="All Notes">
                                     <color key="titleColor" red="1" green="0.85981934149999995" blue="0.28351085840000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1470,15 +1425,47 @@
                                     <segue destination="HbX-aQ-qO5" kind="modal" id="br2-9X-GFN"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DfC-vs-f3F">
-                                <rect key="frame" x="157" y="104" width="341" height="30"/>
-                                <color key="backgroundColor" red="0.92549026010000002" green="0.90196084980000002" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kmf-V9-yx0">
+                                <rect key="frame" x="135" y="76" width="321" height="45"/>
+                                <color key="backgroundColor" red="0.9450981021" green="0.93333339689999995" blue="0.78039222959999999" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgv-MK-ZF1">
+                                <rect key="frame" x="32" y="38" width="100" height="100"/>
+                                <state key="normal" image="rosary-question mark-ext">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rgv-MK-ZF1" firstAttribute="top" secondItem="dgh-vG-F0o" secondAttribute="bottom" constant="18" id="7dK-vc-vVz"/>
+                            <constraint firstAttribute="width" secondItem="rgv-MK-ZF1" secondAttribute="width" multiplier="568:100" id="8dN-Nm-BUP"/>
+                            <constraint firstItem="3ge-eV-UrW" firstAttribute="leading" secondItem="xFX-Cd-Qsj" secondAttribute="leading" constant="-15" id="9Hy-Bu-XfE"/>
+                            <constraint firstAttribute="height" secondItem="Kmf-V9-yx0" secondAttribute="height" multiplier="320:45" id="9Pq-QW-8sg"/>
+                            <constraint firstAttribute="width" secondItem="xFX-Cd-Qsj" secondAttribute="width" multiplier="568:61" id="9mJ-Tr-UJh"/>
+                            <constraint firstItem="3ge-eV-UrW" firstAttribute="leading" secondItem="Kmf-V9-yx0" secondAttribute="trailing" constant="-5" id="Juf-Y6-en2"/>
+                            <constraint firstItem="xFX-Cd-Qsj" firstAttribute="leading" secondItem="qe8-Q4-1VL" secondAttribute="trailing" constant="10" id="Kjy-6K-EGj"/>
+                            <constraint firstItem="xFX-Cd-Qsj" firstAttribute="top" secondItem="dgh-vG-F0o" secondAttribute="bottom" constant="29" id="Mhp-Ml-zYu"/>
+                            <constraint firstItem="qe8-Q4-1VL" firstAttribute="leading" secondItem="rgv-MK-ZF1" secondAttribute="trailing" constant="3" id="P3f-6D-ra7"/>
+                            <constraint firstItem="qe8-Q4-1VL" firstAttribute="top" secondItem="rgv-MK-ZF1" secondAttribute="top" id="SOg-DT-PwO"/>
+                            <constraint firstAttribute="height" secondItem="3ge-eV-UrW" secondAttribute="height" multiplier="320:25" id="SiP-M7-Mzt"/>
+                            <constraint firstItem="Kmf-V9-yx0" firstAttribute="bottom" secondItem="rgv-MK-ZF1" secondAttribute="bottom" constant="-17" id="Xbi-AX-w0c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3ge-eV-UrW" secondAttribute="trailing" constant="-16" id="Z6s-qT-Qle"/>
+                            <constraint firstAttribute="width" secondItem="3ge-eV-UrW" secondAttribute="width" multiplier="568:117" id="Zhj-k3-S27"/>
+                            <constraint firstAttribute="height" secondItem="xFX-Cd-Qsj" secondAttribute="height" multiplier="320:30" id="ave-ih-feC"/>
+                            <constraint firstItem="qe8-Q4-1VL" firstAttribute="top" secondItem="dgh-vG-F0o" secondAttribute="bottom" constant="18" id="b3e-Ji-KWm"/>
+                            <constraint firstAttribute="width" secondItem="Kmf-V9-yx0" secondAttribute="width" multiplier="568:321" id="dAd-Ed-eEK"/>
+                            <constraint firstItem="3ge-eV-UrW" firstAttribute="top" secondItem="xFX-Cd-Qsj" secondAttribute="bottom" constant="25" id="eOy-IH-o8c"/>
+                            <constraint firstAttribute="width" secondItem="qe8-Q4-1VL" secondAttribute="width" multiplier="568:321" id="eUW-6g-NQN"/>
+                            <constraint firstItem="Kmf-V9-yx0" firstAttribute="leading" secondItem="rgv-MK-ZF1" secondAttribute="trailing" constant="3" id="fuy-QC-zuk"/>
+                            <constraint firstAttribute="height" secondItem="rgv-MK-ZF1" secondAttribute="height" multiplier="320:100" id="oJv-Kf-f8i"/>
+                            <constraint firstItem="Kmf-V9-yx0" firstAttribute="leading" secondItem="qe8-Q4-1VL" secondAttribute="leading" id="r6e-x3-XWz"/>
+                            <constraint firstItem="QhE-lC-tIm" firstAttribute="top" secondItem="rgv-MK-ZF1" secondAttribute="bottom" constant="182" id="rcU-Z6-S7E"/>
+                            <constraint firstItem="Kmf-V9-yx0" firstAttribute="top" secondItem="qe8-Q4-1VL" secondAttribute="bottom" constant="8" id="tcw-8S-Ue9"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="rgv-MK-ZF1" secondAttribute="leading" constant="-16" id="zEs-5W-gLd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Questions" id="0YI-R4-esw">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="7Kg-rw-2Vm" userLabel="Back">
@@ -1515,13 +1502,12 @@
                     <size key="freeformSize" width="568" height="320"/>
                     <connections>
                         <outlet property="backAction" destination="X5u-Fz-MYS" id="IyD-2g-9SL"/>
-                        <outlet property="noteText" destination="DfC-vs-f3F" id="C4o-jt-vGp"/>
                         <outlet property="titleText" destination="qe8-Q4-1VL" id="IhO-xY-C4k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qup-EZ-71O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="282" y="-973"/>
+            <point key="canvasLocation" x="303" y="-1042"/>
         </scene>
     </scenes>
     <resources>
@@ -1534,7 +1520,7 @@
         <image name="phonereceiver" width="126" height="344"/>
         <image name="prayinghands" width="312" height="362"/>
         <image name="quotepacks-0203" width="1281" height="722"/>
-        <image name="rosary-question mark-ext" width="1262" height="1852"/>
+        <image name="rosary-question mark-ext" width="187" height="195"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -1542,11 +1528,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="0ck-PL-0nP"/>
         <segue reference="2VT-JR-C3g"/>
+        <segue reference="0ck-PL-0nP"/>
+        <segue reference="98S-jp-a0J"/>
         <segue reference="br2-9X-GFN"/>
-        <segue reference="egZ-9R-iWF"/>
-        <segue reference="uYe-Te-0mh"/>
+        <segue reference="tSJ-7C-X0Z"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>

@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "rosary-question mark-4-1.png"
+      "filename" : "prayerbutton.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "rosary-question mark-4-2.png"
+      "filename" : "prayerbutton-1.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "rosary-question mark-4-3.png"
+      "filename" : "prayerbutton-2.png"
     }
   ],
   "info" : {
