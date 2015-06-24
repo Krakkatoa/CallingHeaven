@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VzQ-WC-W78">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -250,7 +250,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0d-cJ-EvY" userLabel="Credits">
-                                <rect key="frame" x="410" y="247" width="142" height="65"/>
+                                <rect key="frame" x="371" y="240" width="325" height="65"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -260,37 +260,50 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyS-qv-39W" userLabel="Home">
-                                <rect key="frame" x="16" y="247" width="106" height="45"/>
+                                <rect key="frame" x="16" y="247" width="142" height="65"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backAction:" destination="VzQ-WC-W78" eventType="touchUpInside" id="vl0-b8-dBQ"/>
+                                    <action selector="backAction:" destination="VzQ-WC-W78" eventType="touchUpInside" id="nSd-jE-ZKw"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.87058823529411766" green="0.85490196078431369" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
-                            <constraint firstItem="9S7-ij-84T" firstAttribute="bottom" secondItem="g0d-cJ-EvY" secondAttribute="top" constant="-247" id="1DT-yC-pgQ"/>
-                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="g0d-cJ-EvY" secondAttribute="bottom" constant="8" symbolic="YES" id="93R-6V-v7s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eyS-qv-39W" secondAttribute="trailing" constant="394" id="95t-km-inu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lj7-OJ-HwO" secondAttribute="trailing" id="9b3-1w-3aC"/>
-                            <constraint firstItem="eyS-qv-39W" firstAttribute="top" secondItem="9S7-ij-84T" secondAttribute="bottom" constant="247" id="LF7-dh-Dkw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="g0d-cJ-EvY" secondAttribute="trailing" id="Nso-kY-srn"/>
+                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="g0d-cJ-EvY" secondAttribute="bottom" constant="15" id="CLY-Fe-oEV"/>
+                            <constraint firstItem="eyS-qv-39W" firstAttribute="top" secondItem="9S7-ij-84T" secondAttribute="bottom" constant="227" id="LF7-dh-Dkw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g0d-cJ-EvY" secondAttribute="trailing" constant="-144" id="Nso-kY-srn"/>
                             <constraint firstAttribute="top" secondItem="lj7-OJ-HwO" secondAttribute="top" id="UUI-uM-her"/>
+                            <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="eyS-qv-39W" secondAttribute="bottom" constant="8" id="V4W-W9-0FO"/>
+                            <constraint firstItem="g0d-cJ-EvY" firstAttribute="top" secondItem="9S7-ij-84T" secondAttribute="bottom" constant="220" id="cUa-2E-GHc"/>
+                            <constraint firstItem="g0d-cJ-EvY" firstAttribute="baseline" secondItem="eyS-qv-39W" secondAttribute="baseline" constant="-7" id="hPS-RH-vNg"/>
+                            <constraint firstAttribute="width" secondItem="eyS-qv-39W" secondAttribute="width" multiplier="568:142" id="pFl-B3-29X"/>
                             <constraint firstItem="b6F-IY-CNl" firstAttribute="top" secondItem="lj7-OJ-HwO" secondAttribute="bottom" constant="8" symbolic="YES" id="paG-3l-aN0"/>
                             <constraint firstAttribute="leadingMargin" secondItem="eyS-qv-39W" secondAttribute="leading" id="psL-22-zHu"/>
-                            <constraint firstAttribute="width" secondItem="eyS-qv-39W" secondAttribute="width" multiplier="568:106" id="q0E-W9-7SB"/>
-                            <constraint firstAttribute="height" secondItem="eyS-qv-39W" secondAttribute="height" multiplier="320:45" id="vcF-4w-9CX"/>
-                            <constraint firstAttribute="width" secondItem="g0d-cJ-EvY" secondAttribute="width" multiplier="568:142" id="wOj-AE-Tdf"/>
+                            <constraint firstAttribute="height" secondItem="eyS-qv-39W" secondAttribute="height" multiplier="320:65" id="vcF-4w-9CX"/>
+                            <constraint firstAttribute="width" secondItem="g0d-cJ-EvY" secondAttribute="width" multiplier="568:142" constant="-732" id="wOj-AE-Tdf"/>
                             <constraint firstAttribute="height" secondItem="g0d-cJ-EvY" secondAttribute="height" multiplier="320:65" id="xTj-jN-xxt"/>
                             <constraint firstAttribute="leadingMargin" secondItem="lj7-OJ-HwO" secondAttribute="leading" id="y3z-Ff-Q5W"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="backButton" destination="eyS-qv-39W" id="gy1-q5-ZWX"/>
+                        <outlet property="backAction" destination="eyS-qv-39W" id="rpd-7R-yzA"/>
+                        <outlet property="creditsAction" destination="g0d-cJ-EvY" id="kwz-EC-RB3"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="9b3-1w-3aC" collectionClass="NSMutableArray" id="HMi-yr-nvc"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="LF7-dh-Dkw" collectionClass="NSMutableArray" id="fWi-TN-ck1"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="LF7-dh-Dkw" collectionClass="NSMutableArray" id="WLZ-yv-guP"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="9b3-1w-3aC" collectionClass="NSMutableArray" id="dv8-Kl-9fa"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="UUI-uM-her" collectionClass="NSMutableArray" id="a0d-4U-8xV"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="y3z-Ff-Q5W" collectionClass="NSMutableArray" id="rte-7M-uRV"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="psL-22-zHu" collectionClass="NSMutableArray" id="qrd-Zc-9CS"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="paG-3l-aN0" collectionClass="NSMutableArray" id="uah-bg-PjS"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="Nso-kY-srn" collectionClass="NSMutableArray" id="ERu-UU-gCA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTX-5M-Wae" userLabel="First Responder" sceneMemberID="firstResponder"/>
