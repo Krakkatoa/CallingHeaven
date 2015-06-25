@@ -110,6 +110,10 @@ class saintViewController: UIViewController {
     let lizQuotes = LizQuotes ()
     let andesQuotes = AndesQuotes ()
     
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
+    
     
     override func viewDidLoad() {
         

@@ -16,7 +16,11 @@ class QuestionsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!
     
-    @IBOutlet weak var noteText: UITextField!
+    @IBOutlet weak var noteText: UITextView!
+    
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
     
     
     @IBOutlet weak var backAction: UIButton!
@@ -28,7 +32,20 @@ class QuestionsViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-     }
+        let screenSize = UIScreen.mainScreen().bounds.size
+        let verticalCoef = screenSize.height / 320.0
+        let horizontalCoef = screenSize.width / 568.0
+        
+        for constraint in verticalSpacingConstraints {
+            constraint.constant *= verticalCoef
+        }
+        
+        for constraint in horizontalSpacingConstraints {
+            constraint.constant *= horizontalCoef
+        }
+    }
+
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

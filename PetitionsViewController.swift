@@ -16,12 +16,14 @@ class PetitionsViewController: UIViewController {
     
     @IBOutlet weak var titleText: UITextField!
    
-    @IBOutlet weak var noteText: UITextField!
+    @IBOutlet weak var noteText: UITextView!
  
     
     @IBOutlet weak var backAction: UIButton!
     
-
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
     
 
     override func viewDidLoad() {
@@ -41,6 +43,21 @@ class PetitionsViewController: UIViewController {
     self.dismissViewControllerAnimated(true) { () -> Void in
         
     }
+   
+    let screenSize = UIScreen.mainScreen().bounds.size
+    let verticalCoef = screenSize.height / 320.0
+    let horizontalCoef = screenSize.width / 568.0
+    
+    for constraint in verticalSpacingConstraints {
+        constraint.constant *= verticalCoef
+    }
+    
+    for constraint in horizontalSpacingConstraints {
+        constraint.constant *= horizontalCoef
+    }
+
+    
+    
     
     }
     
@@ -70,7 +87,10 @@ class PetitionsViewController: UIViewController {
     @IBAction func readAction(sender: AnyObject) {
         
     }
-    
+}
+
+
+
     //
     
        /*
@@ -87,7 +107,7 @@ class PetitionsViewController: UIViewController {
     */
     
     // Change the mood operator based on input
-  }
+
 
 
 
