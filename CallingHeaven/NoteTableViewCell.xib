@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -14,32 +14,33 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sC6-EV-P5n">
-                        <rect key="frame" x="22" y="15" width="42" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sC6-EV-P5n">
+                        <rect key="frame" x="22" y="-33" width="36" height="154"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7B-xb-HOd">
-                        <rect key="frame" x="22" y="41" width="42" height="21"/>
+                        <rect key="frame" x="22" y="51" width="33" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtQ-Kf-iRQ">
-                        <rect key="frame" x="22" y="70" width="42" height="21"/>
+                    <label opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtQ-Kf-iRQ">
+                        <rect key="frame" x="22" y="64" width="59" height="44"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="WtQ-Kf-iRQ" firstAttribute="top" secondItem="t7B-xb-HOd" secondAttribute="bottom" constant="8" id="1UO-25-kbP"/>
-                    <constraint firstItem="sC6-EV-P5n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="Fol-fb-AD8"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="WtQ-Kf-iRQ" secondAttribute="bottom" constant="26" id="I8m-bI-Fy3"/>
-                    <constraint firstItem="t7B-xb-HOd" firstAttribute="top" secondItem="sC6-EV-P5n" secondAttribute="bottom" constant="5" id="bgy-iR-j9i"/>
+                    <constraint firstItem="t7B-xb-HOd" firstAttribute="bottom" secondItem="WtQ-Kf-iRQ" secondAttribute="top" constant="8" id="1UO-25-kbP"/>
+                    <constraint firstAttribute="topMargin" secondItem="sC6-EV-P5n" secondAttribute="top" constant="41" id="6e3-5D-zFu"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="sC6-EV-P5n" secondAttribute="leading" constant="-14" id="Fol-fb-AD8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="WtQ-Kf-iRQ" secondAttribute="bottom" constant="8" id="I8m-bI-Fy3"/>
+                    <constraint firstItem="t7B-xb-HOd" firstAttribute="top" secondItem="sC6-EV-P5n" secondAttribute="bottom" constant="-47" id="bgy-iR-j9i"/>
                     <constraint firstItem="WtQ-Kf-iRQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="gyc-CK-Jzp"/>
-                    <constraint firstItem="sC6-EV-P5n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="xeW-Xo-VXY"/>
+                    <constraint firstAttribute="topMargin" secondItem="sC6-EV-P5n" secondAttribute="top" constant="41" id="xeW-Xo-VXY"/>
                     <constraint firstItem="t7B-xb-HOd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="zvJ-xL-yRV"/>
                 </constraints>
             </tableViewCellContentView>
@@ -48,7 +49,7 @@
                 <outlet property="subtitleLabel" destination="WtQ-Kf-iRQ" id="ur4-Bb-TT4"/>
                 <outlet property="titleLabel" destination="t7B-xb-HOd" id="jHo-Dg-xAL"/>
             </connections>
-            <point key="canvasLocation" x="399.5" y="340.5"/>
+            <point key="canvasLocation" x="3.5" y="189.5"/>
         </tableViewCell>
     </objects>
 </document>
