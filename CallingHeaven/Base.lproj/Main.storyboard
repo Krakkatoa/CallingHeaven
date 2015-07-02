@@ -335,13 +335,6 @@
                                 <rect key="frame" x="20" y="88" width="98" height="101"/>
                                 <color key="backgroundColor" red="0.96963398320000005" green="0.73714640669999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
-                                <rect key="frame" x="20" y="46" width="100" height="34"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.55000000000000004" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nxq-8l-7Wk">
                                 <rect key="frame" x="142" y="36" width="333" height="239"/>
                                 <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.55000000000000004" colorSpace="calibratedRGB"/>
@@ -396,6 +389,20 @@
                                     <segue destination="gcl-Yc-j2w" kind="modal" id="0ck-PL-0nP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drU-5W-alA" userLabel="Facebook">
+                                <rect key="frame" x="524" y="228" width="39" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.55000000000000004" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="1HN-Qq-Sbp"/>
+                                    <constraint firstAttribute="height" constant="34" id="8aM-kZ-V0T"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareFacebook:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="oZE-Ac-qiQ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-Jd-tma" userLabel="Prayers">
                                 <rect key="frame" x="485" y="121" width="85" height="48"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -429,20 +436,13 @@
                                     <action selector="backAction:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="WlN-0a-SO1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drU-5W-alA" userLabel="Facebook">
-                                <rect key="frame" x="524" y="228" width="39" height="34"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.55000000000000004" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="39" id="1HN-Qq-Sbp"/>
-                                    <constraint firstAttribute="height" constant="34" id="8aM-kZ-V0T"/>
-                                </constraints>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shareFacebook:" destination="2Iu-2g-hLR" eventType="touchUpInside" id="oZE-Ac-qiQ"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w9-JQ-OY6" userLabel="bioLabel">
+                                <rect key="frame" x="20" y="36" width="100" height="44"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="10"/>
+                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -451,7 +451,7 @@
                             <constraint firstItem="KuH-U1-cXa" firstAttribute="leading" secondItem="Nhd-Jd-tma" secondAttribute="leading" id="0g0-3w-HwD"/>
                             <constraint firstItem="Xhr-qv-AAK" firstAttribute="width" secondItem="KuH-U1-cXa" secondAttribute="width" id="2Ia-HQ-5Wt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KuH-U1-cXa" secondAttribute="trailing" constant="-18" id="2Jh-z2-mUJ"/>
-                            <constraint firstItem="3w9-JQ-OY6" firstAttribute="top" secondItem="hMD-y4-MfV" secondAttribute="bottom" constant="46" id="2Rj-Hw-wbz"/>
+                            <constraint firstItem="3w9-JQ-OY6" firstAttribute="top" secondItem="hMD-y4-MfV" secondAttribute="bottom" constant="36" id="2Rj-Hw-wbz"/>
                             <constraint firstItem="pvQ-Wy-3bf" firstAttribute="top" secondItem="KuH-U1-cXa" secondAttribute="bottom" constant="3" id="54l-bk-njm"/>
                             <constraint firstItem="KuH-U1-cXa" firstAttribute="leading" secondItem="scm-YZ-Cds" secondAttribute="leading" id="5n4-Y3-rv1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="scm-YZ-Cds" secondAttribute="trailing" constant="-18" id="5zg-mt-Yke"/>
@@ -469,7 +469,7 @@
                             <constraint firstItem="drU-5W-alA" firstAttribute="trailing" secondItem="KuH-U1-cXa" secondAttribute="trailing" constant="-7" id="IJf-Co-YFK"/>
                             <constraint firstAttribute="height" secondItem="uEy-qZ-Vlj" secondAttribute="height" id="IQy-NU-Kh6"/>
                             <constraint firstAttribute="width" secondItem="3w9-JQ-OY6" secondAttribute="width" multiplier="568:100" id="Njj-SF-jvy"/>
-                            <constraint firstItem="Nxq-8l-7Wk" firstAttribute="leading" secondItem="3w9-JQ-OY6" secondAttribute="trailing" constant="22" id="Pj1-sM-frT"/>
+                            <constraint firstItem="3w9-JQ-OY6" firstAttribute="trailing" secondItem="Nxq-8l-7Wk" secondAttribute="leading" constant="-22" id="Pj1-sM-frT"/>
                             <constraint firstItem="KuH-U1-cXa" firstAttribute="width" secondItem="pvQ-Wy-3bf" secondAttribute="width" id="Ptb-Gw-yUO"/>
                             <constraint firstItem="aht-wZ-7pV" firstAttribute="top" secondItem="cqO-n8-zku" secondAttribute="bottom" constant="58" id="QKX-r1-rkN"/>
                             <constraint firstItem="Xhr-qv-AAK" firstAttribute="leading" secondItem="KuH-U1-cXa" secondAttribute="leading" id="RLa-p9-P79"/>
@@ -502,7 +502,7 @@
                             <constraint firstItem="uEy-qZ-Vlj" firstAttribute="top" secondItem="Ufz-Ht-Hym" secondAttribute="top" id="pnM-db-ank"/>
                             <constraint firstAttribute="height" secondItem="cqO-n8-zku" secondAttribute="height" multiplier="320:101" id="qCe-wU-4fW"/>
                             <constraint firstItem="scm-YZ-Cds" firstAttribute="top" secondItem="Nhd-Jd-tma" secondAttribute="bottom" constant="3" id="qgO-Tg-HdZ"/>
-                            <constraint firstAttribute="height" secondItem="3w9-JQ-OY6" secondAttribute="height" multiplier="320:34" id="rm7-Mn-P6D"/>
+                            <constraint firstAttribute="height" secondItem="3w9-JQ-OY6" secondAttribute="height" multiplier="320:44" id="rm7-Mn-P6D"/>
                             <constraint firstItem="aht-wZ-7pV" firstAttribute="leadingMargin" secondItem="Ufz-Ht-Hym" secondAttribute="leading" constant="95" id="uvS-KU-hwG"/>
                             <constraint firstItem="Xhr-qv-AAK" firstAttribute="height" secondItem="KuH-U1-cXa" secondAttribute="height" id="wIN-I6-jaV"/>
                             <constraint firstItem="scm-YZ-Cds" firstAttribute="leading" secondItem="Nxq-8l-7Wk" secondAttribute="trailing" constant="10" id="xDF-3v-T9u"/>
@@ -527,6 +527,39 @@
                         <outlet property="saintImage" destination="cqO-n8-zku" id="m7n-ze-Tnm"/>
                         <outlet property="saintPrayerButton" destination="Nhd-Jd-tma" id="S4D-Pi-RuH"/>
                         <outlet property="testLabel" destination="Nxq-8l-7Wk" id="gua-ws-s7I"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="aDr-tP-xsA" collectionClass="NSMutableArray" id="SGw-ad-zA9"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="mxh-Fs-PH8" collectionClass="NSMutableArray" id="NFq-Rb-ZGU"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="2Rj-Hw-wbz" collectionClass="NSMutableArray" id="kwl-uH-7wc"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="SsS-KP-tfo" collectionClass="NSMutableArray" id="kLJ-sr-9kC"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="fMu-7q-FeR" collectionClass="NSMutableArray" id="SdF-tV-Unx"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="EJB-Cd-bwR" collectionClass="NSMutableArray" id="xCv-U4-Yqk"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="WMa-Qa-rKh" collectionClass="NSMutableArray" id="d9a-5i-TuF"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="Pj1-sM-frT" collectionClass="NSMutableArray" id="49u-k2-f5L"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="YYG-2l-IDk" collectionClass="NSMutableArray" id="lt5-hj-mWc"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="ZKt-su-gAs" collectionClass="NSMutableArray" id="rVX-vY-BLm"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="FlL-Sq-gts" collectionClass="NSMutableArray" id="upN-Ic-40Q"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="H8C-jq-hba" collectionClass="NSMutableArray" id="ZYY-KP-Mtf"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="QKX-r1-rkN" collectionClass="NSMutableArray" id="YDF-Id-cys"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="uvS-KU-hwG" collectionClass="NSMutableArray" id="mXv-D3-d8L"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="8f4-Cg-uh0" collectionClass="NSMutableArray" id="JSz-im-Sqq"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="2Jh-z2-mUJ" collectionClass="NSMutableArray" id="oWt-BQ-ovP"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="epi-d2-DZs" collectionClass="NSMutableArray" id="4Lc-lu-sJJ"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="njU-Qg-UL7" collectionClass="NSMutableArray" id="H2p-o1-d2x"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="54l-bk-njm" collectionClass="NSMutableArray" id="nVw-LT-nqI"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="9aI-Z3-rMR" collectionClass="NSMutableArray" id="BKT-hl-wlY"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="ekV-cY-4lo" collectionClass="NSMutableArray" id="DQ3-xN-sze"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="Fic-pH-n71" collectionClass="NSMutableArray" id="1wm-cp-kdT"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="WcE-J2-DXd" collectionClass="NSMutableArray" id="ILO-NN-hia"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="cPV-HB-Uii" collectionClass="NSMutableArray" id="svD-0Y-x9K"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="5zg-mt-Yke" collectionClass="NSMutableArray" id="ppZ-bn-kN4"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="qgO-Tg-HdZ" collectionClass="NSMutableArray" id="yGZ-eq-Jmr"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="xDF-3v-T9u" collectionClass="NSMutableArray" id="8g0-UN-m4e"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="Y1B-cC-QrU" collectionClass="NSMutableArray" id="8fH-1d-AhH"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="Sty-qg-Jcp" collectionClass="NSMutableArray" id="Zfo-HY-dJ2"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="fMn-C5-w1z" collectionClass="NSMutableArray" id="s28-HN-W0W"/>
+                        <outletCollection property="horizontalSpacingConstraints" destination="yVP-4f-Jp2" collectionClass="NSMutableArray" id="G7w-b2-qzJ"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="kgA-na-jJ3" collectionClass="NSMutableArray" id="KVF-Ag-hyv"/>
+                        <outletCollection property="verticalSpacingConstraints" destination="IJf-Co-YFK" collectionClass="NSMutableArray" id="J6u-Cu-e1x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4V2-ps-Ydg" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -2,4 +2,99 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingHeaven/saintViewController.swift"
+            timestampString = "457502155.942759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "saintViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingHeaven.saintViewController.horizontalSpacingConstraints.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;ObjectiveC.NSLayoutConstraint&gt;&gt;"
+                  moduleName = "CallingHeaven"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/my_mac/Documents/Development/CallingHeaven/CallingHeaven/saintViewController.swift"
+                  timestampString = "457502155.949576"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingHeaven.saintViewController.horizontalSpacingConstraints.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;ObjectiveC.NSLayoutConstraint&gt;&gt;"
+                  moduleName = "CallingHeaven"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/my_mac/Documents/Development/CallingHeaven/CallingHeaven/saintViewController.swift"
+                  timestampString = "457502155.949854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingHeaven.saintViewController.horizontalSpacingConstraints.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;ObjectiveC.NSLayoutConstraint&gt;&gt;"
+                  moduleName = "CallingHeaven"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/my_mac/Documents/Development/CallingHeaven/CallingHeaven/saintViewController.swift"
+                  timestampString = "457502155.950064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingHeaven.saintViewController.init (CallingHeaven.saintViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; CallingHeaven.saintViewController"
+                  moduleName = "CallingHeaven"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/my_mac/Documents/Development/CallingHeaven/CallingHeaven/saintViewController.swift"
+                  timestampString = "457502155.950274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1535">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingHeaven.saintViewController.init (CallingHeaven.saintViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; CallingHeaven.saintViewController"
+                  moduleName = "CallingHeaven"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/my_mac/Documents/Development/CallingHeaven/CallingHeaven/saintViewController.swift"
+                  timestampString = "457502155.950442"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1455">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
