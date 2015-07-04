@@ -87,6 +87,11 @@ class PetitionsViewController: UIViewController {
     @IBAction func readAction(sender: AnyObject) {
         
     }
+    
+    
+    @IBAction func readAction2(sender: AnyObject) {
+        
+    }
 }
 
 

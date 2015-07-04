@@ -19,16 +19,34 @@ class ThoughtsViewController: UIViewController {
     
     @IBOutlet weak var noteText: UITextView!
     
+    @IBOutlet weak var saveButton: UIButton!
+  
+    @IBOutlet weak var readAll: UIButton!
     
     @IBOutlet weak var backAction: UIButton!
     
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
-    
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let screenSize = UIScreen.mainScreen().bounds.size
+        let verticalCoef = screenSize.height / 320.0
+        let horizontalCoef = screenSize.width / 568.0
+        
+        for constraint in verticalSpacingConstraints {
+            constraint.constant *= verticalCoef
+        }
+        
+        for constraint in horizontalSpacingConstraints {
+            constraint.constant *= horizontalCoef
+        }
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
