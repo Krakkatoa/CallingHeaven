@@ -54,7 +54,10 @@ struct LizPrayers {
         
         
         //18
-    
+        
+        "O Eternal Word, Word of my God, would that I might spend my life listening to you, would that I might be fully receptive to learn all from you; in all darkness, all loneliness, all weakness, may I ever keep my eyes fixed on you and abide under your great light; O my Beloved Star, fascinate me so that I may never be able to leave your radiance.\n O Consuming Fire, Spirit of Love, descend into my soul and make all in me as an incarnation of the Word, that I may be to him a super-added humanity wherein he renews his mystery; and you O Father, bestow yourself and bend down to your little creature, seeing in her only your beloved Son in whom you are well pleased.",
+        
+        //19
     ]
     
     func randomFact() -> String {
