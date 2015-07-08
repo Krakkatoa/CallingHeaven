@@ -14,6 +14,7 @@ class ChoicesViewController: UIViewController
 {
 
 
+    @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var petitionsAction: UIButton!
     
     @IBOutlet weak var questionsAction: UIButton!
@@ -22,14 +23,14 @@ class ChoicesViewController: UIViewController
     
     @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
-    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
-   
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []   
     
     @IBAction func backAction(sender: AnyObject){
         self.dismissViewControllerAnimated(true) { () -> Void in
             
         }
     
+        
     let screenSize = UIScreen.mainScreen().bounds.size
     let verticalCoef = screenSize.height / 320.0
     let horizontalCoef = screenSize.width / 568.0

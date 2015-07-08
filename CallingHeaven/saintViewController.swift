@@ -40,7 +40,7 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = theresePrayers.randomFact())
         case "St. Edith Stein": (testLabel.text = edithPrayers.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
-        case "Bl. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
+        case "St. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
         case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
             
@@ -69,7 +69,7 @@ class saintViewController: UIViewController {
         case "St. Therese of Lisieux": (testLabel.text = thereseLife.randomFact())
         case "St. Edith Stein": (testLabel.text = edithLife.randomFact ())
         case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
-        case "Bl. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
+        case "St. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
         case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
             default: println("Something else") }
@@ -94,7 +94,7 @@ class saintViewController: UIViewController {
     case "St. Therese of Lisieux": (testLabel.text = thereseQuotes.randomFact())
     case "St. Edith Stein": (testLabel.text = edithQuotes.randomFact ())
     case "Jesus Christ":(testLabel.text = jesusQuotes.randomFact ())
-    case "Bl. Mariam Baouardy":(testLabel.text = mariamQuotes.randomFact ())
+    case "St. Mariam Baouardy":(testLabel.text = mariamQuotes.randomFact ())
     case "Bl. Elizabeth of the Trinity":(testLabel.text = lizQuotes.randomFact ())
     case "Bl. Teresa of the Andes":(testLabel.text = andesQuotes.randomFact ())
     default: println("Something else") }
@@ -112,7 +112,7 @@ class saintViewController: UIViewController {
     
     @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
-    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint]!
     
     
     override func viewDidLoad() {
