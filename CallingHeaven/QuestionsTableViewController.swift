@@ -11,7 +11,7 @@ import Parse
 
 class QuestionsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var notesData = []
+    var notesData:NSMutableArray = []
     
     
     
@@ -22,11 +22,12 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
             var query = PFQuery(className:"Question")
+            query.orderByDescending("updatedAt")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
                 (objects: [AnyObject]!, error: NSError!) -> Void in
                 if error == nil {
-                    self.notesData = objects
+                    self.notesData = NSMutableArray(array:objects)
                     self.questionsTableView.reloadData()
                     // The find succeeded.
                     println(self.notesData)
@@ -58,8 +59,42 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
+    func tableView(tableView: UITableView,editActionsForRowAtIndexPath indexPath: NSIndexPath)-> [AnyObject]? {
+        
+        var deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
+            tableView.editing = false
+            var rowData: AnyObject = self.notesData[indexPath.row]
+            var installation:PFInstallation = PFInstallation.currentInstallation()
+            
+            let objectId = rowData.objectId
+            var object: PFObject = PFObject(withoutDataWithClassName: "Question", objectId: objectId)
+            object.delete()
+            
+           
+            self.notesData.removeObjectAtIndex(indexPath.row)
+            self.questionsTableView!.reloadData()
+            //      self.feedsData.removeObjectAtIndex(indexPath.row)
+            //    self.feedsTableView?.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
+        }
+        
+        var editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
+            tableView.editing = false
+            var rowData: AnyObject = self.notesData[indexPath.row]
+            var installation:PFInstallation = PFInstallation.currentInstallation()
+            
+            let objectId = rowData.objectId
+            var object: PFObject = PFObject(withoutDataWithClassName: "Question", objectId: objectId)
+        //call the new view and send the object id
+            
+            
+          
+        }
+        
+        editAction.backgroundColor = UIColor.grayColor()
+        
+        // return [deleteAction, shareAction] No feed share for this version
+        return [deleteAction,editAction]
+    }
     
     
     //Defines how big is the tableView
@@ -72,6 +107,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
         let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("questionsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
+
 println(rowData.createdAt)
 let formatter = NSDateFormatter()
 formatter.dateStyle = .MediumStyle
@@ -83,7 +119,9 @@ formatter.timeStyle = .NoStyle
         
         return cell
     }
+    //allows to swipe
     
-    
-
+    func tableView(tableView: UITableView,commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
+        
+    }
 }

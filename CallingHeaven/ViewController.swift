@@ -184,7 +184,7 @@ class ViewController: UIViewController
         temporalImage = imageTitus
         pictureSaints2.image = imageTitus
         quotesLabel2.text = titusQuotes.randomFact ()
-        nameLabel2.text = names [4]
+        nameLabel2.text = names[4]
     }
     
     

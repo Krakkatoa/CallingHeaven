@@ -43,6 +43,7 @@ class saintViewController: UIViewController {
         case "St. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
         case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
+        case "Bl. Titus Brandsma":(testLabel.text = titusPrayers.randomFact ())
             
             
         default: println("Something else") }
@@ -56,6 +57,7 @@ class saintViewController: UIViewController {
     let mariamPrayers = MariamPrayers ()
     let lizPrayers = LizPrayers ()
     let andesPrayers = AndesPrayers ()
+    let titusPrayers = TitusPrayers ()
     
     
     @IBOutlet weak var heartLifeAction: UIButton!
@@ -72,7 +74,8 @@ class saintViewController: UIViewController {
         case "St. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
         case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
-            default: println("Something else") }
+        case "Bl. Titus Brandsma":(testLabel.text = titusLife.randomFact ())
+        default: println("Something else") }
         }
     
     let teresaLife = TeresaLife ()
@@ -83,6 +86,7 @@ class saintViewController: UIViewController {
     let mariamLife = MariamLife ()
     let lizLife = LizLife ()
     let andesLife = AndesLife ()
+    let titusLife = TitusLife ()
     
     
     
@@ -97,6 +101,7 @@ class saintViewController: UIViewController {
     case "St. Mariam Baouardy":(testLabel.text = mariamQuotes.randomFact ())
     case "Bl. Elizabeth of the Trinity":(testLabel.text = lizQuotes.randomFact ())
     case "Bl. Teresa of the Andes":(testLabel.text = andesQuotes.randomFact ())
+    case "Bl. Titus Brandsma":(testLabel.text = titusQuotes.randomFact ())
     default: println("Something else") }
     
     }
@@ -109,6 +114,7 @@ class saintViewController: UIViewController {
     let mariamQuotes = MariamQuotes ()
     let lizQuotes = LizQuotes ()
     let andesQuotes = AndesQuotes ()
+    let titusQuotes = TitusQuotes ()
     
     @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
