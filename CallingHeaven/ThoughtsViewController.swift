@@ -68,7 +68,7 @@ class ThoughtsViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var note = PFObject(className:"Thoughts")
+            var note = PFObject(className:"Thought")
             note["title"] = titleText.text
             note["note"] = noteText.text
             note["UserIdentifier"] = identifier

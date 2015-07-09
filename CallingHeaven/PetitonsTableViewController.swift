@@ -6,15 +6,14 @@
 //
 
 import UIKit
+
 import Parse
 
 class PetitionsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var notesData = []
-
+    var notesData:NSMutableArray = []
     
     
-  
     
     @IBOutlet var petitionsTableView: UITableView!
     override func viewDidLoad() {
@@ -22,12 +21,13 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var query = PFQuery(className:"Note")
+            var query = PFQuery(className:"Petition")
+            query.orderByDescending("updatedAt")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
                 (objects: [AnyObject]!, error: NSError!) -> Void in
                 if error == nil {
-                    self.notesData = objects
+                    self.notesData = NSMutableArray(array:objects)
                     self.petitionsTableView.reloadData()
                     // The find succeeded.
                     println(self.notesData)
@@ -44,7 +44,7 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
         var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
         
         petitionsTableView?.registerNib(nib, forCellReuseIdentifier: "petitionsIdentifier")
-       
+        
     }
     
     
@@ -59,8 +59,42 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
+    func tableView(tableView: UITableView,editActionsForRowAtIndexPath indexPath: NSIndexPath)-> [AnyObject]? {
+        
+        var deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
+            tableView.editing = false
+            var rowData: AnyObject = self.notesData[indexPath.row]
+            var installation:PFInstallation = PFInstallation.currentInstallation()
+            
+            let objectId = rowData.objectId
+            var object: PFObject = PFObject(withoutDataWithClassName: "Petition", objectId: objectId)
+            object.delete()
+            
+            
+            self.notesData.removeObjectAtIndex(indexPath.row)
+            self.petitionsTableView!.reloadData()
+            //      self.feedsData.removeObjectAtIndex(indexPath.row)
+            //    self.feedsTableView?.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
+        }
+        
+        var editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
+            tableView.editing = false
+            var rowData: AnyObject = self.notesData[indexPath.row]
+            var installation:PFInstallation = PFInstallation.currentInstallation()
+            
+            let objectId = rowData.objectId
+            var object: PFObject = PFObject(withoutDataWithClassName: "Petition", objectId: objectId)
+            //call the new view and send the object id
+            
+            
+            
+        }
+        
+        editAction.backgroundColor = UIColor.grayColor()
+        
+        // return [deleteAction, shareAction] No feed share for this version
+        return [deleteAction,editAction]
+    }
     
     
     //Defines how big is the tableView
@@ -73,6 +107,7 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
         let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("petitionsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
+        
         println(rowData.createdAt)
         let formatter = NSDateFormatter()
         formatter.dateStyle = .MediumStyle
@@ -80,10 +115,13 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
         
         let dateCell = formatter.stringFromDate(rowData.createdAt)
         cell.loadNote(dateCell, titleView: rowData["title"] as! String, subtitleView: rowData["note"] as! String)
-              // Configure the cell...
+        // Configure the cell...
         
         return cell
     }
+    //allows to swipe
     
-    
+    func tableView(tableView: UITableView,commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
+        
+    }
 }

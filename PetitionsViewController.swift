@@ -66,7 +66,7 @@ class PetitionsViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var note = PFObject(className:"Note")
+            var note = PFObject(className:"Petition")
             note["title"] = titleText.text
             note["note"] = noteText.text
             note["UserIdentifier"] = identifier

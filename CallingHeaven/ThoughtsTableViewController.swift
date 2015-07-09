@@ -1,8 +1,7 @@
 //
 //  ThoughtsTableViewController.swift
 //  CallingHeaven
-//
-//  Created by My Mac on 3/6/15.
+////  Created by My Mac on 3/6/15.
 //  Copyright (c) 2015 Carmel Heart Media. All rights reserved.
 //
 
@@ -10,11 +9,13 @@
 
 
 import UIKit
+
 import Parse
 
 class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var notesData = []
+    var notesData:NSMutableArray = []
+    
     
     
     @IBOutlet var thoughtsTableView: UITableView!
@@ -23,12 +24,13 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var query = PFQuery(className:"Thoughts")
+            var query = PFQuery(className:"Thought")
+            query.orderByDescending("updatedAt")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
                 (objects: [AnyObject]!, error: NSError!) -> Void in
                 if error == nil {
-                    self.notesData = objects
+                    self.notesData = NSMutableArray(array:objects)
                     self.thoughtsTableView.reloadData()
                     // The find succeeded.
                     println(self.notesData)
@@ -46,7 +48,6 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         
         thoughtsTableView?.registerNib(nib, forCellReuseIdentifier: "thoughtsIdentifier")
         
-        
     }
     
     
@@ -61,6 +62,43 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(tableView: UITableView,editActionsForRowAtIndexPath indexPath: NSIndexPath)-> [AnyObject]? {
+        
+        var deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
+            tableView.editing = false
+            var rowData: AnyObject = self.notesData[indexPath.row]
+            var installation:PFInstallation = PFInstallation.currentInstallation()
+            
+            let objectId = rowData.objectId
+            var object: PFObject = PFObject(withoutDataWithClassName: "Thought", objectId: objectId)
+            object.delete()
+            
+            
+            self.notesData.removeObjectAtIndex(indexPath.row)
+            self.thoughtsTableView!.reloadData()
+            //      self.feedsData.removeObjectAtIndex(indexPath.row)
+            //    self.feedsTableView?.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
+        }
+        
+        var editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
+            tableView.editing = false
+            var rowData: AnyObject = self.notesData[indexPath.row]
+            var installation:PFInstallation = PFInstallation.currentInstallation()
+            
+            let objectId = rowData.objectId
+            var object: PFObject = PFObject(withoutDataWithClassName: "Thought", objectId: objectId)
+            //call the new view and send the object id
+            
+            
+            
+        }
+        
+        editAction.backgroundColor = UIColor.grayColor()
+        
+        // return [deleteAction, shareAction] No feed share for this version
+        return [deleteAction,editAction]
+    }
+    
     
     //Defines how big is the tableView
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -72,6 +110,7 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
         let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("thoughtsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
+        
         println(rowData.createdAt)
         let formatter = NSDateFormatter()
         formatter.dateStyle = .MediumStyle
@@ -83,6 +122,9 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         
         return cell
     }
+    //allows to swipe
     
-    
+    func tableView(tableView: UITableView,commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
+        
+    }
 }
