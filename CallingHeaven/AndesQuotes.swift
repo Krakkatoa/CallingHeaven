@@ -55,7 +55,6 @@ struct AndesQuotes {
         
         "My tongue must tell Him my love.",
         
-        //22 5:30 p 134
         
         "We will ask Jesus in Communion that He build in our souls a little house; that we can arrange the material that must be our acts of overcoming self and of forgetfulness of ourselves, making our ego disappear, for these are the gods that we adore interiorly." ,
         
@@ -88,8 +87,6 @@ struct AndesQuotes {
         "All my life I have loved You and I hope to love You to the end. Forgive me, Jesus, because I did not know what I was dong in offending You. Yes, Jesus; I would sooner die than offend you." ,
         
         "Like Magdalene, I desire to retire and serve You, to be always joined to You. I love no one but You. I love no one but you." ,
-        
-        "I would like to unite myself to You always because happiness consists of loving only You." ,
         
         "I would like to unite myself to You always because happiness consists of loving only You." ,
         
@@ -131,13 +128,11 @@ struct AndesQuotes {
         
         "Who can refuse the hand of the all-powerful One when He abases Himself to the most unworthy of His creatures?" ,
         
-        //p132-133, 140 (6:30-37)Total 59
-        
         "Let us overcome ourselves. Let us be obedient in all things. Let us be humble. We are so miserable! Let us be patient and pure as the angels and we will have the joy of seeing Jesus, who is a good architect, build a second house of Bethany.",
         
         "Let us love the divine little Child who suffers so much without finding consolation in His creatures. May he find a refuge in our souls, a haven where he can heal in the midst of the hatred of his enemies and a garden of delights where He can forget the forgetfulness of His friends.",
         
-        "The only thing I have that is valuable is my soul because t is immortal. It is greater than the world, because the world has a end. My soul is not of the world. Consequently, it is of God, the only one capable of satisfying it because He is infinite.",
+        "The only thing I have that is valuable is my soul because it is immortal. It is greater than the world, because the world has a end. My soul is not of the world. Consequently, it is of God, the only one capable of satisfying it because He is infinite.",
         
         "I am of God. He created me. He is my beginning and my end. To be entirely His, I must perfectly fulfill His divine will. If He is my Father then he knows the present, the past and the future, so why not abandon myself to Him with complete confidence?",
         
@@ -166,7 +161,7 @@ struct AndesQuotes {
         
         "The more we unite ourselves to the Creator, the more we detach ourselves from creatures.",
         
-        "My Jesus, Spouse of my soul, I love You. I am al Yours. I know You are all mine.",
+        "My Jesus, Spouse of my soul, I love You. I am all Yours. I know You are all mine.",
         
         "Will the Father find the image of Christ in me? Oh how much is lacking for me to be like Him! I have not sufficient virtues. I humble myself very quickly; I am more humble or I humble myself more and have more faith.",
         
@@ -195,8 +190,6 @@ struct AndesQuotes {
         "I do not want to be happy, but for You to be happy.",
         
         "I want to be like a soldier so that at every moment you can dispose of my will and preferences. I want to be courageous, strong and generous in serving You, Lord. You are the Spouse of my soul.",
-        
-        //90
         
         "It matters not whether you give me the abandonment of Calvary or the joys of Nazareth. I only want to see you contented. It doesn't bother me to be unable to feel, to be insensible as a rock, because I know, my sweet Jesus, that You know I love You. Give me the cross. I want to suffer for You; but teach me to suffer by loving with joy and with humility.",
         
@@ -246,7 +239,7 @@ struct AndesQuotes {
         
         "Let us thank God to have united our souls by the bond of true friendship, which consists in mutually perfecting ourselves to get closer to God.",
         
-        "In seeing You so pure, so tender, and so compassionate, who would not be encouraged to unburden his intimate sufferings to you? Who would not ask you to be his star on this stormy see? Who is there who would not cry in your arms without instantly receiving your immaculate kisses of love and comfort? If he be a sinner, your caresses will soften him. If one of your devoted ones, your presence would enkindle the living flame of divine love. If he be poor, you with your powerful hand will aid him and show him his true homeland. If rich, you will sustain him with your breath against the dangers of his very agitated life. If one is in affliction, you with your tearful gaze will show him the cross and on it your Divine Son. Who will not find balm for his pains by considering the torments of Jesus and Mary? The sick man finds in your maternal heart the water of salvation that allows your enchanting smile to blossom forth, and makes him smile with love and happiness.",
+        "In seeing You so pure, so tender, and so compassionate, who would not be encouraged to unburden his intimate sufferings to you? Who would not ask you to be his star on this stormy sea? Who is there who would not cry in your arms without instantly receiving your immaculate kisses of love and comfort? If he be a sinner, your caresses will soften him. If one of your devoted ones, your presence would enkindle the living flame of divine love. If he be poor, you with your powerful hand will aid him and show him his true homeland. If rich, you will sustain him with your breath against the dangers of his very agitated life. If one is in affliction, you with your tearful gaze will show him the cross and on it your Divine Son. Who will not find balm for his pains by considering the torments of Jesus and Mary? The sick man finds in your maternal heart the water of salvation that allows your enchanting smile to blossom forth, and makes him smile with love and happiness.",
         
         "Everyday I went to Communion and talked with Jesus for a long time, but my special devotion was the Virgin. I told her everything. From that day on the earth no longer held any attraction for me.",
         

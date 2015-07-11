@@ -15,7 +15,7 @@ struct MariamQuotes {
     
     "See, nature praises Him, the sky, the stars, the trees, the grass, everything praises Him, and man, who has knowledge of His benefits, who ought to praise Him, sleeps! Let us go, let us go and wake up the universe.",
     
-    "Jesus is not known, Jesus is not loved. He, so full of goodness, He who has done so much for man.",
+    "Jesus is not known, Jesus is not loved, He, so full of goodness, He who has done so much for man.",
    
         "Everyone is sleeping, the whole world is asleep, let us go and wake them up.",
 
@@ -46,7 +46,6 @@ struct MariamQuotes {
     "Once you have given God something, you must never take it back.",
         
         "All that has taken place was willed by Jesus.  May His name be praised!  It is God who has permitted everything",
-        
         
         "It is pleasant to hear Jesus spoken of, but more pleasant to hear Jesus speak.",
         
@@ -82,13 +81,13 @@ struct MariamQuotes {
         
         "God is ready to pardon a sinner who humbles himself.",
         
-        "He looks with more love on a soul who returns to Him in Humility, than on a faithful soul who finds pleasure in its virtues.",
+        "He looks with more love on a soul who returns to him in Humility, than on a faithful soul who finds pleasure in its virtues.",
         
         "The humble heart is the chalice holding God.",
         
-       "“Those who accept affronts prepare diamonds for the drowned.",
+       "Those who accept affronts prepare diamonds for the drowned.",
         
-        "Always remember: if Jesus forsook me I should be worse than Judas, but if Jesus protects me, I shall be John the Beloved.",
+        "Always remember: if Jesus forsook me, I should be worse than Judas, but if Jesus protects me, I shall be John the Beloved.",
         
        "Do not look at the neighbor without looking at the Lord, or you will fall into a very deep hole.",
         
@@ -117,15 +116,12 @@ struct MariamQuotes {
         
         "I desire to suffer always and not to die. I should add: this is not my will, it is my inclination. It is sweet to think of Jesus; but it is sweeter to do His will.",
         
-      "The proud person is like a grain of wheat thrown into water: it swells, it gets big. Expose that grain to the fire: it dries up, it burns. The humble soul is like a grain of wheat thrown into the earth: it descends, it hides itself, it disappears, it dies; but to revive in heaven.",
-        
-        
-        //53
+      "The proud person is like a grain of wheat thrown into water: it swells, it gets big. Expose that grain to the fire: it dries up, it burns. The humble soul is like a grain of wheat thrown into the earth. It descends, it hides itself, it disappears, it dies; but to revive in heaven.",
         
         
         "My Beloved, where are you? Who has seen my Beloved? I have looked for him and not found Him. My Beloved, I walk, I run, I weep, I have not found my Beloved. O Jesus my love, I cannot live without you. Where are You, my Beloved? You know, my Love, that all the earth is nothing to me without You, that all the water of the sea would not suffice to refresh my heart.",
         
-        "Who has consoled my heart? It is You, my Beloved. Who has refreshed it? It is You, my Love.",
+        "Who has consoled my heart? It is You, my Beloved. Who has refreshed it. It is You, my Love.",
         
         "I can endure no more, love is burning me, consuming me. I am broiling.",
         
@@ -148,8 +144,6 @@ struct MariamQuotes {
         "I offer my sufferings to Jesus and I am willing to endure all that He wills, with pleasure, with love.",
         
         "I desire to suffer, to be immolated, crushed, roasted, until the end of the world, for the triumph of the Church. My God, may you be blessed!",
-        
-        //66
         
         "The humble soul becomes light; she lives in the truth, she rises up to God and God lowers Himself to her. Humility gives to that soul a way to achieve other virtues. The proud soul is like a grain of wheat thrown in the water. It swells up and becomes big. Expose this grain to the sun and it will wither. The humble soul is like a grain of wheat thrown on the ground. It descends and hides itself. It disappears and it dies but it is to blossom in heaven.",
 

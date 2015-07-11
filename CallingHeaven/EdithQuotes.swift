@@ -21,15 +21,15 @@ struct EdithQuotes {
         
         "Let go of your plans. The first hour of your morning belongs to God. Tackle the day's wake that he charges you with, and he will give you the power to accomplish it.",
         
-        "After the dark night, there springs up the living flame of love.",
+       
         
         "The motive, principle and end of the religious life is to make an absolute gift of self to God in a self-forgetting love, to end one's own life in order to make room for God's life.",
         
         "Those who remain silent are responsible.",
         
-        "In order to be an image of God, the spirit must turn to what is eternal, hold it in spirit, keep it in memory and by loving it, embrace it in the will",
+        "In order to be an image of God, the spirit must turn to what is eternal, hold it in spirit, keep it in memory and by loving it, embrace it in the will.",
         
-        "A man is ethical only when life, as such, is sacred to him, that of plants and animals as that of his fellow men and when he devotes himself helpfully to all life that is in need of help.",
+        "A man is ethical only when life, as such, is sacred to him, that of plants and animals as that of his fellow men, and when he devotes himself helpfully to all life that is in need of help.",
         
         "If anyone comes to me, I want to lead them to Him.",
         
@@ -51,7 +51,7 @@ struct EdithQuotes {
         
         "It is most important that the Holy Eucharist becomes life's focal point: that the Eucharistic Savior is the center of existence; that every day is received from His hand and laid back therein; that the day's happenings are deliberated with Him.",
         
-        "Whoever is imbued with a lively faith in Christ present in the tabernacle...knows that a friend waits here constantly.",
+        "Whoever is imbued with a lively faith in Christ present in the tabernacle knows that a friend waits here constantly.",
         
         "Only God can welcome a person's total surrender in such a way that one does not lose one's soul in the process but wins it.",
         
@@ -62,9 +62,7 @@ struct EdithQuotes {
         "Living in a Eucharistic way means coming out of oneself, out of the narrowness of one's life, and growing into the immensity of Christ.",
         
         
-        //26
-        
-        "If one is intent of having all of one's life consist exclusively of sacrifices, the danger of pharisaism pharisaism is around the corner.",
+        "If one is intent of having all of one's life consist exclusively of sacrifices, the danger of pharisaism is around the corner.",
         
         "Should we strive for perfect love, you ask? Absolutely. For this we were created. Perfect love will be our eternal life and here we have to seek to come as close to it as possible.",
         
@@ -80,7 +78,7 @@ struct EdithQuotes {
         
         "My being, as I see it and as I see myself in it, is null; by myself I am not and I am nothing by myself; at each moment I am faced with nothingness and I ought to receive being anew, moment by moment. And yet ”being” is exactly this non-being, and therefore each moment, I touch the fullness of being.",
         
-        "I know I am being sustained and herein lies my tranquility and security- not the conscious security of the man who is on firm ground with his own strength but the sweet and beautiful security of the child upheld by a strong arm...",
+        "I know I am being sustained and herein lies my tranquility and security- not the conscious security of the man who is on firm ground with his own strength but the sweet and beautiful security of the child upheld by a strong arm.",
         
         "To be able to give ourselves to God with love, we have to recognize Him as He who loves.",
         
@@ -104,17 +102,15 @@ struct EdithQuotes {
         
         "We have to learn to see others carry the cross and not be able to remove it from them. It is more difficult than to carry our own, but we cannot avoid it.",
         
-        "Divine spirit, divine life, divine love means this: he who does the will of God knows God and loves Him. In fact, at the moment in which we do what God asks, with interior dedication, divine life becomes our life, God is found within ourselves.",
+        "Divine spirit, divine life, divine love means this: He who does the will of God knows God and loves Him. In fact, at the moment in which we do what God asks, with interior dedication, divine life becomes our life, God is found within ourselves.",
         
         "The more one endures in silence, the less one feels the wrong.",
         
-        "A just measure is better than blind zeal an obedience is better than sacrifice.",
+        "A just measure is better than blind zeal, and obedience is better than sacrifice.",
         
         "The Lord is patient and has great mercy. In His economy, He knows how to profit even by our faults, if we deposit them on His altar.",
         
         "The place of everyone of us depends solely on our vocation. One's vocation is not found simply after having reflected and examined the various roads: it is a response which is obtained with prayer.",
-        
-        //50
         
         "There is a call to suffer with Christ, and through this call to collaborate with Him in His work of redemption. If we are united to the Lord, we are members of the mystical body of Christ...",
         
@@ -134,11 +130,11 @@ struct EdithQuotes {
         
         "This is the principle on which is based the life of all religious orders and first of all Carmel: through free and joyous suffering to intercede for sinners and to collaborate in the redemption of mankind.",
         
-        "Our work in the midst of others will be efficacious and blessed by God only if we do not yield even one centimeter of the sure ground of our faith, an if we follow our conscience without letting ourselves be influenced by human respect.",
+        "Our work in the midst of others will be efficacious and blessed by God only if we do not yield even one centimeter of the sure ground of our faith, and if we follow our conscience, without letting ourselves be influenced by human respect.",
         
         "The darker it becomes around us, the more we ought to open our hearts to the light that comes from on high.",
         
-        "One must pray much to remain faithful in every circumstance, above all for the many who have to go through trials more arduous than mine an are not so anchored to eternity.",
+        "One must pray much to remain faithful in every circumstance, above all for the many who have to go through trials more arduous than mine and are not so anchored to eternity.",
         
         "I have no other desire than that the will of God be accomplished in me and through me.",
         
@@ -165,10 +161,8 @@ struct EdithQuotes {
         "The liturgical unity of the Church in heaven and of the Church on earth that renders thanks to God ”through Christ” finds its strongest expression in the Preface and in the Sanctus of the Mass.",
         
         "Everything of which we have need... is summarized in the seven petitions of the Our Father which the Lord did not say for Himself, but for our instruction.",
-        
-        //75
-        
-        "Th priestly prayer of the Savior reveals the mystery of the interior life: the close union of the divine persons and the indwelling of God in the soul. In this secret depth, in hiddenness and in silence, the work of Redemption is prepared and accomplished,, and so it will be until the end of time, until the moment in which we will truly be one thing only in God." ,
+    
+        "The priestly prayer of the Savior reveals the mystery of the interior life: the close union of the divine persons and the indwelling of God in the soul. In this secret depth, in hiddenness and in silence, the work of Redemption is prepared and accomplished,, and so it will be until the end of time, until the moment in which we will truly be one thing only in God." ,
         
        "The mystery of the Incarnation and the mystery of evil are closely connected; against the light come down from heaven, stands out darker and more sinister, the night of sin.",
         
@@ -233,7 +227,7 @@ struct EdithQuotes {
         
         "He who with blind faith no longer desires anything except in so far as God wills it has at last reached the highest stage attainable by man, supported by the grace of God.",
         
-        "Love, it its highest expression, is a fusion of being in a mutual and voluntary surrender. Such is he intimate trinitarian life of God.",
+        "Love, it its highest expression, is a fusion of being in a mutual and voluntary surrender. Such is the intimate trinitarian life of God.",
         
         "Living faith is the firm conviction that God exists, an acceptance as true of all that He has revealed, a loving promptness to let oneself be guided by the will of God." ,
         
@@ -243,12 +237,10 @@ struct EdithQuotes {
         
         "The more profoundly one is immersed in God, so much the more is obliged to go out of self, that is to go toward the world, to bear it into the divine life." ,
         
-        //111
-        
         "As for what concerns our relations with our fellow men, the anguish in our neighbor's soul must break all precept. All that we do is a means to an end, but love is an end in itself, because God is love.",
         
         "In the heart of Jesus, which was pierced, the kingdom of heaven and the land of earth are bound together. Here is for us the source of life. This heart is the heart of the Triune Divinity, and the center of all human hearts ... it draws us to itself with secret power, it conceals us in itself in the Father's bosom and floods us with the Holy Spirit. This heart, it beats for us in a small tabernacle where it remains mysteriously hidden in that still, white host.",
-    //113
+    //112
         
     ]
     

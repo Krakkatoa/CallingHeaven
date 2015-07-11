@@ -11,7 +11,7 @@ import Foundation
 struct TitusQuotes {
     
     let factsArray = [
-"O Jesus, when I look on you my love for you starts up anew, and tells me that your heart loves me, and you my special friend would be.",
+"O Jesus, when I look on you, my love for you starts up anew, and tells me that your heart loves me, and you my special friend would be.",
 
 "More courage I will need for sure, But any pain I will endure, Because it makes me like to you And leads unto your kingdom too.",
         
@@ -30,7 +30,6 @@ struct TitusQuotes {
     "Carmel is a mountain of peace high above a world filled with chaos.",
         
         " I see God in the work of his hands and the marks of his love in every visible thing. I am seized by a supreme joy which is above all other joys.",
-        //10
         
         
         "First of all, we have to see God as the fundamental basis for our being. This basis is hidden in the inner depth of our nature. There we have to see him and to meditate on him.... We then not only adore him in our own being but also in everything that exists.",
@@ -54,9 +53,7 @@ struct TitusQuotes {
     
     " In view of God’s riches, let us ask him to enrich us, for in the measure that he gives himself to us, he renders us unceasingly more like to himself. We should collaborate in his action by uniting ourselves ever more intimately to him; and we should forever rejoice over this union with God.",
         
-        "we must hunger and thirst for God without ceasing and open our mouth to breathe God. We should start by offering ourselves and every creature to God. ",
-    
-        ///21
+        "We must hunger and thirst for God without ceasing and open our mouth to breathe God. We should start by offering ourselves and every creature to God. ",
         
         "This fire, which burns in us, sets us aflame, and the flame of our love is united to Divine Love which enflames our heart.",
         
@@ -76,15 +73,15 @@ struct TitusQuotes {
         
         "What we intend to do should not be left to the inspiration of the moment but our whole life should be planned beforehand in such a way that we are sure of victory. Many people work and labour and achieve many things which perhaps appear meritorious in the sight of others, whereas they are not keen on searching out what is asked of them for their own welfare and improvement.",
         
-        " In the knowledge of its union with Him, the soul is so happy that never more should it like to be separated from him. Its faithfulness in that state being tried, the Beloved cements it in His love and celebrates with the soul the spiritual marriage of unbreakable union and of the most intimate intercourse." ,
+        " In the knowledge of its union with Him, the soul is so happy that never more should it like to be separated from Him. Its faithfulness in that state being tried, the Beloved cements it in His love and celebrates with the soul the spiritual marriage of unbreakable union and of the most intimate intercourse." ,
     
         "So the mystical life is a methodical way, an accommodation of the faculties of the soul to the object of knowledge and love. Because God, Who gives happiness and joy, is the highest and most satisfying object of that knowledge and love, so in the method of love, He must rank first.",
         
         "That God must rank first follows not only from the surpassingly infinite perfection of the character and nature of the Divine Being in Himself, but also from the dependence upon God of all we know and love.",
         
-        "God is the Creator and Conservator of all beings and in His workings His finger touches us. But nowhere else is God so near as in ourselves. There is the first place we must try to find and to see Him."  ,
+        "God is the Creator and Conservator of all beings and in His workings, His finger touches us. But nowhere else is God so near as in ourselves. There is the first place we must try to find and to see Him."  ,
     
-        " God, so to say, enlarges His creature and raises it to its highest perfection. There is such a gradual development that it should not be too arduous for nature; but at the same time there is such a supreme rise above all powers of nature that only divine grace is able to lift it to those lofty heights, to lead nature to the ideal established by God.",
+        "God, so to say, enlarges His creature and raises it to its highest perfection. There is such a gradual development that it should not be too arduous for nature; but at the same time there is such a supreme rise above all powers of nature that only divine grace is able to lift it to those lofty heights, to lead nature to the ideal established by God.",
         
         "Yet no matter how much this high perfection goes beyond the power of nature, it is, nonetheless, a true accomplishment of that nature, a realisation of that which is placed in it by God as a possibility, although it can be realised only by His immediate intervention."  ,
     
@@ -98,11 +95,9 @@ struct TitusQuotes {
         
         "No creature absorbed more purely the divine light that came into this world; no creature gave it back with less blemish or spot and grew more one with God than Our Lady. In the cherished metaphor of St. John of the Cross, Mary appears before our mind's eye as the greatest example of all; nay more, as the first pane of glass without spot, who gave us the light of the world.",
         
-        "O how happy is the soul who always feels God living in her, and resting in her. She is bound to separate herself from everything, to fly all intercourse with men and to live in the deepest silence so as not to disturb by the least movement or sound, the rest of the Beloved.",
+        "O how happy is the soul who always feels God living in her, and resting in her. She is bound to separate herself from everything, to fly from all intercourse with men and to live in the deepest silence, so as not to disturb by the least movement or sound, the rest of the Beloved.",
     
         "God's light fills us and illumines us, and at the same time makes us shine. We are 'bearers of Christ.' Would that we saw all lights of the world as darkness, to recognise the eternal true light and make it shine through us." ,
-        
-        ///43
         
         "Do not yield to hatred. Be patient. We are here in a dark tunnel but we have to go on. At the end, the eternal light is shining for us.",
         
@@ -116,7 +111,7 @@ struct TitusQuotes {
         
         "This love for the divine law and the glory of God will in the end bridle our passions and, ever freer and less hampered by our evil inclinations, we shall cleave to God and serve only Him.",
         
-        " This contemplation should vivify our love for God's laws, should deepen our sense of that same law and our sense of God's grace, so that we may be inclined to do those things that, though not obligatory, yet tend to God's honour and glory and which we ought to do if we truly love God.",
+        "This contemplation should vivify our love for God's laws, should deepen our sense of that same law and our sense of God's grace, so that we may be inclined to do those things that, though not obligatory, yet tend to God's honour and glory and which we ought to do if we truly love God.",
     
         "We must keep our conscience spotless so that we always can account for our acts before God. Yet externally we must ever think of leading an exemplary life in the eyes of our neighbours. We have been placed here among our brethren by God to strive together toward the high ideals which He placed before our mind's eye but unless we guard jealously the purity of our conscience, we cannot gather merits internally.",
         
@@ -132,10 +127,10 @@ struct TitusQuotes {
         
         " The eyes must be rubbed to see clearer and better what God, already in the external mansions, shows to them who have eyes to see and ears to hear. God can and will enthrall and bind the soul. He delights it to rest and slumber in Him but only then when the soul has succeeded in tearing itself away from that which binds it to the world in the external mansions and in placing itself under the mighty rays of the sun which is described as being able to pervade all things coming within its rays.",
         
-        "To understand what this spreading of God's shadow, or over-shadowing, means, it must be borne in mind that every object throws a shadow according to its own particular shape and outline. So will the shadow thrown by the lamp of God's beauty be another beauty, according to the kind and quality of God's beauty; and so will the shadow spread by the lamp of God's strength be another strength, etc. Or in other and perhaps better words, all these shadows will be God's beauty, God's strength, etc., themselves, but in shadow, because the soul cannot understand perfectly here on earth. But because this shadow so well accords with the essence and the real being of God, indeed because it is God Himself, therefore the soul knows in shadow the exquisite loveliness of God.",
+        "To understand what this spreading of God's shadow, or over-shadowing, means it must be borne in mind that every object throws a shadow according to its own particular shape and outline. So will the shadow thrown by the lamp of God's beauty be another beauty, according to the kind and quality of God's beauty; and so will the shadow spread by the lamp of God's strength be another strength, etc. Or in other and perhaps better words, all these shadows will be God's beauty, God's strength, etc., themselves, but in shadow, because the soul cannot understand perfectly here on earth. But because this shadow so well accords with the essence and the real being of God, indeed because it is God Himself, therefore the soul knows in shadow the exquisite loveliness of God.",
     
         
-        "It is reasonable to renounce all your private interests if you receive this treasure; to withdraw from all created things and to hide, secrete yourself in the innermost hiding place of your soul. There you will shut the door, that is, withdraw you will from all created things and pray to your Father in secret. Thus hidden with your Bridegroom you will feel His presence in secret, enjoy and caress Him in secret and rejoice with Him in being secret, i.e., beyond everything the senses can reach and tongue can express.",
+        "It is reasonable to renounce all your private interests if you receive this treasure; to withdraw from all created things and to hide, secret yourself in the innermost hiding place of your soul. There you will shut the door, that is, withdraw your will from all created things and pray to your Father in secret. Thus hidden with your Bridegroom, you will feel His presence in secret, enjoy and caress Him in secret and rejoice with Him in being secret, i.e., beyond everything the senses can reach and tongue can express.",
         
         "Now then, lovely soul, now you know that the lover you seek is hidden in your soul; be diligent to remain in secret with Him and you will feel Him and embrace Him with the most tender love.",
         
@@ -143,7 +138,7 @@ struct TitusQuotes {
     
         "God's light fills us and illumines us, and at the same time makes us shine. We are 'bearers of Christ.' Would that we saw all lights of the world as darkness, to recognise the eternal true light and make it shine through us.",
         
-        "It is not simply a loving dialogue; that is only the beginning and start. It is a soaring to God, the bursting forth of a flame out of our loving and glowing hearts. It is an attempt, repeated again and again, to unite ourselves as closely as possible to God, or rather, to reform ourselves in God and conform ourselves to Him."  ,
+        "It is not simply a loving dialogue; that is only the beginning and start. It is a soaring to God, the bursting forth of a flame out of our loving and glowing hearts. It is an attempt, repeated again and again, to unite ourselves as closely as possible to God, or rather, to reform ourselves in God and conform ourselves to Him.",
     
         "It is an impulse, a desire to lose ourselves in God and God does not repulse us. He takes us to Him and we grow into one spirit, we are filled with His spirit, we live his life. How remarkable! ",
         

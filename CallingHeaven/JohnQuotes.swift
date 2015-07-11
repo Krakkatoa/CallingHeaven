@@ -87,8 +87,6 @@ struct JohnQuotes {
         
         "Live in the world as though only God and yourself were in it. Then your heart will never be made captive by any earthly thing.",
         
-        "He who seeks the cross of Christ seeks not the glory of Christ.",
-        
         "Speak little and do not meddle in other's matters about which you are not asked.",
         
         "If a person is seeking God, his Beloved is seeking him much more.",
@@ -117,7 +115,7 @@ struct JohnQuotes {
         
         "I didn't know you, my Lord, because I still desired to know and relish things.",
         
-        "The appetites are leeches, always calling, ”Give more, give more.”",
+        "The appetites are leeches, always calling, 'Give more, give more.'",
         
         "Blessed are they who set aside their own inclinations and consider things according to reason and justice before doing them.",
         
@@ -133,7 +131,7 @@ struct JohnQuotes {
         
         "And I saw the river over which every soul must pass to reach the kingdom of heaven and the name of that river was suffering: and I saw a boat which carries souls across the river and the name of that boat was love.",
         
-        "Take neither great nor little notice of who is with you or against you, and try aways to please god. Ask Him that His will be done in you.",
+        "Take neither great nor little notice of who is with you or against you, and try aways to please God. Ask Him that His will be done in you.",
         
         "What we need most in order to make progress is to be silent before this great God with our appetite and with our tongue, for the language He best hears is silent love.",
         
@@ -154,7 +152,6 @@ struct JohnQuotes {
         "Do not feed your soul on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
         
         "The road is narrow. He who wishes to travel it more easily must cast off all things and use the cross as his cane. In other words, he must be truly resolved to suffer willingly for the love of God in all things.",
-        ///71
         
         "Strive always to confess your sins with a deep knowledge of your own wretchedness and with clarity and purity.",
         
@@ -174,13 +171,11 @@ struct JohnQuotes {
         
         "It is best to learn to silence the faculties and to cause them to be still, so that God may speak.",
         
-        "Dear brothers and sisters, I pray God may open your eyes and let you see what hidden treasures he bestows on us in the trials from which the world thinks only to flee. Shame turns into honor when we seek God's glory. Present affliction become the source of heavenly glory. To those who suffer wounds in fighting his battles God opens his arms in loving, tender friendship. That is why he (Christ) tells us that if we want to join him, we shall travel the way he took. It is surely not right that the Son of God should go his way on the path of shame while the sons of men walk the way of worldly honor: ”The disciple is not above his teacher, nor the servant greater than his master.",
+        "Dear brothers and sisters, I pray God may open your eyes and let you see what hidden treasures he bestows on us in the trials from which the world thinks only to flee. Shame turns into honor when we seek God's glory. Present affliction become the source of heavenly glory. To those who suffer wounds in fighting his battles God opens his arms in loving, tender friendship. That is why he (Christ) tells us that if we want to join him, we shall travel the way he took. It is surely not right that the Son of God should go his way on the path of shame while the sons of men walk the way of worldly honor: 'The disciple is not above his teacher, nor the servant greater than his master.'",
         
         "God passes through the thicket of the world, and wherever His glance falls He turns all things to beauty.",
         
         "Whoever does not seek the cross of Christ doesn't seek the glory of Christ.",
-        
-        //83
         
         "Before the divine fire enters the soul and becomes one with its depths, the Holy Spirit wounds it, destroying and consuming the imperfections of its evil habits.",
         
@@ -206,8 +201,6 @@ struct JohnQuotes {
         
         "Wait upon God with loving and pure attentiveness, working no violence on yourself, lest you disturb the soul's peace and tranquility. God will feed your soul with heavenly food since you put no obstacle in His way.",
         
-        //95
-        
         "How gently and lovingly you awaken in my heart, where you dwell secretly and alone. And in your sweet breathing, filled with blessing and glory, you tenderly inspire me with love.",
         
         "Do not feed your spirit on anything apart from God. Cast away all cares and let peace and recollection fill your heart.",
@@ -220,8 +213,6 @@ struct JohnQuotes {
         
         "The immense benefits of God can only be contained by empty and solitary hearts. Therefore, our Lord, who loves you greatly, wishes you to be quite alone, for he desires to be your only companion.",
         
-        //101
-        
         "Mine are the heavens and mine is the earth. Mine are the nations, the just are mine, and mine the sinners. The angels are mine, and the Mother of God, and all things are mine; and God himself is mine and for me, because Christ is mine and all for me. What do you ask, then, and seek, my soul? Yours is all of this, and all is for you. Do not engage yourself in anything less or pay heed to the crumbs that fall from your Father’s table. Go forth and exult in your Glory! Hide yourself in it and rejoice, and you will obtain the supplications of your heart.",
         
         "With the divinest Word, the Virgin, made pregnant, down the road comes walking, if you'll grant her a room in your abode.",
@@ -231,12 +222,12 @@ struct JohnQuotes {
         "One love in them all makes of them one Lover,\n and the Lover is the Beloved in whom each one lives.\n For the being that the three possess each of them possesses,\n and each of them loves him who bears this being.\n Each one is this being, which alone unites them,\n binding them deeply, one beyond words.",
         
         "Who can free themselves from lowly manners and limitations if you do not lift them to yourself, my God, in purity of love? How will human beings begotten and nurtured in lowliness rise up to you, Lord, if you do not raise them with your hand that made them?",
-        
-        "Mine are the heavens and  mine is the earth; mine are the people, the righteous are mine and mine are the sinners; the angels are mine and the Mother of God, and all things are mine; and God Himself is mine and for me, for Christ is mine and all for me. What then do you ask for and seek, my soul? Yours is all this, and it is all for you. ",
+    
         
         "The Father spoke one Word, which was His Son, and this Word He speaks always in eternal silence, and in silence must it be heard by the soul.",
-        //109
-    ]
+        //108
+        
+         "After the dark night, there springs up the living flame of love.",    ]
     func randomFact() -> String {
         var unsignedArrayCount = UInt32(factsArray.count)
         var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)

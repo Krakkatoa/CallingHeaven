@@ -12,11 +12,9 @@ struct LizQuotes {
     
     let factsArray = [
         
-       //01/30 6:25
-        
         "If I prayed more, then everything else would go smoother. So, I make the effort.",
         
-        "Make my soul your cherished dwelling place, Your home of rest.  Let me never leave You there alone, but keep me there all absorbed in You, in living faith, adoring You.",
+        "Make my soul your cherished dwelling place, Your home of rest. Let me never leave You there alone, but keep me there all absorbed in You, in living faith, adoring You.",
         
         "May my life be a continual prayer, a long act of love. May nothing distract me from You, neither noise nor diversions.",
         
@@ -24,11 +22,11 @@ struct LizQuotes {
         
         " I offer you the cell of my heart; may it be Your little Bethany. Come rest there; I love you so. I would like to console You, and offer myself to You as a victim. O my Master, for You, with You",
         
-        "There, in the depths of my heart, in the Heaven of my soul, I love to find Him, since He never leaves me. ”God in me, I in Him.” Oh, that is my life!",
+        "There, in the depths of my heart, in the Heaven of my soul, I love to find Him, since He never leaves me. 'God in me, I in Him.' Oh, that is my life!",
         
-        "God bends lovingly over this soul, His adopted daughter, who ” so conformed to the image of His Son, the first born among all creatures, and recognizes her as one of those whom He has ”predestined, called, justified.” And His fatherly heart thrills as He thinks of consummating His work, that is, of ”glorifying” her by bringing her into His kingdom, there to sing for ages unending  ”the praise of His glory.”",
+        "God bends lovingly over this soul, His adopted daughter, who 'so conformed to the image of His Son, the first born among all creatures, and recognizes her as one of those whom He has 'predestined, called, justified.' And His fatherly heart thrills as He thinks of consummating His work, that is, of 'glorifying' her by bringing her into His kingdom, there to sing for ages unending 'the praise of His glory.'",
         
-        "Always believe in Love. If you have to suffer, think that you are even more loved, and always sing in thanksgiving. He is so jealous for the beauty of your soul.... That is all He has in view",
+        "Always believe in Love. If you have to suffer, think that you are even more loved, and always sing in thanksgiving. He is so jealous for the beauty of your soul... That is all He has in view",
         
         "Think about this God who dwells within you, whose temple you are",
         
@@ -36,18 +34,17 @@ struct LizQuotes {
         
         "One day the veil will fall, we will be introduced into the eternal courts, and there we will be sing in the bosom of infinite Love. And God will give us, ”the new name promised to the Victor.” What will it be? LAUDEM GLORIAE.",
 
-        
-        "In the Heaven of glory the blessed have no rest, day or night, saying: Holy, holy, holy is the Lord God Almighty. They fall down and worship Him who lives forever and ever. In the heaven of her soul, the praise of glory has already begun her work of eternity.",
+        "In the Heaven of glory, the blessed have no rest, day or night, saying, 'Holy, holy, holy is the Lord God Almighty.' They fall down and worship Him who lives forever and ever. In the heaven of her soul, the praise of glory has already begun her work of eternity.",
         
         "Now how do we effectively desire and will good to God if not in accomplishing His will since this will orders everything for His greater glory? Thus the soul must surrender itself to this will completely, passionately, so as to will nothing else but what God wills.",
         
-        "In Heaven, each soul is a praise of glory of the Father, the Word, and the Holy Spirit, for each soul is established in pure love and ”lives no longer its own life, but the life of God.”",
+        "In Heaven, each soul is a praise of glory of the Father, the Word, and the Holy Spirit, for each soul is established in pure love and 'lives no longer its own life, but the life of God.'",
         
         "A praise of glory is a soul that gazes on God in faith and simplicity; it is a reflector of all that He is; it is like a bottomless abyss into which He can flow and expand; it is also like a crystal through which He can radiate and contemplate all His perfections and His own splendor.",
         
         "  A soul united to Jesus is a living smile which radiates Him and which gives Him.",
         
-        " The Trinity - this is our dwelling, our ”home,” the Father's house that we must never leave. ",
+        " The Trinity - this is our dwelling, our 'home,' the Father's house that we must never leave.",
         
         " Believe that He loves you. He wants to help you Himself in the struggles which you must undergo. Believe in His Love, His exceeding Love. ",
         
@@ -57,7 +54,7 @@ struct LizQuotes {
     
         " It is there, right in the depths, in the Heaven of my soul, that I love to find Him since He never leaves me. God in me, I in Him, oh! that is my life! ",
         
-        " He is always there, although you don't feel it; He is waiting for you and wants to establish a ”wonderful communion” with you ",
+        " He is always there, although you don't feel it; He is waiting for you and wants to establish a 'wonderful communion' with you ",
         
         " Abandonment- that is what surrenders us to God. I am quite young, but it seems to me that I have suffered much sometimes. Oh, then, when everything was dark, when the present was so painful and the future seemed even more gloomy to me, I closed my eyes and abandoned myself like a child in the arms of this Heavenly Father.",
 
@@ -72,7 +69,7 @@ struct LizQuotes {
          " There, in the depths of my heart, in the Heaven of my soul, I love to find Him, since He never leaves me. ”God in me, I in Him.”",
     
         
-     " How wonderful is this presence of God in us, in the inner sanctuary of one's soul! There we always find Him. Let us try never to leave Him alone, so that our lives may be an unceasing prayer. ",
+     " How wonderful is this presence of God in us, in the inner sanctuary of one's soul! There we always find Him. Let us try never to leave Him alone, so that our lives may be an unceasing prayer.",
         
          "I realize that one can enjoy interior solitude and silence, for what can distract a heart possessed by love?",
         
@@ -92,14 +89,14 @@ struct LizQuotes {
         
         "For through it all the Virgin remained the adorer of the gift of God! This does not prevent her from spending herself outwardly when it was a matter of charity- never did the ineffable vision that she contemplated within herself in any way diminish her outward charity.",
         
-        "No one has penetrated the mystery of Christ in all its depths except the Blessed Virgin.. compared with the light given to Our Lady, the saints remain in shadow. The secret which she kept and pondered in her heart, no tongue can tell, no pen record.  ",
+        "No one has penetrated the mystery of Christ in all its depths except the Blessed Virgin.. compared with the light given to Our Lady, the saints remain in shadow. The secret which she kept and pondered in her heart, no tongue can tell, no pen record.",
         
-        " This Mother is going to form my soul so that her little child may be a living, striking image of her ”First-born,” the Eternal Son, the one who was the perfect praise of His Father's glory.",
+        " This Mother is going to form my soul so that her little child may be a living, striking image of her 'First-born,' the Eternal Son, the one who was the perfect praise of His Father's glory.",
         
         
-        "  It is Our Lady, full of light, pure with the divine purity, who will take me by the hand to lead me into heaven, that realm of dazzling brightness.",
+        "It is Our Lady, full of light, pure with the divine purity, who will take me by the hand to lead me into heaven, that realm of dazzling brightness.",
         
-        " Who could describe the joy of my soul when, on contemplating the crucifix which I received after my profession and which our Reverend Mother placed as a seal on my heart, I could say to myself,”At last He is all mine and I am all His.”",
+        "Who could describe the joy of my soul when, on contemplating the crucifix which I received after my profession and which our Reverend Mother placed as a seal on my heart, I could say to myself, 'At last He is all mine and I am all His.'",
         
         "I have nothing else but Him. He is my All! And now, I have only one desire, to love Him, to love Him all the time, to be zealous for His honor as a true bride, to give Him joy, to make Him happy by preparing a dwelling and a refuge for Him in my soul, so that there He may forget, by the strength of my love, all the abominations of the wicked",
         
@@ -112,14 +109,13 @@ struct LizQuotes {
         
         " When Jesus made in me His dwelling place, when God took possession of my heart, so well that since that hour, since that mysterious colloquy,that divine and delicious meeting, I have aspired to nothing else but to give my life In order to return a bit of His great love To the Beloved of the Eucharist Who reposed in my feeble heart, inundating it with all of his favors.",
         
-        //46 7:35
         
-        " For my heart is always with Him, day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection. Also within it arises this desire: not to die, but to suffer long, to suffer for God, to give Him its life while praying for poor sinners.  ",
+        " For my heart is always with Him. Day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection. Also within it arises this desire: not to die, but to suffer long, to suffer for God, to give Him its life while praying for poor sinners.",
         
         
-        " I can't find words to express my happiness. Here there is no longer anything but God. He is All; He suffices and we live by Him alone. ",
+        "I can't find words to express my happiness. Here there is no longer anything but God. He is All; He suffices and we live by Him alone. ",
         
-        " When we consider the divine world that envelops us already here in our exile and in which we can move, oh, then things here below disappear;  all of that doesn’t exist, it is less than nothing.  The saints, for their part, understood true knowledge so well, the knowledge that makes us leave everything, and especially ourselves, so we can fly to God and live solely with Him!",
+        "When we consider the divine world that envelops us already here in our exile and in which we can move, oh, then things here below disappear;  all of that doesn’t exist, it is less than nothing.  The saints, for their part, understood true knowledge so well, the knowledge that makes us leave everything, and especially ourselves, so we can fly to God and live solely with Him!",
         
         "O Consuming Fire, Spirit of Love, descend into my soul and make all in me as an incarnation of the Word, that I may be to Him a super-added humanity wherein He renews His mystery; and You, O Father, bestow Yourself and bend down to Your little creature, seeing in her only Your beloved Son in whom You are well pleased.",
       
@@ -129,15 +125,11 @@ struct LizQuotes {
         
         "I have found heaven on earth, since heaven is God, and God is in my soul. My mission in heaven will be to draw souls, helping them to go out of themselves to cling to God, with a spontaneous, love-filled action, and to keep them in that great interior silence which enables God to make his mark on them, to transform them into himself.",
         
-        "For my heart is always with Him, day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection.",
-        
-        
-        //54
-        // 2/11- 6:45 pm p 142
+        "For my heart is always with Him. Day and night it thinks unceasingly of its heavenly and divine Friend, to whom it wants to prove its affection.",
         
         "How indispensable this inner unity is for he soul that wants to live here below the life of the blessed, that is, of simple beings, of spirits.",
         
-        "It seems to me, therefore, that to keep one's strength for the Lord is to unify one's whole being by means of interior silence, to collect all one's powers in order to ”employ” them in the ”one act of love,” to have this ”single eye” which allows the light of God to enlighten us.",
+        "It seems to me, therefore, that to keep one's strength for the Lord is to unify one's whole being by means of interior silence, to collect all one's powers in order to 'employ' them in the 'one act of love,' to have this 'single eye' which allows the light of God to enlighten us.",
         
         "My soul is always in my hands! What does that mean but this complete self-possession in the presence of the peaceful One.",
         
@@ -145,17 +137,17 @@ struct LizQuotes {
         
         "The glorified have this repose of the abyss because they contemplate God in the simplicity of His essence.",
         
-        "It seems to me that it would give immense joy to the heart of God if we would perfect in the heaven of our soul this occupation of the blessed and cling to Him ”in His image and likeness.”",
+        "It seems to me that it would give immense joy to the heart of God if we would perfect in the heaven of our soul this occupation of the blessed and cling to Him 'in His image and likeness.'",
         
         "Such was the Creator's dream: to be able to contemplate Himself in His creature and see reflected there all His perfections, all His beauty as though through a pure and flawless crystal. Is not that a kind of extension of His own glory?",
         
         "The soul, by the simplicity of the gaze which it fixes on its divine object, finds itself set apart from all that surrounds it.",
         
-        "If I want my interior city to have some similarity and likeness to that ”of the King of eternal ages” and to receive this great illumination from God, I must extinguish every other light and, here as in the holy city, the Lamb must be ”its only light.”",
+        "If I want my interior city to have some similarity and likeness to that of the 'King of eternal ages' and to receive this great illumination from God, I must extinguish every other light and, here as in the holy city, the Lamb must be 'its only light.'",
         
         "Here, faith, the beautiful light of faith appears. I alone would light my way as I go to meet the Bridegroom.",
         
-        "What stands out for me in this apparent contradiction is that I must immerse myself in ”the sacred darkness” by putting all my powers in darkness and emptiness; then I will meet my Master, and ”the light that surrounds Him like a cloak” will envelop me also, for He wants His bride to be luminous with His light, His light alone ”which is the glory of God.”",
+        "What stands out for me in this apparent contradiction is that I must immerse myself in 'the sacred darkness' by putting all my powers in darkness and emptiness; then I will meet my Master, and 'the light that surrounds Him like a cloak' will envelop me also, for He wants His bride to be luminous with His light, His light alone, which is the glory of God.",
         
         "What does it matter to the soul that is absorbed in recollection of the light which these words create in it, whether it feels or does not feel, whether it is darkness or light, whether it enjoys or does not enjoy.",
         
@@ -169,30 +161,29 @@ struct LizQuotes {
         
         "Consequently, my fidelity in corresponding with each of His decrees, with each of His interior commands makes me live in His light; it too is a ”message which passes on His glory.”",
         
-        "How very consoling that is! My weakness, my weaknesses, m dislikes, my mediocrity, my faults themselves tell the flory of the Eternal! My sufferings of soul or body also tell the glory of my Master.",
+        "How very consoling that is! My weaknesses, my dislikes, my mediocrity, my faults themselves tell the glory of the Eternal! My sufferings of soul or body also tell the glory of my Master.",
         
-        "The soul that by the depth of its interior gaze contemplates its God through everything in that simplicity that sets it apart from all things is a ”radiant” soul: it is a ”day that passes on to day the message of His glory.”",
+        "The soul that by the depth of its interior gaze contemplates its God through everything in that simplicity that sets it apart from all things is a ”radiant” soul: it is a 'day that passes on to day the message of His glory.'",
         
         "How can I imitate in the heaven of my soul this unceasing occupation of the blessed in the Heaven of glory? How can I sustain this uninterrupted praise and adoration?",
         
         "To be rooted and grounded in love; such it seems to me is the condition for worthily fulfilling its work as praise of glory.",
         
-        "The soul should ”fall down,” should plunge into the abyss of its nothingness, sinking so deeply into it that in the beautiful expression of a mystic, it finds ”true, unchanging and perfect peace which no one can disturb,” for it has plunged so low that no one will look for it there. Then, it can adore.",
+        "The soul should 'fall down,' should plunge into the abyss of its nothingness, sinking so deeply into it that in the beautiful expression of a mystic, it finds 'true, unchanging and perfect peace which no one can disturb,' for it has plunged so low that no one will look for it there. Then, it can adore.",
         
-        //p.150, 7:45, 22 quotes, total now is 76.
         
-        "The soul that penetrates and dwells in these ”depths of God” of which the royal prophet sings, and thus does everything, ”in Him, with Him, by Him and for Him,”...is rooted more deeply in He whom it loves.",
+        "The soul that penetrates and dwells in these 'depths of God' of which the royal prophet sings, and thus does everything, 'in Him, with Him, by Him and for Him,'...is rooted more deeply in He whom it loves.",
         
         "We know that when He appears, we shall be like Him, for we shall see Him just as He is. And everyone who has this hope in Him makes himself holy as He Himself is holy.",
         
-        "The soul that is absorbed in recollection of these thoughts, that penetrates them with this ”mind of God,” of which St. Paul speaks, lives in an anticipated Heaven, beyond all that passes, beyond the clouds, beyond itself!",
+        "The soul that is absorbed in recollection of these thoughts, that penetrates them with this 'mind of God,' of which St. Paul speaks, lives in an anticipated Heaven, beyond all that passes, beyond the clouds, beyond itself!",
         
         "So that nothing may draw me out of this beautiful silence within, I must always maintain the same dispositions, the same solitude, the same withdrawal, the same stripping of self! ",
         
         
         "This is the way set forth, we have only to strip off self to follow it as God wills! To strip off self, to die to self, to lose sight of self.",
         
-        "”O Death, says the Lord, I will be your death.” That is: ”O soul, my adopted daughter, look at me and you will forget yourself; flow entirely into my Being, come die in me that I may live in you.”",
+        "”O Death, says the Lord, I will be your death.” That is: ”O soul, my adopted daughter, look at me and you will forget yourself; flow entirely into my Being, come die in me that I may live in you.",
         
         "The divine Being lives in an eternal, immense solitude. He never leaves it, though concerning Himself with the needs of His creatures, for He never leaves Himself; and this solitude is nothing else but His divinity.",
         
@@ -202,17 +193,15 @@ struct LizQuotes {
         
         "I will do only what is divine, only what is eternal, and, like my Unchanging One, I will live even here below in an eternal present.",
         
-        //10, tot 86
-        
         "It is the whole Trinity who dwells in the soul that loves them in truth, that is by keeping their word!",
         
         "And when this soul has realized its riches, all the natural or supernatural joys that can come to it from creatures or from God Himself are only an invitation to re-enter into itself in order to enjoy the substantial Good that it possesses, which is nothing less than God Himself.",
         
         "It is His Word then that will directly achieve the work of stripping in the soul; for it has this particular characteristic, that it affects and creates what it intends, provided however that the soul consents to let this be done.",
         
-        "He brought you to life along with Him, forgiving you of all your sins, canceling the degree of condemnation which weighed on you: He abolished it by nailing it to the cross.",
+        "He brought you to life along with Him, forgiving you of all your sins, canceling the degree of condemnation which weighed on you. He abolished it by nailing it to the cross.",
         
-        "His exceeding love is ”eager to do in me.” He wants to be my peace, so that nothing can distract me or draw me out of the ”invincible fortress of holy recollection.”",
+        "His exceeding love is 'eager to do in me.' He wants to be my peace, so that nothing can distract me or draw me out of the 'invincible fortress of holy recollection.'",
         
         "He will lead away all my powers, making them his captives, triumphing over them in Himself. Then, I will have passed into Him and can say: ”I no longer live. My Master lives in me! And I will be holy, pure, without reproach” in the Father's eyes.",
         
@@ -228,7 +217,7 @@ struct LizQuotes {
         
         "What I want is to know Him, to share His sufferings, to become like Him in His death.",
         
-        "This is how I understand, ”belong to the house of God,”: It is living in the bosom of the tranquil Trinity, in my interior abyss, in this ”invincible fortress of holy recollection” of which St. John of the Cross speaks.",
+        "This is how I understand, 'belong to the house of God,': It is living in the bosom of the tranquil Trinity, in my interior abyss, in this 'invincible fortress of holy recollection' of which St. John of the Cross speaks.",
         
         "O How beautiful is this creature, thus stripped, freed from self. It can use the ascensions in its heart to be freed from this valley of tears.",
         
@@ -238,9 +227,9 @@ struct LizQuotes {
         
         "I have a profound compassion for souls who don’t live any higher than for this world and its trivialities... I wish I could tell them: Shake off this yoke that weighs you down; what are you doing with these bonds which chain you to yourself and to things less than yourself?",
         
-        "Why has He loved me so much?... I feel so little, so full of misery, but I love Him, that is all I know how to do..",
+        "Why has He loved me so much?... I feel so little, so full of misery, but I love Him. That is all I know how to do..",
     
-        "Truth is so beautiful, the truth of love. He loved me and gave Himself up for me.”",
+        "Truth is so beautiful, the truth of love. He loved me and gave Himself up for me.",
         
         "You must cross out the word “discouragement” from your dictionary of love.",
         
@@ -248,10 +237,9 @@ struct LizQuotes {
         
         "Really believe that in His love, He has His own plans for you, and that if He asks so many sacrifices of you, it is in order to give you much.",
         
-        "A soul which debates with its self, which is taken up with its feelings, and pursues useless thoughts and desires, scatters its forces, for it is not wholly directed toward God. Its lyre does not vibrate in unison and when the Master plays it, He cannot draw from it divine harmonies, for it is still too human and discordant.",
+        "A soul which debates with its self, which is taken up with its feelings, and pursues useless thoughts and desires, scatters its forces, for it is not wholly directed toward God. Its lyre does not vibrate in unison and when the Master plays it. He cannot draw from it divine harmonies, for it is still too human and discordant.",
     
     "I love Him with His own love, it is a double current between He who is and she who is not !",
-    
     
     "When you feel as if you are about to lose your patience or say something against charity, bring yourself back to Him, let go of this natural inclination in order to please Him.",
     
@@ -267,7 +255,7 @@ struct LizQuotes {
     
     "It seems to me that when I receive an unjust remark, I feel my blood boiling in my veins and my whole being revolts against it! But Jesus is with me. I hear His voice in the depths of my heart and then, I am ready to endure everything for love of Him.",
         
-        "Don’t be afraid of suffering, it is the gauge of love, At the shadow of the Cross, flee from it with your whole being. The One it supports will light your way. He will strengthen you to fight each day.",
+        "Don’t be afraid of suffering. It is the gauge of love. At the shadow of the Cross, flee from it with your whole being. The One it supports will light your way. He will strengthen you to fight each day.",
         
         "It is acceptance that delivers us.",
     

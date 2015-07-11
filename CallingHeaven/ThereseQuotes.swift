@@ -122,8 +122,6 @@ struct ThereseQuotes {
         
         "The sun shines equally both on cedars and on every tiny flower. In just the same way, God looks after every soul as if it had no equal.",
         
-        ///55
-        
         "I always want to see you behaving like a brave soldier who does not complain about his own suffering but takes his comrades' wounds seriously and treats his own as nothing but scratches.",
         
         "You know that our Lord does not look at the greatness or difficulty of our action, but at the love with which you do it. What, then, have you to fear?",
@@ -137,8 +135,6 @@ struct ThereseQuotes {
         "Prayer is an aspiration of the heart, it is a simple glance directed to heaven, it is a cry of gratitude and love in the midst of trail as well as joy; finally, it is something great, supernatural, which expands my soul and unites me to Jesus.",
         
         "Be not afraid to tell Jesus that you love Him; even though it be without feeling, this is the way to oblige Him to help you, and carry you like a little child too feeble to walk.",
-        
-        //62
         
         
         "The guest of our soul knows our misery; He comes to find an empty tent within us - that is all He asks.",
@@ -171,7 +167,6 @@ struct ThereseQuotes {
     
     "If heavenly grace and true charity come in, there shall be no envy or narrowness of heart, nor shall self-love keep its hold. For divine charity overcomes all, and dilates all the powers of the soul.",
         
-        //77
         
         "You are wrong to criticize this or that, to desire that everybody should adopt your view of things. Since we want to be little children, little children do not know what is best. Everything seems right to them.",
         
@@ -221,9 +216,6 @@ struct ThereseQuotes {
         
         "There is but one thing for us to do in the night of this life and that is to love, to love Jesus with all the energy of our heart and to save souls so that He may be loved by them. O let us cause Jesus to be loved by men!",
         
-        
-      ///101
-        
         "How sweet it was, the first kiss of Jesus to my soul! Yes, it was a kiss of Love. I felt I was loved, and I too said: ”I love Thee, I give myself to Thee forever!” Jesus asked nothing of me, demanded no sacrifice. Already for a long time past, He and the little Therese had watched and understood one another... That day our meeting was no longer a simple look but a fusion. No longer were we two: Therese had disappeared as the drop of water which loses itself in the depths of the ocean, Jesus alone remained; the Master, the King! Had not Therese begged Him to take away from her, her liberty? That liberty made her afraid; so weak, so fragile did she feel herself that she longed to be united forever to Divine Strength.",
         
         "At the time of Holy Communion I sometimes picture my soul under the figure of a little child of three or four years, who at play has got its hair tossed and its clothes soiled. These misfortunes have befallen me in battling with souls. But very soon the Blessed Virgin hastens to my aid: quickly, she takes off my dirty little pinafore, smoothes my hair and adorns it with a pretty ribbon or simply with a little flower... and this suffices to render me pleasing and enables me to sit at the Banquet of Angels without blushing.",
@@ -232,10 +224,8 @@ struct ThereseQuotes {
         
         "Jesus, help me to simplify my life by learning what you want me to be - and becoming that person.",
         
-        //105
-        
         "You alone are pure joy, my hope and my crown, my glory and my honor, my Lord.",
-        
+       //106
     ]
     
     func randomFact() -> String {

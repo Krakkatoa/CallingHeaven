@@ -84,13 +84,13 @@ struct TeresaQuotes {
         
         "I hold that love, where present, cannot possibly be content with remaining always the same.",
         
-        "I had such a bad headache, I thought it would be almost impossible to pray. The Lord said to me: ”In this way, you will see the reward that comes from suffering, for since you did have not have the health to speak to me, I have spoken with you and favored you.”",
+        "I had such a bad headache, I thought it would be almost impossible to pray. The Lord said to me: 'In this way, you will see the reward that comes from suffering, for since you did have not have the health to speak to me, I have spoken with you and favored you.'",
         
         "..Not with the noise of words but with longing that he hears us.",
         
         "I started again to love the most sacred humanity. Prayer began to take shape as an edifice that now had a foundation.",
         
-        "And in matters touching on obedience, He doesn't wan the one who truly loves Him to take a different path than the one he took.",
+        "And in matters touching on obedience, He doesn't want the one who truly loves Him to take a different path than the one he took.",
         
         "What folly: To flee from the light so as to be always stumbling!",
         
@@ -112,12 +112,9 @@ struct TeresaQuotes {
         
         "Well do I know that to abandon prayer was no longer in my hands, for he held me in His.",
         
-        
-        ///50
-        
         "The soul is therefore neither content with nor desirous of the world's satisfactions, because it has in itself what pleases it more.. Being with Him is what it wants.",
         
-        "Let us not desire delights, daughters. We are well-off here. The ”bad inn” lasts only a night.",
+        "Let us not desire delights, daughters. We are well-off here. The 'bad inn' lasts only a night.",
         
         "Let us desire and be occupied in prayer, not for the sake of our enjoyment but so to have this strength to serve.",
         
@@ -148,8 +145,6 @@ struct TeresaQuotes {
         "All the problems of life begin when we start to imagine that God is not near.",
         
         "One must not think that a person who is suffering is not praying. He is offering up his sufferings to God, and many a time he is praying much more truly than one who goes away by himself and meditates his head off, and, if he has squeezed out a few tears, thinks that is prayer.",
-    
-        ///67
         
         "Blessed be He, Who came into the world for no other purpose than to suffer.",
         
@@ -169,8 +164,6 @@ struct TeresaQuotes {
         
         "One of the greatest graces for which I feel myself indebted to Our Lord is, that His Divine Majesty has given me the desire to be obedient; for in this virtue I find most consolation and contentment, it being that which Our Lord recommended by His own example more than any other, and on this account I desire to possess it more than anything else in the world.",
         
-        "The more we see that any action springs not from the motive of obedience, the more evident is it that it is a temptation of the enemy; for when God sends an inspiration, the very first effect of it is to infuse a spirit of docility.",
-        
         "You pay God a compliment by asking great things of Him.",
         
         "There are more tears shed over answered prayers than over unanswered prayers.",
@@ -179,7 +172,7 @@ struct TeresaQuotes {
         
         "How often I failed in my duty to God, because I was not leaning on the strong pillar of prayer.",
         
-        "Don't imagine that, if you had a great deal of time, you would spend more of it in prayer. Get rid of that idea; it is no hindrance to prayer to spend your time well. ",
+        "Don't imagine that if you had a great deal of time, you would spend more of it in prayer. Get rid of that idea; it is no hindrance to prayer to spend your time well. ",
     
     "Jacob did not cease to be a Saint because he had to attend to his flocks.",
         
@@ -203,9 +196,7 @@ struct TeresaQuotes {
         
        "The goal of all our undertakings should be not so much a task perfectly completed as the accomplishment of the will of God.",
         
-        "We can only learn to know ourselves and do what we can- namely, surrender our will and fulfill God's will in us."  ,
-        
-    //94
+        "We can only learn to know ourselves and do what we can- namely, surrender our will and fulfill God's will in us.",
         
         "With so good a Friend and Captain ever present, Himself the first to suffer, everything can be borne. He helps, He strengthens, He never fails, He is the true Friend."  ,
         
@@ -219,10 +210,7 @@ struct TeresaQuotes {
         
         "Before prayer, endeavor to realize Whose Presence you are approaching and to Whom you are about to speak, keeping in mind Whom you are addressing.",
         
-        //100
-        
         "May it please His Majesty to give us His love before He takes us out of this life, for it will be a great thing at the hour of death to see that we are going to be judged by the One whom we have loved above all things.",
-        
         
         "We shall never completely know ourselves if we don't strive to know God.",
         
