@@ -5,9 +5,6 @@
 //  Copyright (c) 2015 Carmel Heart Media. All rights reserved.
 //
 
-
-
-
 import UIKit
 
 import Parse
@@ -21,6 +18,17 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet var thoughtsTableView: UITableView!
     override func viewDidLoad() {
         //When the page is loaded we call parse using our identifier and get all the notes, and we save them in our array of notesData
+        
+        self.thoughtsTableView?.estimatedRowHeight = 107.0
+        super.viewDidLoad()
+        self.thoughtsTableView?.rowHeight = UITableViewAutomaticDimension
+        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
+        
+        thoughtsTableView?.registerNib(nib, forCellReuseIdentifier: "thoughtsIdentifier")
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
@@ -41,13 +49,6 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
             }
             
         }
-        self.thoughtsTableView?.estimatedRowHeight = 107.0
-        super.viewDidLoad()
-        self.thoughtsTableView?.rowHeight = UITableViewAutomaticDimension
-        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
-        
-        thoughtsTableView?.registerNib(nib, forCellReuseIdentifier: "thoughtsIdentifier")
-        
     }
     
     
@@ -86,7 +87,12 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
             var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
-            var object: PFObject = PFObject(withoutDataWithClassName: "Thought", objectId: objectId)
+            //creates viewcontroller with code and then assigns value to the object id and makes a push
+            let destinationVC = self.storyboard?.instantiateViewControllerWithIdentifier("ThoughtsEditScreen") as! ThoughtsEditViewController
+            destinationVC.objectId = objectId
+           // self.navigationController?.pushViewController(destinationVC, animated: true)
+            self.presentViewController(destinationVC, animated: true, completion: nil)
+            
             //call the new view and send the object id
             
             

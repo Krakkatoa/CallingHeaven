@@ -18,14 +18,15 @@ class QuestionsViewController: UIViewController {
     
     @IBOutlet weak var noteText: UITextView!
     
-    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    @IBOutlet weak var saveButton: UIButton!
     
-    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
-    
+    @IBOutlet weak var readAll: UIButton!
     
     @IBOutlet weak var backAction: UIButton!
     
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
     
     
     override func viewDidLoad() {
@@ -44,8 +45,7 @@ class QuestionsViewController: UIViewController {
             constraint.constant *= horizontalCoef
         }
     }
-
-
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -76,7 +76,13 @@ class QuestionsViewController: UIViewController {
                 if (success) {
                     // The object has been saved.
                     println("Note Saved!")
-                } else { println(error.description)
+                    //read action
+                    self.titleText.text = ""
+                    self.noteText.text = ""
+                    self.performSegueWithIdentifier("questionReadSegue", sender: nil)
+                    
+                } else {
+                    println(error.description)
                     // There was a problem, check error.description
                 }
             }
@@ -86,14 +92,14 @@ class QuestionsViewController: UIViewController {
     }
     
     @IBAction func readAction(sender: AnyObject) {
-        
-}
+    }
+    
     
     @IBAction func readAction2(sender: AnyObject) {
     }
-
-
-//
+    
+    //
+    
     /*
     // MARK: - Navigation
     
@@ -108,6 +114,9 @@ class QuestionsViewController: UIViewController {
     */
     
     // Change the mood operator based on input
+    
+    
+    
+    
 }
-
 

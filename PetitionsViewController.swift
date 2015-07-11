@@ -75,7 +75,14 @@ class PetitionsViewController: UIViewController {
                 if (success) {
                     // The object has been saved.
                     println("Note Saved!")
+                    
+                    //read action
+                    self.titleText.text = ""
+                    self.noteText.text = ""
+                    self.performSegueWithIdentifier("petitionReadSegue", sender: nil)
+                    
                 } else {
+                    println(error.description)
                     // There was a problem, check error.description
                 }
             }

@@ -18,6 +18,17 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
     @IBOutlet var petitionsTableView: UITableView!
     override func viewDidLoad() {
         //When the page is loaded we call parse using our identifier and get all the notes, and we save them in our array of notesData
+        
+        self.petitionsTableView?.estimatedRowHeight = 107.0
+        super.viewDidLoad()
+        self.petitionsTableView?.rowHeight = UITableViewAutomaticDimension
+        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
+        
+        petitionsTableView?.registerNib(nib, forCellReuseIdentifier: "petitionsIdentifier")
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
@@ -38,13 +49,6 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
             }
             
         }
-        self.petitionsTableView?.estimatedRowHeight = 107.0
-        super.viewDidLoad()
-        self.petitionsTableView?.rowHeight = UITableViewAutomaticDimension
-        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
-        
-        petitionsTableView?.registerNib(nib, forCellReuseIdentifier: "petitionsIdentifier")
-        
     }
     
     
@@ -83,7 +87,12 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
             var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
-            var object: PFObject = PFObject(withoutDataWithClassName: "Petition", objectId: objectId)
+            //creates viewcontroller with code and then assigns value to the object id and makes a push
+            let destinationVC = self.storyboard?.instantiateViewControllerWithIdentifier("PetitionsEditScreen") as! PetitionsEditViewController
+            destinationVC.objectId = objectId
+            // self.navigationController?.pushViewController(destinationVC, animated: true)
+            self.presentViewController(destinationVC, animated: true, completion: nil)
+            
             //call the new view and send the object id
             
             

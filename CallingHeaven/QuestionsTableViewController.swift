@@ -18,6 +18,17 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
     @IBOutlet var questionsTableView: UITableView!
     override func viewDidLoad() {
         //When the page is loaded we call parse using our identifier and get all the notes, and we save them in our array of notesData
+        
+        self.questionsTableView?.estimatedRowHeight = 107.0
+        super.viewDidLoad()
+        self.questionsTableView?.rowHeight = UITableViewAutomaticDimension
+        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
+        
+        questionsTableView?.registerNib(nib, forCellReuseIdentifier: "questionsIdentifier")
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
@@ -38,13 +49,6 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
             }
             
         }
-        self.questionsTableView?.estimatedRowHeight = 107.0
-        super.viewDidLoad()
-        self.questionsTableView?.rowHeight = UITableViewAutomaticDimension
-        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
-        
-        questionsTableView?.registerNib(nib, forCellReuseIdentifier: "questionsIdentifier")
-        
     }
     
     
@@ -70,7 +74,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
             var object: PFObject = PFObject(withoutDataWithClassName: "Question", objectId: objectId)
             object.delete()
             
-           
+            
             self.notesData.removeObjectAtIndex(indexPath.row)
             self.questionsTableView!.reloadData()
             //      self.feedsData.removeObjectAtIndex(indexPath.row)
@@ -83,11 +87,16 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
             var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
-            var object: PFObject = PFObject(withoutDataWithClassName: "Question", objectId: objectId)
-        //call the new view and send the object id
+            //creates viewcontroller with code and then assigns value to the object id and makes a push
+            let destinationVC = self.storyboard?.instantiateViewControllerWithIdentifier("QuestionsEditScreen") as! QuestionsEditViewController
+            destinationVC.objectId = objectId
+            // self.navigationController?.pushViewController(destinationVC, animated: true)
+            self.presentViewController(destinationVC, animated: true, completion: nil)
+            
+            //call the new view and send the object id
             
             
-          
+            
         }
         
         editAction.backgroundColor = UIColor.grayColor()
@@ -107,12 +116,12 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         //we create a row data with the value of the index on our notes array and then assing the values
         var rowData: AnyObject = self.notesData[indexPath.row]
         let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("questionsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
-
-println(rowData.createdAt)
-let formatter = NSDateFormatter()
-formatter.dateStyle = .MediumStyle
-formatter.timeStyle = .NoStyle
-
+        
+        println(rowData.createdAt)
+        let formatter = NSDateFormatter()
+        formatter.dateStyle = .MediumStyle
+        formatter.timeStyle = .NoStyle
+        
         let dateCell = formatter.stringFromDate(rowData.createdAt)
         cell.loadNote(dateCell, titleView: rowData["title"] as! String, subtitleView: rowData["note"] as! String)
         // Configure the cell...
