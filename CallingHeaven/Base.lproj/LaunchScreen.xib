@@ -17,7 +17,7 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="XCv-OM-67z">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen-0711_edited-2" translatesAutoresizingMaskIntoConstraints="NO" id="XCv-OM-67z">
                     <rect key="frame" x="0.0" y="0.0" width="572" height="333"/>
                 </imageView>
             </subviews>
@@ -37,6 +37,6 @@
         </view>
     </objects>
     <resources>
-        <image name="splashscreen" width="1281" height="722"/>
+        <image name="splashscreen-0711_edited-2" width="1747" height="722"/>
     </resources>
 </document>
