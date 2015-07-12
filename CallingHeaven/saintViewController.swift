@@ -86,7 +86,7 @@ class saintViewController: UIViewController {
     let mariamLife = MariamLife ()
     let lizLife = LizLife ()
     let andesLife = AndesLife ()
-    let titusLife = TitusLife ()
+    let titusLife = TitusLife1 ()
     
     
     

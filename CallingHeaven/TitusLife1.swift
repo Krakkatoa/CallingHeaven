@@ -1,5 +1,5 @@
 //
-//  TitusLife.swift
+//  TitusLife1.swift
 //  CallingHeaven
 //
 //  Created by My Mac on 2/9/15.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TitusLife {
+struct TitusLife1 {
     
     let factsArray = [
         
