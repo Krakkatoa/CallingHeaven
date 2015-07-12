@@ -11,11 +11,11 @@ struct JesusQuotes {
     
     let factsArray = [
         
-        "Go, Satan! For it is written, ”You shall worship the Lord your God, and serve Him only.”(Matthew 4:10)",
+        "Go, Satan! For it is written, 'You shall worship the Lord your God, and serve Him only.'(Matthew 4:10)",
         
-        "It is written, ”Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.”(Matthew 4:4)",
+        "It is written, 'Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'(Matthew 4:4)",
         
-        "On the other hand, it is written, ”You shall not put the Lord your God to the test.” (Matthew 4:7)",
+        "On the other hand, it is written, 'You shall not put the Lord your God to the test.' (Matthew 4:7)",
         
         "Repent, for the kingdom of heaven is at hand. (Matthew 4:17)",
         
@@ -63,25 +63,25 @@ struct JesusQuotes {
         
         "For I say to you that unless your righteousness surpasses that of the scribes and Pharisees, you will not enter the kingdom of heaven. (Matthew 5:20)",
         
-        "You have heard that the ancients were told, ”You shall not commit murder” and ”Whoever commits murder shall be liable to the court,””But I say to you that everyone who is angry with his brother shall be guilty before the court; and whoever says to his brother, ”You good-for-nothing,” shall be guilty before the supreme court; and whoever says, ”You fool,” shall be guilty enough to go into the fiery hell. (Matthew 5:21)",
+        "You have heard that the ancients were told, 'You shall not commit murder' and 'Whoever commits murder shall be liable to the court,' But I say to you that everyone who is angry with his brother shall be guilty before the court; and whoever says to his brother, 'You good-for-nothing,' shall be guilty before the supreme court; and whoever says, 'You fool,' shall be guilty enough to go into the fiery hell. (Matthew 5:21)",
         
     "Therefore if you are presenting your offering at the altar, and there remember that your brother has something against you, leave your offering there before the altar and go; first be reconciled to your brother, and then come and present your offering. (Matthew 5:23-24)",
     
         "Make friends quickly with your opponent at law while you are with him on the way, so that your opponent may not hand you over to the judge, and the judge to the officer, and you be thrown into prison. Truly I say to you, you will not come out of there until you have paid up the last cent. (Matthew 5:25)",
         
-    "You have heard that it was said, ”You shall not commit adultery”; but I say to you that everyone who looks at a woman with lust for her has already committed adultery with her in his heart. (Matthew 5:27-28)",
+    "You have heard that it was said, 'You shall not commit adultery'; but I say to you that everyone who looks at a woman with lust for her has already committed adultery with her in his heart. (Matthew 5:27-28)",
     
         "If your right eye makes you stumble, tear it out and throw it from you; for it is better for you to lose one of the parts of your body, than for your whole body to be thrown into hell. If your right hand makes you stumble, cut it off and throw it from you; for it is better for you to lose one of the parts of your body, than for your whole body to go into hell. (Matthew 5:29-30)",
         
-    "It was said, ”Whoever sends his wife away, let him give her a certificate of divorce” but I say to you that everyone who divorces his wife, except for the reason of unchastity, makes her commit adultery; and whoever marries a divorced woman commits adultery. (Matthew 5:31-32)",
+    "It was said, 'Whoever sends his wife away, let him give her a certificate of divorce' but I say to you that everyone who divorces his wife, except for the reason of unchastity, makes her commit adultery; and whoever marries a divorced woman commits adultery. (Matthew 5:31-32)",
     
-        "Again, you have heard that the ancients were told, ”You shall not make false vows, but shall fulfill your vows to the Lord.” But I say to you, make no oath at all, either by heaven, for it is the throne of God, or by the earth, for it is the footstool of His feet, or by Jerusalem, for it is the city of the great King. Nor shall you make an oath by your head, for you cannot make one hair white or black. But let your statement be, ”Yes, yes” or ”No, no”; anything beyond these is of evil. (Matthew 5:33-37)",
+        "Again, you have heard that the ancients were told, 'You shall not make false vows, but shall fulfill your vows to the Lord.' But I say to you, make no oath at all, either by heaven, for it is the throne of God, or by the earth, for it is the footstool of His feet, or by Jerusalem, for it is the city of the great King. Nor shall you make an oath by your head, for you cannot make one hair white or black. But let your statement be, 'Yes, yes' or 'No, no'; anything beyond these is of evil. (Matthew 5:33-37)",
         
-        "You have heard that it was said, ”An eye for an eye, and a tooth for a tooth.” But I say to you, do not resist an evil person; but whoever slaps you on your right cheek, turn the other to him also. (Matthew 5:38-39)",
+        "You have heard that it was said, 'An eye for an eye, and a tooth for a tooth.' But I say to you, do not resist an evil person; but whoever slaps you on your right cheek, turn the other to him also. (Matthew 5:38-39)",
         
         "If anyone wants to sue you and take your shirt, let him have your coat also. Whoever forces you to go one mile, go with him two. Give to him who asks of you, and do not turn away from him who wants to borrow from you. (Matthew 5:40-42)",
         
-        "You have heard that it was said, ”You shall love your neighbor and hate your enemy.” But I say to you, love your enemies and pray for those who persecute you, so that you may be sons of your Father who is in heaven; for He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. (Matthew 5:43-45)",
+        "You have heard that it was said, 'You shall love your neighbor and hate your enemy.' But I say to you, love your enemies and pray for those who persecute you, so that you may be sons of your Father who is in heaven; for He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. (Matthew 5:43-45)",
     
         "For if you love those who love you, what reward do you have? Do not even the tax collectors do the same? If you greet only your brothers, what more are you doing than others? Do not even the Gentiles do the same? Therefore you are to be perfect, as your heavenly Father is perfect. (Matthew 5:46-48)",
         
@@ -113,13 +113,13 @@ struct JesusQuotes {
         
         "But if God so clothes the grass of the field, which is alive today and tomorrow is thrown into the furnace, will He not much more clothe you? You of little faith! (Matthew 6:30)",
         
-        "Do not worry then, saying, ”What will we eat?” or ”What will we drink?” or ”What will we wear for clothing?” For the Gentiles eagerly seek all these things; for your heavenly Father knows that you need all these things. But seek first His kingdom and His righteousness, and all these things will be added to you. (Matthew 6:31-33)",
+        "Do not worry then, saying, 'What will we eat?' or 'What will we drink?' or 'What will we wear for clothing?' For the Gentiles eagerly seek all these things; for your heavenly Father knows that you need all these things. But seek first His kingdom and His righteousness, and all these things will be added to you. (Matthew 6:31-33)",
         
         "So do not worry about tomorrow; for tomorrow will care for itself. Each day has enough trouble of its own. (Matthew 6:34)",
         
         "Do not judge so that you will not be judged. For in the way you judge, you will be judged; and by your standard of measure, it will be measured to you. (Matthew 7:1-2)",
         
-        "Why do you look at the speck that is in your brother’s eye, but do not notice the log that is in your own eye? Or how can you say to your brother, ”Let me take the speck out of your eye,” and behold, the log is in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take the speck out of your brother’s eye. (Matthew 7: 3-5)",
+        "Why do you look at the speck that is in your brother’s eye, but do not notice the log that is in your own eye? Or how can you say to your brother, 'Let me take the speck out of your eye,' and behold, the log is in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take the speck out of your brother’s eye. (Matthew 7: 3-5)",
         
         "Do not give what is holy to dogs, and do not throw your pearls before swine, or they will trample them under their feet, and turn and tear you to pieces. (Matthew 7:6)",
         
@@ -136,7 +136,7 @@ struct JesusQuotes {
         "Grapes are not gathered from thorn bushes nor figs from thistles, are they? So every good tree bears good fruit, but the bad tree bears bad fruit. A good tree cannot produce bad fruit, nor can a bad tree produce good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. So then, you will know them by their fruits. (Matthew 7:16-20)",
         
         
-    "Not everyone who says to me, ”Lord, Lord,” will enter the kingdom of heaven, but he who does the will of my Father who is in heaven will enter. Many will say to me on that day, ”Lord, Lord, did we not prophesy in your name, and in your name cast out demons, and in your name perform many miracles?” And then I will declare to them, ”I never knew you; depart from me, you who practice lawlessness.” (Matthew 7:21-23)",
+    "Not everyone who says to me, 'Lord, Lord,' will enter the kingdom of heaven, but he who does the will of my Father who is in heaven will enter. Many will say to me on that day, 'Lord, Lord, did we not prophesy in your name, and in your name cast out demons, and in your name perform many miracles?' And then I will declare to them, 'I never knew you; depart from me, you who practice lawlessness.' (Matthew 7:21-23)",
         
         "Therefore everyone who hears these words of mine and acts on them, may be compared to a wise man who built his house on the rock. And the rain fell, and the floods came, and the winds blew and slammed against that house; and yet it did not fall, for it had been founded on the rock. (Matthew 7:24-25)",
         
@@ -146,7 +146,7 @@ struct JesusQuotes {
         
         "Take courage, son; your sins are forgiven. (Matthew 9:2)",
         
-        "It is not those who are healthy who need a physician, but those who are sick. But go and learn what this means: ”I desire compassion, and not sacrifice,” for I did not come to call the righteous, but sinners. (Matthew 9:12-13)",
+        "It is not those who are healthy who need a physician, but those who are sick. But go and learn what this means: 'I desire compassion, and not sacrifice,' for I did not come to call the righteous, but sinners. (Matthew 9:12-13)",
         
         "The attendants of the bridegroom cannot mourn as long as the bridegroom is with them, can they? But the days will come when the bridegroom is taken away from them, and then they will fast. (Matthew 9:15)",
         
@@ -172,9 +172,9 @@ struct JesusQuotes {
     
         "What I tell you in the darkness, speak in the light; and what you hear whispered in your ear, proclaim upon the housetops. (Matthew 10:27)",
         
-        "Do not fear those who kill the body but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell (Matthew 10:28)",
+        "Do not fear those who kill the body but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell. (Matthew 10:28)",
         
-        "Are not two sparrows sold for a cent? And yet not one of them will fall to the ground apart from your Father. But the very hairs of your head are all numbered. So do not fear; you are more valuable than many sparrows (Matthew 10:29-30)",
+        "Are not two sparrows sold for a cent? And yet not one of them will fall to the ground apart from your Father. But the very hairs of your head are all numbered. So do not fear; you are more valuable than many sparrows. (Matthew 10:29-30)",
         
     "Therefore everyone who confesses me before men, I will also confess him before my Father who is in heaven. But whoever denies me before men, I will also deny him before my Father who is in heaven. (Matthew 10:32-33)",
         
@@ -190,13 +190,13 @@ struct JesusQuotes {
         
         "He who receives a prophet in the name of a prophet shall receive a prophet’s reward; and he who receives a righteous man in the name of a righteous man shall receive a righteous man’s reward. (Matthew 10:40-41)",
         
-    "And whoever in the name of a disciple gives to one of these little ones even a cup of cold water to drink, truly I say to you, he shall not lose his reward.”  (Matthew 10:42)",
+    "And whoever in the name of a disciple gives to one of these little ones even a cup of cold water to drink, truly I say to you, he shall not lose his reward.'  (Matthew 10:42)",
         
         "Go and report to John what you hear and see: the blind receive sight and the lame walk, the lepers are cleansed and the deaf hear, the dead are raised up, and the poor have the gospel preached to them. And blessed is he who does not take offense at Me. (Matthew 11:4-6)",
         
         "But to what shall I compare this generation? It is like children sitting in the market places, who call out to the other children, and say, ‘We played the flute for you, and you did not dance; we sang a dirge, and you did not mourn.’ (Matthew 11:16)",
         
-        "For John came neither eating nor drinking, and they say, ”He has a demon!” The Son of Man came eating and drinking, and they say, ”Behold, a gluttonous man and a drunkard, a friend of tax collectors and sinners!” Yet wisdom is vindicated by her deeds. (Matthew 11:19)",
+        "For John came neither eating nor drinking, and they say, 'He has a demon!' The Son of Man came eating and drinking, and they say, 'Behold, a gluttonous man and a drunkard, a friend of tax collectors and sinners!' Yet wisdom is vindicated by her deeds. (Matthew 11:19)",
         
         "I praise You, Father, Lord of heaven and earth, that You have hidden these things from the wise and intelligent and have revealed them to infants. (Matthew 11:25)",
         
@@ -208,7 +208,7 @@ struct JesusQuotes {
         
         "For the Son of Man is Lord of the Sabbath. (Matthew 12:8)",
         
-        "But I say to you that something greater than the temple is here. But if you had known what this means, ”I desire compassion, and not a sacrifice,” you would not have condemned the innocent. (Matthew 12:6-7)",
+        "But I say to you that something greater than the temple is here. But if you had known what this means, 'I desire compassion, and not a sacrifice,' you would not have condemned the innocent. (Matthew 12:6-7)",
         
     "Any kingdom divided against itself is laid waste; and any city or house divided against itself will not stand. (Matthew 12:25)",
         
@@ -262,7 +262,7 @@ struct JesusQuotes {
         
         "Truly I say to you, there are some of those who are standing here who will not taste death until they see the Son of Man coming in His kingdom. (Matthew 16:28)",
         
-    "...Truly I say to you, if you have faith the size of a mustard seed, you will say to this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible to you. But this kind does not go out except by prayer and fasting.” (Matthew 17:20-21)",
+    "...Truly I say to you, if you have faith the size of a mustard seed, you will say to this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible to you. But this kind does not go out except by prayer and fasting.' (Matthew 17:20-21)",
         
         "The Son of Man is going to be delivered into the hands of men; and they will kill Him, and He will be raised on the third day. (Matthew 17:22-23)",
         
@@ -284,7 +284,7 @@ struct JesusQuotes {
         
         "If your brother sins, go and show him his fault in private; if he listens to you, you have won your brother. But if he does not listen to you, take one or two more with you, so that by the mouth of two or three witnesses every fact may be confirmed. (Matthew 18:15-16)",
     
-        "Have you not read that He who created them from the beginning made them male and female, and said, ”For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh?” So they are no longer two, but one flesh. What therefore God has joined together, let no man separate.  (Matthew 19:4-6)",
+        "Have you not read that He who created them from the beginning made them male and female, and said, 'For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh?' So they are no longer two, but one flesh. What therefore God has joined together, let no man separate.  (Matthew 19:4-6)",
         
         "Because of your hardness of heart Moses permitted you to divorce your wives; but from the beginning it has not been this way. And I say to you, whoever divorces his wife, except for immorality, and marries another woman commits adultery. (Matthew 19:8-9)",
         
@@ -308,7 +308,7 @@ struct JesusQuotes {
         
     "Son, your sins are forgiven. (Mark 2:5)",
         
-    "Which is easier, to say to the paralytic, ”Your sins are forgiven”; or to say, ”Get up, and pick up your pallet and walk?” But so that you may know that the Son of Man has authority on earth to forgive sins”—He *said to the paralytic, “I say to you, get up, pick up your pallet and go home.” (Mark 2:9-11)",
+    "Which is easier, to say to the paralytic, 'Your sins are forgiven'; or to say, 'Get up, and pick up your pallet and walk?' But so that you may know that the Son of Man has authority on earth to forgive sins,' He said to the paralytic, “I say to you, get up, pick up your pallet and go home.' (Mark 2:9-11)",
         
         "It is not those who are healthy who need a physician, but those who are sick; I did not come to call the righteous, but sinners. (Mark 2:17)",
         
@@ -320,11 +320,11 @@ struct JesusQuotes {
         
         "Behold my mother and my brothers! For whoever does the will of God, he is my brother and sister and mother. (Mark 3:34-35)",
         
-        " And He was saying to them, “A lamp is not brought to be put under a basket, is it, or under a bed? Is it not brought to be put on the lamp stand? For nothing is hidden, except to be revealed; nor has anything been secret, but that it would come to light.”  (Mark 4:21-22)",
+        " And He was saying to them, “A lamp is not brought to be put under a basket, is it, or under a bed? Is it not brought to be put on the lamp stand? For nothing is hidden, except to be revealed; nor has anything been secret, but that it would come to light.'  (Mark 4:21-22)",
         
     "Take care what you listen to. By your standard of measure it will be measured to you; and more will be given you besides. For whoever has, to him more shall be given; and whoever does not have, even what he has shall be taken away from him. (Mark 4:24-25)",
     
-        "And He was saying, “The kingdom of God is like a man who casts seed upon the soil; and he goes to bed at night and gets up by day, and the seed sprouts and grows— how, he himself does not know.” (Mark 4:26-27)",
+        "And He was saying, “The kingdom of God is like a man who casts seed upon the soil; and he goes to bed at night and gets up by day, and the seed sprouts and grows— how, he himself does not know.' (Mark 4:26-27)",
     
     "How shall we picture the kingdom of God, or by what parable shall we present it? It is like a mustard seed, which, when sown upon the soil, though it is smaller than all the seeds that are upon the soil, yet when it is sown, it grows up and becomes larger than all the garden plants and forms large branches; so that the birds of the air can nest under its shade. (Mark 4:30-32)",
         
@@ -352,7 +352,7 @@ struct JesusQuotes {
         
         "If anyone wants to be first, he shall be last of all and servant of all. (Mark 9:35)",
         
-    "Whoever receives one child like this in my name receives me; and whoever receives me does not receive me, but Him who sent me (Mark 9:37)",
+    "Whoever receives one child like this in my name receives me; and whoever receives me does not receive me, but Him who sent me. (Mark 9:37)",
         
         "Whoever causes one of these little ones who believe to stumble, it would be better for him if, with a heavy millstone hung around his neck, he had been cast into the sea. (Mark 9:42)",
         
@@ -362,7 +362,7 @@ struct JesusQuotes {
     
         "If your eye causes you to stumble, throw it out; it is better for you to enter the kingdom of God with one eye, than, having two eyes, to be cast into hell. (Mark 9:47)",
         
-        "For everyone will be salted with fire. Salt is good; but if the salt becomes unsalty, with what will you make it salty again? Have salt in yourselves, and be at peace with one another.” (Mark 9:49)",
+        "For everyone will be salted with fire. Salt is good; but if the salt becomes unsalty, with what will you make it salty again? Have salt in yourselves, and be at peace with one another.' (Mark 9:49)",
         
         "But from the beginning of creation, God made them male and female. For this reason a man shall leave his father and mother, and the two shall become one flesh; so they are no longer two, but one flesh. What therefore God has joined together, let no man separate. (Mark 10:6-9)",
         
@@ -386,11 +386,9 @@ struct JesusQuotes {
         
         "Go; your faith has made you well. (Mark 10:52)",
         
-        ///181
+        "Is it not written, 'My house shall be called a house of prayer for all the nations?' But you have made it a robbers’ den. (Mark 11:17)",
         
-        "Is it not written, ”My house shall be called a house of prayer for all the nations?” But you have made it a robbers’ den. (Mark 11:17)",
-        
-    "Have faith in God. Truly I say to you, whoever says to this mountain, ”Be taken up and cast into the sea,” and does not doubt in his heart, but believes that what he says is going to happen, it will be granted him. (Mark 11:22-23)",
+    "Have faith in God. Truly I say to you, whoever says to this mountain, 'Be taken up and cast into the sea,' and does not doubt in his heart, but believes that what he says is going to happen, it will be granted him. (Mark 11:22-23)",
         
         "Whenever you stand praying, forgive, if you have anything against anyone, so that your Father who is in heaven will also forgive you your transgressions. But if you do not forgive, neither will your Father who is in heaven forgive your transgressions. (Mark 11:25-26)",
         
@@ -408,7 +406,7 @@ struct JesusQuotes {
         
         "Truly I say to you, this poor widow put in more than all the contributors to the treasury; for they all put in out of their surplus, but she, out of her poverty, put in all she owned, all she had to live on. (Mark 12:43-44)",
         
-        "See to it that no one misleads you. Many will come in My name, saying, ”I am He!” and will mislead many. (Mark 13:6)",
+        "See to it that no one misleads you. Many will come in My name, saying, 'I am He!' and will mislead many. (Mark 13:6)",
         
     "When you hear of wars and rumors of wars, do not be frightened; those things must take place; but that is not yet the end. For nation will rise up against nation, and kingdom against kingdom; there will be earthquakes in various places; there will also be famines. These things are merely the beginning of birth pangs. (Mark 13:7-8)",
     
@@ -420,7 +418,7 @@ struct JesusQuotes {
         
         "But when you see the abomination of desolation standing where it should not be (let the reader understand), then those who are in Judea must flee to the mountains. The one who is on the housetop must not go down, or go in to get anything out of his house; and the one who is in the field must not turn back to get his coat. (Mark 13:14-16)",
         
-        "And then if anyone says to you, ”Behold, here is the Christ”; or, ”Behold, He is there”; do not believe him; for false Christs and false prophets will arise, and will show signs and wonders, in order to lead astray, if possible, the elect. But take heed; behold, I have told you everything in advance.  (Mark 13:21-2)",
+        "And then if anyone says to you, 'Behold, here is the Christ'; or, 'Behold, He is there'; do not believe him; for false Christs and false prophets will arise, and will show signs and wonders, in order to lead astray, if possible, the elect. But take heed; behold, I have told you everything in advance.  (Mark 13:21-2)",
         
     "But in those days, after that tribulation, the sun will be darkened and the moon will not give its light, and the stars will be falling from heaven, and the powers that are in the heavens will be shaken. Then they will see the Son of Man coming in clouds with great power and glory. (Mark 13: 24-26)",
     
@@ -428,13 +426,13 @@ struct JesusQuotes {
         
         "Take heed, keep on the alert; for you do not know when the appointed time will come. It is like a man away on a journey, who upon leaving his house and putting his slaves in charge, assigning to each one his task, also commanded the doorkeeper to stay on the alert. (Mark 13:33-34)",
         
-        "Therefore, be on the alert—for you do not know when the master of the house is coming, whether in the evening, at midnight, or when the rooster crows, or in the morning— in case he should come suddenly and find you asleep. What I say to you I say to all, ”Be on the alert!” (Mark 13:35-37)",
+        "Therefore, be on the alert—for you do not know when the master of the house is coming, whether in the evening, at midnight, or when the rooster crows, or in the morning— in case he should come suddenly and find you asleep. What I say to you I say to all, 'Be on the alert!' (Mark 13:35-37)",
         
         "Take it; this is my body. (Mark 14:22)",
         
         "This is my blood of the covenant, which is poured out for many. Truly I say to you, I will never again drink of the fruit of the vine until that day when I drink it new in the kingdom of God. (Mark 14:24-25)",
         
-        "You will all fall away, because it is written, ”I will strike down the shepherd, and the sheep shall be scattered.” But after I have been raised, I will go ahead of you to Galilee. (Mark 14:27-28)",
+        "You will all fall away, because it is written, 'I will strike down the shepherd, and the sheep shall be scattered.' But after I have been raised, I will go ahead of you to Galilee. (Mark 14:27-28)",
         
         "My soul is deeply grieved to the point of death; remain here and keep watch. (Mark 14:33-34)",
         
@@ -442,7 +440,7 @@ struct JesusQuotes {
     
         "Simon, are you asleep? Could you not keep watch for one hour? Keep watching and praying that you may not come into temptation; the spirit is willing, but the flesh is weak. (Mark 14:37-38)",
         
-    "Are you still sleeping and resting? It is enough; the hour has come; behold, the Son of Man is being betrayed into the hands of sinners. Get up, let us be going; behold, the one who betrays Me is at hand!” (Mark 14:41-42)",
+    "Are you still sleeping and resting? It is enough; the hour has come; behold, the Son of Man is being betrayed into the hands of sinners. Get up, let us be going; behold, the one who betrays Me is at hand!' (Mark 14:41-42)",
         
         "I am; and you shall see the Son of Man sitting at the right hand of Power, and coming with the clouds of heaven. (Mark 14:62)",
         
@@ -454,19 +452,19 @@ struct JesusQuotes {
         
         "Behold, we are going up to Jerusalem; and the Son of Man will be delivered to the chief priests and scribes, and they will condemn Him to death, and will hand Him over to the Gentiles to mock and scourge and crucify Him, and on the third day He will be raised up. (Matthew 20:18-19)",
         
-        "You do not know what you are asking. Are you able to drink the cup that I am about to drink?” (Matthew 20:22)",
+        "You do not know what you are asking. Are you able to drink the cup that I am about to drink?' (Matthew 20:22)",
         
         "My cup you shall drink; but to sit on My right and on My left, this is not Mine to give, but it is for those for whom it has been prepared by My Father. (Matthew 20:23)",
         
-    "You know that the rulers of the Gentiles lord it over them, and their great men exercise authority over them. It is not this way among you, but whoever wishes to become great among you shall be your servant, and whoever wishes to be first among you shall be your slave; just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many.” (Matthew 20:25-28)",
+    "You know that the rulers of the Gentiles lord it over them, and their great men exercise authority over them. It is not this way among you, but whoever wishes to become great among you shall be your servant, and whoever wishes to be first among you shall be your slave; just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many.' (Matthew 20:25-28)",
     
-        "It is written, ”My house shall be called a house of prayer”; but you are making it a robbers’ den. (Matthew 21:13)",
+        "It is written, 'My house shall be called a house of prayer'; but you are making it a robbers’ den. (Matthew 21:13)",
         
-        "Yes; have you never read, ”Out of the mouth of infants and nursing babies You have prepared praise for Yourself?” (Matthew 21:16)",
+        "Yes; have you never read, 'Out of the mouth of infants and nursing babies You have prepared praise for Yourself?' (Matthew 21:16)",
         
         "Truly I say to you that the tax collectors and prostitutes will get into the kingdom of God before you. For John came to you in the way of righteousness and you did not believe him; but the tax collectors and prostitutes did believe him; and you, seeing this, did not even feel remorse afterward so as to believe him. (Matthew 21:31-32)",
         
-    "You shall love the Lord your God with all your heart, and with all your soul, and with all your mind.’ This is the great and foremost commandment. The second is like it, ”You shall love your neighbor as yourself.” On these two commandments depend the whole Law and the Prophets. (Matthew 22:37-40)",
+    "You shall love the Lord your God with all your heart, and with all your soul, and with all your mind.’ This is the great and foremost commandment. The second is like it, 'You shall love your neighbor as yourself.' On these two commandments depend the whole Law and the Prophets. (Matthew 22:37-40)",
         
         "But woe to you, scribes and Pharisees, hypocrites, because you shut off the kingdom of heaven from people; for you do not enter in yourselves, nor do you allow those who are entering to go in. (Matthew 23:13)",
         
@@ -475,7 +473,7 @@ struct JesusQuotes {
     "Behold, your house is being left to you desolate! For I say to you, from now on you will not see Me until you say, ‘Blessed is He who comes in the name of the Lord!’ (Matthew 23:38)",
     
     
-        "See to it that no one misleads you. For many will come in My name, saying, ”I am the Christ,” and will mislead many. You will be hearing of wars and rumors of wars. See that you are not frightened, for those things must take place, but that is not yet the end. (Matthew 24:4-6)",
+        "See to it that no one misleads you. For many will come in My name, saying, 'I am the Christ,' and will mislead many. You will be hearing of wars and rumors of wars. See that you are not frightened, for those things must take place, but that is not yet the end. (Matthew 24:4-6)",
         
         "For nation will rise against nation, and kingdom against kingdom, and in various places there will be famines and earthquakes. But all these things are merely the beginning of birth pangs. (Matthew 24:7-8)",
         
@@ -483,19 +481,19 @@ struct JesusQuotes {
         
     "But immediately after the tribulation of those days, the sun will be darkened, and the moon will not give its light, and the stars will fall from the sky, and the powers of the heavens will be shaken. And then the sign of the Son of Man will appear in the sky, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of the sky with power and great glory. (Matthew 24:29-31)",
     
-    "Then if anyone says to you, ”Behold, here is the Christ,” or ”There He is,” do not believe him. For false Christs and false prophets will arise and will show great signs and wonders, so as to mislead, if possible, even the elect. Behold, I have told you in advance. (Matthew 24:24-25)",
+    "Then if anyone says to you, 'Behold, here is the Christ,' or 'There He is,' do not believe him. For false Christs and false prophets will arise and will show great signs and wonders, so as to mislead, if possible, even the elect. Behold, I have told you in advance. (Matthew 24:24-25)",
     
-    "So if they say to you, ”Behold, He is in the wilderness,” do not go out, or, ”Behold, He is in the inner rooms,” do not believe them. For just as the lightning comes from the east and flashes even to the west, so will the coming of the Son of Man be. Wherever the corpse is, there the vultures will gather. (Matthew 24:26-28)",
+    "So if they say to you, 'Behold, He is in the wilderness,' do not go out, or, 'Behold, He is in the inner rooms,' do not believe them. For just as the lightning comes from the east and flashes even to the west, so will the coming of the Son of Man be. Wherever the corpse is, there the vultures will gather. (Matthew 24:26-28)",
     
     "But when the Son of Man comes in His glory, and all the angels with Him, then He will sit on His glorious throne. All the nations will be gathered before Him; and He will separate them from one another, as the shepherd separates the sheep from the goats; and He will put the sheep on His right, and the goats on the left. (Matthew 25 :31-33)",
     
-    "Then the King will say to those on His right, ”Come, you who are blessed of My Father, inherit the kingdom prepared for you from the foundation of the world. For I was hungry, and you gave me something to eat; I was thirsty, and you gave me something to drink; I was a stranger, and you invited me in; naked, and you clothed me; I was sick, and you visited me; I was in prison, and you came to me.”(Matthew 25:34-36)",
+    "Then the King will say to those on His right, 'Come, you who are blessed of My Father, inherit the kingdom prepared for you from the foundation of the world. For I was hungry, and you gave me something to eat; I was thirsty, and you gave me something to drink; I was a stranger, and you invited me in; naked, and you clothed me; I was sick, and you visited me; I was in prison, and you came to me.'(Matthew 25:34-36)",
     
-    "The King will answer and say to them, ”Truly I say to you, to the extent that you did it to one of these brothers of Mine, even the least of them, you did it to Me.” (Matthew 25:40)",
+    "The King will answer and say to them, 'Truly I say to you, to the extent that you did it to one of these brothers of Mine, even the least of them, you did it to Me.' (Matthew 25:40)",
     
-    "Then He will also say to those on His left, ”Depart from me, accursed ones, into the eternal fire which has been prepared for the devil and his angels; for I was hungry, and you gave me nothing to eat; I was thirsty, and you gave me nothing to drink; I was a stranger, and you did not invite me in; naked, and you did not clothe me; sick, and in prison, and you did not visit me.” (Matthew 25:41-43)",
+    "Then He will also say to those on His left, 'Depart from me, accursed ones, into the eternal fire which has been prepared for the devil and his angels; for I was hungry, and you gave me nothing to eat; I was thirsty, and you gave me nothing to drink; I was a stranger, and you did not invite me in; naked, and you did not clothe me; sick, and in prison, and you did not visit me.' (Matthew 25:41-43)",
     
-    "Truly I say to you, to the extent that you did not do it to one of the least of these, you did not do it to me. These will go away into eternal punishment, but the righteous into eternal life.” (Matthew 25:45-46)",
+    "Truly I say to you, to the extent that you did not do it to one of the least of these, you did not do it to me. These will go away into eternal punishment, but the righteous into eternal life.' (Matthew 25:45-46)",
    
         "You know that after two days the Passover is coming, and the Son of Man is to be handed over for crucifixion. (Matthew 26:2)",
         
@@ -503,7 +501,7 @@ struct JesusQuotes {
         
         "Take, eat; this is My body. (Matthew 26:26)",
         
-    "Drink from it, all of you; for this is My blood of the covenant, which is poured out for many for forgiveness of sins. But I say to you, I will not drink of this fruit of the vine from now on until that day when I drink it new with you in My Father’s kingdom (Matthew 26:27-29)",
+    "Drink from it, all of you; for this is My blood of the covenant, which is poured out for many for forgiveness of sins. But I say to you, I will not drink of this fruit of the vine from now on until that day when I drink it new with you in My Father’s kingdom. (Matthew 26:27-29)",
     
     "You will all fall away because of Me this night, for it is written, ‘I will strike down the shepherd, and the sheep of the flock shall be scattered.’ But after I have been raised, I will go ahead of you to Galilee. (Matthew 26:31-32)",
         
@@ -515,7 +513,7 @@ struct JesusQuotes {
         
     "My Father, if this cannot pass away unless I drink it, Your will be done. (Matthew 26:42)",
     
-    "Are you still sleeping and resting? Behold, the hour is at hand and the Son of Man is being betrayed into the hands of sinners. Get up, let us be going; behold, the one who betrays me is at hand!” (Matthew 26:45-46)",
+    "Are you still sleeping and resting? Behold, the hour is at hand and the Son of Man is being betrayed into the hands of sinners. Get up, let us be going; behold, the one who betrays me is at hand!' (Matthew 26:45-46)",
         
         "Put your sword back into its place; for all those who take up the sword shall perish by the sword. Or do you think that I cannot appeal to My Father, and He will at once put at my disposal more than twelve legions of angels? How then will the Scriptures be fulfilled, which say that it must happen this way? (Matthew 26:52-54)",
         
@@ -526,17 +524,15 @@ struct JesusQuotes {
     "Do not be afraid; go and take word to my brethren to leave for Galilee, and there they will see me. (Matthew 28:10)",
     
         "All authority has been given to me in heaven and on earth. Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. (Matthew 28:18-20)",
-        
-        //249 6:20
     
     
     "Why is it that you were looking for Me? Did you not know that I had to be in My Father’s house? (Luke 2: 49)",
     
-    "It is written, ”Man shall not live on bread alone.” (Luke 4:4)",
+    "It is written, 'Man shall not live on bread alone.' (Luke 4:4)",
     
-    "It is written, ”You shall worship the Lord your God and serve Him only.” (Luke 4:8)",
+    "It is written, 'You shall worship the Lord your God and serve Him only.' (Luke 4:8)",
     
-    "It is said, ”You shall not put the Lord your God to the test.”(Luke 4:12)" ,
+    "It is said, 'You shall not put the Lord your God to the test.'(Luke 4:12)" ,
     
     "I must preach the kingdom of God to the other cities also, for I was sent for this purpose. (Luke 4:43)",
     
@@ -546,7 +542,7 @@ struct JesusQuotes {
     
     "You cannot make the attendants of the bridegroom fast while the bridegroom is with them, can you? But the days will come; and when the bridegroom is taken away from them, then they will fast in those days. (Luke 5:34-35)",
     
-    "Have you not even read what David did when he was hungry, he and those who were with him, how he entered the house of God, and took and ate the consecrated bread which is not lawful for any to eat except the priests alone, and gave it to his companions? The Son of Man is Lord of the Sabbath (Luke 6:3-5)",
+    "Have you not even read what David did when he was hungry, he and those who were with him, how he entered the house of God, and took and ate the consecrated bread which is not lawful for any to eat except the priests alone, and gave it to his companions? The Son of Man is Lord of the Sabbath. (Luke 6:3-5)",
     
     "Blessed are you who are poor, for yours is the kingdom of God. (Luke 6:20)",
     
@@ -570,13 +566,13 @@ struct JesusQuotes {
     
     "A blind man cannot guide a blind man, can he? Will they not both fall into a pit? A pupil is not above his teacher; but everyone, after he has been fully trained, will be like his teacher. (Luke 6:39-40)",
     
-    "Why do you look at the speck that is in your brother’s eye, but do not notice the log that is in your own eye? Or how can you say to your brother, ”Brother, let me take out the speck that is in your eye,” when you yourself do not see the log that is in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take out the speck that is in your brother’s eye. (Luke 6:41-42)",
+    "Why do you look at the speck that is in your brother’s eye, but do not notice the log that is in your own eye? Or how can you say to your brother, 'Brother, let me take out the speck that is in your eye,' when you yourself do not see the log that is in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take out the speck that is in your brother’s eye. (Luke 6:41-42)",
     
     "For there is no good tree which produces bad fruit, nor, on the other hand, a bad tree which produces good fruit. For each tree is known by its own fruit. For men do not gather figs from thorns, nor do they pick grapes from a briar bush. (Luke 6: 43-44)",
     
     " The good man out of the good treasure of his heart brings forth what is good; and the evil man out of the evil treasure brings forth what is evil; for his mouth speaks from that which fills his heart. (Luke 6:45)",
     
-    "Why do you call Me, ”Lord, Lord,” and do not do what I say? (Luke 6:46)",
+    "Why do you call Me, 'Lord, Lord,' and do not do what I say? (Luke 6:46)",
     
     "Blessed is he who does not take offense at Me. (Luke 7:23)",
     
@@ -608,7 +604,7 @@ struct JesusQuotes {
     
     "The harvest is plentiful, but the laborers are few; therefore beseech the Lord of the harvest to send out laborers into His harvest. (Luke 10:2)",
     
-    "Go; behold, I send you out as lambs in the midst of wolves. Carry no money belt, no bag, no shoes; and greet no one on the way. Whatever house you enter, first say, ”Peace be to this house.” (Luke 10:3)",
+    "Go; behold, I send you out as lambs in the midst of wolves. Carry no money belt, no bag, no shoes; and greet no one on the way. Whatever house you enter, first say, 'Peace be to this house.' (Luke 10:3)",
     
     "I was watching Satan fall from heaven like lightning. Behold, I have given you authority to tread on serpents and scorpions, and over all the power of the enemy, and nothing will injure you. Nevertheless do not rejoice in this, that the spirits are subject to you, but rejoice that your names are recorded in heaven. (Luke 10:18-20)",
     
@@ -616,10 +612,7 @@ struct JesusQuotes {
     
     "Blessed are the eyes which see the things you see, for I say to you, that many prophets and kings wished to see the things which you see, and did not see them, and to hear the things which you hear, and did not hear them. (Luke 10:23-24)",
     
-    "Martha, Martha, you are worried and bothered about so many things; but only one thing is necessary, for Mary has chosen the good part, which shall not be taken away from her (Luke 10:41-42)",
-    
-    //44 in this hour. 293 quotes so far. 7:20
-    //9:30
+    "Martha, Martha, you are worried and bothered about so many things; but only one thing is necessary, for Mary has chosen the good part, which shall not be taken away from her. (Luke 10:41-42)",
     
     "So I say to you, ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. For everyone who asks, receives; and he who seeks, finds; and to him who knocks, it will be opened. (Luke 11:9-10)",
     
@@ -637,7 +630,7 @@ struct JesusQuotes {
     
     "Woe to you lawyers as well! For you weigh men down with burdens hard to bear, while you yourselves will not even touch the burdens with one of your fingers. Woe to you! For you build the tombs of the prophets, and it was your fathers who killed them. So you are witnesses and approve the deeds of your fathers; because it was they who killed them, and you build their tombs. (Luke 11:46-48)",
     
-    "Beware of the leaven of the Pharisees, which is hypocrisy. But there is nothing covered up that will not be revealed, and hidden that will not be known. 3 Accordingly, whatever you have said in the dark will be heard in the light, and what you have whispered in the inner rooms will be proclaimed upon the housetops. (Luke 12:1-3)",
+    "Beware of the leaven of the Pharisees, which is hypocrisy. But there is nothing covered up that will not be revealed, and hidden that will not be known. Accordingly, whatever you have said in the dark will be heard in the light, and what you have whispered in the inner rooms will be proclaimed upon the housetops. (Luke 12:1-3)",
     
     "I say to you, My friends, do not be afraid of those who kill the body and after that have no more that they can do. But I will warn you whom to fear: fear the One who, after He has killed, has authority to cast into hell; yes, I tell you, fear Him! (Luke 12:4-5)",
     
@@ -669,7 +662,7 @@ struct JesusQuotes {
     
     "From everyone who has been given much, much will be required; and to whom they entrusted much, of him they will ask all the more. (Luke 12:48)",
     
-    "And why do you not even on your own initiative judge what is right? For while you are going with your opponent to appear before the magistrate, on your way there make an effort to settle with him, so that he may not drag you before the judge, and the judge turn you over to the officer, and the officer throw you into prison. I say to you, you will not get out of there until you have paid the very last cent.” (Luke 12:57-58)",
+    "And why do you not even on your own initiative judge what is right? For while you are going with your opponent to appear before the magistrate, on your way there make an effort to settle with him, so that he may not drag you before the judge, and the judge turn you over to the officer, and the officer throw you into prison. I say to you, you will not get out of there until you have paid the very last cent.' (Luke 12:57-58)",
     
     "Do you suppose that these Galileans were greater sinners than all other Galileans because they suffered this fate? I tell you, no, but unless you repent, you will all likewise perish. Or do you suppose that those eighteen on whom the tower in Siloam fell and killed them were worse culprits than all the men who live in Jerusalem? I tell you, no, but unless you repent, you will all likewise perish. (Luke 13:2-5)",
     
@@ -677,7 +670,7 @@ struct JesusQuotes {
     
     "To what shall I compare the kingdom of God? It is like leaven, which a woman took and hid in three pecks of flour until it was all leavened. (Luke 13:20-21)",
     
-    "O Jerusalem, Jerusalem, the city that kills the prophets and stones those sent to her! How often I wanted to gather your children together, just as a hen gathers her brood under her wings, and you would not have it! Behold, your house is left to you desolate; and I say to you, you will not see Me until the time comes when you say, ”Blessed is He who comes in the name of the Lord!” (Luke 13:34-35)",
+    "O Jerusalem, Jerusalem, the city that kills the prophets and stones those sent to her! How often I wanted to gather your children together, just as a hen gathers her brood under her wings, and you would not have it! Behold, your house is left to you desolate; and I say to you, you will not see Me until the time comes when you say, 'Blessed is He who comes in the name of the Lord!' (Luke 13:34-35)",
     
     "When you give a luncheon or a dinner, do not invite your friends or your brothers or your relatives or rich neighbors, otherwise they may also invite you in return and that will be your repayment. But when you give a reception, invite the poor, the crippled, the lame, the blind, and you will be blessed, since they do not have the means to repay you; for you will be repaid at the resurrection of the righteous. (Luke 14:12-14)",
     
@@ -691,21 +684,19 @@ struct JesusQuotes {
     
     "It is inevitable that stumbling blocks come, but woe to him through whom they come! It would be better for him if a millstone were hung around his neck and he were thrown into the sea, than that he would cause one of these little ones to stumble. (Luke 17:1-2)",
     
-    "Be on your guard! If your brother sins, rebuke him; and if he repents, forgive him. And if he sins against you seven times a day, and returns to you seven times, saying, ”I repent,” forgive him. (Luke 17:3-4)",
+    "Be on your guard! If your brother sins, rebuke him; and if he repents, forgive him. And if he sins against you seven times a day, and returns to you seven times, saying, 'I repent,' forgive him. (Luke 17:3-4)",
     
-    "If you had faith like a mustard seed, you would say to this mulberry tree, ”Be uprooted and be planted in the sea”; and it would obey you. (Luke 17:5-6)",
+    "If you had faith like a mustard seed, you would say to this mulberry tree, 'Be uprooted and be planted in the sea'; and it would obey you. (Luke 17:5-6)",
     
-    "So you too, when you do all the things which are commanded you, say, ”We are unworthy slaves; we have done only that which we ought to have done.” (Luke 17:10)",
+    "So you too, when you do all the things which are commanded you, say, 'We are unworthy slaves; we have done only that which we ought to have done.' (Luke 17:10)",
     
-    "The kingdom of God is not coming with signs to be observed; nor will they say, ”Look, here it is!” or, ”There it is!” For behold, the kingdom of God is in your midst. (Luke 17:20-21)",
+    "The kingdom of God is not coming with signs to be observed; nor will they say, 'Look, here it is!' or, 'There it is!' For behold, the kingdom of God is in your midst. (Luke 17:20-21)",
     
-    "The days will come when you will long to see one of the days of the Son of Man, and you will not see it. They will say to you, ”Look there! Look here!” Do not go away, and do not run after them. (Luke 17:23-24)",
+    "The days will come when you will long to see one of the days of the Son of Man, and you will not see it. They will say to you, 'Look there! Look here!' Do not go away, and do not run after them. (Luke 17:23-24)",
     
     "For just like the lightning, when it flashes out of one part of the sky, shines to the other part of the sky, so will the Son of Man be in His day. But first He must suffer many things and be rejected by this generation. (Luke 17:24-25)",
     
     "Whoever seeks to keep his life will lose it, and whoever loses his life will preserve it. (Luke 17:33)",
-    
-    //43 this hour, 337 total 
         
         "Permit the children to come to Me, and do not hinder them, for the kingdom of God belongs to such as these. Truly I say to you, whoever does not receive the kingdom of God like a child will not enter it at all. (Luke 18:16-17)",
         
@@ -729,7 +720,7 @@ struct JesusQuotes {
         
         "Beware of the scribes, who like to walk around in long robes, and love respectful greetings in the market places, and chief seats in the synagogues and places of honor at banquets, who devour widows’ houses, and for appearance’s sake offer long prayers. These will receive greater condemnation. (Luke 20:46-47)",
         
-        "See to it that you are not misled; for many will come in My name, saying, ”I am He,” and, ”The time is near.” Do not go after them. When you hear of wars and disturbances, do not be terrified; for these things must take place first, but the end does not follow immediately. (Luke 21:8-9)",
+        "See to it that you are not misled; for many will come in My name, saying, 'I am He,' and, 'The time is near.' Do not go after them. When you hear of wars and disturbances, do not be terrified; for these things must take place first, but the end does not follow immediately. (Luke 21:8-9)",
         
         "But you will be betrayed even by parents and brothers and relatives and friends, and they will put some of you to death, and you will be hated by all because of My name. Yet not a hair of your head will perish. By your endurance you will gain your lives. (Luke 21: 16-19)",
         
@@ -741,7 +732,7 @@ struct JesusQuotes {
         
     "This is My body which is given for you; do this in remembrance of Me. (Luke 22:19)",
         
-        "This cup which is poured out for you is the new covenant in My blood. 21 But behold, the hand of the one betraying Me is with Mine on the table. For indeed, the Son of Man is going as it has been determined; but woe to that man by whom He is betrayed! (Luke 22:20-22)",
+        "This cup which is poured out for you is the new covenant in My blood. But behold, the hand of the one betraying Me is with Mine on the table. For indeed, the Son of Man is going as it has been determined; but woe to that man by whom He is betrayed! (Luke 22:20-22)",
         
         "You are those who have stood by Me in My trials; and just as My Father has granted Me a kingdom, I grant you that you may eat and drink at My table in My kingdom, and you will sit on thrones judging the twelve tribes of Israel. (Luke 22: 28-30)",
         
@@ -759,7 +750,7 @@ struct JesusQuotes {
     
         "If I tell you, you will not believe; and if I ask a question, you will not answer. But from now on the Son of Man will be seated at the right hand of the power of God. (Luke 22:67-69)",
         
-        "Daughters of Jerusalem, stop weeping for Me, but weep for yourselves and for your children. For behold, the days are coming when they will say, ”Blessed are the barren, and the wombs that never bore, and the breasts that never nursed.” (Luke 23: 28-29)",
+        "Daughters of Jerusalem, stop weeping for Me, but weep for yourselves and for your children. For behold, the days are coming when they will say, 'Blessed are the barren, and the wombs that never bore, and the breasts that never nursed.' (Luke 23: 28-29)",
         
         "Father, forgive them; for they do not know what they are doing. (Luke 23:34)",
         
@@ -777,7 +768,6 @@ struct JesusQuotes {
         
         "Thus it is written, that the Christ would suffer and rise again from the dead the third day, and that repentance for forgiveness of sins would be proclaimed in His name to all the nations, beginning from Jerusalem. You are witnesses of these things. And behold, I am sending forth the promise of My Father upon you; but you are to stay in the city until you are clothed with power from on high. (Luke 24:46-48)",
         
-        //7:48 (29) (372 total)
         
     "What do you seek? (John 1:38)",
     
@@ -810,11 +800,11 @@ struct JesusQuotes {
         
         "Everyone who drinks of this water will thirst again; but whoever drinks of the water that I will give him shall never thirst; but the water that I will give him will become in him a well of water springing up to eternal life.(John 4:13-14)",
         
-        "But an hour is coming, and now is, when the true worshipers will worship the Father in spirit and truth; for such people the Father seeks to be His worshipers. God is spirit, and those who worship Him must worship in spirit and truth (John 4: 23-24)",
+        "But an hour is coming, and now is, when the true worshipers will worship the Father in spirit and truth; for such people the Father seeks to be His worshipers. God is spirit, and those who worship Him must worship in spirit and truth. (John 4: 23-24)",
         
         "My food is to do the will of Him who sent Me and to accomplish His work. (John 4:34)",
         
-        "Do you not say, ”There are yet four months, and then comes the harvest?” Behold, I say to you, lift up your eyes and look on the fields, that they are white for harvest. Already he who reaps is receiving wages and is gathering fruit for life eternal; so that he who sows and he who reaps may rejoice together. (John 4:35-36)",
+        "Do you not say, 'There are yet four months, and then comes the harvest?' Behold, I say to you, lift up your eyes and look on the fields, that they are white for harvest. Already he who reaps is receiving wages and is gathering fruit for life eternal; so that he who sows and he who reaps may rejoice together. (John 4:35-36)",
         
     "Behold, you have become well; do not sin anymore, so that nothing worse happens to you. (John 5:14)",
     
@@ -864,7 +854,7 @@ struct JesusQuotes {
         
         "Do not grumble among yourselves. No one can come to Me unless the Father who sent Me draws him; and I will raise him up on the last day. (John 6:43-44)",
         
-        "It is written in the prophets, ”And they shall all be taught of God.” Everyone who has heard and learned from the Father, comes to Me. Not that anyone has seen the Father, except the One who is from God; He has seen the Father. (John 6:45-46)",
+        "It is written in the prophets, 'And they shall all be taught of God.' Everyone who has heard and learned from the Father, comes to Me. Not that anyone has seen the Father, except the One who is from God; He has seen the Father. (John 6:45-46)",
         
         "Truly, truly, I say to you, he who believes has eternal life. I am the bread of life. Your fathers ate the manna in the wilderness, and they died. This is the bread which comes down out of heaven, so that one may eat of it and not die.  (John 6:47-50)",
         
@@ -890,7 +880,7 @@ struct JesusQuotes {
         
     "For a little while longer I am with you, then I go to Him who sent Me. You will seek Me, and will not find Me; and where I am, you cannot come. (John 7:33-34)",
     
-        "If anyone is thirsty, let him come to Me and drink. He who believes in Me, as the Scripture said, ”From his innermost being will flow rivers of living water.” (John 7:37-38)",
+        "If anyone is thirsty, let him come to Me and drink. He who believes in Me, as the Scripture said, 'From his innermost being will flow rivers of living water.' (John 7:37-38)",
         
         "He who is without sin among you, let him be the first to throw a stone at her. (John 8:7)",
         
@@ -928,7 +918,7 @@ struct JesusQuotes {
         
         "I do not have a demon; but I honor My Father, and you dishonor Me. But I do not seek My glory; there is One who seeks and judges. Truly, truly, I say to you, if anyone keeps My word he will never see death (John 8:49-51)",
         
-        "If I glorify Myself, My glory is nothing; it is My Father who glorifies Me, of whom you say, ”He is our God”; and you have not come to know Him, but I know Him; and if I say that I do not know Him, I will be a liar like you, but I do know Him and keep His word. (John 8:54-55)",
+        "If I glorify Myself, My glory is nothing; it is My Father who glorifies Me, of whom you say, 'He is our God'; and you have not come to know Him, but I know Him; and if I say that I do not know Him, I will be a liar like you, but I do know Him and keep His word. (John 8:54-55)",
         
     "Truly, truly, I say to you, before Abraham was born, I am. (John 8:59)",
         
@@ -936,7 +926,7 @@ struct JesusQuotes {
         
         "For judgment I came into this world, so that those who do not see may see, and that those who see may become blind. (John 9:39)",
         
-    "If you were blind, you would have no sin; but since you say, ”We see,” your sin remains. (John 9:41)",
+    "If you were blind, you would have no sin; but since you say, 'We see,' your sin remains. (John 9:41)",
         
         "I am the good shepherd; the good shepherd lays down His life for the sheep. (John 10:11) ",
         
@@ -962,7 +952,7 @@ struct JesusQuotes {
     
         "Let her alone, so that she may keep it for the day of My burial. For you always have the poor with you, but you do not always have Me. (John 12:7-8)",
         
-        "Now My soul has become troubled; and what shall I say, ”Father, save Me from this hour?” But for this purpose I came to this hour. Father, glorify Your name. (John 12:27-28)",
+        "Now My soul has become troubled; and what shall I say, 'Father, save Me from this hour?' But for this purpose I came to this hour. Father, glorify Your name. (John 12:27-28)",
         
     "This voice has not come for My sake, but for your sakes. Now judgment is upon this world; now the ruler of this world will be cast out. And I, if I am lifted up from the earth, will draw all men to Myself. (John 12:31-32)",
         
@@ -973,9 +963,6 @@ struct JesusQuotes {
         " If anyone hears My sayings and does not keep them, I do not judge him; for I did not come to judge the world, but to save the world. He who rejects Me and does not receive My sayings, has one who judges him; the word I spoke is what will judge him at the last day. (John 12:47-48)",
         
     "For I did not speak on My own initiative, but the Father Himself who sent Me has given Me a commandment as to what to say and what to speak. I know that His commandment is eternal life; therefore the things I speak, I speak just as the Father has told Me. (john 12:49-50)",
-    
-    //57 (New Total: 466)9:04 pm
-        //2:50 pm
         
         "If I do not wash you, you have no part with Me.",
         
@@ -985,7 +972,7 @@ struct JesusQuotes {
         
         "Truly, truly, I say to you, he who receives whomever I send receives Me; and he who receives Me receives Him who sent Me. (John 13:20)",
         
-        "Little children, I am with you a little while longer. You will seek Me; and as I said to the Jews, now I also say to you, ”Where I am going, you cannot come.” (John 13:33)",
+        "Little children, I am with you a little while longer. You will seek Me; and as I said to the Jews, now I also say to you, 'Where I am going, you cannot come.' (John 13:33)",
         
         " A new commandment I give to you, that you love one another, even as I have loved you, that you also love one another. (John 13:33-34)",
         
@@ -1055,7 +1042,7 @@ struct JesusQuotes {
     
         "If you were of the world, the world would love its own; but because you are not of the world, but I chose you out of the world, because of this the world hates you. (John 15:19)",
         
-        " Remember the word that I said to you, ”A slave is not greater than his master.” If they persecuted Me, they will also persecute you; if they kept My word, they will keep yours also. (John 15:20)",
+        " Remember the word that I said to you, 'A slave is not greater than his master.' If they persecuted Me, they will also persecute you; if they kept My word, they will keep yours also. (John 15:20)",
         
         "But all these things they will do to you for My name’s sake, because they do not know the One who sent Me. (John 15:21)",
         
@@ -1065,7 +1052,7 @@ struct JesusQuotes {
         
     " If I had not done among them the works which no one else did, they would not have sin; but now they have both seen and hated Me and My Father as well. (John 15:24)",
         
-        "But they have done this to fulfill the word that is written in their Law, ”They hated Me without a cause.” (John 15:25)",
+        "But they have done this to fulfill the word that is written in their Law, 'They hated Me without a cause.' (John 15:25)",
         
         "When the Helper comes, whom I will send to you from the Father, that is the Spirit of truth who proceeds from the Father, He will testify about Me. (John 15:26)",
         
@@ -1079,7 +1066,7 @@ struct JesusQuotes {
         
         "But when He, the Spirit of truth, comes, He will guide you into all the truth. (John 16:13)",
         
-        "All things that the Father has are Mine; therefore I said that He (Holy Spirit) takes of Mine and will disclose it to you (John 16:15)",
+        "All things that the Father has are Mine; therefore I said that He (Holy Spirit) takes of Mine and will disclose it to you. (John 16:15)",
         
         "Truly, truly, I say to you, that you will weep and lament, but the world will rejoice; you will grieve, but your grief will be turned into joy.(John 16:20)",
         
@@ -1105,7 +1092,7 @@ struct JesusQuotes {
         
     "Woman, why are you weeping? Whom are you seeking? (John 20:15)",
     
-        "Stop clinging to Me, for I have not yet ascended to the Father; but go to My brethren and say to them, ”I ascend to My Father and your Father, and My God and your God.” (John 20:17)",
+        "Stop clinging to Me, for I have not yet ascended to the Father; but go to My brethren and say to them, 'I ascend to My Father and your Father, and My God and your God.' (John 20:17)",
         
     "Peace be with you. (John 20:19)",
     
