@@ -99,7 +99,7 @@ class PetitionsTableViewController: UIViewController, UITableViewDataSource, UIT
             
         }
         
-        editAction.backgroundColor = UIColor.grayColor()
+        editAction.backgroundColor = UIColor.blackColor()
         
         // return [deleteAction, shareAction] No feed share for this version
         return [deleteAction,editAction]

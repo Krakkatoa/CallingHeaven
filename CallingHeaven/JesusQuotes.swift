@@ -398,7 +398,7 @@ struct JesusQuotes {
         
         "...Regarding the fact that the dead rise again, have you not read in the book of Moses, in the passage about the burning bush, how God spoke to him, saying, ‘I am the God of Abraham, and the God of Isaac, and the God of Jacob’? He is not the God of the dead, but of the living; you are greatly mistaken. (Mark 12:26-27)",
         
-        "The foremost (commandment) is, ‘Hear, O Israel! The Lord our God is one Lord; and you shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength.’ (Mark 12:29-30)",
+        "The foremost commandment is, ‘Hear, O Israel! The Lord our God is one Lord; and you shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength.’ (Mark 12:29-30)",
         
         "The second (most important commandment)is this, ‘You shall love your neighbor as yourself.’ There is no other commandment greater than these. (Mark 12:31)",
         
@@ -654,7 +654,7 @@ struct JesusQuotes {
     
     "Sell your possessions and give to charity; make yourselves money belts which do not wear out, an unfailing treasure in heaven, where no thief comes near nor moth destroys. For where your treasure is, there your heart will be also. (Luke 12:32-34)",
     
-    "Be dressed in readiness, and keep your lamps lit. 36 Be like men who are waiting for their master when he returns from the wedding feast, so that they may immediately open the door to him when he comes and knocks. (Luke 12:35-36)",
+    "Be dressed in readiness, and keep your lamps lit. Be like men who are waiting for their master when he returns from the wedding feast, so that they may immediately open the door to him when he comes and knocks. (Luke 12:35-36)",
     
     "Blessed are those slaves whom the master will find on the alert when he comes; truly I say to you, that he will gird himself to serve, and have them recline at the table, and will come up and wait on them. Whether he comes in the second watch, or even in the third, and finds them so, blessed are those slaves. (Luke 12:37-38)",
     
