@@ -2033,10 +2033,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="m3m-Lx-FsJ"/>
-        <segue reference="2VT-JR-C3g"/>
-        <segue reference="br2-9X-GFN"/>
+        <segue reference="9EP-ek-Wig"/>
+        <segue reference="F3s-cs-MTS"/>
         <segue reference="gqP-lt-XHA"/>
+        <segue reference="br2-9X-GFN"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>

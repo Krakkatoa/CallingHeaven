@@ -20,7 +20,6 @@
 		7105B8621A857F0B0070619C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8611A857F0B0070619C /* MobileCoreServices.framework */; };
 		7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8631A857F180070619C /* QuartzCore.framework */; };
 		7105B8661A857F260070619C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8651A857F260070619C /* Security.framework */; };
-		7105B8681A857F310070619C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8671A857F310070619C /* StoreKit.framework */; };
 		7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8691A857F410070619C /* SystemConfiguration.framework */; };
 		7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86B1A857F5B0070619C /* libz.dylib */; };
 		7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86D1A857F6A0070619C /* libsqlite3.dylib */; };
@@ -95,7 +94,6 @@
 		7105B8611A857F0B0070619C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7105B8631A857F180070619C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7105B8651A857F260070619C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		7105B8671A857F310070619C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7105B8691A857F410070619C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7105B86B1A857F5B0070619C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7105B86D1A857F6A0070619C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -160,7 +158,6 @@
 				7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */,
 				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
 				2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */,
-				7105B8681A857F310070619C /* StoreKit.framework in Frameworks */,
 				7105B8661A857F260070619C /* Security.framework in Frameworks */,
 				2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */,
 				7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */,
@@ -192,7 +189,6 @@
 				7105B86D1A857F6A0070619C /* libsqlite3.dylib */,
 				7105B86B1A857F5B0070619C /* libz.dylib */,
 				7105B8691A857F410070619C /* SystemConfiguration.framework */,
-				7105B8671A857F310070619C /* StoreKit.framework */,
 				7105B8651A857F260070619C /* Security.framework */,
 				7105B8631A857F180070619C /* QuartzCore.framework */,
 				7105B8611A857F0B0070619C /* MobileCoreServices.framework */,
@@ -396,13 +392,16 @@
 		719EE3371A26C723007131ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Carmel Heart Media";
 				TargetAttributes = {
 					719EE33E1A26C724007131ED = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = 4UV7252NR9;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
 							com.apple.Keychain = {
 								enabled = 0;
 							};
@@ -561,6 +560,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
@@ -582,6 +582,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -604,6 +605,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
@@ -618,6 +620,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
