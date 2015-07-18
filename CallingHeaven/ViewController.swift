@@ -113,6 +113,16 @@ class ViewController: UIViewController
     
     let imageLiz = UIImage (named: "elizabeth-goldframe.png")
     
+    let johnMini = JohnMini ()
+    let edithMini = EdithMini ()
+    let titusMini = TitusMini ()
+    let mariamMini = MariamMini ()
+    let lizMini = LizMini ()
+    let thereseMini = ThereseMini ()
+    let jesusMini = JesusMini ()
+    let andesMini = AndesMini ()
+    let teresaMini = TeresaMini ()
+  
     
     
     //VC1 with Segue to VC3
@@ -121,7 +131,7 @@ class ViewController: UIViewController
     var temporalBio = ""
     var temporalImage:UIImage!
     var temporalButton: UIButton!
-    
+    var temporalMiniLabel:UITextView!
     
     
     @IBAction func TeresaAction(sender: AnyObject) {
@@ -147,6 +157,7 @@ class ViewController: UIViewController
         phoneImage.hidden = true
         temporalBio = "St. Therese of Lisieux"
         temporalImage = imageTherese
+         temporalMiniLabel.text = temporalTestLabel
         pictureSaints.image = imageTherese
         quotesLabel.text = thereseQuotes.randomFact()
         nameLabel.text = names[2]     }
@@ -159,7 +170,7 @@ class ViewController: UIViewController
         pictureSaints.image = imageEdith
         quotesLabel.text = edithQuotes.randomFact()
         nameLabel.text = names[3]
-    }
+            }
     
     @IBAction func jesusButton(sender: AnyObject) {
         phoneImage.hidden = true
@@ -168,8 +179,7 @@ class ViewController: UIViewController
         pictureSaints.image = imageJesus
         quotesLabel.text = jesusQuotes.randomFact ()
         nameLabel.text = names [8]
-        
-    }
+            }
     
     
     //View Controller 2
@@ -218,7 +228,7 @@ class ViewController: UIViewController
     }
     
     
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -234,14 +244,18 @@ class ViewController: UIViewController
             constraint.constant *= horizontalCoef
         }
     }
+    
+    var temporalTestLabel:String!
+    
+    
+
+    
     // segue to VC 3
     
-    @IBAction func testAction(sender: AnyObject) {
+    @IBAction func testAction(sender: AnyObject)
+    {
         let saintView = self.storyboard?.instantiateViewControllerWithIdentifier("saintView") as! saintViewController
         saintView.bioTemporal = temporalBio
-        
-        
-        
         navigationController?.pushViewController(saintView, animated: true)
     }
     
@@ -253,8 +267,12 @@ class ViewController: UIViewController
             saintView.temporalImage = temporalImage
             saintView.lifeTemporal = nameLabel.text
             saintView.quotesTemporal = nameLabel.text
+           
+            
         }
+
         
+            
         if segue.identifier == "bioProfile2"{
             let saintView = segue.destinationViewController as! saintViewController
             saintView.bioTemporal = temporalBio
@@ -268,7 +286,7 @@ class ViewController: UIViewController
     
     //Social Media Integration
     
-    
+    }
     @IBAction func facebookButtonPushed(sender: UIButton) {
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook){
             var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
