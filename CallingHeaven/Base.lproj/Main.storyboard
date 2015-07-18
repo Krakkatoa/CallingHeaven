@@ -105,7 +105,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="testAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uH5-Cm-akQ"/>
+                                    <action selector="testAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vSE-j3-6Qj"/>
                                     <segue destination="2Iu-2g-hLR" kind="modal" identifier="bioProfile" id="9EP-ek-Wig"/>
                                 </connections>
                             </button>
@@ -516,7 +516,7 @@
                         <outlet property="journalButton" destination="scm-YZ-Cds" id="nis-vz-Rv6"/>
                         <outlet property="saintImage" destination="cqO-n8-zku" id="m7n-ze-Tnm"/>
                         <outlet property="saintPrayerButton" destination="Nhd-Jd-tma" id="S4D-Pi-RuH"/>
-                        <outlet property="testLabel" destination="Nxq-8l-7Wk" id="gua-ws-s7I"/>
+                        <outlet property="testLabel" destination="Nxq-8l-7Wk" id="pHd-PK-BEq"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="aDr-tP-xsA" collectionClass="NSMutableArray" id="SGw-ad-zA9"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="mxh-Fs-PH8" collectionClass="NSMutableArray" id="NFq-Rb-ZGU"/>
                         <outletCollection property="verticalSpacingConstraints" destination="2Rj-Hw-wbz" collectionClass="NSMutableArray" id="kwl-uH-7wc"/>
