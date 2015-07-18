@@ -56,15 +56,6 @@
 		718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112181A70AE8500DA14D6 /* AndesLife.swift */; };
 		71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5C1AB3EC040091916C /* CreditsRoll.swift */; };
 		71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5E1AB3F9E70091916C /* CreditsViewController.swift */; };
-		718A98781B59B43F0071FCFA /* EdithMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A98771B59B43F0071FCFA /* EdithMini.swift */; };
-		718A987A1B59B4550071FCFA /* TitusMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A98791B59B4550071FCFA /* TitusMini.swift */; };
-		718A987C1B59B4750071FCFA /* MariamMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A987B1B59B4750071FCFA /* MariamMini.swift */; };
-		718A987E1B59B48A0071FCFA /* LizMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A987D1B59B48A0071FCFA /* LizMini.swift */; };
-		718A98801B59B4B80071FCFA /* ThereseMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A987F1B59B4B80071FCFA /* ThereseMini.swift */; };
-		718A98821B59B4D80071FCFA /* TeresaMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A98811B59B4D80071FCFA /* TeresaMini.swift */; };
-		718A98841B59B52D0071FCFA /* JohnMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A98831B59B52D0071FCFA /* JohnMini.swift */; };
-		718A98861B59B53E0071FCFA /* JesusMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A98851B59B53E0071FCFA /* JesusMini.swift */; };
-		718A98881B59B5510071FCFA /* AndesMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A98871B59B5510071FCFA /* AndesMini.swift */; };
 		719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719560D11AA4405900089930 /* ChoicesViewController.swift */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
 		719EE3471A26C724007131ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3461A26C724007131ED /* ViewController.swift */; };
@@ -139,15 +130,6 @@
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
 		71849D5C1AB3EC040091916C /* CreditsRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditsRoll.swift; path = ../CreditsRoll.swift; sourceTree = "<group>"; };
 		71849D5E1AB3F9E70091916C /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
-		718A98771B59B43F0071FCFA /* EdithMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EdithMini.swift; path = CallingHeaven/EdithMini.swift; sourceTree = "<group>"; };
-		718A98791B59B4550071FCFA /* TitusMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusMini.swift; sourceTree = "<group>"; };
-		718A987B1B59B4750071FCFA /* MariamMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamMini.swift; sourceTree = "<group>"; };
-		718A987D1B59B48A0071FCFA /* LizMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizMini.swift; sourceTree = "<group>"; };
-		718A987F1B59B4B80071FCFA /* ThereseMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThereseMini.swift; sourceTree = "<group>"; };
-		718A98811B59B4D80071FCFA /* TeresaMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaMini.swift; sourceTree = "<group>"; };
-		718A98831B59B52D0071FCFA /* JohnMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnMini.swift; sourceTree = "<group>"; };
-		718A98851B59B53E0071FCFA /* JesusMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusMini.swift; sourceTree = "<group>"; };
-		718A98871B59B5510071FCFA /* AndesMini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesMini.swift; sourceTree = "<group>"; };
 		719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CallingHeaven.entitlements; sourceTree = "<group>"; };
 		719560D11AA4405900089930 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
 		719EE33F1A26C724007131ED /* CallingHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,23 +197,6 @@
 			);
 			name = Frameworks;
 			path = CallingHeaven;
-			sourceTree = "<group>";
-		};
-		718A98891B59B5DC0071FCFA /* MiniBios */ = {
-			isa = PBXGroup;
-			children = (
-				718A98771B59B43F0071FCFA /* EdithMini.swift */,
-				718A98791B59B4550071FCFA /* TitusMini.swift */,
-				718A987B1B59B4750071FCFA /* MariamMini.swift */,
-				718A987D1B59B48A0071FCFA /* LizMini.swift */,
-				718A987F1B59B4B80071FCFA /* ThereseMini.swift */,
-				718A98811B59B4D80071FCFA /* TeresaMini.swift */,
-				718A98831B59B52D0071FCFA /* JohnMini.swift */,
-				718A98851B59B53E0071FCFA /* JesusMini.swift */,
-				718A98871B59B5510071FCFA /* AndesMini.swift */,
-			);
-			name = MiniBios;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		719240CC1AA9896600D6EED7 /* Journal */ = {
@@ -370,7 +335,6 @@
 		71BBE2D61A967E1F004B7120 /* Life */ = {
 			isa = PBXGroup;
 			children = (
-				718A98891B59B5DC0071FCFA /* MiniBios */,
 				718112101A70AE2800DA14D6 /* ThereseLife.swift */,
 				715A93E51A7D68C30075E32C /* TeresaLife.swift */,
 				718112141A70AE5900DA14D6 /* JesusLife.swift */,
@@ -499,13 +463,10 @@
 				715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */,
 				71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
-				718A98781B59B43F0071FCFA /* EdithMini.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
 				717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */,
-				718A987C1B59B4750071FCFA /* MariamMini.swift in Sources */,
 				718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */,
 				719EE3471A26C724007131ED /* ViewController.swift in Sources */,
-				718A98881B59B5510071FCFA /* AndesMini.swift in Sources */,
 				715EA83E1A7D50A7009DFFCA /* AndesQuotes.swift in Sources */,
 				718112091A70AD7500DA14D6 /* MariamPrayers.swift in Sources */,
 				718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */,
@@ -514,15 +475,12 @@
 				715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */,
 				715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */,
 				719EE3451A26C724007131ED /* AppDelegate.swift in Sources */,
-				718A98841B59B52D0071FCFA /* JohnMini.swift in Sources */,
-				718A987A1B59B4550071FCFA /* TitusMini.swift in Sources */,
 				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
 				71FDE94B1AC233B9009C304B /* TitusLife1.swift in Sources */,
 				710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */,
 				710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
 				71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */,
-				718A98821B59B4D80071FCFA /* TeresaMini.swift in Sources */,
 				718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */,
 				718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */,
 				7150F61D1B4F17090010C857 /* ThoughtsEditViewController.swift in Sources */,
@@ -533,7 +491,6 @@
 				716C4F2D1A9D57ED00E0D084 /* PetitonsTableViewController.swift in Sources */,
 				71FDE94D1AC23424009C304B /* TitusQuotes.swift in Sources */,
 				7150F6211B50A5850010C857 /* QuestionsEditViewController.swift in Sources */,
-				718A987E1B59B48A0071FCFA /* LizMini.swift in Sources */,
 				718112111A70AE2800DA14D6 /* ThereseLife.swift in Sources */,
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
@@ -542,9 +499,7 @@
 				710468DE1AAACB8000C29AAE /* QuestionsTableViewController.swift in Sources */,
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 				71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */,
-				718A98801B59B4B80071FCFA /* ThereseMini.swift in Sources */,
 				719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */,
-				718A98861B59B53E0071FCFA /* JesusMini.swift in Sources */,
 				71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */,
 				7105B84D1A857DF70070619C /* LizLife.swift in Sources */,
 			);
