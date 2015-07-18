@@ -11,12 +11,10 @@ import UIKit
 
 import Social
 
-
-
 var messageString:String = " (Sent via the Calling Heaven App from Carmel Heart Media. Coming soon!)"
 var quotebyString:String = " - "
 var message2String:String = "#CallingHeaven #app"
-var url:String = "https://itunes.apple.com/us/app/borderline-beyond-bpd-help/id736612302?ls=1&mt=8"
+
 
 class ViewController: UIViewController
 {
@@ -45,9 +43,6 @@ class ViewController: UIViewController
     @IBOutlet weak var testButton: UIButton!
     
     @IBOutlet weak var phoneImage: UIImageView!
-    
-    
-    @IBOutlet weak var facebookShare: UIButton!
     
     //2nd View Controller
     
@@ -268,50 +263,30 @@ class ViewController: UIViewController
     
     //Social Media Integration
     
-    
-    @IBAction func facebookButtonPushed(sender: UIButton) {
-        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook){
-            var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+    @IBAction func shareAction(sender: AnyObject) {
+        
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
             
-            facebookSheet.setInitialText("Share on Facebook")
+            var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
+            
+            var postingString = (quotesLabel.text)! + quotebyString + (nameLabel.text)! + messageString
+            
+            facebookSheet.setInitialText (postingString)
+            
             
             self.presentViewController(facebookSheet, animated: true, completion: nil)
-        } else {
-            var alert = UIAlertController(title: "Accounts", message: "Please login to a Facebook account to share.", preferredStyle: UIAlertControllerStyle.Alert)
+        }else{
+            
+            var alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            
             self.presentViewController(alert, animated: true, completion: nil)
+            
         }
-    
-    
     }
     
-    
-    
-    //@IBAction func shareAction(sender: AnyObject) {
-        
-      //  if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
-            
-       //     var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
-            
-        //   var postingString = (quotesLabel.text)! + quotebyString + (nameLabel.text)! + messageString
-            
-        //    facebookSheet.setInitialText (postingString)
-            
-            
-           // self.presentViewController(facebookSheet, animated: true, completion: nil)
-     //   }else{
-            
-      //      var alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
-            
-            
-          //  alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-            
-         //   self.presentViewController(alert, animated: true, completion: nil)
-            
-       // }
-  //  }
-    
-  //  }
     @IBAction func shareTwitter(sender: AnyObject) {
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {

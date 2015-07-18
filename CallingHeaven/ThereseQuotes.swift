@@ -194,7 +194,7 @@ struct ThereseQuotes {
         
         "True love is found only in complete self-forgetfulness, and it is only after we have detached ourselves from every creature that we find Jesus.",
         
-        "To live out of love means to banish all fear,\n Every memory of past faults.\n I see no mark of my sins, \n In a moment love burnt everything." ,
+        "To live out of love means to banish all fear/n Every memory of past faults. /n I see no mark of my sins, /n In a moment love burnt everything." ,
         
         "We have merely to love Him, without looking at ourselves, without examining our faults too much.",
         

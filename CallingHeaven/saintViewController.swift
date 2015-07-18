@@ -42,7 +42,7 @@ class saintViewController: UIViewController {
         case "Jesus Christ":(testLabel.text = jesusPrayers.randomFact ())
         case "St. Mariam Baouardy":(testLabel.text = mariamPrayers.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizPrayers.randomFact ())
-        case "St. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
+        case "Bl. Teresa of the Andes":(testLabel.text = andesPrayers.randomFact ())
         case "Bl. Titus Brandsma":(testLabel.text = titusPrayers.randomFact ())
             
             
@@ -73,7 +73,7 @@ class saintViewController: UIViewController {
         case "Jesus Christ":(testLabel.text = jesusLife.randomFact ())
         case "St. Mariam Baouardy":(testLabel.text = mariamLife.randomFact ())
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
-        case "St. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
+        case "Bl. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
         case "Bl. Titus Brandsma":(testLabel.text = titusLife.randomFact ())
         default: println("Something else") }
         }
@@ -100,7 +100,7 @@ class saintViewController: UIViewController {
     case "Jesus Christ":(testLabel.text = jesusQuotes.randomFact ())
     case "St. Mariam Baouardy":(testLabel.text = mariamQuotes.randomFact ())
     case "Bl. Elizabeth of the Trinity":(testLabel.text = lizQuotes.randomFact ())
-    case "St. Teresa of the Andes":(testLabel.text = andesQuotes.randomFact ())
+    case "Bl. Teresa of the Andes":(testLabel.text = andesQuotes.randomFact ())
     case "Bl. Titus Brandsma":(testLabel.text = titusQuotes.randomFact ())
     default: println("Something else") }
     

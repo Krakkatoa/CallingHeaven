@@ -116,22 +116,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIk-5m-Cnu" userLabel="Facebook">
-                                <rect key="frame" x="514" y="42" width="25" height="27"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="516" y="43" width="27" height="27"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="facebookButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="q33-JI-e1O"/>
+                                    <action selector="shareAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1q7-2I-oaH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA9-wu-VBc" userLabel="Twitter">
-                                <rect key="frame" x="489" y="42" width="25" height="27"/>
+                                <rect key="frame" x="487" y="43" width="27" height="27"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="shareTwitter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LoR-0s-wdu"/>
+                                    <action selector="shareTwitter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IJI-bW-t0L"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -152,7 +151,6 @@
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="width" secondItem="Hdb-Ma-iBc" secondAttribute="width" id="CSx-9N-T7F"/>
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="width" secondItem="MRB-u7-TUZ" secondAttribute="width" id="Cco-xU-BB0"/>
                             <constraint firstItem="psv-Vs-w1w" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="D3T-0H-mIl"/>
-                            <constraint firstItem="tFm-F8-35c" firstAttribute="top" secondItem="cIk-5m-Cnu" secondAttribute="bottom" id="DcL-18-jae"/>
                             <constraint firstItem="ILX-C7-JFE" firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" id="EYb-M4-Z7W"/>
                             <constraint firstItem="dL6-uK-ziS" firstAttribute="width" secondItem="8AL-fC-cmS" secondAttribute="width" id="I1C-Ny-LRy"/>
                             <constraint firstAttribute="centerY" secondItem="DDB-aI-F5v" secondAttribute="centerY" constant="7" id="ICh-8Q-75d"/>
@@ -163,25 +161,26 @@
                             <constraint firstAttribute="height" secondItem="cIk-5m-Cnu" secondAttribute="height" multiplier="320:27" id="MxK-p3-zNr"/>
                             <constraint firstItem="DDB-aI-F5v" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="138" id="Npv-fP-CAi"/>
                             <constraint firstItem="ILX-C7-JFE" firstAttribute="top" secondItem="dL6-uK-ziS" secondAttribute="bottom" id="ObY-Ri-Qro"/>
-                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="leading" secondItem="GA9-wu-VBc" secondAttribute="trailing" id="Oh7-VD-PLv"/>
+                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="leading" secondItem="GA9-wu-VBc" secondAttribute="trailing" constant="2" id="Oh7-VD-PLv"/>
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="116" id="P42-yS-HNZ"/>
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="Hdb-Ma-iBc" secondAttribute="leading" id="Qim-My-Zqi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="psv-Vs-w1w" secondAttribute="trailing" constant="-16" id="Qtw-bW-Sqg"/>
                             <constraint firstItem="UAe-c6-aUE" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="45" id="S70-SP-bo3"/>
                             <constraint firstItem="Hdb-Ma-iBc" firstAttribute="top" secondItem="ILX-C7-JFE" secondAttribute="bottom" id="SIs-1C-xC1"/>
                             <constraint firstAttribute="height" secondItem="UAe-c6-aUE" secondAttribute="height" multiplier="320:23" id="VGY-aN-VYo"/>
                             <constraint firstItem="8AL-fC-cmS" firstAttribute="leading" secondItem="MRB-u7-TUZ" secondAttribute="leading" id="W5D-TB-2Gc"/>
                             <constraint firstAttribute="width" secondItem="tXy-Rf-6QA" secondAttribute="width" multiplier="568:109" id="XKr-h2-KcH"/>
-                            <constraint firstAttribute="width" secondItem="cIk-5m-Cnu" secondAttribute="width" multiplier="568:25" id="Xit-u8-6b0"/>
+                            <constraint firstAttribute="width" secondItem="cIk-5m-Cnu" secondAttribute="width" multiplier="568:27" id="Xit-u8-6b0"/>
                             <constraint firstAttribute="height" secondItem="tFm-F8-35c" secondAttribute="height" multiplier="320:120" id="Xkt-iU-Pnp"/>
                             <constraint firstItem="tXy-Rf-6QA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="9" id="YEf-Cp-rAv"/>
                             <constraint firstAttribute="width" secondItem="UAe-c6-aUE" secondAttribute="width" multiplier="568:140" id="ZGQ-hp-98r"/>
-                            <constraint firstAttribute="trailing" secondItem="cIk-5m-Cnu" secondAttribute="trailing" constant="29" id="bdY-cB-Zhe"/>
+                            <constraint firstAttribute="trailing" secondItem="cIk-5m-Cnu" secondAttribute="trailing" constant="25" id="bdY-cB-Zhe"/>
                             <constraint firstAttribute="height" secondItem="DDB-aI-F5v" secondAttribute="height" multiplier="320:30" id="eWa-nL-Xtk"/>
                             <constraint firstItem="E66-cG-Ydd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="eZo-Az-VV5"/>
                             <constraint firstItem="fEA-H9-XiW" firstAttribute="top" secondItem="psv-Vs-w1w" secondAttribute="bottom" id="enn-nm-sIK"/>
                             <constraint firstItem="ILX-C7-JFE" firstAttribute="height" secondItem="8AL-fC-cmS" secondAttribute="height" id="esw-fo-LlN"/>
                             <constraint firstItem="GA9-wu-VBc" firstAttribute="width" secondItem="cIk-5m-Cnu" secondAttribute="width" id="htB-Ae-2zK"/>
-                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="42" id="hvV-2a-6Ng"/>
+                            <constraint firstItem="cIk-5m-Cnu" firstAttribute="top" secondItem="EQD-VF-VhF" secondAttribute="bottom" constant="43" id="hvV-2a-6Ng"/>
                             <constraint firstAttribute="height" secondItem="8AL-fC-cmS" secondAttribute="height" multiplier="320:50" id="jGG-7S-Xh2"/>
                             <constraint firstAttribute="height" secondItem="psv-Vs-w1w" secondAttribute="height" id="jbO-th-h0h"/>
                             <constraint firstItem="DDB-aI-F5v" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="35" id="kOz-2L-5bB"/>
@@ -206,7 +205,6 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="edithButton" destination="Hdb-Ma-iBc" id="vTB-d1-mfg"/>
-                        <outlet property="facebookShare" destination="cIk-5m-Cnu" id="lLv-LL-Xdh"/>
                         <outlet property="jesusButton" destination="MRB-u7-TUZ" id="acw-nX-IYg"/>
                         <outlet property="johnOfTheCross" destination="dL6-uK-ziS" id="Law-n6-O4k"/>
                         <outlet property="nameLabel" destination="UAe-c6-aUE" id="rGU-Tc-RO9"/>
@@ -237,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2035" y="-2060"/>
+            <point key="canvasLocation" x="-2086" y="-1984"/>
         </scene>
         <!--Add-ons-->
         <scene sceneID="oV6-Gl-8t1">
@@ -969,7 +967,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="shareFacebook:" destination="xbG-Up-5wv" eventType="touchUpInside" id="JJf-Lb-un4"/>
+                                    <action selector="shareFacebook:" destination="xbG-Up-5wv" eventType="touchUpInside" id="uSD-Ix-ba5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thd-wi-QjZ" userLabel="Segue2">
@@ -1042,7 +1040,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="geF-tj-PaR"/>
+                                    <action selector="shareTwitter2:" destination="xbG-Up-5wv" eventType="touchUpInside" id="trc-xZ-zef"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfD-Id-RKr" userLabel="Andes">
@@ -1157,7 +1155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2C-oQ-2nF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1429" y="-1803"/>
+            <point key="canvasLocation" x="-1420" y="-2000"/>
         </scene>
         <!--Thoughts View Controller-->
         <scene sceneID="GkL-fa-AkK">
@@ -2035,10 +2033,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="br2-9X-GFN"/>
-        <segue reference="F3s-cs-MTS"/>
         <segue reference="9EP-ek-Wig"/>
+        <segue reference="F3s-cs-MTS"/>
         <segue reference="gqP-lt-XHA"/>
+        <segue reference="br2-9X-GFN"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.7882037533512064" green="0.78805793928333878" blue="0.31187989035541275" alpha="1" colorSpace="calibratedRGB"/>
 </document>
