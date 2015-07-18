@@ -100,7 +100,7 @@
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
 		7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsEditViewController.swift; sourceTree = "<group>"; };
-		7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetitionsEditViewController.swift; path = CallingHeaven/PetitionsEditViewController.swift; sourceTree = "<group>"; };
+		7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetitionsEditViewController.swift; sourceTree = "<group>"; };
 		7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsEditViewController.swift; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
 		715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaPrayers.swift; sourceTree = "<group>"; };
@@ -202,6 +202,9 @@
 		719240CC1AA9896600D6EED7 /* Journal */ = {
 			isa = PBXGroup;
 			children = (
+				7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */,
+				7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */,
+				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
 				716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */,
 				719560D11AA4405900089930 /* ChoicesViewController.swift */,
 				716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */,
@@ -227,7 +230,6 @@
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
-				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
@@ -253,8 +255,6 @@
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
-				7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */,
-				7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
 				71BBE2D31A967D01004B7120 /* VC Files- Swift */,
