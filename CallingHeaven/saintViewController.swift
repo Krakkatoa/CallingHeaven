@@ -20,9 +20,9 @@ class saintViewController: UIViewController {
     var lifeTemporal:String!
     var temporalImage:UIImage!
     var quotesTemporal:String!
+    
+    
     @IBOutlet var testLabel: UITextView!
-    
-    
     @IBOutlet var saintImage: UIImageView!
     
     @IBOutlet weak var journalButton: UIButton!
@@ -116,11 +116,6 @@ class saintViewController: UIViewController {
     let andesQuotes = AndesQuotes ()
     let titusQuotes = TitusQuotes ()
     
-    
-    
-    
-    
-    
     @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
     @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint]!
@@ -134,7 +129,7 @@ class saintViewController: UIViewController {
         saintImage.image = temporalImage
         bioLabel2.text = lifeTemporal
         bioLabel3.text = quotesTemporal
-            
+        
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
