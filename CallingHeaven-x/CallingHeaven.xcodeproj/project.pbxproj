@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D50C49C1B0C2AA000A5A867 /* Bolts.framework */; };
 		2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D50C49D1B0C2AA000A5A867 /* Parse.framework */; };
+		710336EE1B5DF5F50012CCAF /* CreditsRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710336ED1B5DF5F50012CCAF /* CreditsRoll.swift */; };
+		710336F01B5DF6170012CCAF /* PetitionsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710336EF1B5DF6170012CCAF /* PetitionsEditViewController.swift */; };
+		710336F21B5DF62C0012CCAF /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710336F11B5DF62C0012CCAF /* NoteTableViewCell.swift */; };
+		710336F41B5DF63B0012CCAF /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710336F31B5DF63B0012CCAF /* NoteTableViewCell.xib */; };
 		710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */; };
 		710468DE1AAACB8000C29AAE /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */; };
 		710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */; };
@@ -83,6 +87,10 @@
 /* Begin PBXFileReference section */
 		2D50C49C1B0C2AA000A5A867 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
 		2D50C49D1B0C2AA000A5A867 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		710336ED1B5DF5F50012CCAF /* CreditsRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsRoll.swift; sourceTree = SOURCE_ROOT; };
+		710336EF1B5DF6170012CCAF /* PetitionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetitionsEditViewController.swift; sourceTree = SOURCE_ROOT; };
+		710336F11B5DF62C0012CCAF /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		710336F31B5DF63B0012CCAF /* NoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
 		710468DB1AAA8F2300C29AAE /* ThoughtsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsTableViewController.swift; sourceTree = "<group>"; };
 		710468DD1AAACB8000C29AAE /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
 		710468DF1AAACCF900C29AAE /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
@@ -228,7 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
+				710336F31B5DF63B0012CCAF /* NoteTableViewCell.xib */,
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
+				710336F11B5DF62C0012CCAF /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
@@ -250,11 +260,13 @@
 			isa = PBXGroup;
 			children = (
 				71849D5C1AB3EC040091916C /* CreditsRoll.swift */,
+				710336ED1B5DF5F50012CCAF /* CreditsRoll.swift */,
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
 				7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */,
 				7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */,
+				710336EF1B5DF6170012CCAF /* PetitionsEditViewController.swift */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
 				71BBE2D31A967D01004B7120 /* VC Files- Swift */,
@@ -440,6 +452,7 @@
 				719EE34A1A26C724007131ED /* Main.storyboard in Resources */,
 				719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */,
 				719EE34C1A26C724007131ED /* Images.xcassets in Resources */,
+				710336F41B5DF63B0012CCAF /* NoteTableViewCell.xib in Resources */,
 				717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +477,7 @@
 				71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
+				710336EE1B5DF5F50012CCAF /* CreditsRoll.swift in Sources */,
 				717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */,
 				718112071A70AD5000DA14D6 /* LizPrayers.swift in Sources */,
 				719EE3471A26C724007131ED /* ViewController.swift in Sources */,
@@ -477,6 +491,7 @@
 				719EE3451A26C724007131ED /* AppDelegate.swift in Sources */,
 				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
 				71FDE94B1AC233B9009C304B /* TitusLife1.swift in Sources */,
+				710336F01B5DF6170012CCAF /* PetitionsEditViewController.swift in Sources */,
 				710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */,
 				710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
@@ -502,6 +517,7 @@
 				719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */,
 				71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */,
 				7105B84D1A857DF70070619C /* LizLife.swift in Sources */,
+				710336F21B5DF62C0012CCAF /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
