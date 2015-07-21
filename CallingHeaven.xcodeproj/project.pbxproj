@@ -63,6 +63,7 @@
 		719EE34C1A26C724007131ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34B1A26C724007131ED /* Images.xcassets */; };
 		719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34D1A26C724007131ED /* LaunchScreen.xib */; };
 		719EE35B1A26C724007131ED /* CallingHeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE35A1A26C724007131ED /* CallingHeavenTests.swift */; };
+		71C2B6B41B5E43F1008B403D /* HelpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2B6B31B5E43F1008B403D /* HelpScreenViewController.swift */; };
 		71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */; };
 		71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */; };
 		71FDE94B1AC233B9009C304B /* TitusLife1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDE94A1AC233B9009C304B /* TitusLife1.swift */; };
@@ -142,6 +143,7 @@
 		719EE3541A26C724007131ED /* CallingHeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallingHeavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3591A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
+		71C2B6B31B5E43F1008B403D /* HelpScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScreenViewController.swift; sourceTree = "<group>"; };
 		71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Add-onsViewController.swift"; path = "../Add-onsViewController.swift"; sourceTree = "<group>"; };
 		71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsViewController.swift; sourceTree = "<group>"; };
 		71FDE94A1AC233B9009C304B /* TitusLife1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitusLife1.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 		719240CD1AA9897C00D6EED7 /* Saint Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				71C2B6B31B5E43F1008B403D /* HelpScreenViewController.swift */,
 				719EE3461A26C724007131ED /* ViewController.swift */,
 				71849D5E1AB3F9E70091916C /* CreditsViewController.swift */,
 				71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */,
@@ -496,6 +499,7 @@
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */,
 				715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */,
+				71C2B6B41B5E43F1008B403D /* HelpScreenViewController.swift in Sources */,
 				710468DE1AAACB8000C29AAE /* QuestionsTableViewController.swift in Sources */,
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 				71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */,

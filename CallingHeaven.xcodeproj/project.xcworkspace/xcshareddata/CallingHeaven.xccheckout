@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E8993576-5679-4627-94C0-1A986E3343B8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CallingHeaven</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7D2848C26B6D7D90217BC380213693189C8E7ED3</key>
 		<string>https://github.com/Krakkatoa/CallingHeaven.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CallingHeaven.xcodeproj</string>
+	<string>CallingHeaven.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7D2848C26B6D7D90217BC380213693189C8E7ED3</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>7D2848C26B6D7D90217BC380213693189C8E7ED3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CallingHeaven</string>
+			<string>CallingHeaven-x</string>
 		</dict>
 	</array>
 </dict>
