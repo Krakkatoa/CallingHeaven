@@ -13,7 +13,7 @@ struct TitusQuotes {
     let factsArray = [
 "O Jesus, when I look on you, my love for you starts up anew, and tells me that your heart loves me, and you my special friend would be.",
 
-"More courage I will need for sure, But any pain I will endure, Because it makes me like to you And leads unto your kingdom too.",
+"More courage I will need for sure, but any pain I will endure, because it makes me like to you, and leads unto your kingdom too.",
         
 "In sorrow do I find my bliss, For sorrow now no more is this: Rather the path that must be trod, That makes me one with you, my God.",
         
