@@ -78,15 +78,6 @@
                                     <action selector="jesusButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oY7-oa-wrx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILX-C7-JFE" userLabel="St. Therese">
-                                <rect key="frame" x="116" y="137" width="186" height="50"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="thereseAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ps0-lw-5QS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7G-jE-Msf" userLabel="Scroll Down">
                                 <rect key="frame" x="264" y="280" width="40" height="30"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
@@ -140,6 +131,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="LqM-7o-v8x" kind="modal" id="JpE-Gk-bTh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILX-C7-JFE" userLabel="St. Therese">
+                                <rect key="frame" x="116" y="137" width="186" height="50"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="thereseAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ps0-lw-5QS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -904,8 +904,8 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tO-6P-2fS">
                                 <rect key="frame" x="64" y="13" width="483" height="246"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Thanks to my Code Mentor, Cristian Garner Espinoza; Code Consultants- Ramzi Benna and Dmitry Grekov; Design Consultants- Chuck Abraham, Frida Aboroa, Nance Burke, Jan O'Donnell, Leslie Thomas, Ashlee Howard, Laurie Johnson, PhD, Colin Corcoran, Debra Corcoran, Melinda Frank; Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages; MysticsOfTheChurch.com;  Beta Testers- Aim Rocket, Colin Corcoran, Debra Corcoran, Ashlee Howard, Brett Sequeria, Kathleen Callegari, Leslie Blair, Amber Perry; Patron Saint: St. Teresa of Avila                                                                                                                                      Concept, Graphic Design and Programming by Laura  Paxton (Dedicated to the memory of my father, Wilson Hall)                                (c) Carmel Heart Media, 2015                         
-</mutableString>
+                                <string key="text">Thanks to my Code Mentor, Cristian Garner Espinoza; Code Consultants- Ramzi Benna and Dmitry Grekov; Design Consultants- Chuck Abraham, Frida Aboroa, Nance Burke, Jan O'Donnell, Leslie Thomas, Ashlee Howard, Laurie Johnson, PhD, Colin Corcoran, Debra Corcoran, Melinda Frank; Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages; MysticsOfTheChurch.com;  Beta Testers- Aim Rocket, Colin Corcoran, Debra Corcoran, Ashlee Howard, Brett Sequeria, Kathleen Callegari, Leslie Blair, Amber Perry; Patron Saint: St. Teresa of Avila                                                                                                                                      Concept, Graphic Design and Programming by Laura  Paxton (Dedicated to the memory of my father, Wilson Hall)                                (c) Carmel Heart Media, 2015                         
+</string>
                                 <color key="textColor" red="0.9450981021" green="0.93333339689999995" blue="0.78039222959999999" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1001,17 +1001,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3eM-wT-sz9">
-                                <rect key="frame" x="320" y="68" width="195" height="215"/>
+                                <rect key="frame" x="320" y="69" width="195" height="215"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7X-cB-Rh5" userLabel="namelabel2">
-                                <rect key="frame" x="343" y="45" width="140" height="23"/>
-                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="10"/>
-                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-lE-g8g" userLabel="pictureSaints2">
+                                <rect key="frame" x="23" y="42" width="90" height="90"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-3T-B21" userLabel="Facebook">
                                 <rect key="frame" x="516" y="43" width="27" height="27"/>
                                 <state key="normal">
@@ -1103,9 +1100,6 @@
                                     <action selector="andesAction:" destination="xbG-Up-5wv" eventType="touchUpInside" id="JGt-qp-UDO"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="dGX-lE-g8g" userLabel="pictureSaints2">
-                                <rect key="frame" x="23" y="42" width="90" height="90"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2z-ZP-ecs" userLabel="Help">
                                 <rect key="frame" x="526" y="242" width="25" height="25"/>
                                 <state key="normal" image="Corbis-42-20232237">
@@ -1115,6 +1109,12 @@
                                     <segue destination="LqM-7o-v8x" kind="modal" id="oOj-Aq-Jzz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7X-cB-Rh5" userLabel="namelabel2">
+                                <rect key="frame" x="343" y="46" width="140" height="23"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="10"/>
+                                <color key="textColor" red="0.9581953607" green="0.90737159109999999" blue="0.70974306809999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
@@ -1128,10 +1128,11 @@
                             <constraint firstAttribute="height" secondItem="0xd-t9-JAA" secondAttribute="height" multiplier="320:120" id="5mv-lF-MCg"/>
                             <constraint firstAttribute="leading" secondItem="thd-wi-QjZ" secondAttribute="leading" constant="-39" id="8DZ-SW-wcj"/>
                             <constraint firstItem="uyE-uW-4U9" firstAttribute="leading" secondItem="KfD-Id-RKr" secondAttribute="leading" id="9SU-iY-JVu"/>
+                            <constraint firstItem="q7X-cB-Rh5" firstAttribute="leading" secondItem="KfD-Id-RKr" secondAttribute="trailing" constant="41" id="9hu-JI-Dat"/>
                             <constraint firstItem="lF5-YV-PDA" firstAttribute="height" secondItem="KfD-Id-RKr" secondAttribute="height" id="Cr2-Ao-ZK3"/>
                             <constraint firstAttribute="width" secondItem="dGX-lE-g8g" secondAttribute="width" multiplier="568:90" id="CtU-Ql-0Te"/>
                             <constraint firstItem="uvc-kr-RsF" firstAttribute="height" secondItem="KfD-Id-RKr" secondAttribute="height" id="Dig-Xp-Uxu"/>
-                            <constraint firstAttribute="centerY" secondItem="3eM-wT-sz9" secondAttribute="centerY" constant="-16" id="E0T-0E-biS"/>
+                            <constraint firstItem="3eM-wT-sz9" firstAttribute="top" secondItem="q7X-cB-Rh5" secondAttribute="bottom" id="Dpf-aZ-Q39"/>
                             <constraint firstAttribute="trailingMargin" secondItem="p2z-ZP-ecs" secondAttribute="trailing" constant="1" id="F1S-cb-JLV"/>
                             <constraint firstItem="lF5-YV-PDA" firstAttribute="width" secondItem="KfD-Id-RKr" secondAttribute="width" id="FGQ-Rb-Uzo"/>
                             <constraint firstItem="IwS-3T-B21" firstAttribute="top" secondItem="7DP-5z-40N" secondAttribute="bottom" constant="43" id="Fg0-M4-tKF"/>
@@ -1160,7 +1161,8 @@
                             <constraint firstItem="uyE-uW-4U9" firstAttribute="width" secondItem="KfD-Id-RKr" secondAttribute="width" id="dFP-E5-gzi"/>
                             <constraint firstAttribute="width" secondItem="UKU-nH-Qt3" secondAttribute="width" id="dgb-bs-bJo"/>
                             <constraint firstItem="IwS-3T-B21" firstAttribute="top" secondItem="1Oi-ih-TCN" secondAttribute="top" id="dmB-Ab-RIX"/>
-                            <constraint firstItem="q7X-cB-Rh5" firstAttribute="top" secondItem="7DP-5z-40N" secondAttribute="bottom" constant="45" id="hPs-jW-cIy"/>
+                            <constraint firstItem="UKU-nH-Qt3" firstAttribute="top" secondItem="7DP-5z-40N" secondAttribute="bottom" id="gfA-pa-LKC"/>
+                            <constraint firstItem="q7X-cB-Rh5" firstAttribute="top" secondItem="7DP-5z-40N" secondAttribute="bottom" constant="46" id="hPs-jW-cIy"/>
                             <constraint firstItem="lF5-YV-PDA" firstAttribute="top" secondItem="Ulm-uk-8yW" secondAttribute="bottom" constant="8" symbolic="YES" id="has-hE-v2W"/>
                             <constraint firstAttribute="trailing" secondItem="IwS-3T-B21" secondAttribute="trailing" constant="25" id="heB-6x-Eo0"/>
                             <constraint firstItem="Ulm-uk-8yW" firstAttribute="leading" secondItem="KfD-Id-RKr" secondAttribute="leading" id="iHZ-gf-4Cq"/>
@@ -1176,7 +1178,6 @@
                             <constraint firstItem="0xd-t9-JAA" firstAttribute="top" secondItem="7DP-5z-40N" secondAttribute="bottom" constant="69" id="r3r-mU-aS8"/>
                             <constraint firstAttribute="centerX" secondItem="BDy-7b-LQy" secondAttribute="centerX" id="s72-TL-H1n"/>
                             <constraint firstAttribute="width" secondItem="3eM-wT-sz9" secondAttribute="width" multiplier="568:195" id="sZH-mc-Tuj"/>
-                            <constraint firstItem="UKU-nH-Qt3" firstAttribute="top" secondItem="a1k-1i-qgD" secondAttribute="top" id="umW-Ke-Y8a"/>
                             <constraint firstAttribute="centerY" secondItem="thd-wi-QjZ" secondAttribute="centerY" constant="8" id="wLZ-C4-Vuu"/>
                             <constraint firstItem="uvc-kr-RsF" firstAttribute="leading" secondItem="KfD-Id-RKr" secondAttribute="leading" id="wo8-Uv-K46"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UKU-nH-Qt3" secondAttribute="trailing" constant="-16" id="xuT-Rg-7WJ"/>
@@ -1196,7 +1197,6 @@
                         <outlet property="titusButton" destination="Ulm-uk-8yW" id="gEl-KN-YHS"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="aGm-JG-D7i" collectionClass="NSMutableArray" id="ehd-dQ-ON3"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="23K-MC-aFL" collectionClass="NSMutableArray" id="fOm-93-qLW"/>
-                        <outletCollection property="verticalSpacingConstraints" destination="E0T-0E-biS" collectionClass="NSMutableArray" id="ay4-rq-Uf9"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="XOJ-zr-X3a" collectionClass="NSMutableArray" id="toN-8W-g97"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="IRq-Rp-5oM" collectionClass="NSMutableArray" id="Y6A-u2-Nk3"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="heB-6x-Eo0" collectionClass="NSMutableArray" id="byo-B8-xnI"/>
@@ -1210,11 +1210,9 @@
                         <outletCollection property="verticalSpacingConstraints" destination="Iq4-5x-bmr" collectionClass="NSMutableArray" id="xp5-EL-zik"/>
                         <outletCollection property="verticalSpacingConstraints" destination="UMs-U5-Zcr" collectionClass="NSMutableArray" id="oHB-gb-dp8"/>
                         <outletCollection property="verticalSpacingConstraints" destination="RV0-ON-Qao" collectionClass="NSMutableArray" id="g71-ih-zRG"/>
-                        <outletCollection property="verticalSpacingConstraints" destination="hPs-jW-cIy" collectionClass="NSMutableArray" id="ers-ez-6R6"/>
                         <outletCollection property="verticalSpacingConstraints" destination="Fg0-M4-tKF" collectionClass="NSMutableArray" id="8RQ-Od-6x1"/>
                         <outletCollection property="verticalSpacingConstraints" destination="r3r-mU-aS8" collectionClass="NSMutableArray" id="bJA-pM-6wy"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="wLZ-C4-Vuu" collectionClass="NSMutableArray" id="bgR-Ff-YFu"/>
-                        <outletCollection property="horizontalSpacingConstraints" destination="E0T-0E-biS" collectionClass="NSMutableArray" id="4NF-fe-mcx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2C-oQ-2nF" userLabel="First Responder" sceneMemberID="firstResponder"/>
