@@ -44,6 +44,9 @@ class ViewController: UIViewController
     
     @IBOutlet weak var phoneImage: UIImageView!
     
+    
+    
+    
     //2nd View Controller
     
     
@@ -121,6 +124,7 @@ class ViewController: UIViewController
     
     @IBAction func TeresaAction(sender: AnyObject) {
         phoneImage.hidden = true
+        testButton.hidden = false
         temporalBio = "St. Teresa of Avila "
         temporalImage = imageTeresa
         pictureSaints.image = imageTeresa
@@ -130,6 +134,7 @@ class ViewController: UIViewController
     
     @IBAction func johnAction(sender: AnyObject) {
         phoneImage.hidden = true
+        testButton.hidden = false
         temporalBio = "St. John of the Cross"
         temporalImage = imageJohn
         pictureSaints.image = imageJohn
@@ -140,6 +145,7 @@ class ViewController: UIViewController
     
     @IBAction func thereseAction(sender: AnyObject) {
         phoneImage.hidden = true
+        testButton.hidden = false
         temporalBio = "St. Therese of Lisieux"
         temporalImage = imageTherese
         pictureSaints.image = imageTherese
@@ -149,6 +155,7 @@ class ViewController: UIViewController
     
     @IBAction func EdithAction(sender: AnyObject) {
         phoneImage.hidden = true
+        testButton.hidden = false
         temporalBio = "St. Edith Stein"
         temporalImage = imageEdith
         pictureSaints.image = imageEdith
@@ -158,6 +165,7 @@ class ViewController: UIViewController
     
     @IBAction func jesusButton(sender: AnyObject) {
         phoneImage.hidden = true
+        testButton.hidden = false
         temporalBio = "Jesus Christ"
         temporalImage = imageJesus
         pictureSaints.image = imageJesus
