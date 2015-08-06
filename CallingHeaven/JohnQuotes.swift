@@ -12,7 +12,7 @@ struct JohnQuotes {
     let factsArray = [
         "All ceased and I abandoned myself, leaving my cares forgotten among the lilies.",
         
-        "My soul is occupied, and all my substance in His service. Now I guard no flock, Nor have I any other employment. My sole occupation is love",
+        "My soul is occupied, and all my substance in His service. Now I guard no flock, Nor have I any other employment. My sole occupation is love.",
         
         "All my occupation now is the practice of the love of God. All the powers of soul and body, memory, understanding, and will, interior and exterior senses, the desires of spirit and of sense, all work in and by love. All I do is done in love; all I suffer, I suffer in the sweetness of love.",
         
@@ -36,7 +36,7 @@ struct JohnQuotes {
         
         "If a man wishes to be sure of the road he treads on, he must close his eyes and walk in the dark.",
         
-        "It is great wisdom to know how to be silent and to look at neither the remarks, nor the deeds, nor the lives of others",
+        "It is great wisdom to know how to be silent and to look at neither the remarks, nor the deeds, nor the lives of others.",
         
         "Beloved, all that is harsh and difficult I want for myself, and all that is gentle and sweet for thee",
         
@@ -50,7 +50,7 @@ struct JohnQuotes {
         
         "The soul that is attached to anything, however much good there may be in it, will not arrive at the liberty of divine union. For whether it be a strong wire rope or a slender and delicate thread that holds the bird, it matters not, if it really holds it fast; for, until the cord be broken the bird cannot fly",
         
-        "To saints, their very slumber is a prayer",
+        "To saints, their very slumber is a prayer.",
         
         "The wisdom of this world is foolishness with God. The soul has to proceed rather by unknowing rather than knowing.",
         "The soul is wearied and fatigued by its desires. The (desires) disturb it, allowing it not to rest in any place or in any thing whatsoever. The desires and indulgence in them all cause it greater emptiness and hunger.",
@@ -189,7 +189,7 @@ struct JohnQuotes {
         
         "When the soul offers the sacrifice of love, it becomes living flames of fire. If we consider that the soul is transformed in God, it will be understood how, in some manner, it has in truth become a fountain of living water, boiling and burning in the fire of love- God Himself.",
         
-        "He joyfully reveals His face to you, saying to you, ”I am yours, completely yours. And my happiness is to be who I am so that I may give Myself to you and be all yours.”",
+        "He joyfully reveals His face to you, saying to you, 'I am yours, completely yours. And my happiness is to be who I am so that I may give Myself to you and be all yours.”",
         
         "The soul must be attached to nothing, whether sense or spirit, which would introduce noise into the deep silence. There, the voice of God speaks to the heart in this secret place, in utmost peace and tranquility.",
         
@@ -217,9 +217,9 @@ struct JohnQuotes {
         
         "With the divinest Word, the Virgin, made pregnant, down the road comes walking, if you'll grant her a room in your abode.",
         
-        "O soul, most beautiful of creatures, who so earnestly longs to know the place where your Beloved is, that you may seek him and be united to him.  You are yourself the very tabernacle where he dwells, the secret chamber of his retreat where he is hidden.  Rejoice therefore and exult, because all your good and all your hope is so near you as to be within you. Yes, rather rejoice that you cannot be without it, for lo ;the kingdom of God is within you;.  So says the Bridegroom himself, and his servant St. Paul adds: ”You are the temple of the living God.”  What joy for the soul to learn that God never abandons it even in mortal sin, how much less in a state of grace:  What more can you desire, what more  can you seek outside, seeing that within you you have your riches, your delight, your Beloved whom you seek and desire.",
-        
-        "One love in them all makes of them one Lover,\n and the Lover is the Beloved in whom each one lives.\n For the being that the three possess each of them possesses,\n and each of them loves him who bears this being.\n Each one is this being, which alone unites them,\n binding them deeply, one beyond words.",
+        "O soul, most beautiful of creatures, who so earnestly longs to know the place where your Beloved is, that you may seek him and be united to him.  You are yourself the very tabernacle where he dwells, the secret chamber of his retreat where he is hidden.  Rejoice therefore and exult, because all your good and all your hope is so near you as to be within you. Yes, rather rejoice that you cannot be without it, for lo, the kingdom of God is within you.  So says the Bridegroom himself, and his servant St. Paul adds, ”You are the temple of the living God.”  What joy for the soul to learn that God never abandons it even in mortal sin, how much less in a state of grace:  What more can you desire, what more  can you seek outside, seeing that within you you have your riches, your delight, your Beloved whom you seek and desire.",
+    
+        "One love in them all makes of them one Lover, and the Lover is the Beloved in whom each one lives. For the being that the three possess each of them possesses, and each of them loves him who bears this being. Each one is this being, which alone unites them, binding them deeply, one beyond words.",
         
         "Who can free themselves from lowly manners and limitations if you do not lift them to yourself, my God, in purity of love? How will human beings begotten and nurtured in lowliness rise up to you, Lord, if you do not raise them with your hand that made them?",
     
