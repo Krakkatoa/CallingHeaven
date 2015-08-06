@@ -125,6 +125,7 @@ class ViewController: UIViewController
     @IBAction func TeresaAction(sender: AnyObject) {
         phoneImage.hidden = true
         testButton.hidden = false
+    
         temporalBio = "St. Teresa of Avila "
         temporalImage = imageTeresa
         pictureSaints.image = imageTeresa
@@ -179,6 +180,7 @@ class ViewController: UIViewController
     
     @IBAction func jesus2Button(sender: AnyObject) {
         temporalBio = "Jesus Christ"
+        segue2Button.hidden = false
         temporalImage = imageJesus
         pictureSaints2.image = imageJesus
         quotesLabel2.text = jesusQuotes.randomFact()
@@ -189,6 +191,7 @@ class ViewController: UIViewController
     
     @IBAction func titusAction(sender: AnyObject) {
         temporalBio = "Bl. Titus Brandsma"
+        segue2Button.hidden = false
         temporalImage = imageTitus
         pictureSaints2.image = imageTitus
         quotesLabel2.text = titusQuotes.randomFact ()
@@ -198,6 +201,7 @@ class ViewController: UIViewController
     
     @IBAction func mariamAction(sender: AnyObject) {
         temporalBio = "St. Mariam Baouardy"
+        segue2Button.hidden = false
         temporalImage = imageMariam
         pictureSaints2.image = imageMariam
         quotesLabel2.text = mariamQuotes.randomFact ()
@@ -206,6 +210,7 @@ class ViewController: UIViewController
     
     @IBAction func andesAction (sender: AnyObject) {
         temporalBio = "St. Teresa of the Andes"
+        segue2Button.hidden = false
         temporalImage = imageAndes
         pictureSaints2.image = imageAndes
         quotesLabel2.text = andesQuotes.randomFact ()
@@ -214,6 +219,7 @@ class ViewController: UIViewController
     
     @IBAction func lizAction (sender: AnyObject) {
         temporalBio = "Bl. Elizabeth of the Trinity"
+        segue2Button.hidden = false
         temporalImage = imageLiz
         pictureSaints2.image = imageLiz
         quotesLabel2.text = lizQuotes.randomFact ()
