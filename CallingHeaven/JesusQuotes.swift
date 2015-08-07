@@ -21,7 +21,7 @@ struct JesusQuotes {
         
         "See that you tell no one; but go, show yourself to the priest and present the offering that Moses commanded, as a testimony to them. (Matthew 8:8)",
         
-        "I will come and heal him",
+        "I will come and heal him.",
         
         "Truly I say to you, I have not found such great faith with anyone in Israel. I say to you that many will come from east and west, and recline at the table with Abraham, Isaac and Jacob in the kingdom of heaven; but the sons of the kingdom will be cast out into the outer darkness; in that place there will be weeping and gnashing of teeth. (Matthew 8: 10-12)",
         
