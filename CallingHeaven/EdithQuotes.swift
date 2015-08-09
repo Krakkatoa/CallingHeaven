@@ -45,7 +45,7 @@ struct EdithQuotes {
         
         "Every finite creature can reflect only a fraction of the divine nature; thus, in the diversity of His creatures, God's infinity, unity and oneness appear to be broken into an effulgence of manifold rays.",
         
-        "The complete surrender of an entire life and being is to live and work with Christ; but that also means to suffer and die with Him- that fruitful death from which springs the life of grace for all humanity.",
+        "The complete surrender of an entire life and being is to live and work with Christ, but that also means to suffer and die with Him- that fruitful death from which springs the life of grace for all humanity.",
         
         "No book learning can give this acuteness of vision to our blind sight, no straining of the will can provide the energy to clip the wild shoots within ourselves and those dear to us. Supernatural means now come to our help.",
         
@@ -76,7 +76,7 @@ struct EdithQuotes {
         
         "He who seeks the truth, whether he is aware of it or not, is seeking God.",
         
-        "My being, as I see it and as I see myself in it, is null; by myself I am not and I am nothing by myself; at each moment I am faced with nothingness and I ought to receive being anew, moment by moment. And yet ”being” is exactly this non-being, and therefore each moment, I touch the fullness of being.",
+        "My being, as I see it and as I see myself in it, is null. By myself I am not and I am nothing. By myself, at each moment I am faced with nothingness and I ought to receive being anew, moment by moment. And yet 'being' is exactly this non-being, and therefore each moment, I touch the fullness of being.",
         
         "I know I am being sustained and herein lies my tranquility and security- not the conscious security of the man who is on firm ground with his own strength but the sweet and beautiful security of the child upheld by a strong arm.",
         
