@@ -773,6 +773,14 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <attributedString key="userComments">
+                                    <fragment content="Petitions Table View">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <connections>
                                     <action selector="backAction:" destination="Hf1-rP-z7e" eventType="touchUpInside" id="ZCs-aY-qQw"/>
                                 </connections>
@@ -865,16 +873,25 @@
                         <constraints>
                             <constraint firstItem="bpV-dL-3VV" firstAttribute="top" secondItem="zbQ-Q2-0pG" secondAttribute="bottom" constant="20" id="44I-fg-Tp2"/>
                             <constraint firstItem="OTO-eR-nuS" firstAttribute="top" secondItem="zbQ-Q2-0pG" secondAttribute="bottom" constant="20" id="AFn-Tx-oa8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OTO-eR-nuS" secondAttribute="trailing" constant="-16" id="LUp-AK-Bsg"/>
+                            <constraint firstItem="WOQ-3I-VBs" firstAttribute="top" secondItem="bpV-dL-3VV" secondAttribute="bottom" constant="254" id="Mhf-eq-8dR"/>
                             <constraint firstAttribute="width" secondItem="bpV-dL-3VV" secondAttribute="width" multiplier="568:179" id="UNZ-gy-n4W"/>
                             <constraint firstItem="WOQ-3I-VBs" firstAttribute="top" secondItem="OTO-eR-nuS" secondAttribute="bottom" constant="-20" id="Z4o-vu-nq9"/>
+                            <constraint firstItem="bpV-dL-3VV" firstAttribute="leading" secondItem="79y-rw-T33" secondAttribute="leadingMargin" constant="-16" id="ZJW-gC-V1G"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bpV-dL-3VV" secondAttribute="trailing" constant="373" id="eMG-bl-Rm6"/>
                             <constraint firstItem="OTO-eR-nuS" firstAttribute="leading" secondItem="79y-rw-T33" secondAttribute="leadingMargin" constant="-16" id="egc-S3-cb9"/>
-                            <constraint firstItem="OTO-eR-nuS" firstAttribute="top" secondItem="bpV-dL-3VV" secondAttribute="bottom" constant="-46" id="oao-Zq-29C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OTO-eR-nuS" secondAttribute="trailing" constant="-16" id="nQC-e6-B3z"/>
                             <constraint firstAttribute="height" secondItem="bpV-dL-3VV" secondAttribute="height" multiplier="320:46" id="pxP-qV-l94"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <attributedString key="userComments">
+                        <fragment content="Questions Table VC">
+                            <attributes>
+                                <font key="NSFont" metaFont="smallSystem"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
                     <connections>
                         <outlet property="questionsTableView" destination="OTO-eR-nuS" id="F7d-Pz-wde"/>
                         <segue destination="npN-2X-Z42" kind="modal" identifier="questionsEdit" id="FYD-8e-qUR"/>
@@ -2092,6 +2109,14 @@
                                     <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <attributedString key="userComments">
+                                    <fragment content="Thoughts Table View">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <connections>
                                     <action selector="backAction:" destination="HgT-jV-szN" eventType="touchUpInside" id="TQi-gB-OxD"/>
                                 </connections>
@@ -2100,9 +2125,11 @@
                         <color key="backgroundColor" red="0.9581953607" green="0.90737159109999999" blue="0.70974306809999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="9AI-zv-9PQ" secondAttribute="trailing" constant="373" id="63X-pd-SmV"/>
+                            <constraint firstAttribute="width" secondItem="9AI-zv-9PQ" secondAttribute="width" multiplier="568:179" id="7vy-Sa-gwM"/>
                             <constraint firstItem="0fP-Wq-M85" firstAttribute="leading" secondItem="JrL-7f-OrW" secondAttribute="leadingMargin" constant="-16" id="8de-S2-4n4"/>
                             <constraint firstItem="Bhc-ia-frS" firstAttribute="top" secondItem="0fP-Wq-M85" secondAttribute="bottom" constant="-20" id="E0v-gB-XRf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0fP-Wq-M85" secondAttribute="trailing" constant="-16" id="EBI-EQ-QsL"/>
+                            <constraint firstAttribute="height" secondItem="9AI-zv-9PQ" secondAttribute="height" multiplier="320:40" id="JkD-ws-3Oq"/>
                             <constraint firstItem="9AI-zv-9PQ" firstAttribute="leading" secondItem="JrL-7f-OrW" secondAttribute="leadingMargin" constant="-16" id="MWL-rO-4Ch"/>
                             <constraint firstItem="Bhc-ia-frS" firstAttribute="top" secondItem="9AI-zv-9PQ" secondAttribute="bottom" constant="260" id="Rkl-GY-8we"/>
                             <constraint firstItem="0fP-Wq-M85" firstAttribute="top" secondItem="QPD-vp-7ih" secondAttribute="bottom" constant="20" id="dRC-GZ-nj8"/>
