@@ -992,7 +992,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelpScreen2-1x" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-Qe-Oae">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelpScreen3-1x" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-Qe-Oae">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVo-z8-xWk" userLabel="Home">
@@ -2146,7 +2146,7 @@
     <resources>
         <image name="Choices" width="1281" height="722"/>
         <image name="Corbis-ext" width="211" height="385"/>
-        <image name="HelpScreen2-1x" width="1281" height="722"/>
+        <image name="HelpScreen3-1x" width="1281" height="722"/>
         <image name="SVC-0310" width="1281" height="722"/>
         <image name="VC1-0319" width="1281" height="722"/>
         <image name="VC2-0707" width="1281" height="722"/>
