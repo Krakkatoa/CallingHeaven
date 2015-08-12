@@ -70,7 +70,9 @@ struct EdithQuotes {
         
         "What we recognize of ourselves and of our thoughts and behavior is only the illuminated surface. The depth they come out of is from a large extent hidden from ourselves. God knows that depth and can purify it.",
         
-        "Jesus became incarnate in order to be our Way. What can we do? Try with all our might to be empty: the senses mortified; the memory as free as possible from the images of this world and, through hope, directed toward Heaven...",
+        "Jesus became incarnate in order to be our way. What can we do? Try with all our might to be empty: the senses mortified; the memory as free as possible from the images of this world and, through hope, directed toward Heaven...",
+        
+       //31
         
         "He who seeks the truth, whether he is aware of it or not, is seeking God.",
         
@@ -195,6 +197,8 @@ struct EdithQuotes {
         "(Faith) furnishes a certain but obscure knowledge to the understanding. In fact, it shows us God as inaccessible light, as incomprehensible and infinite Being before whom every natural force gives way. And it is just for this motive that faith reduces reason to its intrinsic nothingness: to the realization of its importance and the grandeur of God." ,
         
         
+        //92
+        
         "Charity liberates the will from everything, imposing as a duty to love God above all else. This however is possible only when anxious desire for creatures is removed.",
         
         "The activity by which the soul assimilates the contents of faith is meditation.",
@@ -236,7 +240,7 @@ struct EdithQuotes {
         "As for what concerns our relations with our fellow men, the anguish in our neighbor's soul must break all precept. All that we do is a means to an end, but love is an end in itself, because God is love.",
         
         "In the heart of Jesus, which was pierced, the kingdom of heaven and the land of earth are bound together. Here is for us the source of life. This heart is the heart of the Triune Divinity, and the center of all human hearts ... it draws us to itself with secret power, it conceals us in itself in the Father's bosom and floods us with the Holy Spirit. This heart, it beats for us in a small tabernacle where it remains mysteriously hidden in that still, white host.",
-  
+    //112
         
     ]
     

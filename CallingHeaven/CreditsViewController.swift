@@ -18,7 +18,10 @@ class CreditsViewController: UIViewController {
 @IBOutlet weak var creditAction: UITextView!
     
     
+    @IBAction func rollCredits(sender: AnyObject) { creditAction.text = creditsRoll.randomFact()}
         
+        let creditsRoll = CreditsRoll ()
+    
     @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
     
     @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
