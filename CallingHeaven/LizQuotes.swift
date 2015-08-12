@@ -183,7 +183,7 @@ struct LizQuotes {
         
         "This is the way set forth, we have only to strip off self to follow it as God wills! To strip off self, to die to self, to lose sight of self.",
         
-        "”O Death, says the Lord, I will be your death.” That is: ”O soul, my adopted daughter, look at me and you will forget yourself; flow entirely into my Being, come die in me that I may live in you.",
+        "”O Death, says the Lord, I will be your death.” That is: ”O soul, my adopted daughter, look at me and you will forget yourself; flow entirely into my Being, come die in me that I may live in you.”",
         
         "The divine Being lives in an eternal, immense solitude. He never leaves it, though concerning Himself with the needs of His creatures, for He never leaves Himself; and this solitude is nothing else but His divinity.",
         
@@ -225,9 +225,9 @@ struct LizQuotes {
         
         "If you feel ice forming on your heart, go warm yourself near Him whose love is a consuming fire and who only creates voids so that He can fill them completely!",
         
-        "I have a profound compassion for souls who don’t live any higher than for this world and its trivialities... I wish I could tell them: Shake off this yoke that weighs you down; what are you doing with these bonds which chain you to yourself and to things less than yourself?",
+        "I have a profound compassion for souls who don’t live any higher than for this world and its trivialities... I wish I could tell them: Shake off this yoke that weighs you down. What are you doing with these bonds which chain you to yourself and to things less than yourself?",
         
-        "Why has He loved me so much?... I feel so little, so full of misery, but I love Him. That is all I know how to do..",
+        "Why has He loved me so much?... I feel so little, so full of misery, but I love Him. That is all I know how to do.",
     
         "Truth is so beautiful, the truth of love. He loved me and gave Himself up for me.",
         
@@ -259,7 +259,7 @@ struct LizQuotes {
         
         "It is acceptance that delivers us.",
     
-    "O my beloved Christ... Come into me as Adorer, as Restorer, as Savior.",
+    "O my beloved Christ! Come into me as Adorer, as Restorer, as Savior.",
         
         "The soul which wants to serve God day and night in His temple - I mean this inner sanctuary of which St. Paul speaks when he says, “The temple of God is holy and you are that temple”, this soul must be resolved to share fully in its Master’s passion.",
         

@@ -160,7 +160,7 @@ struct TeresaQuotes {
         
         "I know the power obedience has of making things easy which seem impossible.",
         
-        "I often thought my constitution would never endure the work I had to do, (but) the Lord said to me: ‘Daughter, obedience gives strength.",
+        "I often thought my constitution would never endure the work I had to do, (but) the Lord said to me: ‘Daughter, obedience gives strength.'",
         
         "One of the greatest graces for which I feel myself indebted to Our Lord is, that His Divine Majesty has given me the desire to be obedient; for in this virtue I find most consolation and contentment, it being that which Our Lord recommended by His own example more than any other, and on this account I desire to possess it more than anything else in the world.",
         

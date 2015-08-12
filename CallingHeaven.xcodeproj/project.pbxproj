@@ -43,6 +43,11 @@
 		716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */; };
 		717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717414551AC4AF4F003534EB /* NoteTableViewCell.swift */; };
 		717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717414561AC4AF4F003534EB /* NoteTableViewCell.xib */; };
+		717BCFF91B7AE6AD00C8B968 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BCFE51B7AE6AC00C8B968 /* RevMobAds.framework */; };
+		717BCFFB1B7AE6AD00C8B968 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BCFE81B7AE6AC00C8B968 /* RevMobAds.framework */; };
+		717BD0061B7AE86D00C8B968 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BD0051B7AE86D00C8B968 /* AdSupport.framework */; };
+		717BD0081B7AE88200C8B968 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BD0071B7AE88200C8B968 /* StoreKit.framework */; };
+		717BD00A1B7AE89C00C8B968 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BD0091B7AE89C00C8B968 /* MediaPlayer.framework */; };
 		718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */; };
 		718111FF1A70ACC900DA14D6 /* LizQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FE1A70ACC900DA14D6 /* LizQuotes.swift */; };
 		718112051A70AD3200DA14D6 /* AndesPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112041A70AD3200DA14D6 /* AndesPrayers.swift */; };
@@ -54,7 +59,6 @@
 		718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112141A70AE5900DA14D6 /* JesusLife.swift */; };
 		718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112161A70AE7400DA14D6 /* MariamLife.swift */; };
 		718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112181A70AE8500DA14D6 /* AndesLife.swift */; };
-		71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5C1AB3EC040091916C /* CreditsRoll.swift */; };
 		71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5E1AB3F9E70091916C /* CreditsViewController.swift */; };
 		719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719560D11AA4405900089930 /* ChoicesViewController.swift */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
@@ -118,6 +122,12 @@
 		716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetitionsViewController.swift; path = ../PetitionsViewController.swift; sourceTree = "<group>"; };
 		717414551AC4AF4F003534EB /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteTableViewCell.swift; path = CallingHeaven/NoteTableViewCell.swift; sourceTree = "<group>"; };
 		717414561AC4AF4F003534EB /* NoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoteTableViewCell.xib; path = CallingHeaven/NoteTableViewCell.xib; sourceTree = "<group>"; };
+		717BCFE51B7AE6AC00C8B968 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "revmob-ios-sdk/RevMobAds.framework"; sourceTree = "<group>"; };
+		717BCFE81B7AE6AC00C8B968 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "revmob-ios-sdk/RevMobSampleApp/RevMobAds.framework"; sourceTree = "<group>"; };
+		717BD0051B7AE86D00C8B968 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		717BD0071B7AE88200C8B968 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		717BD0091B7AE89C00C8B968 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		717BD00B1B7AEB7C00C8B968 /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging Header.h"; sourceTree = "<group>"; };
 		718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithPrayers.swift; sourceTree = "<group>"; };
 		718111FE1A70ACC900DA14D6 /* LizQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LizQuotes.swift; sourceTree = "<group>"; };
 		718112041A70AD3200DA14D6 /* AndesPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesPrayers.swift; sourceTree = "<group>"; };
@@ -129,7 +139,6 @@
 		718112141A70AE5900DA14D6 /* JesusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusLife.swift; sourceTree = "<group>"; };
 		718112161A70AE7400DA14D6 /* MariamLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamLife.swift; sourceTree = "<group>"; };
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
-		71849D5C1AB3EC040091916C /* CreditsRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditsRoll.swift; path = ../CreditsRoll.swift; sourceTree = "<group>"; };
 		71849D5E1AB3F9E70091916C /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CallingHeaven.entitlements; sourceTree = "<group>"; };
 		719560D11AA4405900089930 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
@@ -156,13 +165,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717BD00A1B7AE89C00C8B968 /* MediaPlayer.framework in Frameworks */,
+				717BD0081B7AE88200C8B968 /* StoreKit.framework in Frameworks */,
+				717BD0061B7AE86D00C8B968 /* AdSupport.framework in Frameworks */,
 				7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */,
 				7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */,
 				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
 				2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */,
 				7105B8661A857F260070619C /* Security.framework in Frameworks */,
+				717BCFF91B7AE6AD00C8B968 /* RevMobAds.framework in Frameworks */,
 				2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */,
 				7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */,
+				717BCFFB1B7AE6AD00C8B968 /* RevMobAds.framework in Frameworks */,
 				7105B8621A857F0B0070619C /* MobileCoreServices.framework in Frameworks */,
 				7105B8601A857EFF0070619C /* CoreLocation.framework in Frameworks */,
 				7105B85E1A857EEF0070619C /* CoreGraphics.framework in Frameworks */,
@@ -184,6 +198,11 @@
 		7105B84B1A857D6D0070619C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				717BCFE51B7AE6AC00C8B968 /* RevMobAds.framework */,
+				717BD0091B7AE89C00C8B968 /* MediaPlayer.framework */,
+				717BD0071B7AE88200C8B968 /* StoreKit.framework */,
+				717BD0051B7AE86D00C8B968 /* AdSupport.framework */,
+				717BCFE81B7AE6AC00C8B968 /* RevMobAds.framework */,
 				2D50C49C1B0C2AA000A5A867 /* Bolts.framework */,
 				2D50C49D1B0C2AA000A5A867 /* Parse.framework */,
 				7105B8591A857ED50070619C /* AudioToolbox.framework */,
@@ -231,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
+				717BD00B1B7AEB7C00C8B968 /* Bridging Header.h */,
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
@@ -252,7 +272,6 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
-				71849D5C1AB3EC040091916C /* CreditsRoll.swift */,
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
@@ -504,7 +523,6 @@
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 				71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */,
 				719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */,
-				71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */,
 				7105B84D1A857DF70070619C /* LizLife.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +606,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven-x/Bridging Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -626,6 +645,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Documents/Development/CallingHeaven-x/Bridging Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -640,6 +660,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk",
+					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk/RevMobSampleApp",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -650,6 +672,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -664,6 +687,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk",
+					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk/RevMobSampleApp",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,6 +699,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

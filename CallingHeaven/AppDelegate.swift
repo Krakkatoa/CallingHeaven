@@ -16,6 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        //RevMob Installation
+       
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            let completionBlock: () -> Void = {
+                // do something when it successfully starts the session
+            }
+            let errorBlock: (NSError!) -> Void = {error in
+                // check the error
+                println(error);
+            }
+            RevMobAds.startSessionWithAppID("55cab71794de7fc0788f1fac",
+                withSuccessHandler: completionBlock, andFailHandler: errorBlock);
+        }
+        
+        
+        
         // Parse Installation, Your own keys would go Here
         
         Parse.setApplicationId("Ew0oZ26ofyF8mnRnb4MGvSXhTWJlyxG8jbmlMDyE", clientKey: "ZesZ6eAug9C2auwQHJRMEVlz4vdtWmrgfrUAZgFH")
@@ -79,4 +97,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
 }
-
