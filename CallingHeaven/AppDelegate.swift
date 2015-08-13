@@ -15,25 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     
-    func application(application: UIApplication, didFinishLaunchingWithOptions
-         launchOptions: [NSObject: AnyObject]?) -> Bool {
-       
-            override func viewDidLoad() {
-                super.viewDidLoad()
-                let completionBlock: () -> Void = {
-                    // do something when it successfully starts the session
-                }
-                let errorBlock: (NSError!) -> Void = {error in
-                    // check the error
-                    println(error);
-                }
-                RevMobAds.startSessionWithAppID("55cab71794de7fc0788f1fac",
-                    withSuccessHandler: completionBlock, andFailHandler: errorBlock);
-            }
-            
-            
-        
-                // Parse Installation, Your own keys would go Here
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        // Parse Installation, Your own keys would go Here
         
         Parse.setApplicationId("Ew0oZ26ofyF8mnRnb4MGvSXhTWJlyxG8jbmlMDyE", clientKey: "ZesZ6eAug9C2auwQHJRMEVlz4vdtWmrgfrUAZgFH")
         var notificationType: UIUserNotificationType = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
@@ -45,14 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //This creates a identifier for each device, so we know which user is who
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setObject(UIDevice.currentDevice().identifierForVendor.UUIDString, forKey: "UserIdentifier")
+        
         return true
-           
-            
-}
+    }
     
-    
-    
-
     //Push notifications
     func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
         UIApplication.sharedApplication().registerForRemoteNotifications()
@@ -97,5 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    
 }
 
