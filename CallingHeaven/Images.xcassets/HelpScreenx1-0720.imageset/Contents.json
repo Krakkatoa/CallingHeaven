@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "HelpScreen3-1x.png"
+      "filename" : "HelpScreenx1-0720.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "HelpScreen3-2x.png"
+      "filename" : "HelpScreenx2.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "HelpScreen3-3x.png"
+      "filename" : "HelpScreenx3.png"
     }
   ],
   "info" : {
