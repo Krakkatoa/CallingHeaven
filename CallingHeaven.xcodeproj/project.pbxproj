@@ -63,16 +63,6 @@
 		719EE34C1A26C724007131ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34B1A26C724007131ED /* Images.xcassets */; };
 		719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719EE34D1A26C724007131ED /* LaunchScreen.xib */; };
 		719EE35B1A26C724007131ED /* CallingHeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE35A1A26C724007131ED /* CallingHeavenTests.swift */; };
-		71B386771B7E9F540038B3C3 /* README.mkd in Resources */ = {isa = PBXBuildFile; fileRef = 71B386631B7E9F530038B3C3 /* README.mkd */; };
-		71B386781B7E9F540038B3C3 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B386641B7E9F530038B3C3 /* RevMobAds.framework */; };
-		71B386791B7E9F540038B3C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B386661B7E9F530038B3C3 /* Default-568h@2x.png */; };
-		71B3867A1B7E9F540038B3C3 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B386671B7E9F530038B3C3 /* RevMobAds.framework */; };
-		71B3867B1B7E9F540038B3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B3866A1B7E9F530038B3C3 /* AppDelegate.m */; };
-		71B3867C1B7E9F540038B3C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71B3866B1B7E9F530038B3C3 /* InfoPlist.strings */; };
-		71B3867D1B7E9F540038B3C3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B3866D1B7E9F530038B3C3 /* ViewController_iPad.xib */; };
-		71B3867E1B7E9F540038B3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B3866F1B7E9F530038B3C3 /* main.m */; };
-		71B3867F1B7E9F540038B3C3 /* RevMobSampleApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71B386701B7E9F540038B3C3 /* RevMobSampleApp-Info.plist */; };
-		71B386801B7E9F540038B3C3 /* SampleAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B386731B7E9F540038B3C3 /* SampleAppViewController.m */; };
 		71C2B6B41B5E43F1008B403D /* HelpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2B6B31B5E43F1008B403D /* HelpScreenViewController.swift */; };
 		71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */; };
 		71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */; };
@@ -88,13 +78,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 719EE33E1A26C724007131ED;
 			remoteInfo = CallingHeaven;
-		};
-		71B386821B7E9F560038B3C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71B386741B7E9F540038B3C3 /* RevMobSampleApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B385ABC014897AB3002CE9BE;
-			remoteInfo = RevMobAds;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -160,20 +143,6 @@
 		719EE3541A26C724007131ED /* CallingHeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallingHeavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3591A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
-		71B386631B7E9F530038B3C3 /* README.mkd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mkd; sourceTree = "<group>"; };
-		71B386641B7E9F530038B3C3 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
-		71B386661B7E9F530038B3C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		71B386671B7E9F530038B3C3 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
-		71B386691B7E9F530038B3C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		71B3866A1B7E9F530038B3C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71B3866C1B7E9F530038B3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		71B3866E1B7E9F530038B3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		71B3866F1B7E9F530038B3C3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71B386701B7E9F540038B3C3 /* RevMobSampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RevMobSampleApp-Info.plist"; sourceTree = "<group>"; };
-		71B386711B7E9F540038B3C3 /* RevMobSampleApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RevMobSampleApp-Prefix.pch"; sourceTree = "<group>"; };
-		71B386721B7E9F540038B3C3 /* SampleAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAppViewController.h; sourceTree = "<group>"; };
-		71B386731B7E9F540038B3C3 /* SampleAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleAppViewController.m; sourceTree = "<group>"; };
-		71B386741B7E9F540038B3C3 /* RevMobSampleApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RevMobSampleApp.xcodeproj; sourceTree = "<group>"; };
 		71C2B6B31B5E43F1008B403D /* HelpScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScreenViewController.swift; sourceTree = "<group>"; };
 		71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Add-onsViewController.swift"; path = "../Add-onsViewController.swift"; sourceTree = "<group>"; };
 		71F596491AA81B2F00A2768C /* ThoughtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsViewController.swift; sourceTree = "<group>"; };
@@ -192,10 +161,8 @@
 				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
 				2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */,
 				7105B8661A857F260070619C /* Security.framework in Frameworks */,
-				71B386781B7E9F540038B3C3 /* RevMobAds.framework in Frameworks */,
 				2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */,
 				7105B8641A857F180070619C /* QuartzCore.framework in Frameworks */,
-				71B3867A1B7E9F540038B3C3 /* RevMobAds.framework in Frameworks */,
 				7105B8621A857F0B0070619C /* MobileCoreServices.framework in Frameworks */,
 				7105B8601A857EFF0070619C /* CoreLocation.framework in Frameworks */,
 				7105B85E1A857EEF0070619C /* CoreGraphics.framework in Frameworks */,
@@ -217,7 +184,6 @@
 		7105B84B1A857D6D0070619C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				71B386621B7E9F530038B3C3 /* revmob-ios-sdk-4 */,
 				2D50C49C1B0C2AA000A5A867 /* Bolts.framework */,
 				2D50C49D1B0C2AA000A5A867 /* Parse.framework */,
 				7105B8591A857ED50070619C /* AudioToolbox.framework */,
@@ -326,51 +292,6 @@
 				719EE3591A26C724007131ED /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		71B386621B7E9F530038B3C3 /* revmob-ios-sdk-4 */ = {
-			isa = PBXGroup;
-			children = (
-				71B386631B7E9F530038B3C3 /* README.mkd */,
-				71B386641B7E9F530038B3C3 /* RevMobAds.framework */,
-				71B386651B7E9F530038B3C3 /* RevMobSampleApp */,
-			);
-			path = "revmob-ios-sdk-4";
-			sourceTree = "<group>";
-		};
-		71B386651B7E9F530038B3C3 /* RevMobSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				71B386661B7E9F530038B3C3 /* Default-568h@2x.png */,
-				71B386671B7E9F530038B3C3 /* RevMobAds.framework */,
-				71B386681B7E9F530038B3C3 /* RevMobSampleApp */,
-				71B386741B7E9F540038B3C3 /* RevMobSampleApp.xcodeproj */,
-			);
-			path = RevMobSampleApp;
-			sourceTree = "<group>";
-		};
-		71B386681B7E9F530038B3C3 /* RevMobSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				71B386691B7E9F530038B3C3 /* AppDelegate.h */,
-				71B3866A1B7E9F530038B3C3 /* AppDelegate.m */,
-				71B3866B1B7E9F530038B3C3 /* InfoPlist.strings */,
-				71B3866D1B7E9F530038B3C3 /* ViewController_iPad.xib */,
-				71B3866F1B7E9F530038B3C3 /* main.m */,
-				71B386701B7E9F540038B3C3 /* RevMobSampleApp-Info.plist */,
-				71B386711B7E9F540038B3C3 /* RevMobSampleApp-Prefix.pch */,
-				71B386721B7E9F540038B3C3 /* SampleAppViewController.h */,
-				71B386731B7E9F540038B3C3 /* SampleAppViewController.m */,
-			);
-			path = RevMobSampleApp;
-			sourceTree = "<group>";
-		};
-		71B386751B7E9F540038B3C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				71B386831B7E9F560038B3C3 /* RevMobAds.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		71BBE2D31A967D01004B7120 /* VC Files- Swift */ = {
@@ -506,12 +427,6 @@
 			mainGroup = 719EE3361A26C723007131ED;
 			productRefGroup = 719EE3401A26C724007131ED /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 71B386751B7E9F540038B3C3 /* Products */;
-					ProjectRef = 71B386741B7E9F540038B3C3 /* RevMobSampleApp.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				719EE33E1A26C724007131ED /* CallingHeaven */,
@@ -520,30 +435,15 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		71B386831B7E9F560038B3C3 /* RevMobAds.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = RevMobAds.app;
-			remoteRef = 71B386821B7E9F560038B3C3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		719EE33D1A26C724007131ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				719EE34A1A26C724007131ED /* Main.storyboard in Resources */,
-				71B3867C1B7E9F540038B3C3 /* InfoPlist.strings in Resources */,
 				719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */,
 				719EE34C1A26C724007131ED /* Images.xcassets in Resources */,
-				71B3867D1B7E9F540038B3C3 /* ViewController_iPad.xib in Resources */,
 				717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */,
-				71B3867F1B7E9F540038B3C3 /* RevMobSampleApp-Info.plist in Resources */,
-				71B386771B7E9F540038B3C3 /* README.mkd in Resources */,
-				71B386791B7E9F540038B3C3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,12 +461,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B3867B1B7E9F540038B3C3 /* AppDelegate.m in Sources */,
 				715A93F01A7D692D0075E32C /* saintViewController.swift in Sources */,
 				7150F61F1B5083260010C857 /* PetitionsEditViewController.swift in Sources */,
 				715A94041A7D6CF20075E32C /* TheresePrayers.swift in Sources */,
 				71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */,
-				71B3867E1B7E9F540038B3C3 /* main.m in Sources */,
 				712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */,
 				718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */,
 				717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */,
@@ -583,7 +481,6 @@
 				715A94021A7D6CD10075E32C /* ThereseQuotes.swift in Sources */,
 				71FDE94B1AC233B9009C304B /* TitusLife1.swift in Sources */,
 				710468DC1AAA8F2300C29AAE /* ThoughtsTableViewController.swift in Sources */,
-				71B386801B7E9F540038B3C3 /* SampleAppViewController.m in Sources */,
 				710468E01AAACCF900C29AAE /* QuestionsViewController.swift in Sources */,
 				712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */,
 				71DEBD821A83E75D0015D369 /* Add-onsViewController.swift in Sources */,
@@ -645,22 +542,6 @@
 				719EE34E1A26C724007131ED /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		71B3866B1B7E9F530038B3C3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71B3866C1B7E9F530038B3C3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71B3866D1B7E9F530038B3C3 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71B3866E1B7E9F530038B3C3 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -759,8 +640,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
-					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk-4",
-					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk-4/RevMobSampleApp",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -785,8 +664,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
-					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk-4",
-					"$(PROJECT_DIR)/CallingHeaven/revmob-ios-sdk-4/RevMobSampleApp",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
