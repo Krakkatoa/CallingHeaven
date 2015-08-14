@@ -640,6 +640,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"$(PROJECT_DIR)/CallingHeaven",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -664,6 +665,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"$(PROJECT_DIR)/CallingHeaven",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
