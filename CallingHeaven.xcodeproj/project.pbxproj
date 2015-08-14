@@ -23,6 +23,9 @@
 		7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B8691A857F410070619C /* SystemConfiguration.framework */; };
 		7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86B1A857F5B0070619C /* libz.dylib */; };
 		7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105B86D1A857F6A0070619C /* libsqlite3.dylib */; };
+		7106960C1B7C530F0094A2A7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7106960B1B7C530F0094A2A7 /* StoreKit.framework */; };
+		710696261B7C5F520094A2A7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710696251B7C5F520094A2A7 /* MediaPlayer.framework */; };
+		710696281B7C5F660094A2A7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710696271B7C5F660094A2A7 /* AdSupport.framework */; };
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
 		7150F61D1B4F17090010C857 /* ThoughtsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */; };
@@ -54,7 +57,6 @@
 		718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112141A70AE5900DA14D6 /* JesusLife.swift */; };
 		718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112161A70AE7400DA14D6 /* MariamLife.swift */; };
 		718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112181A70AE8500DA14D6 /* AndesLife.swift */; };
-		71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5C1AB3EC040091916C /* CreditsRoll.swift */; };
 		71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5E1AB3F9E70091916C /* CreditsViewController.swift */; };
 		719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719560D11AA4405900089930 /* ChoicesViewController.swift */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
@@ -72,6 +74,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		710696231B7C5EBC0094A2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7106961F1B7C5EBB0094A2A7 /* RevMobSampleApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B385ABC014897AB3002CE9BE;
+			remoteInfo = RevMobAds;
+		};
 		719EE3551A26C724007131ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 719EE3371A26C723007131ED /* Project object */;
@@ -98,6 +107,24 @@
 		7105B8691A857F410070619C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7105B86B1A857F5B0070619C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7105B86D1A857F6A0070619C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7106960B1B7C530F0094A2A7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7106960E1B7C5EBB0094A2A7 /* README.mkd */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.mkd; sourceTree = "<group>"; };
+		7106960F1B7C5EBB0094A2A7 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "../../../../Downloads/revmob-ios-sdk-2/RevMobAds.framework"; sourceTree = "<group>"; };
+		710696111B7C5EBB0094A2A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		710696121B7C5EBB0094A2A7 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "../../../../Downloads/revmob-ios-sdk-2/RevMobSampleApp/RevMobAds.framework"; sourceTree = "<group>"; };
+		710696141B7C5EBB0094A2A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		710696151B7C5EBB0094A2A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		710696171B7C5EBB0094A2A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		710696191B7C5EBB0094A2A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7106961A1B7C5EBB0094A2A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7106961B1B7C5EBB0094A2A7 /* RevMobSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RevMobSampleApp-Info.plist"; sourceTree = "<group>"; };
+		7106961C1B7C5EBB0094A2A7 /* RevMobSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevMobSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		7106961D1B7C5EBB0094A2A7 /* SampleAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleAppViewController.h; sourceTree = "<group>"; };
+		7106961E1B7C5EBB0094A2A7 /* SampleAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppViewController.m; sourceTree = "<group>"; };
+		7106961F1B7C5EBB0094A2A7 /* RevMobSampleApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RevMobSampleApp.xcodeproj; sourceTree = "<group>"; };
+		710696251B7C5F520094A2A7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		710696271B7C5F660094A2A7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		710696301B7D20E00094A2A7 /* CallingHeaven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallingHeaven-Bridging-Header.h"; sourceTree = "<group>"; };
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
 		7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsEditViewController.swift; sourceTree = "<group>"; };
@@ -129,7 +156,6 @@
 		718112141A70AE5900DA14D6 /* JesusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusLife.swift; sourceTree = "<group>"; };
 		718112161A70AE7400DA14D6 /* MariamLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamLife.swift; sourceTree = "<group>"; };
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
-		71849D5C1AB3EC040091916C /* CreditsRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditsRoll.swift; path = ../CreditsRoll.swift; sourceTree = "<group>"; };
 		71849D5E1AB3F9E70091916C /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CallingHeaven.entitlements; sourceTree = "<group>"; };
 		719560D11AA4405900089930 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
@@ -156,9 +182,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710696281B7C5F660094A2A7 /* AdSupport.framework in Frameworks */,
+				710696261B7C5F520094A2A7 /* MediaPlayer.framework in Frameworks */,
+				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
+				7106960C1B7C530F0094A2A7 /* StoreKit.framework in Frameworks */,
 				7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */,
 				7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */,
-				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
 				2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */,
 				7105B8661A857F260070619C /* Security.framework in Frameworks */,
 				2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */,
@@ -184,6 +213,12 @@
 		7105B84B1A857D6D0070619C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				710696121B7C5EBB0094A2A7 /* RevMobAds.framework */,
+				710696271B7C5F660094A2A7 /* AdSupport.framework */,
+				710696251B7C5F520094A2A7 /* MediaPlayer.framework */,
+				7106960F1B7C5EBB0094A2A7 /* RevMobAds.framework */,
+				7106960D1B7C5EBA0094A2A7 /* revmob-ios-sdk-2 */,
+				7106960B1B7C530F0094A2A7 /* StoreKit.framework */,
 				2D50C49C1B0C2AA000A5A867 /* Bolts.framework */,
 				2D50C49D1B0C2AA000A5A867 /* Parse.framework */,
 				7105B8591A857ED50070619C /* AudioToolbox.framework */,
@@ -199,6 +234,57 @@
 			);
 			name = Frameworks;
 			path = CallingHeaven;
+			sourceTree = "<group>";
+		};
+		7106960D1B7C5EBA0094A2A7 /* revmob-ios-sdk-2 */ = {
+			isa = PBXGroup;
+			children = (
+				7106960E1B7C5EBB0094A2A7 /* README.mkd */,
+				710696101B7C5EBB0094A2A7 /* RevMobSampleApp */,
+			);
+			name = "revmob-ios-sdk-2";
+			path = "../../../../Downloads/revmob-ios-sdk-2";
+			sourceTree = "<group>";
+		};
+		710696101B7C5EBB0094A2A7 /* RevMobSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				710696111B7C5EBB0094A2A7 /* Default-568h@2x.png */,
+				710696131B7C5EBB0094A2A7 /* RevMobSampleApp */,
+				7106961F1B7C5EBB0094A2A7 /* RevMobSampleApp.xcodeproj */,
+			);
+			path = RevMobSampleApp;
+			sourceTree = "<group>";
+		};
+		710696131B7C5EBB0094A2A7 /* RevMobSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				710696141B7C5EBB0094A2A7 /* AppDelegate.h */,
+				710696151B7C5EBB0094A2A7 /* AppDelegate.m */,
+				710696161B7C5EBB0094A2A7 /* InfoPlist.strings */,
+				710696181B7C5EBB0094A2A7 /* ViewController_iPad.xib */,
+				7106961A1B7C5EBB0094A2A7 /* main.m */,
+				7106961B1B7C5EBB0094A2A7 /* RevMobSampleApp-Info.plist */,
+				7106961C1B7C5EBB0094A2A7 /* RevMobSampleApp-Prefix.pch */,
+				7106961D1B7C5EBB0094A2A7 /* SampleAppViewController.h */,
+				7106961E1B7C5EBB0094A2A7 /* SampleAppViewController.m */,
+			);
+			path = RevMobSampleApp;
+			sourceTree = "<group>";
+		};
+		710696201B7C5EBB0094A2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710696241B7C5EBC0094A2A7 /* RevMobAds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7106962D1B7C62E30094A2A7 /* RevMobAds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RevMobAds;
 			sourceTree = "<group>";
 		};
 		719240CC1AA9896600D6EED7 /* Journal */ = {
@@ -233,6 +319,7 @@
 				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
+				7106962D1B7C62E30094A2A7 /* RevMobAds */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
 				719EE3401A26C724007131ED /* Products */,
@@ -252,8 +339,8 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
-				71849D5C1AB3EC040091916C /* CreditsRoll.swift */,
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
+				710696301B7D20E00094A2A7 /* CallingHeaven-Bridging-Header.h */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
 				7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */,
@@ -427,6 +514,12 @@
 			mainGroup = 719EE3361A26C723007131ED;
 			productRefGroup = 719EE3401A26C724007131ED /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 710696201B7C5EBB0094A2A7 /* Products */;
+					ProjectRef = 7106961F1B7C5EBB0094A2A7 /* RevMobSampleApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				719EE33E1A26C724007131ED /* CallingHeaven */,
@@ -434,6 +527,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		710696241B7C5EBC0094A2A7 /* RevMobAds.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RevMobAds.app;
+			remoteRef = 710696231B7C5EBC0094A2A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		719EE33D1A26C724007131ED /* Resources */ = {
@@ -504,7 +607,6 @@
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 				71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */,
 				719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */,
-				71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */,
 				7105B84D1A857DF70070619C /* LizLife.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +630,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		710696161B7C5EBB0094A2A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710696171B7C5EBB0094A2A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		710696181B7C5EBB0094A2A7 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710696191B7C5EBB0094A2A7 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
 		719EE3481A26C724007131ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -583,11 +701,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = CallingHeaven;
+				PRODUCT_NAME = CallingHeaven;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -622,10 +744,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = CallingHeaven;
+				PRODUCT_NAME = CallingHeaven;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -634,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
@@ -650,6 +777,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -658,6 +787,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
@@ -674,6 +804,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -693,6 +824,7 @@
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallingHeaven.app/CallingHeaven";
 			};
 			name = Debug;
@@ -708,6 +840,7 @@
 				INFOPLIST_FILE = CallingHeavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallingHeaven.app/CallingHeaven";
 			};
 			name = Release;
