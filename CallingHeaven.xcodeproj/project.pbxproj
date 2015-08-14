@@ -57,6 +57,14 @@
 		71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5C1AB3EC040091916C /* CreditsRoll.swift */; };
 		71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5E1AB3F9E70091916C /* CreditsViewController.swift */; };
 		719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719560D11AA4405900089930 /* ChoicesViewController.swift */; };
+		719EE2A71B7E94DE00323F1C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719EE2A61B7E94DE00323F1C /* StoreKit.framework */; };
+		719EE2A91B7E94F100323F1C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719EE2A81B7E94F100323F1C /* MediaPlayer.framework */; };
+		719EE2AB1B7E94FC00323F1C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719EE2AA1B7E94FC00323F1C /* AdSupport.framework */; };
+		719EE2AE1B7E955400323F1C /* CallingHeaven-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 719EE2AD1B7E955400323F1C /* CallingHeaven-Bridging-Header.m */; };
+		719EE2B01B7E9A2E00323F1C /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719EE2AF1B7E9A2E00323F1C /* RevMobAds.framework */; };
+		719EE2B21B7E9B1100323F1C /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 719EE2B11B7E9B1100323F1C /* Resources */; };
+		719EE2B41B7E9B3000323F1C /* RevMobAds in Resources */ = {isa = PBXBuildFile; fileRef = 719EE2B31B7E9B3000323F1C /* RevMobAds */; };
+		719EE2B91B7E9B7E00323F1C /* RevMobAds in Resources */ = {isa = PBXBuildFile; fileRef = 719EE2B81B7E9B7E00323F1C /* RevMobAds */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
 		719EE3471A26C724007131ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3461A26C724007131ED /* ViewController.swift */; };
 		719EE34A1A26C724007131ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719EE3481A26C724007131ED /* Main.storyboard */; };
@@ -133,6 +141,15 @@
 		71849D5E1AB3F9E70091916C /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CallingHeaven.entitlements; sourceTree = "<group>"; };
 		719560D11AA4405900089930 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
+		719EE2A61B7E94DE00323F1C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		719EE2A81B7E94F100323F1C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		719EE2AA1B7E94FC00323F1C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		719EE2AC1B7E955300323F1C /* CallingHeaven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallingHeaven-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		719EE2AD1B7E955400323F1C /* CallingHeaven-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CallingHeaven-Bridging-Header.m"; path = "CallingHeaven/CallingHeaven-Bridging-Header.m"; sourceTree = "<group>"; };
+		719EE2AF1B7E9A2E00323F1C /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		719EE2B11B7E9B1100323F1C /* Resources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resources; path = RevMobAds.framework/Resources; sourceTree = "<group>"; };
+		719EE2B31B7E9B3000323F1C /* RevMobAds */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RevMobAds; path = RevMobAds.framework/RevMobAds; sourceTree = "<group>"; };
+		719EE2B81B7E9B7E00323F1C /* RevMobAds */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RevMobAds; sourceTree = "<group>"; };
 		719EE33F1A26C724007131ED /* CallingHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallingHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719EE3431A26C724007131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719EE3441A26C724007131ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,9 +173,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719EE2AB1B7E94FC00323F1C /* AdSupport.framework in Frameworks */,
+				719EE2A91B7E94F100323F1C /* MediaPlayer.framework in Frameworks */,
+				719EE2B01B7E9A2E00323F1C /* RevMobAds.framework in Frameworks */,
+				719EE2A71B7E94DE00323F1C /* StoreKit.framework in Frameworks */,
+				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
 				7105B86E1A857F6A0070619C /* libsqlite3.dylib in Frameworks */,
 				7105B86C1A857F5B0070619C /* libz.dylib in Frameworks */,
-				7105B86A1A857F410070619C /* SystemConfiguration.framework in Frameworks */,
 				2D50C49E1B0C2AA000A5A867 /* Bolts.framework in Frameworks */,
 				7105B8661A857F260070619C /* Security.framework in Frameworks */,
 				2D50C49F1B0C2AA000A5A867 /* Parse.framework in Frameworks */,
@@ -184,6 +205,13 @@
 		7105B84B1A857D6D0070619C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				719EE2B31B7E9B3000323F1C /* RevMobAds */,
+				719EE2B11B7E9B1100323F1C /* Resources */,
+				719EE2B51B7E9B7E00323F1C /* Versions */,
+				719EE2AF1B7E9A2E00323F1C /* RevMobAds.framework */,
+				719EE2AA1B7E94FC00323F1C /* AdSupport.framework */,
+				719EE2A81B7E94F100323F1C /* MediaPlayer.framework */,
+				719EE2A61B7E94DE00323F1C /* StoreKit.framework */,
 				2D50C49C1B0C2AA000A5A867 /* Bolts.framework */,
 				2D50C49D1B0C2AA000A5A867 /* Parse.framework */,
 				7105B8591A857ED50070619C /* AudioToolbox.framework */,
@@ -227,12 +255,38 @@
 			name = "Saint Quotes";
 			sourceTree = "<group>";
 		};
+		719EE2B51B7E9B7E00323F1C /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				719EE2B61B7E9B7E00323F1C /* A */,
+			);
+			name = Versions;
+			path = RevMobAds.framework/Versions;
+			sourceTree = "<group>";
+		};
+		719EE2B61B7E9B7E00323F1C /* A */ = {
+			isa = PBXGroup;
+			children = (
+				719EE2B71B7E9B7E00323F1C /* Headers */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		719EE2B71B7E9B7E00323F1C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				719EE2B81B7E9B7E00323F1C /* RevMobAds */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
 				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
+				719EE2AD1B7E955400323F1C /* CallingHeaven-Bridging-Header.m */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
 				719EE3571A26C724007131ED /* CallingHeavenTests */,
 				719EE3401A26C724007131ED /* Products */,
@@ -252,6 +306,7 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
+				719EE2AC1B7E955300323F1C /* CallingHeaven-Bridging-Header.h */,
 				71849D5C1AB3EC040091916C /* CreditsRoll.swift */,
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
@@ -442,8 +497,11 @@
 			files = (
 				719EE34A1A26C724007131ED /* Main.storyboard in Resources */,
 				719EE34F1A26C724007131ED /* LaunchScreen.xib in Resources */,
+				719EE2B41B7E9B3000323F1C /* RevMobAds in Resources */,
 				719EE34C1A26C724007131ED /* Images.xcassets in Resources */,
 				717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */,
+				719EE2B21B7E9B1100323F1C /* Resources in Resources */,
+				719EE2B91B7E9B7E00323F1C /* RevMobAds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +553,7 @@
 				71FDE94D1AC23424009C304B /* TitusQuotes.swift in Sources */,
 				7150F6211B50A5850010C857 /* QuestionsEditViewController.swift in Sources */,
 				718112111A70AE2800DA14D6 /* ThereseLife.swift in Sources */,
+				719EE2AE1B7E955400323F1C /* CallingHeaven-Bridging-Header.m in Sources */,
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
 				716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */,
@@ -586,8 +645,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = CallingHeaven;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -624,8 +685,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = CallingHeaven;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -634,12 +697,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"$(PROJECT_DIR)/CallingHeaven",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -650,6 +715,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -658,12 +725,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CallingHeaven/parse-library-1",
+					"$(PROJECT_DIR)/CallingHeaven",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,6 +743,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
