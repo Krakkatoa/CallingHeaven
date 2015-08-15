@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        RevMobAds.startSessionWithAppID("55cab71794de7fc0788f1fac", withSuccessHandler: { () -> Void in
+            RevMobAds.session().showBanner()
+            println("started session successfully")
+        }) { (error) -> Void in
+            println("error in starting a session \(error)")
+        };
+    
         // Parse Installation, Your own keys would go Here
         
         Parse.setApplicationId("Ew0oZ26ofyF8mnRnb4MGvSXhTWJlyxG8jbmlMDyE", clientKey: "ZesZ6eAug9C2auwQHJRMEVlz4vdtWmrgfrUAZgFH")
