@@ -662,16 +662,16 @@
                         <constraints>
                             <constraint firstItem="oxa-2u-1ue" firstAttribute="top" secondItem="hE0-R3-U2N" secondAttribute="bottom" constant="82" id="1Yc-h4-4Il"/>
                             <constraint firstAttribute="centerX" secondItem="mJJ-bI-vjT" secondAttribute="centerX" constant="5" id="4FW-Pg-p37"/>
-                            <constraint firstItem="3ai-Ob-axF" firstAttribute="top" secondItem="Ngr-o8-LEz" secondAttribute="bottom" constant="67" id="4kw-bD-yaI"/>
+                            <constraint firstItem="3ai-Ob-axF" firstAttribute="top" secondItem="Ngr-o8-LEz" secondAttribute="bottom" constant="87" id="4kw-bD-yaI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S5c-AS-qdC" secondAttribute="trailing" constant="129" id="5bj-f6-Fkp"/>
                             <constraint firstItem="S5c-AS-qdC" firstAttribute="leading" secondItem="nhT-Kt-xlQ" secondAttribute="leadingMargin" constant="130" id="8xD-RO-5Rs"/>
                             <constraint firstItem="mJJ-bI-vjT" firstAttribute="width" secondItem="hE0-R3-U2N" secondAttribute="width" id="E7g-jr-dem"/>
-                            <constraint firstItem="hE0-R3-U2N" firstAttribute="top" secondItem="Ngr-o8-LEz" secondAttribute="bottom" constant="67" id="GRw-jU-vgB"/>
+                            <constraint firstItem="hE0-R3-U2N" firstAttribute="top" secondItem="Ngr-o8-LEz" secondAttribute="bottom" constant="87" id="GRw-jU-vgB"/>
                             <constraint firstItem="3ai-Ob-axF" firstAttribute="width" secondItem="mJJ-bI-vjT" secondAttribute="width" id="JGP-8i-w2P"/>
                             <constraint firstItem="oxa-2u-1ue" firstAttribute="top" secondItem="mJJ-bI-vjT" secondAttribute="bottom" constant="82" id="LXB-Bg-ft4"/>
                             <constraint firstItem="3ai-Ob-axF" firstAttribute="height" secondItem="mJJ-bI-vjT" secondAttribute="height" id="McV-H2-KPZ"/>
                             <constraint firstItem="S5c-AS-qdC" firstAttribute="top" secondItem="mJJ-bI-vjT" secondAttribute="bottom" constant="-24" id="Zjg-FW-Kdx"/>
-                            <constraint firstItem="mJJ-bI-vjT" firstAttribute="top" secondItem="Ngr-o8-LEz" secondAttribute="bottom" constant="67" id="c4n-N5-JtB"/>
+                            <constraint firstItem="mJJ-bI-vjT" firstAttribute="top" secondItem="Ngr-o8-LEz" secondAttribute="bottom" constant="87" id="c4n-N5-JtB"/>
                             <constraint firstItem="oxa-2u-1ue" firstAttribute="top" secondItem="nL8-U7-uZ1" secondAttribute="bottom" id="dVh-A7-zzw"/>
                             <constraint firstItem="oxa-2u-1ue" firstAttribute="top" secondItem="3ai-Ob-axF" secondAttribute="bottom" constant="82" id="fie-Vt-4no"/>
                             <constraint firstItem="oxa-2u-1ue" firstAttribute="top" secondItem="S5c-AS-qdC" secondAttribute="bottom" constant="40" id="jGO-A3-wtJ"/>
@@ -705,7 +705,6 @@
                         <outletCollection property="verticalSpacingConstraints" destination="GRw-jU-vgB" collectionClass="NSMutableArray" id="vP3-n1-2Lf"/>
                         <outletCollection property="horizontalSpacingConstraints" destination="yT4-Fc-vI5" collectionClass="NSMutableArray" id="eYi-Ng-WlS"/>
                         <outletCollection property="verticalSpacingConstraints" destination="4kw-bD-yaI" collectionClass="NSMutableArray" id="wxZ-vH-qlz"/>
-                        <outletCollection property="verticalSpacingConstraints" destination="c4n-N5-JtB" collectionClass="NSMutableArray" id="K6n-sx-tio"/>
                         <outletCollection property="verticalSpacingConstraints" destination="1Yc-h4-4Il" collectionClass="NSMutableArray" id="fRa-ao-bJz"/>
                         <outletCollection property="verticalSpacingConstraints" destination="LXB-Bg-ft4" collectionClass="NSMutableArray" id="tsr-fk-S1b"/>
                         <outletCollection property="verticalSpacingConstraints" destination="fie-Vt-4no" collectionClass="NSMutableArray" id="lSF-vm-2Nf"/>
@@ -945,8 +944,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tO-6P-2fS">
+                                <rect key="frame" x="33" y="13" width="514" height="217"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Thanks to my Code Mentor, Cristian Garner Espinoza; Code Consultants- Ramzi Benna and Dmitry Grekov; Design Consultants- Chuck Abraham, Frida Aboroa, Nance Burke, Jan O'Donnell, Leslie Thomas, Ashlee Howard, Laurie Johnson, PhD, Colin Corcoran, Debra Corcoran, Melinda Frank; Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages; MysticsOfTheChurch.com;  Beta Testers- Aim Rocket, Colin Corcoran, Debra Corcoran, Ashlee Howard, Brett Sequeria, Kathleen Callegari, Leslie Blair, Amber Perry; Patron Saint: Our Lady of Mount Carmel;                                                                                                                                     Concept, Graphic Design and Programming by Laura  Paxton (Dedicated to the memory of my father, Wilson Hall)                                (c) Carmel Heart Media, 2015                         
+</string>
+                                <color key="textColor" red="0.9450981021" green="0.93333339689999995" blue="0.78039222959999999" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sev-3k-Vti">
-                                <rect key="frame" x="268" y="272" width="46" height="28"/>
+                                <rect key="frame" x="267" y="244" width="46" height="28"/>
                                 <color key="backgroundColor" red="0.9450981021" green="0.93333339689999995" blue="0.78039222959999999" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="3vh-js-KEf"/>
@@ -960,26 +968,17 @@
                                     <action selector="backAction:" destination="6vu-bh-1fU" eventType="touchUpInside" id="vim-iA-Tar"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tO-6P-2fS">
-                                <rect key="frame" x="64" y="13" width="483" height="246"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Thanks to my Code Mentor, Cristian Garner Espinoza; Code Consultants- Ramzi Benna and Dmitry Grekov; Design Consultants- Chuck Abraham, Frida Aboroa, Nance Burke, Jan O'Donnell, Leslie Thomas, Ashlee Howard, Laurie Johnson, PhD, Colin Corcoran, Debra Corcoran, Melinda Frank; Information Contributors- Kevin Knight, editor, New Advent Catholic Encyclopedia; Carmel of Mary and Joseph, Varroville NSW; Carmel de Flavignerot, France; The Mary Pages; MysticsOfTheChurch.com;  Beta Testers- Aim Rocket, Colin Corcoran, Debra Corcoran, Ashlee Howard, Brett Sequeria, Kathleen Callegari, Leslie Blair, Amber Perry; Patron Saint: Our Lady of Mount Carmel;                                                                                                                                     Concept, Graphic Design and Programming by Laura  Paxton (Dedicated to the memory of my father, Wilson Hall)                                (c) Carmel Heart Media, 2015                         
-</string>
-                                <color key="textColor" red="0.9450981021" green="0.93333339689999995" blue="0.78039222959999999" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
-                            <constraint firstItem="gpj-nd-YiA" firstAttribute="top" secondItem="sev-3k-Vti" secondAttribute="bottom" constant="20" id="1zC-5f-yHa"/>
-                            <constraint firstItem="sev-3k-Vti" firstAttribute="leading" secondItem="Olb-YX-kfW" secondAttribute="leadingMargin" constant="252" id="9uv-t8-h17"/>
-                            <constraint firstItem="6tO-6P-2fS" firstAttribute="leading" secondItem="Olb-YX-kfW" secondAttribute="leadingMargin" constant="48" id="Ltg-ai-7XU"/>
-                            <constraint firstItem="sev-3k-Vti" firstAttribute="top" secondItem="6tO-6P-2fS" secondAttribute="bottom" constant="13" id="YL4-0b-fKe"/>
+                            <constraint firstItem="gpj-nd-YiA" firstAttribute="top" secondItem="sev-3k-Vti" secondAttribute="bottom" constant="48" id="1zC-5f-yHa"/>
+                            <constraint firstItem="sev-3k-Vti" firstAttribute="leading" secondItem="Olb-YX-kfW" secondAttribute="leadingMargin" constant="251" id="9uv-t8-h17"/>
+                            <constraint firstItem="6tO-6P-2fS" firstAttribute="leading" secondItem="Olb-YX-kfW" secondAttribute="leadingMargin" constant="17" id="Ltg-ai-7XU"/>
+                            <constraint firstItem="sev-3k-Vti" firstAttribute="top" secondItem="6tO-6P-2fS" secondAttribute="bottom" constant="14" id="YL4-0b-fKe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6tO-6P-2fS" secondAttribute="trailing" constant="5" id="ZwE-rP-LhA"/>
                             <constraint firstItem="6tO-6P-2fS" firstAttribute="top" secondItem="zph-m2-uz1" secondAttribute="bottom" constant="13" id="sWR-Oe-Kpl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="sev-3k-Vti" secondAttribute="trailing" constant="238" id="wAO-l4-qHe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sev-3k-Vti" secondAttribute="trailing" constant="239" id="wAO-l4-qHe"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1008,7 +1007,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelpScreen2-1x" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-Qe-Oae">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelpScreen4x1" translatesAutoresizingMaskIntoConstraints="NO" id="xuE-Qe-Oae">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVo-z8-xWk" userLabel="Home">
@@ -2176,7 +2175,7 @@
     <resources>
         <image name="Choices" width="1281" height="722"/>
         <image name="Corbis-ext" width="211" height="385"/>
-        <image name="HelpScreen2-1x" width="1281" height="722"/>
+        <image name="HelpScreen4x1" width="1281" height="722"/>
         <image name="SVC-0310" width="1281" height="722"/>
         <image name="VC1-0319" width="1281" height="722"/>
         <image name="VC2-0707" width="1281" height="722"/>
