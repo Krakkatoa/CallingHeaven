@@ -54,7 +54,6 @@
 		718112151A70AE5900DA14D6 /* JesusLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112141A70AE5900DA14D6 /* JesusLife.swift */; };
 		718112171A70AE7400DA14D6 /* MariamLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112161A70AE7400DA14D6 /* MariamLife.swift */; };
 		718112191A70AE8500DA14D6 /* AndesLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718112181A70AE8500DA14D6 /* AndesLife.swift */; };
-		71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5C1AB3EC040091916C /* CreditsRoll.swift */; };
 		71849D5F1AB3F9E70091916C /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71849D5E1AB3F9E70091916C /* CreditsViewController.swift */; };
 		719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719560D11AA4405900089930 /* ChoicesViewController.swift */; };
 		719EE3451A26C724007131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EE3441A26C724007131ED /* AppDelegate.swift */; };
@@ -135,7 +134,6 @@
 		718112141A70AE5900DA14D6 /* JesusLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusLife.swift; sourceTree = "<group>"; };
 		718112161A70AE7400DA14D6 /* MariamLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariamLife.swift; sourceTree = "<group>"; };
 		718112181A70AE8500DA14D6 /* AndesLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndesLife.swift; sourceTree = "<group>"; };
-		71849D5C1AB3EC040091916C /* CreditsRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditsRoll.swift; path = ../CreditsRoll.swift; sourceTree = "<group>"; };
 		71849D5E1AB3F9E70091916C /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CallingHeaven.entitlements; sourceTree = "<group>"; };
 		719560D11AA4405900089930 /* ChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
@@ -275,7 +273,6 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
-				71849D5C1AB3EC040091916C /* CreditsRoll.swift */,
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
@@ -530,7 +527,6 @@
 				715EA83C1A7D503F009DFFCA /* JesusQuotes.swift in Sources */,
 				71F5964A1AA81B2F00A2768C /* ThoughtsViewController.swift in Sources */,
 				719560D21AA4405900089930 /* ChoicesViewController.swift in Sources */,
-				71849D5D1AB3EC040091916C /* CreditsRoll.swift in Sources */,
 				7105B84D1A857DF70070619C /* LizLife.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
