@@ -45,7 +45,6 @@ class ViewController: UIViewController
     @IBOutlet weak var phoneImage: UIImageView!
     
     
-    @IBOutlet weak var secondArrow: UIButton!
     
     
     //2nd View Controller
@@ -126,6 +125,7 @@ class ViewController: UIViewController
     @IBAction func TeresaAction(sender: AnyObject) {
         phoneImage.hidden = true
         testButton.hidden = false
+    
         temporalBio = "St. Teresa of Avila "
         temporalImage = imageTeresa
         pictureSaints.image = imageTeresa
