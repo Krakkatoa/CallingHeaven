@@ -8,9 +8,9 @@
 
 import UIKit
 
-
+protocol Add_onsViewControllerDelegate{
     
-
+}
 
 class Add_onsViewController: UIViewController {
 
@@ -22,16 +22,32 @@ class Add_onsViewController: UIViewController {
    
 @IBOutlet weak var creditsAction: UIButton!
     
-     // @IBOutlet weak var backAction: UIButton!
+    @IBOutlet var horizontalSpacingConstraints: [NSLayoutConstraint]!
+    
+    @IBOutlet var verticalSpacingConstraints: [NSLayoutConstraint] = []
+
+    @IBOutlet weak var backAction: UIButton!
    
-   // @IBAction func backAction(sender: AnyObject){
-       // self.dismissViewControllerAnimated(true) { () -> Void in
+    @IBAction func backAction(sender: AnyObject){
+        self.dismissViewControllerAnimated(true) { () -> Void in
         }
         
 
+            let screenSize = UIScreen.mainScreen().bounds.size
+            let verticalCoef = screenSize.height / 320.0
+            let horizontalCoef = screenSize.width / 568.0
+            
+            for constraint in verticalSpacingConstraints {
+                constraint.constant *= verticalCoef
+            }
+            
+            for constraint in horizontalSpacingConstraints {
+                constraint.constant *= horizontalCoef
+            }
+
       
         
-   // var delegate:Add_onsViewControllerDelegate? = nil
+    var delegate:Add_onsViewControllerDelegate? = nil
 
     // Dispose of any resources that can be recreated.
 
@@ -40,8 +56,9 @@ class Add_onsViewController: UIViewController {
 
 
         
+    }
 
-
+}
 
 
 
