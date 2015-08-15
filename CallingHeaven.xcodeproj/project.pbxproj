@@ -41,6 +41,7 @@
 		715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */; };
 		716C4F2D1A9D57ED00E0D084 /* PetitonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */; };
 		716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */; };
+		716D51941B7F2C54005F82CA /* Add-onsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D51931B7F2C54005F82CA /* Add-onsViewController.swift */; };
 		717414571AC4AF4F003534EB /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717414551AC4AF4F003534EB /* NoteTableViewCell.swift */; };
 		717414581AC4AF4F003534EB /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717414561AC4AF4F003534EB /* NoteTableViewCell.xib */; };
 		718111FD1A70AB1000DA14D6 /* EdithPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */; };
@@ -121,6 +122,7 @@
 		715EA8431A7D51A6009DFFCA /* JohnQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnQuotes.swift; sourceTree = "<group>"; };
 		716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetitonsTableViewController.swift; sourceTree = "<group>"; };
 		716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetitionsViewController.swift; path = ../PetitionsViewController.swift; sourceTree = "<group>"; };
+		716D51931B7F2C54005F82CA /* Add-onsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Add-onsViewController.swift"; sourceTree = SOURCE_ROOT; };
 		717414551AC4AF4F003534EB /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteTableViewCell.swift; path = CallingHeaven/NoteTableViewCell.swift; sourceTree = "<group>"; };
 		717414561AC4AF4F003534EB /* NoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoteTableViewCell.xib; path = CallingHeaven/NoteTableViewCell.xib; sourceTree = "<group>"; };
 		718111FC1A70AB1000DA14D6 /* EdithPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdithPrayers.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
+				716D51931B7F2C54005F82CA /* Add-onsViewController.swift */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
 				7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */,
@@ -520,6 +523,7 @@
 				715A93FA1A7D6B340075E32C /* EdithQuotes.swift in Sources */,
 				71A76ED81B7EC4C700231CCD /* Test.m in Sources */,
 				715A93F21A7D69560075E32C /* MariamQuotes.swift in Sources */,
+				716D51941B7F2C54005F82CA /* Add-onsViewController.swift in Sources */,
 				716C4F311A9D58AB00E0D084 /* PetitionsViewController.swift in Sources */,
 				715A94001A7D6C7C0075E32C /* TeresaQuotes.swift in Sources */,
 				71C2B6B41B5E43F1008B403D /* HelpScreenViewController.swift in Sources */,
