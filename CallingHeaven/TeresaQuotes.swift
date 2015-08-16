@@ -228,7 +228,7 @@ struct TeresaQuotes {
         
         "May He be blessed forever Who waited for me so long!" ,
         
-        "Always think of yourself as everyone's servant; look for Christ our Lord in everyone, and you will then have respect and reverence for them all.",
+        "Always think of yourself as everyone's servant. Look for Christ our Lord in everyone, and you will then have respect and reverence for them all.",
         
         //110
     ]
