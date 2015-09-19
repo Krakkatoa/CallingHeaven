@@ -47,7 +47,7 @@ class Add_onsViewController: UIViewController {
 
       
         
-    var delegate:Add_onsViewControllerDelegate? = nil
+  //  _:Add_onsViewControllerDelegate? = nil
 
     // Dispose of any resources that can be recreated.
 

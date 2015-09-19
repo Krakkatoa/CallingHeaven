@@ -38,7 +38,7 @@ class QuestionsEditViewController: UIViewController {
             if error != nil {
                 print(error)
             } else {
-                self.titleText.text = object["title"] as! String
+                self.titleText.text = object["title"] as? String
                 self.noteText.text = object["note"] as! String
                 self.currentObject = object
             }

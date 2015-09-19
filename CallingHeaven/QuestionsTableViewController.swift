@@ -32,7 +32,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var query = PFQuery(className:"Question")
+            let query = PFQuery(className:"Question")
             query.orderByDescending("updatedAt")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
@@ -68,8 +68,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         let deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
             tableView.editing = false
             let rowData: AnyObject = self.notesData[indexPath.row]
-            var installation:PFInstallation = PFInstallation.currentInstallation()
-            
+           // _;:PFInstallation = PFInstallation.currentInstallation()
             let objectId = rowData.objectId
             let object: PFObject = PFObject(withoutDataWithClassName: "Question", objectId: objectId)
             object.delete()
@@ -84,7 +83,7 @@ class QuestionsTableViewController: UIViewController, UITableViewDataSource, UIT
         let editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
             tableView.editing = false
             let rowData: AnyObject = self.notesData[indexPath.row]
-            var installation:PFInstallation = PFInstallation.currentInstallation()
+        //    _;:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
             //creates viewcontroller with code and then assigns value to the object id and makes a push

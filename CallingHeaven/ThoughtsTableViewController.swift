@@ -32,7 +32,7 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var query = PFQuery(className:"Thought")
+            let query = PFQuery(className:"Thought")
             query.orderByDescending("updatedAt")
             query.whereKey("UserIdentifier", equalTo:identifier)
             query.findObjectsInBackgroundWithBlock {
@@ -68,7 +68,7 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         let deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
             tableView.editing = false
             let rowData: AnyObject = self.notesData[indexPath.row]
-            var installation:PFInstallation = PFInstallation.currentInstallation()
+           // var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
             let object: PFObject = PFObject(withoutDataWithClassName: "Thought", objectId: objectId)
@@ -84,7 +84,7 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         let editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
             tableView.editing = false
             let rowData: AnyObject = self.notesData[indexPath.row]
-            var installation:PFInstallation = PFInstallation.currentInstallation()
+            //var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
             //creates viewcontroller with code and then assigns value to the object id and makes a push
@@ -117,7 +117,8 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         let rowData: AnyObject = self.notesData[indexPath.row]
         let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("thoughtsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
         
-        print(rowData.createdAt)
+        //print(rowData.createdAt)
+        
         let formatter = NSDateFormatter()
         formatter.dateStyle = .MediumStyle
         formatter.timeStyle = .NoStyle
