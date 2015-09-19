@@ -46,7 +46,7 @@ class saintViewController: UIViewController {
         case "Bl. Titus Brandsma":(testLabel.text = titusPrayers.randomFact ())
             
             
-        default: println("Something else") }
+        default: print("Something else") }
     }
     
     let teresaPrayers = TeresaPrayers ()
@@ -75,7 +75,7 @@ class saintViewController: UIViewController {
         case "Bl. Elizabeth of the Trinity":(testLabel.text = lizLife.randomFact ())
         case "St. Teresa of the Andes":(testLabel.text = andesLife.randomFact ())
         case "Bl. Titus Brandsma":(testLabel.text = titusLife.randomFact ())
-        default: println("Something else") }
+        default: print("Something else") }
         }
     
     let teresaLife = TeresaLife ()
@@ -102,7 +102,7 @@ class saintViewController: UIViewController {
     case "Bl. Elizabeth of the Trinity":(testLabel.text = lizQuotes.randomFact ())
     case "St. Teresa of the Andes":(testLabel.text = andesQuotes.randomFact ())
     case "Bl. Titus Brandsma":(testLabel.text = titusQuotes.randomFact ())
-    default: println("Something else") }
+    default: print("Something else") }
     
     }
     
@@ -159,9 +159,9 @@ class saintViewController: UIViewController {
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
             
-            var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
+            let facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
             
-            var postingString = (testLabel.text)! + quotebyString + (bioLabel.text)! + messageString
+            let postingString = (testLabel.text)! + quotebyString + (bioLabel.text)! + messageString
             
             facebookSheet.setInitialText (postingString)
             
@@ -169,7 +169,7 @@ class saintViewController: UIViewController {
             self.presentViewController(facebookSheet, animated: true, completion: nil)
         }else{
             
-            var alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
             
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
@@ -186,9 +186,9 @@ class saintViewController: UIViewController {
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
             
-            var tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
+            let tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
             
-            var postingString = (testLabel.text)! + quotebyString + (bioLabel.text)! + message2String
+            let postingString = (testLabel.text)! + quotebyString + (bioLabel.text)! + message2String
             
             tweetSheet.setInitialText  (postingString)
             
@@ -196,7 +196,7 @@ class saintViewController: UIViewController {
             
         }else{
             
-            var alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
             
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))

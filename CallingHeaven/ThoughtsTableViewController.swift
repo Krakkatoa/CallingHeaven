@@ -22,7 +22,7 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         self.thoughtsTableView?.estimatedRowHeight = 107.0
         super.viewDidLoad()
         self.thoughtsTableView?.rowHeight = UITableViewAutomaticDimension
-        var nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
+        let nib = UINib(nibName: "NoteTableViewCell", bundle: nil)
         
         thoughtsTableView?.registerNib(nib, forCellReuseIdentifier: "thoughtsIdentifier")
         
@@ -41,10 +41,10 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
                     self.notesData = NSMutableArray(array:objects)
                     self.thoughtsTableView.reloadData()
                     // The find succeeded.
-                    println(self.notesData)
+                    print(self.notesData)
                 } else {
                     // Log details of the failure
-                    NSLog("Error: %@ %@", error, error.userInfo!)
+                    NSLog("Error: %@ %@", error, error.userInfo)
                 }
             }
             
@@ -63,15 +63,15 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
         // Dispose of any resources that can be recreated.
     }
     
-    func tableView(tableView: UITableView,editActionsForRowAtIndexPath indexPath: NSIndexPath)-> [AnyObject]? {
+    func tableView(tableView: UITableView,editActionsForRowAtIndexPath indexPath: NSIndexPath)-> [UITableViewRowAction]? {
         
-        var deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
+        let deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
             tableView.editing = false
-            var rowData: AnyObject = self.notesData[indexPath.row]
+            let rowData: AnyObject = self.notesData[indexPath.row]
             var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
-            var object: PFObject = PFObject(withoutDataWithClassName: "Thought", objectId: objectId)
+            let object: PFObject = PFObject(withoutDataWithClassName: "Thought", objectId: objectId)
             object.delete()
             
             
@@ -81,9 +81,9 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
             //    self.feedsTableView?.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
         }
         
-        var editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
+        let editAction = UITableViewRowAction(style: .Default, title: "Edit") { (action, indexPath) -> Void in
             tableView.editing = false
-            var rowData: AnyObject = self.notesData[indexPath.row]
+            let rowData: AnyObject = self.notesData[indexPath.row]
             var installation:PFInstallation = PFInstallation.currentInstallation()
             
             let objectId = rowData.objectId
@@ -114,10 +114,10 @@ class ThoughtsTableViewController: UIViewController, UITableViewDataSource, UITa
     //Asigns a value to each table cell
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //we create a row data with the value of the index on our notes array and then assing the values
-        var rowData: AnyObject = self.notesData[indexPath.row]
+        let rowData: AnyObject = self.notesData[indexPath.row]
         let cell: NoteTableViewCell = tableView.dequeueReusableCellWithIdentifier("thoughtsIdentifier", forIndexPath: indexPath) as! NoteTableViewCell
         
-        println(rowData.createdAt)
+        print(rowData.createdAt)
         let formatter = NSDateFormatter()
         formatter.dateStyle = .MediumStyle
         formatter.timeStyle = .NoStyle

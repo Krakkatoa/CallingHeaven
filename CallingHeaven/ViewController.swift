@@ -281,9 +281,9 @@ class ViewController: UIViewController
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
             
-            var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
+            let facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
             
-            var postingString = (quotesLabel.text)! + quotebyString + (nameLabel.text)! + messageString
+            let postingString = (quotesLabel.text)! + quotebyString + (nameLabel.text)! + messageString
             
             facebookSheet.setInitialText (postingString)
             
@@ -291,7 +291,7 @@ class ViewController: UIViewController
             self.presentViewController(facebookSheet, animated: true, completion: nil)
         }else{
             
-            var alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
             
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
@@ -305,9 +305,9 @@ class ViewController: UIViewController
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
             
-            var tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
+            let tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
             
-            var postingString = (quotesLabel.text)! + quotebyString + (nameLabel.text)! + message2String
+            let postingString = (quotesLabel.text)! + quotebyString + (nameLabel.text)! + message2String
             
             tweetSheet.setInitialText  (postingString)
             
@@ -315,7 +315,7 @@ class ViewController: UIViewController
             
         }else{
             
-            var alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
             
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
@@ -342,9 +342,9 @@ class ViewController: UIViewController
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
             
-            var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
+            let facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType:SLServiceTypeFacebook)
             
-            var postingString = (quotesLabel2.text)! + quotebyString + (nameLabel2.text)! + messageString
+            let postingString = (quotesLabel2.text)! + quotebyString + (nameLabel2.text)! + messageString
             
             facebookSheet.setInitialText (postingString)
             
@@ -352,7 +352,7 @@ class ViewController: UIViewController
             self.presentViewController(facebookSheet, animated: true, completion: nil)
         }else{
             
-            var alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Accounts", message: "Please login to Facebook to share.", preferredStyle: UIAlertControllerStyle.Alert)
             
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
@@ -369,9 +369,9 @@ class ViewController: UIViewController
         
         if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter) {
             
-            var tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
+            let tweetSheet:SLComposeViewController = SLComposeViewController (forServiceType:SLServiceTypeTwitter)
             
-            var postingString = (quotesLabel2.text)! + quotebyString + (nameLabel2.text)! + message2String
+            let postingString = (quotesLabel2.text)! + quotebyString + (nameLabel2.text)! + message2String
             
             tweetSheet.setInitialText  (postingString)
             
@@ -379,7 +379,7 @@ class ViewController: UIViewController
             
         }else{
             
-            var alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: "Accounts", message: "Please login to Twitter to share.", preferredStyle: UIAlertControllerStyle.Alert)
             
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))

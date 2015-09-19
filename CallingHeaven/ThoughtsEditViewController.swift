@@ -31,11 +31,11 @@ class ThoughtsEditViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var query = PFQuery(className:"Thought")
+        let query = PFQuery(className:"Thought")
         query.getObjectInBackgroundWithId(objectId) {
             (object, error) -> Void in
             if error != nil {
-                println(error)
+                print(error)
             } else {
                self.titleText.text = object["title"] as! String
                self.noteText.text = object["note"] as! String

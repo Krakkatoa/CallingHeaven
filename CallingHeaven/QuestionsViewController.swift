@@ -67,7 +67,7 @@ class QuestionsViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         if let identifier = defaults.stringForKey("UserIdentifier")
         {
-            var note = PFObject(className:"Question")
+            let note = PFObject(className:"Question")
             note["title"] = titleText.text
             note["note"] = noteText.text
             note["UserIdentifier"] = identifier
@@ -75,14 +75,14 @@ class QuestionsViewController: UIViewController {
                 (success: Bool, error: NSError!) -> Void in
                 if (success) {
                     // The object has been saved.
-                    println("Note Saved!")
+                    print("Note Saved!")
                     //read action
                     self.titleText.text = ""
                     self.noteText.text = ""
                     self.performSegueWithIdentifier("questionReadSegue", sender: nil)
                     
                 } else {
-                    println(error.description)
+                    print(error.description)
                     // There was a problem, check error.description
                 }
             }

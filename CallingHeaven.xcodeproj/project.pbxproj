@@ -417,6 +417,8 @@
 		719EE3371A26C723007131ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Carmel Heart Media";
 				TargetAttributes = {

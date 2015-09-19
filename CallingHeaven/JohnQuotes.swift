@@ -229,9 +229,9 @@ struct JohnQuotes {
         
          "After the dark night, there springs up the living flame of love.",    ]
     func randomFact() -> String {
-        var unsignedArrayCount = UInt32(factsArray.count)
-        var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)
-        var randomNumber = Int(unsignedRandomNumber)
+        let unsignedArrayCount = UInt32(factsArray.count)
+        let unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)
+        let randomNumber = Int(unsignedRandomNumber)
         
         return factsArray[randomNumber]
     }
