@@ -290,7 +290,6 @@
 		71A76ED01B7EC46D00231CCD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		71A76ED21B7EC47500231CCD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		71A76ED41B7EC47B00231CCD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		71A76ED61B7EC4C600231CCD /* CallingHeaven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallingHeaven-Bridging-Header.h"; sourceTree = "<group>"; };
 		71A76ED71B7EC4C700231CCD /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		71A76ED91B7EC68200231CCD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		71BA702A1BAE304F00E5EDA6 /* MPGoogleAdMobBannerCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGoogleAdMobBannerCustomEvent.h; sourceTree = "<group>"; };
@@ -464,7 +463,7 @@
 		71BA70E01BAE305000E5EDA6 /* MPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTimer.m; sourceTree = "<group>"; };
 		71BA70E11BAE305000E5EDA6 /* MPUserInteractionGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUserInteractionGestureRecognizer.h; sourceTree = "<group>"; };
 		71BA70E21BAE305000E5EDA6 /* MPUserInteractionGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUserInteractionGestureRecognizer.m; sourceTree = "<group>"; };
-		71BA70E31BAE305000E5EDA6 /* MoPub-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MoPub-Bridging-Header.h"; sourceTree = "<group>"; };
+		71BA70E31BAE305000E5EDA6 /* MoPub-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MoPub-Bridging-Header.h"; path = "../../../../Downloads/MoPubSDK/MoPub-Bridging-Header.h"; sourceTree = "<group>"; };
 		71BA70E41BAE305000E5EDA6 /* MoPub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoPub.h; sourceTree = "<group>"; };
 		71BA70E51BAE305000E5EDA6 /* MoPub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoPub.m; sourceTree = "<group>"; };
 		71BA70E61BAE305000E5EDA6 /* MPAdConversionTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAdConversionTracker.h; sourceTree = "<group>"; };
@@ -709,6 +708,7 @@
 				719EE3481A26C724007131ED /* Main.storyboard */,
 				7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */,
 				7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */,
+				71BA70E31BAE305000E5EDA6 /* MoPub-Bridging-Header.h */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
 				71BBE2D31A967D01004B7120 /* VC Files- Swift */,
@@ -717,7 +717,6 @@
 				71BBE2D61A967E1F004B7120 /* Life */,
 				719EE3421A26C724007131ED /* Supporting Files */,
 				71A76ED71B7EC4C700231CCD /* Test.m */,
-				71A76ED61B7EC4C600231CCD /* CallingHeaven-Bridging-Header.h */,
 			);
 			path = CallingHeaven;
 			sourceTree = "<group>";
@@ -753,7 +752,6 @@
 				71BA70281BAE304F00E5EDA6 /* AdNetworkSupport */,
 				71BA703E1BAE304F00E5EDA6 /* FABKitProtocol.h */,
 				71BA703F1BAE304F00E5EDA6 /* Internal */,
-				71BA70E31BAE305000E5EDA6 /* MoPub-Bridging-Header.h */,
 				71BA70E41BAE305000E5EDA6 /* MoPub.h */,
 				71BA70E51BAE305000E5EDA6 /* MoPub.m */,
 				71BA70E61BAE305000E5EDA6 /* MPAdConversionTracker.h */,
