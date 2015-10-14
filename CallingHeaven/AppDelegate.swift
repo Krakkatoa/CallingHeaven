@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    //Push notifications
+   // Push notifications
     func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
         UIApplication.sharedApplication().registerForRemoteNotifications()
         
@@ -42,24 +42,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
-        print(error.localizedDescription)
+       print(error.localizedDescription)
         print("could not register: \(error)")
-    }
+   }
     
     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData){
         let currentInstallation: PFInstallation = PFInstallation.currentInstallation()
         currentInstallation.setDeviceTokenFromData(deviceToken)
-        //  currentInstallation.saveInBackground() This has been creating an error.
+       //   currentInstallation.saveInBackground() This has been creating an error.
     }
     
-    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
-        PFPush.handlePush(userInfo)
+   func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+       PFPush.handlePush(userInfo)
     }
     
     
-    func applicationWillResignActive(application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+   func applicationWillResignActive(application: UIApplication) {
+      //   Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+      //  Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
     
     func applicationDidEnterBackground(application: UIApplication) {

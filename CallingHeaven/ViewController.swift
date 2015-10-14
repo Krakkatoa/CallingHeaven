@@ -50,9 +50,6 @@ class ViewController: UIViewController
     //2nd View Controller
     
     
-    
-
-    
     @IBOutlet weak var jesus2Button: UIButton!
     
     
