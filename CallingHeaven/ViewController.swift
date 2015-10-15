@@ -17,6 +17,7 @@ var message2String:String = "#CallingHeaven #app"
 
 
 class ViewController: UIViewController
+    
 {
     
     @IBOutlet weak var quotesLabel: UITextView!

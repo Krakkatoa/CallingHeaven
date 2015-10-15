@@ -24,6 +24,11 @@
 		712711A41BCEF1400042B2B1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711A31BCEF1400042B2B1 /* libz.tbd */; };
 		712711A61BCEF1780042B2B1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711A51BCEF1780042B2B1 /* libsqlite3.tbd */; };
 		712711A81BCEF4F30042B2B1 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711A71BCEF4F30042B2B1 /* Twitter.framework */; };
+		712711D11BD034900042B2B1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711D01BD034900042B2B1 /* AdSupport.framework */; };
+		712711D31BD034AE0042B2B1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711D21BD034AE0042B2B1 /* CoreMedia.framework */; };
+		712711D51BD034DA0042B2B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711D41BD034DA0042B2B1 /* UIKit.framework */; };
+		712711D71BD038210042B2B1 /* ViewControllerLBolt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712711D61BD038210042B2B1 /* ViewControllerLBolt.swift */; settings = {ASSET_TAGS = (); }; };
+		712711E11BD03F720042B2B1 /* libAppTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 712711E01BD03F720042B2B1 /* libAppTracker.a */; settings = {ASSET_TAGS = (); }; };
 		712F07FE1A5F83BF00E0C60F /* JohnPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */; };
 		712F08041A5F86A200E0C60F /* JesusPrayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F08031A5F86A200E0C60F /* JesusPrayers.swift */; };
 		7150F61D1B4F17090010C857 /* ThoughtsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */; };
@@ -106,10 +111,19 @@
 		712711A31BCEF1400042B2B1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		712711A51BCEF1780042B2B1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		712711A71BCEF4F30042B2B1 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		712711D01BD034900042B2B1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		712711D21BD034AE0042B2B1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		712711D41BD034DA0042B2B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		712711D61BD038210042B2B1 /* ViewControllerLBolt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLBolt.swift; sourceTree = "<group>"; };
+		712711DD1BD03F2B0042B2B1 /* AppTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTracker.h; sourceTree = "<group>"; };
+		712711DE1BD03F2B0042B2B1 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
+		712711DF1BD03F3F0042B2B1 /* AppTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppTracker.h; path = ../../../../Downloads/leadbolt_ios_sdk_swift_v6/AppTracker.h; sourceTree = "<group>"; };
+		712711E01BD03F720042B2B1 /* libAppTracker.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppTracker.a; path = ../../../../Downloads/SampleLeadbolt/LeadboltSampleAppSwift/SampleAppSwift/LeadboltSDK/libAppTracker.a; sourceTree = "<group>"; };
+		712711E21BD040090042B2B1 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
 		712F07FD1A5F83BF00E0C60F /* JohnPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnPrayers.swift; sourceTree = "<group>"; };
 		712F08031A5F86A200E0C60F /* JesusPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesusPrayers.swift; sourceTree = "<group>"; };
 		7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsEditViewController.swift; sourceTree = "<group>"; };
-		7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetitionsEditViewController.swift; path = CallingHeaven/PetitionsEditViewController.swift; sourceTree = "<group>"; };
+		7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetitionsEditViewController.swift; sourceTree = "<group>"; };
 		7150F6201B50A5850010C857 /* QuestionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsEditViewController.swift; sourceTree = "<group>"; };
 		715A93E51A7D68C30075E32C /* TeresaLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaLife.swift; sourceTree = "<group>"; };
 		715A93E91A7D68EF0075E32C /* TeresaPrayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeresaPrayers.swift; sourceTree = "<group>"; };
@@ -152,7 +166,6 @@
 		719EE35A1A26C724007131ED /* CallingHeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingHeavenTests.swift; sourceTree = "<group>"; };
 		71A76ED01B7EC46D00231CCD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		71A76ED21B7EC47500231CCD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		71A76ED61B7EC4C600231CCD /* CallingHeaven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallingHeaven-Bridging-Header.h"; sourceTree = "<group>"; };
 		71A76ED91B7EC68200231CCD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		71BA71D21BAE347500E5EDA6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		71BA71D61BAE34AB00E5EDA6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -171,11 +184,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712711D51BD034DA0042B2B1 /* UIKit.framework in Frameworks */,
+				712711D31BD034AE0042B2B1 /* CoreMedia.framework in Frameworks */,
+				712711D11BD034900042B2B1 /* AdSupport.framework in Frameworks */,
 				712711A81BCEF4F30042B2B1 /* Twitter.framework in Frameworks */,
 				712711A61BCEF1780042B2B1 /* libsqlite3.tbd in Frameworks */,
 				712711A41BCEF1400042B2B1 /* libz.tbd in Frameworks */,
 				7105B85C1A857EE40070619C /* CFNetwork.framework in Frameworks */,
 				71A76ED11B7EC46D00231CCD /* StoreKit.framework in Frameworks */,
+				712711E11BD03F720042B2B1 /* libAppTracker.a in Frameworks */,
 				71BA71DD1BAE34EF00E5EDA6 /* Social.framework in Frameworks */,
 				71BA71D91BAE34C700E5EDA6 /* PassKit.framework in Frameworks */,
 				71BA71D71BAE34AB00E5EDA6 /* MessageUI.framework in Frameworks */,
@@ -207,6 +224,12 @@
 		7105B84B1A857D6D0070619C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				712711DC1BD03F2B0042B2B1 /* leadbolt_ios_sdk_swift_v6 */,
+				712711E01BD03F720042B2B1 /* libAppTracker.a */,
+				712711DF1BD03F3F0042B2B1 /* AppTracker.h */,
+				712711D41BD034DA0042B2B1 /* UIKit.framework */,
+				712711D21BD034AE0042B2B1 /* CoreMedia.framework */,
+				712711D01BD034900042B2B1 /* AdSupport.framework */,
 				712711A71BCEF4F30042B2B1 /* Twitter.framework */,
 				712711A51BCEF1780042B2B1 /* libsqlite3.tbd */,
 				712711A31BCEF1400042B2B1 /* libz.tbd */,
@@ -232,9 +255,20 @@
 			path = CallingHeaven;
 			sourceTree = "<group>";
 		};
+		712711DC1BD03F2B0042B2B1 /* leadbolt_ios_sdk_swift_v6 */ = {
+			isa = PBXGroup;
+			children = (
+				712711DD1BD03F2B0042B2B1 /* AppTracker.h */,
+				712711DE1BD03F2B0042B2B1 /* Objective-CBridgingHeader.h */,
+			);
+			name = leadbolt_ios_sdk_swift_v6;
+			path = ../../../../Downloads/leadbolt_ios_sdk_swift_v6;
+			sourceTree = "<group>";
+		};
 		719240CC1AA9896600D6EED7 /* Journal */ = {
 			isa = PBXGroup;
 			children = (
+				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
 				716C4F301A9D58AB00E0D084 /* PetitionsViewController.swift */,
 				719560D11AA4405900089930 /* ChoicesViewController.swift */,
 				716C4F2C1A9D57ED00E0D084 /* PetitonsTableViewController.swift */,
@@ -251,6 +285,7 @@
 			children = (
 				71C2B6B31B5E43F1008B403D /* HelpScreenViewController.swift */,
 				719EE3461A26C724007131ED /* ViewController.swift */,
+				712711D61BD038210042B2B1 /* ViewControllerLBolt.swift */,
 				71849D5E1AB3F9E70091916C /* CreditsViewController.swift */,
 				71DEBD811A83E75D0015D369 /* Add-onsViewController.swift */,
 				715A93EF1A7D692D0075E32C /* saintViewController.swift */,
@@ -261,7 +296,6 @@
 		719EE3361A26C723007131ED = {
 			isa = PBXGroup;
 			children = (
-				7150F61E1B5083260010C857 /* PetitionsEditViewController.swift */,
 				717414551AC4AF4F003534EB /* NoteTableViewCell.swift */,
 				717414561AC4AF4F003534EB /* NoteTableViewCell.xib */,
 				719EE3411A26C724007131ED /* CallingHeaven */,
@@ -283,6 +317,7 @@
 		719EE3411A26C724007131ED /* CallingHeaven */ = {
 			isa = PBXGroup;
 			children = (
+				712711E21BD040090042B2B1 /* Objective-CBridgingHeader.h */,
 				719240CB1AA985C500D6EED7 /* CallingHeaven.entitlements */,
 				719EE3441A26C724007131ED /* AppDelegate.swift */,
 				719EE3481A26C724007131ED /* Main.storyboard */,
@@ -290,7 +325,6 @@
 				7150F61C1B4F17090010C857 /* ThoughtsEditViewController.swift */,
 				719EE34B1A26C724007131ED /* Images.xcassets */,
 				719EE34D1A26C724007131ED /* LaunchScreen.xib */,
-				71A76ED61B7EC4C600231CCD /* CallingHeaven-Bridging-Header.h */,
 				71BBE2D31A967D01004B7120 /* VC Files- Swift */,
 				71BBE2D41A967D9E004B7120 /* Quote Files */,
 				71BBE2D51A967DDD004B7120 /* Prayers */,
@@ -507,6 +541,7 @@
 				718112091A70AD7500DA14D6 /* MariamPrayers.swift in Sources */,
 				718112131A70AE4300DA14D6 /* EdithLife.swift in Sources */,
 				715A93E61A7D68C30075E32C /* TeresaLife.swift in Sources */,
+				712711D71BD038210042B2B1 /* ViewControllerLBolt.swift in Sources */,
 				7181120D1A70ADC100DA14D6 /* JohnLife.swift in Sources */,
 				715EA8441A7D51A6009DFFCA /* JohnQuotes.swift in Sources */,
 				715A93EA1A7D68EF0075E32C /* TeresaPrayers.swift in Sources */,
@@ -621,7 +656,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven/CallingHeaven-Bridging-Header.h";
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Downloads/leadbolt_ios_sdk_swift_v6/Objective-CBridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -660,7 +696,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven/CallingHeaven-Bridging-Header.h";
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/my_mac/Downloads/leadbolt_ios_sdk_swift_v6/Objective-CBridgingHeader.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -685,10 +722,15 @@
 				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CallingHeaven/leadbolt_ios_sdk_swift_v6-5/LeadboltSampleAppSwift/SampleAppSwift/LeadboltSDK",
+					"$(PROJECT_DIR)/CallingHeaven/leadbolt_ios_sdk_swift_v6-5",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.carmelheartmedia.CallingHeaven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven/CallingHeaven-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Users/my_mac/Documents/Development/CallingHeaven-x/CallingHeaven/Objective-CBridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -714,10 +756,15 @@
 				INFOPLIST_FILE = CallingHeaven/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CallingHeaven/leadbolt_ios_sdk_swift_v6-5/LeadboltSampleAppSwift/SampleAppSwift/LeadboltSDK",
+					"$(PROJECT_DIR)/CallingHeaven/leadbolt_ios_sdk_swift_v6-5",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.carmelheartmedia.CallingHeaven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "CallingHeaven/CallingHeaven-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Users/my_mac/Documents/Development/CallingHeaven-x/CallingHeaven/Objective-CBridgingHeader.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
